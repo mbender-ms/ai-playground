@@ -240,6 +240,7 @@ Worth agreeing on as a team before you all adopt it:
 ```
 sprint-planning/
 ├── README.md                      this file
+├── summary.md                     build account — why the skill looks the way it does
 ├── SKILL.md                       the workflow — 8 phases
 ├── config.json                    the only file you must edit
 ├── references/
@@ -253,3 +254,5 @@ sprint-planning/
 ```
 
 Open `assets/one-pager-template.html` in a browser to see the layout before running anything — the `{{tokens}}` render as literal text until the skill fills them in.
+
+Read `summary.md` if you're modifying the skill. It records what was tried, what broke, and why several instructions are worded the way they are — useful context before changing them.
