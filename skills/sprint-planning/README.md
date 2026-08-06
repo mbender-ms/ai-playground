@@ -249,6 +249,8 @@ sprint-planning/
 │   └── anti-patterns.md           the seven checks
 ├── assets/
 │   └── one-pager-template.html    themed, print-ready, token-driven
+├── experiments/
+│   └── prompts.md                 the prompts that built this skill
 └── evals/
     └── evals.json                 test prompts
 ```
@@ -256,3 +258,5 @@ sprint-planning/
 Open `assets/one-pager-template.html` in a browser to see the layout before running anything — the `{{tokens}}` render as literal text until the skill fills them in.
 
 Read `summary.md` if you're modifying the skill. It records what was tried, what broke, and why several instructions are worded the way they are — useful context before changing them.
+
+Read `experiments/prompts.md` if you want to build a skill of your own from a workflow you already run. It's the verbatim prompt sequence behind this one — asking whether it should be a skill at all, scaffolding it, smoke testing it against past months, and pushing the personal constants into config. `summary.md` is the *what*; this is the *how*.
