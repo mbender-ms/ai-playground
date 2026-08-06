@@ -1,0 +1,99 @@
+# Azure Messaging Repository Cross-Reference
+# Auto-generated on 2026-03-20
+# Cross-organization index of repos in the "azure-messaging" product area
+
+category: azure-messaging
+total_repos: 12
+generated: 2026-03-20
+
+sources:
+  - org: Azure
+    count: 11
+  - org: microsoft
+    count: 1
+
+repos:
+  - name: azure-signalr
+    org: Azure
+    url: "https://github.com/Azure/azure-signalr"
+    description: Azure SignalR Service SDK for .NET
+    product_area: azure-messaging
+    function_type: sdk
+    stars: 454
+  - name: azure-service-bus-emulator-installer
+    org: Azure
+    url: "https://github.com/Azure/azure-service-bus-emulator-installer"
+    description: "This repository acts as a central hub for handling issues, collecting feedback, and facilitating discussions related to the Azure Service Bus Emulator."
+    product_area: azure-messaging
+    function_type: service
+    stars: 255
+  - name: azure-webpubsub
+    org: Azure
+    url: "https://github.com/Azure/azure-webpubsub"
+    description: Azure Web PubSub Service helps you to manage WebSocket connections and do publish and subscribe in an easy way
+    product_area: azure-messaging
+    function_type: service
+    stars: 145
+  - name: azure-notificationhubs-ios
+    org: Azure
+    url: "https://github.com/Azure/azure-notificationhubs-ios"
+    description: Azure Notification Hubs SDK for Apple
+    product_area: azure-messaging
+    function_type: sdk
+    stars: 37
+  - name: azure-signalr-bench
+    org: Azure
+    url: "https://github.com/Azure/azure-signalr-bench"
+    description: Benchmark to evaluate performance of Azure Real-Time Services including Azure SignalR and Azure Web PubSub
+    product_area: azure-messaging
+    function_type: other
+    stars: 33
+  - name: go-shuttle
+    org: Azure
+    url: "https://github.com/Azure/go-shuttle"
+    description: go-shuttle is a light wrapper around the azure servicebus sdk for go. It is aimed at providing an api more in line with service implementation in a pub-sub context
+    product_area: azure-messaging
+    function_type: sdk
+    stars: 15
+  - name: azure-servicebus-jms
+    org: Azure
+    url: "https://github.com/Azure/azure-servicebus-jms"
+    description: Azure ServiceBus client using QPID for JMS users
+    product_area: azure-messaging
+    function_type: other
+    stars: 8
+  - name: ai4s-jobq
+    org: microsoft
+    url: "https://github.com/microsoft/ai4s-jobq"
+    description: "Enables multiple users to push work items to an Azure Queue, while one or more workers pull and process tasks asynchronously."
+    product_area: azure-messaging
+    function_type: other
+    stars: 6
+  - name: azure-signalr-test
+    org: Azure
+    url: "https://github.com/Azure/azure-signalr-test"
+    description: Azure SignalR Service Nightly Tests
+    product_area: azure-messaging
+    function_type: service
+    stars: 5
+  - name: azure-servicebus-jms-samples
+    org: Azure
+    url: "https://github.com/Azure/azure-servicebus-jms-samples"
+    description: Java Message Service (JMS) 2.0 samples for Azure Service Bus Premium
+    product_area: azure-messaging
+    function_type: sample
+    stars: 4
+  - name: dyno-relay-logger
+    org: Azure
+    url: "https://github.com/Azure/dyno-relay-logger"
+    description: ""
+    product_area: azure-messaging
+    function_type: other
+    stars: 0
+  - name: azure-signalr-client-e2e
+    org: Azure
+    url: "https://github.com/Azure/azure-signalr-client-e2e"
+    description: ""
+    product_area: azure-messaging
+    function_type: other
+    stars: 0

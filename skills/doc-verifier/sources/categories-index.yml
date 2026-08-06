@@ -1,0 +1,117 @@
+# Microsoft GitHub Repository Catalog — Category Index
+# Auto-generated on 2026-03-20
+# Total repos indexed: 3000
+# Organizations: MicrosoftDocs, Azure, microsoft, MicrosoftCopilot
+
+catalog:
+  total_repos: 3000
+  total_organizations: 4
+  generated: 2026-03-20
+  filter: "Non-archived, pushed since 2024-03-20"
+
+organizations:
+  - name: Azure
+    url: "https://github.com/Azure"
+    repos: 1000
+    file: Azure.yml
+  - name: microsoft
+    url: "https://github.com/microsoft"
+    repos: 1000
+    file: microsoft.yml
+  - name: MicrosoftCopilot
+    url: "https://github.com/MicrosoftCopilot"
+    repos: 0
+    file: MicrosoftCopilot.yml
+  - name: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs"
+    repos: 1000
+    file: MicrosoftDocs.yml
+
+# ── Product Areas ────────────────────────────────────────────────
+product_areas:
+  - area: general
+    repos: 1118
+    file: general.yml
+  - area: azure-general
+    repos: 343
+    file: azure-general.yml
+  - area: azure-compute
+    repos: 231
+    file: azure-compute.yml
+  - area: developer-tools
+    repos: 215
+    file: developer-tools.yml
+  - area: azure-ai
+    repos: 212
+    file: azure-ai.yml
+  - area: azure-iac
+    repos: 148
+    file: azure-iac.yml
+  - area: m365
+    repos: 102
+    file: m365.yml
+  - area: windows
+    repos: 99
+    file: windows.yml
+  - area: azure-data
+    repos: 80
+    file: azure-data.yml
+  - area: azure-networking
+    repos: 73
+    file: azure-networking.yml
+  - area: azure-devops
+    repos: 61
+    file: azure-devops.yml
+  - area: dynamics
+    repos: 55
+    file: dynamics.yml
+  - area: azure-security
+    repos: 50
+    file: azure-security.yml
+  - area: power-platform
+    repos: 45
+    file: power-platform.yml
+  - area: copilot
+    repos: 43
+    file: copilot.yml
+  - area: azure-iot
+    repos: 37
+    file: azure-iot.yml
+  - area: azure-monitor
+    repos: 34
+    file: azure-monitor.yml
+  - area: azure-integration
+    repos: 17
+    file: azure-integration.yml
+  - area: gaming
+    repos: 13
+    file: gaming.yml
+  - area: azure-storage
+    repos: 12
+    file: azure-storage.yml
+  - area: azure-messaging
+    repos: 12
+    file: azure-messaging.yml
+
+# ── Function Types ───────────────────────────────────────────────
+function_types:
+  - type: other
+    repos: 1241
+  - type: documentation
+    repos: 738
+  - type: iac
+    repos: 262
+  - type: cli-tool
+    repos: 233
+  - type: sdk
+    repos: 182
+  - type: service
+    repos: 129
+  - type: sample
+    repos: 106
+  - type: template
+    repos: 61
+  - type: community
+    repos: 25
+  - type: specification
+    repos: 23

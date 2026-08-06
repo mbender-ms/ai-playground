@@ -1,0 +1,400 @@
+# Dynamics Repository Cross-Reference
+# Auto-generated on 2026-03-20
+# Cross-organization index of repos in the "dynamics" product area
+
+category: dynamics
+total_repos: 55
+generated: 2026-03-20
+
+sources:
+  - org: microsoft
+    count: 7
+  - org: MicrosoftDocs
+    count: 48
+
+repos:
+  - name: ALAppExtensions
+    org: microsoft
+    url: "https://github.com/microsoft/ALAppExtensions"
+    description: Repository for collaboration on Microsoft AL application add-on and localization extensions for Microsoft Dynamics 365 Business Central.
+    product_area: dynamics
+    function_type: cli-tool
+    stars: 960
+  - name: BCApps
+    org: microsoft
+    url: "https://github.com/microsoft/BCApps"
+    description: Repository for collaboration on Microsoft Dynamics 365 Business Central applications.
+    product_area: dynamics
+    function_type: other
+    stars: 551
+  - name: dynamics-365-unified-operations-public
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics-365-unified-operations-public"
+    description: "Documentation for Microsoft Dynamics 365 apps such as Dynamics 365 Finance, Dynamics 365 Commerce, Dynamics 365 Supply Chain Management, and Dynamics 365 Human Resources"
+    product_area: dynamics
+    function_type: documentation
+    stars: 361
+  - name: dynamics-365-customer-engagement
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics-365-customer-engagement"
+    description: public repo for dynamics365 customer-engagement docs
+    product_area: dynamics
+    function_type: documentation
+    stars: 262
+  - name: BusinessCentralApps
+    org: microsoft
+    url: "https://github.com/microsoft/BusinessCentralApps"
+    description: Applications for the Dynamics 365 Business Central platform
+    product_area: dynamics
+    function_type: other
+    stars: 169
+  - name: dynamics365smb-devitpro-pb
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics365smb-devitpro-pb"
+    description: "Welcome to the repository for partner-focused content for Microsoft Dynamics 365 Business Central!  It also provides a way for you to actively contribute to the current Business Central content."
+    product_area: dynamics
+    function_type: documentation
+    stars: 154
+  - name: dynamics365smb-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics365smb-docs"
+    description: "Welcome to the repository for the application help content for Dynamics 365 Business Central! This repo gives you access to the source files for the enduser Learn More content. It also provides a way for you to actively contribute to the current Business Central content."
+    product_area: dynamics
+    function_type: documentation
+    stars: 143
+  - name: Msdyn365.Commerce.Online
+    org: microsoft
+    url: "https://github.com/microsoft/Msdyn365.Commerce.Online"
+    description: Dynamics 365 Commerce online project
+    product_area: dynamics
+    function_type: other
+    stars: 65
+  - name: msx-helper
+    org: microsoft
+    url: "https://github.com/microsoft/msx-helper"
+    description: "Desktop tool for Microsoft Sales (MSX) powered by Electron + React, providing fast access to Dynamics 365 opportunities, milestones, and HoK activities."
+    product_area: dynamics
+    function_type: cli-tool
+    stars: 36
+  - name: SLG-Business-Applications
+    org: microsoft
+    url: "https://github.com/microsoft/SLG-Business-Applications"
+    description: "A collection of Power Platform and Dynamics 365 resources, open-sourced to the State & Local Government community."
+    product_area: dynamics
+    function_type: community
+    stars: 31
+  - name: dynamics365-guidance
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics365-guidance"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 29
+  - name: Dynamics-365-Operations
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/Dynamics-365-Operations"
+    description: "Dynamics 365 for Finance and Operations private documentation repository. "
+    product_area: dynamics
+    function_type: documentation
+    stars: 25
+  - name: msftdynamicsgpdocs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/msftdynamicsgpdocs"
+    description: Repo for documentation for Microsoft Dynamics GP
+    product_area: dynamics
+    function_type: documentation
+    stars: 25
+  - name: dynamics-365-customer-engagement-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 21
+  - name: dynamics-365-mixed-reality
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics-365-mixed-reality"
+    description: Dynamics 365 Mixed Reality
+    product_area: dynamics
+    function_type: other
+    stars: 19
+  - name: dynamics-365-project-operations
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics-365-project-operations"
+    description: Feedback repository for Dynamics 365 Project Operations
+    product_area: dynamics
+    function_type: other
+    stars: 15
+  - name: DynamicsAX2012-technet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/DynamicsAX2012-technet"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 12
+  - name: ContactCenterMessagingSDK-ios
+    org: microsoft
+    url: "https://github.com/microsoft/ContactCenterMessagingSDK-ios"
+    description: Connect your iOS application with Dynamics 365 Contact Center using your custom interface or our out of the box native messaging experience.
+    product_area: dynamics
+    function_type: other
+    stars: 9
+  - name: dynamics-365-fraud-protection
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics-365-fraud-protection"
+    description: Documentation for Dynamics 365 Fraud Protection
+    product_area: dynamics
+    function_type: documentation
+    stars: 9
+  - name: dynamics-365-intelligent-order-management
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics-365-intelligent-order-management"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 7
+  - name: DynamicsAX2012-msdn
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/DynamicsAX2012-msdn"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 7
+  - name: dynamics365smb-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics365smb-docs-pr"
+    description: "Content for Dynamics 365 Business Central that publishes to https://learn.microsoft.com/dynamics365/business-central/"
+    product_area: dynamics
+    function_type: documentation
+    stars: 5
+  - name: dynamics365smb-devitpro
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics365smb-devitpro"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 4
+  - name: dynamics-365-project-operations-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics-365-project-operations-pr"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 4
+  - name: learn-dynamics-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/learn-dynamics-pr"
+    description: "Microsoft Learn: Dynamics 365 training content"
+    product_area: dynamics
+    function_type: documentation
+    stars: 4
+  - name: dynamics-365-fraud-protection-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics-365-fraud-protection-pr"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 4
+  - name: dynamics-365-mixed-reality-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics-365-mixed-reality-pr"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 3
+  - name: dynamics365-industry-solutions-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics365-industry-solutions-pr"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 3
+  - name: dynamics365-guidance-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics365-guidance-pr"
+    description: Contains source files for the Dynamics 365 implementation hub
+    product_area: dynamics
+    function_type: other
+    stars: 2
+  - name: dynamics365hubpages
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics365hubpages"
+    description: Contains the hub page for Dynamics 365 and articles that apply to all or several apps.
+    product_area: dynamics
+    function_type: documentation
+    stars: 2
+  - name: dynamics365-releasenotes-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics365-releasenotes-pr"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 2
+  - name: dynamics365-releaseplan-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics365-releaseplan-pr"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 1
+  - name: dynamics-365-contact-center-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics-365-contact-center-pr"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 1
+  - name: dynamics-365-intelligent-order-management-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics-365-intelligent-order-management-pr"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 1
+  - name: dynamics365-2023w2-releaseplan-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics365-2023w2-releaseplan-pr"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 1
+  - name: dynamics365-2022w1-releaseplan-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics365-2022w1-releaseplan-pr"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 1
+  - name: dynamics365-2022w2-releaseplan-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics365-2022w2-releaseplan-pr"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 1
+  - name: dynamics365-2023w1-releaseplan-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics365-2023w1-releaseplan-pr"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 1
+  - name: dynamics365-test-releaseplan-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics365-test-releaseplan-pr"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 0
+  - name: dynamics-released-versions-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics-released-versions-pr"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 0
+  - name: dynamics-365-contact-center
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics-365-contact-center"
+    description: Documentation for Dynamics 365 Contact Center
+    product_area: dynamics
+    function_type: documentation
+    stars: 0
+  - name: dynamics-product-downloads-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics-product-downloads-pr"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 0
+  - name: dynamics365-releaseplan-archive-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics365-releaseplan-archive-pr"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 0
+  - name: dynamics-365-customer-engagement-archive-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-archive-pr"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 0
+  - name: dynamics365smb-appref-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics365smb-appref-pr"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 0
+  - name: dynamics365-2021w1-releaseplan-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics365-2021w1-releaseplan-pr"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 0
+  - name: dynamics365-2021w2-releaseplan-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics365-2021w2-releaseplan-pr"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 0
+  - name: Dynamics365_GB_Update2
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/Dynamics365_GB_Update2"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 0
+  - name: dynamics-365-supply-chain-insights-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics-365-supply-chain-insights-pr"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 0
+  - name: dynamics365-releasenotes-archive-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics365-releasenotes-archive-pr"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 0
+  - name: dynamics365-2020w2-releaseplan-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics365-2020w2-releaseplan-pr"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 0
+  - name: dynamics-365-customer-engagement-pr.bg-bg
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr.bg-bg"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 0
+  - name: DynamicsAX2012-msdn-archive
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/DynamicsAX2012-msdn-archive"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 0
+  - name: dynamics-365-customer-engagement-pr.ar-sa
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr.ar-sa"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 0
+  - name: DynamicsAX2012-notoc
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/DynamicsAX2012-notoc"
+    description: ""
+    product_area: dynamics
+    function_type: other
+    stars: 0

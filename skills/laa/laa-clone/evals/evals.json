@@ -1,0 +1,60 @@
+{
+  "skill_name": "laa-clone",
+  "evals": [
+    {
+      "id": 1,
+      "prompt": "Run a standard LAA review of evals/fixtures/clean-how-to.md. Treat it as a standalone article with no PR diff. Return the normal report and do not edit the file.",
+      "expected_output": "The article has no blocker or major findings. Applicable categories are marked Pass, code-related categories are omitted or N/A, and no unsupported ai-usage claim is made.",
+      "files": [
+        "evals/fixtures/clean-how-to.md"
+      ],
+      "assertions": [
+        "The report contains an applicability-aware review coverage section.",
+        "The report does not claim that code samples were executed.",
+        "The report does not fabricate repository-specific requirements."
+      ]
+    },
+    {
+      "id": 2,
+      "prompt": "Run a standard LAA review of evals/fixtures/incomplete-procedure.md. Return the normal report and do not fix the file.",
+      "expected_output": "The report identifies missing procedure context, an unlabeled code fence, placeholder code, and lack of runability evidence without claiming execution.",
+      "files": [
+        "evals/fixtures/incomplete-procedure.md"
+      ],
+      "assertions": [
+        "The report flags the placeholder comment as a Major code-sample completeness problem.",
+        "The report flags the missing code-fence language identifier.",
+        "The report classifies runability as unverified rather than runnable.",
+        "The report identifies at least one task-completeness omission."
+      ]
+    },
+    {
+      "id": 3,
+      "prompt": "Run a standard LAA review of evals/fixtures/legacy-overview.md. This is unchanged legacy content, and no authorship or diff evidence is available. Return the normal report without editing.",
+      "expected_output": "The review marks AI disclosure N/A or omits it and does not report the missing ai-usage field as a failure.",
+      "files": [
+        "evals/fixtures/legacy-overview.md"
+      ],
+      "assertions": [
+        "Missing ai-usage is not reported as Blocker, Major, or Minor.",
+        "The report explains that disclosure applicability cannot be inferred without change context."
+      ]
+    },
+    {
+      "id": 4,
+      "prompt": "Run a standard LAA review of evals/fixtures/overlay-repo/article.md. Treat evals/fixtures/overlay-repo as the owning repository and apply its .github/copilot-instructions.md overlay. Return the normal report without editing.",
+      "expected_output": "The review flags only the applicable repository-defined ending, alert-count, and Azure CLI language rules, cites the overlay path, and does not call those conventions Learn-wide.",
+      "files": [
+        "evals/fixtures/overlay-repo/.github/copilot-instructions.md",
+        "evals/fixtures/overlay-repo/article.md"
+      ],
+      "assertions": [
+        "Each overlay-derived finding cites .github/copilot-instructions.md as its rule source.",
+        "The report flags the missing required ending section.",
+        "The report flags more than two alerts.",
+        "The report recommends azurecli for the Azure CLI fence.",
+        "The report does not describe overlay rules as Learn-wide."
+      ]
+    }
+  ]
+}

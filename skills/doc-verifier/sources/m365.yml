@@ -1,0 +1,731 @@
+# M365 Repository Cross-Reference
+# Auto-generated on 2026-03-20
+# Cross-organization index of repos in the "m365" product area
+
+category: m365
+total_repos: 102
+generated: 2026-03-20
+
+sources:
+  - org: microsoft
+    count: 32
+  - org: MicrosoftDocs
+    count: 69
+  - org: Azure
+    count: 1
+
+repos:
+  - name: markitdown
+    org: microsoft
+    url: "https://github.com/microsoft/markitdown"
+    description: Python tool for converting files and office documents to Markdown.
+    product_area: m365
+    function_type: cli-tool
+    stars: 91079
+  - name: graphrag
+    org: microsoft
+    url: "https://github.com/microsoft/graphrag"
+    description: A modular graph-based Retrieval-Augmented Generation (RAG) system
+    product_area: m365
+    function_type: other
+    stars: 31640
+  - name: AdaptiveCards
+    org: microsoft
+    url: "https://github.com/microsoft/AdaptiveCards"
+    description: A new way for developers to exchange card content in a common and consistent way.
+    product_area: m365
+    function_type: documentation
+    stars: 1934
+  - name: DiskANN
+    org: microsoft
+    url: "https://github.com/microsoft/DiskANN"
+    description: "Graph-structured Indices for Scalable, Fast, Fresh and Filtered Approximate Nearest Neighbor Search"
+    product_area: m365
+    function_type: other
+    stars: 1728
+  - name: CSS-Exchange
+    org: microsoft
+    url: "https://github.com/microsoft/CSS-Exchange"
+    description: Exchange Server support tools and scripts
+    product_area: m365
+    function_type: service
+    stars: 1276
+  - name: microsoft-365-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/microsoft-365-docs"
+    description: "This repo is used to host the source for the Microsoft 365 documentation on https://docs.microsoft.com."
+    product_area: m365
+    function_type: documentation
+    stars: 1104
+  - name: opensource.microsoft.com
+    org: microsoft
+    url: "https://github.com/microsoft/opensource.microsoft.com"
+    description: "This is the source code to the mostly-static Microsoft Open Source site featuring projects, program information, and \"get involved\" pages. This site is published at opensource.microsoft.com, managed by the Microsoft Open Source Programs Office (OSPO)."
+    product_area: m365
+    function_type: other
+    stars: 1078
+  - name: Agents
+    org: microsoft
+    url: "https://github.com/microsoft/Agents"
+    description: "The Microsoft 365 Agent SDK simplifies building full stack, multichannel, trusted agents for platforms including M365, Teams, Copilot Studio, and Webchat."
+    product_area: m365
+    function_type: sdk
+    stars: 797
+  - name: office-docs-powershell
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-docs-powershell"
+    description: "PowerShell Reference for Office Products - Short URL: aka.ms/office-powershell"
+    product_area: m365
+    function_type: documentation
+    stars: 640
+  - name: RPG-ZeroRepo
+    org: microsoft
+    url: "https://github.com/microsoft/RPG-ZeroRepo"
+    description: "[ICLR 2026] RPG: A Repository Planning Graph for Unified and Scalable Codebase Generation"
+    product_area: m365
+    function_type: other
+    stars: 552
+  - name: MHA
+    org: microsoft
+    url: "https://github.com/microsoft/MHA"
+    description: Message Header Analyzer Add-in For Outlook
+    product_area: m365
+    function_type: other
+    stars: 363
+  - name: msteams-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/msteams-docs"
+    description: Source for the Microsoft Teams developer platform documentation.
+    product_area: m365
+    function_type: documentation
+    stars: 324
+  - name: microsoft-365-community
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/microsoft-365-community"
+    description: "Microsoft 365 community contributed documentation https://learn.microsoft.com/microsoft-365/community/"
+    product_area: m365
+    function_type: documentation
+    stars: 235
+  - name: graphitation
+    org: microsoft
+    url: "https://github.com/microsoft/graphitation"
+    description: "GraphQL tooling & runtime support needed for MS Teams and beyond"
+    product_area: m365
+    function_type: other
+    stars: 150
+  - name: DeepGNN
+    org: microsoft
+    url: "https://github.com/microsoft/DeepGNN"
+    description: DeepGNN is a framework for training machine learning models on large scale graph data.
+    product_area: m365
+    function_type: other
+    stars: 141
+  - name: live-share-sdk
+    org: microsoft
+    url: "https://github.com/microsoft/live-share-sdk"
+    description: "A framework for building collaborative Microsoft Teams and M365 experiences.  "
+    product_area: m365
+    function_type: sdk
+    stars: 107
+  - name: go-workflow
+    org: Azure
+    url: "https://github.com/Azure/go-workflow"
+    description: Workflow is library to organize steps with dependencies into DAG (Directed-Acyclic-Graph) for Go
+    product_area: m365
+    function_type: sdk
+    stars: 95
+  - name: SharePoint-Embedded-Samples
+    org: microsoft
+    url: "https://github.com/microsoft/SharePoint-Embedded-Samples"
+    description: "Welcome to the SharePoint Embedded samples repository. Here you will find client-side and server-side samples to help you get started building on SharePoint Embedded!"
+    product_area: m365
+    function_type: sample
+    stars: 87
+  - name: m365copilot-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/m365copilot-docs"
+    description: Documentation for Microsoft Copilot for Microsoft 365 extensibility
+    product_area: m365
+    function_type: documentation
+    stars: 79
+  - name: office-developer-client-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-client-docs"
+    description: "Find how-to content, sample code, SDK and API documentation, VBA references, training, and articles for developing solutions and customizing Office.  To merge a PR, please @lindalu-MSFT in comments or add as as a reviewer."
+    product_area: m365
+    function_type: documentation
+    stars: 71
+  - name: Agents-M365Copilot
+    org: microsoft
+    url: "https://github.com/microsoft/Agents-M365Copilot"
+    description: Microsoft 365 Copilot APIs Client Libraries
+    product_area: m365
+    function_type: other
+    stars: 64
+  - name: OfficeDocs-SharePoint-PowerShell
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/OfficeDocs-SharePoint-PowerShell"
+    description: ""
+    product_area: m365
+    function_type: documentation
+    stars: 62
+  - name: office-developer-exchange-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-exchange-docs"
+    description: "To merge a Pull Request, please tag @lindalu-MSFT in the comment or add me as a reviewer. Thanks!"
+    product_area: m365
+    function_type: documentation
+    stars: 44
+  - name: office-365-management-api
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-365-management-api"
+    description: "Note this repo not actively maintained. To publish changes or request a PR review, tag @lindalu-MSFT."
+    product_area: m365
+    function_type: service
+    stars: 44
+  - name: teams.ts
+    org: microsoft
+    url: "https://github.com/microsoft/teams.ts"
+    description: a suite of packages used to build on the Teams Platform.
+    product_area: m365
+    function_type: other
+    stars: 37
+  - name: teams.py
+    org: microsoft
+    url: "https://github.com/microsoft/teams.py"
+    description: a suite of packages used to build on the Teams Platform.
+    product_area: m365
+    function_type: other
+    stars: 35
+  - name: microsoftgraph-docs-powershell
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/microsoftgraph-docs-powershell"
+    description: ""
+    product_area: m365
+    function_type: documentation
+    stars: 35
+  - name: mcp-server-teams
+    org: microsoft
+    url: "https://github.com/microsoft/mcp-server-teams"
+    description: Microsoft Teams Model Context Protocol (MCP) server implementation
+    product_area: m365
+    function_type: service
+    stars: 34
+  - name: teams.net
+    org: microsoft
+    url: "https://github.com/microsoft/teams.net"
+    description: a suite of packages used to build on the Teams Platform.
+    product_area: m365
+    function_type: other
+    stars: 32
+  - name: vs-servicehub
+    org: microsoft
+    url: "https://github.com/microsoft/vs-servicehub"
+    description: The service broker libraries used by Visual Studio to exchange intra- and inter-process services
+    product_area: m365
+    function_type: service
+    stars: 29
+  - name: nova-facade
+    org: microsoft
+    url: "https://github.com/microsoft/nova-facade"
+    description: "Runtime support for the. JS Nova pattern, which allows sharing of High-Value-Components across M365"
+    product_area: m365
+    function_type: other
+    stars: 25
+  - name: outlook-pst-rs
+    org: microsoft
+    url: "https://github.com/microsoft/outlook-pst-rs"
+    description: Reference implementation of the Outlook PST store provider in Rust
+    product_area: m365
+    function_type: documentation
+    stars: 23
+  - name: SharePoint-Embedded-VS-Code-Extension
+    org: microsoft
+    url: "https://github.com/microsoft/SharePoint-Embedded-VS-Code-Extension"
+    description: SharePoint Embedded for Visual Studio Code
+    product_area: m365
+    function_type: cli-tool
+    stars: 19
+  - name: microsoft-365-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/microsoft-365-docs-pr"
+    description: Internal repo for Microsoft 365 documentation
+    product_area: m365
+    function_type: documentation
+    stars: 17
+  - name: microsoft-graph-training
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/microsoft-graph-training"
+    description: ""
+    product_area: m365
+    function_type: other
+    stars: 17
+  - name: Teams-AdaptiveCards-Mobile
+    org: microsoft
+    url: "https://github.com/microsoft/Teams-AdaptiveCards-Mobile"
+    description: ""
+    product_area: m365
+    function_type: other
+    stars: 15
+  - name: vivainsights
+    org: microsoft
+    url: "https://github.com/microsoft/vivainsights"
+    description: R library to analyze and visualize data from Viva Insights Analyst Experience
+    product_area: m365
+    function_type: sdk
+    stars: 14
+  - name: cloudpack
+    org: microsoft
+    url: "https://github.com/microsoft/cloudpack"
+    description: Cloudpack provides inner-loop services for dynamically bundling your app on the fly at ludicrous speeds.
+    product_area: m365
+    function_type: other
+    stars: 14
+  - name: OfficeDocs-SkypeForBusiness
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/OfficeDocs-SkypeForBusiness"
+    description: Skype for Business and Microsoft Teams documentation
+    product_area: m365
+    function_type: documentation
+    stars: 14
+  - name: m365-renovate-config
+    org: microsoft
+    url: "https://github.com/microsoft/m365-renovate-config"
+    description: Shared Renovate configuration for M365 projects
+    product_area: m365
+    function_type: other
+    stars: 13
+  - name: mapi-rs
+    org: microsoft
+    url: "https://github.com/microsoft/mapi-rs"
+    description: "Rust bindings for Outlook's MAPI interfaces with microsoft/windows-rs"
+    product_area: m365
+    function_type: other
+    stars: 8
+  - name: learn-m365-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/learn-m365-pr"
+    description: ""
+    product_area: m365
+    function_type: documentation
+    stars: 6
+  - name: OfficeDocs-SharePoint
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/OfficeDocs-SharePoint"
+    description: "SharePoint Server, SharePoint Online, and OneDrive for Business documentation"
+    product_area: m365
+    function_type: documentation
+    stars: 6
+  - name: office-developer-excel-pia-ref-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-excel-pia-ref-dotnet"
+    description: "This public repo is maintained by community. For PRs, tag @lindalu-MSFT in comments or add me as a reviewer."
+    product_area: m365
+    function_type: community
+    stars: 6
+  - name: m365copilot-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/m365copilot-docs-pr"
+    description: ""
+    product_area: m365
+    function_type: documentation
+    stars: 5
+  - name: OfficeDocs-SharePoint-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/OfficeDocs-SharePoint-pr"
+    description: ""
+    product_area: m365
+    function_type: documentation
+    stars: 5
+  - name: office-developer-word-pia-ref-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-word-pia-ref-dotnet"
+    description: "This public repo is maintained by community. For PRs, tag @lindalu-MSFT in comments or add me as a reviewer."
+    product_area: m365
+    function_type: community
+    stars: 5
+  - name: amplifier-module-loop-streaming
+    org: microsoft
+    url: "https://github.com/microsoft/amplifier-module-loop-streaming"
+    description: Reference implementation for a streaming loop module for the Amplifier project
+    product_area: m365
+    function_type: documentation
+    stars: 4
+  - name: office-developer-outlook-pia-ref-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-outlook-pia-ref-dotnet"
+    description: "This public repo is maintained by community. For PRs, tag @lindalu-MSFT in comments or add me as a reviewer."
+    product_area: m365
+    function_type: community
+    stars: 4
+  - name: office-developer-project-class-web-ref-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-project-class-web-ref-dotnet"
+    description: "This public repo is maintained by community. For PRs, tag @lindalu-MSFT in comments or add me as a reviewer."
+    product_area: m365
+    function_type: community
+    stars: 4
+  - name: office-developer-ucma-api-ref-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-ucma-api-ref-dotnet"
+    description: "This public repo is maintained by community. For PRs, tag @lindalu-MSFT in comments or add me as a reviewer."
+    product_area: m365
+    function_type: service
+    stars: 4
+  - name: amplifier-module-loop-basic
+    org: microsoft
+    url: "https://github.com/microsoft/amplifier-module-loop-basic"
+    description: Reference implementation for a basic loop module for Amplifier project
+    product_area: m365
+    function_type: documentation
+    stars: 3
+  - name: amplifier-module-loop-events
+    org: microsoft
+    url: "https://github.com/microsoft/amplifier-module-loop-events"
+    description: Reference implementation for an events loop module for the Amplifier project
+    product_area: m365
+    function_type: documentation
+    stars: 3
+  - name: Viva-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/Viva-pr"
+    description: ""
+    product_area: m365
+    function_type: other
+    stars: 3
+  - name: office-developer-exchange-ews-proxy-ref-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-exchange-ews-proxy-ref-dotnet"
+    description: "This public repo is maintained by community. For PRs, tag @lindalu-MSFT in comments or add me as a reviewer."
+    product_area: m365
+    function_type: community
+    stars: 3
+  - name: office-developer-office-pia-ref-dotnet.zh-CN
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-office-pia-ref-dotnet.zh-CN"
+    description: ""
+    product_area: m365
+    function_type: other
+    stars: 3
+  - name: office-developer-office-pia-ref-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-office-pia-ref-dotnet"
+    description: "This public repo is maintained by community. For PRs, tag @lindalu-MSFT in comments or add me as a reviewer."
+    product_area: m365
+    function_type: community
+    stars: 3
+  - name: office-developer-o365-service-communications-ref-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-o365-service-communications-ref-dotnet"
+    description: "This public repo is maintained by community. For PRs, tag @lindalu-MSFT in comments or add me as a reviewer."
+    product_area: m365
+    function_type: service
+    stars: 3
+  - name: office-developer-ucma-voice-ref-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-ucma-voice-ref-dotnet"
+    description: "This public repo is maintained by community. For PRs, tag @lindalu-MSFT in comments or add me as a reviewer."
+    product_area: m365
+    function_type: community
+    stars: 3
+  - name: office-developer-lync-wfp-ref-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-lync-wfp-ref-dotnet"
+    description: "This public repo is maintained by community. For PRs, tag @lindalu-MSFT in comments or add me as a reviewer."
+    product_area: m365
+    function_type: community
+    stars: 3
+  - name: office-developer-lync-persistent-chat-ref-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-lync-persistent-chat-ref-dotnet"
+    description: "This public repo is maintained by community. For PRs, tag @lindalu-MSFT in comments or add me as a reviewer."
+    product_area: m365
+    function_type: community
+    stars: 3
+  - name: office-developer-managed-sip-api-ref-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-managed-sip-api-ref-dotnet"
+    description: "This public repo is maintained by community. For PRs, tag @lindalu-MSFT in comments or add me as a reviewer."
+    product_area: m365
+    function_type: service
+    stars: 3
+  - name: office-developer-lync-client-ref-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-lync-client-ref-dotnet"
+    description: "This public repo is maintained by community. For PRs, tag @lindalu-MSFT in comments or add me as a reviewer."
+    product_area: m365
+    function_type: community
+    stars: 3
+  - name: viva-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/viva-docs-pr"
+    description: ""
+    product_area: m365
+    function_type: documentation
+    stars: 2
+  - name: M365-InteropEvents-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/M365-InteropEvents-pr"
+    description: ""
+    product_area: m365
+    function_type: other
+    stars: 2
+  - name: office-developer-office-pia-ref-dotnet.pt-BR
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-office-pia-ref-dotnet.pt-BR"
+    description: ""
+    product_area: m365
+    function_type: other
+    stars: 2
+  - name: office-developer-office-pia-ref-dotnet.fr-FR
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-office-pia-ref-dotnet.fr-FR"
+    description: ""
+    product_area: m365
+    function_type: other
+    stars: 2
+  - name: office-developer-office-pia-ref-dotnet.de-DE
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-office-pia-ref-dotnet.de-DE"
+    description: ""
+    product_area: m365
+    function_type: other
+    stars: 2
+  - name: office-developer-office-pia-ref-dotnet.ja-JP
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-office-pia-ref-dotnet.ja-JP"
+    description: ""
+    product_area: m365
+    function_type: other
+    stars: 2
+  - name: office-developer-office-pia-ref-dotnet.ru-RU
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-office-pia-ref-dotnet.ru-RU"
+    description: ""
+    product_area: m365
+    function_type: other
+    stars: 2
+  - name: office-developer-office-pia-ref-dotnet.es-ES
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-office-pia-ref-dotnet.es-ES"
+    description: ""
+    product_area: m365
+    function_type: other
+    stars: 2
+  - name: office-developer-infopath-form-templates-ref-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-infopath-form-templates-ref-dotnet"
+    description: "This public repo is maintained by community. For PRs, tag @lindalu-MSFT in comments or add me as a reviewer."
+    product_area: m365
+    function_type: template
+    stars: 2
+  - name: office-developer-infopath-external-automation-ref-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-infopath-external-automation-ref-dotnet"
+    description: "This public repo is maintained by community. For PRs, tag @lindalu-MSFT in comments or add me as a reviewer."
+    product_area: m365
+    function_type: community
+    stars: 2
+  - name: office-developer-exchange-ews-managed-api-ref-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-exchange-ews-managed-api-ref-dotnet"
+    description: "This public repo is maintained by community. For PRs, tag @lindalu-MSFT in comments or add me as a reviewer."
+    product_area: m365
+    function_type: service
+    stars: 2
+  - name: microsoft-365-developer-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/microsoft-365-developer-pr"
+    description: ""
+    product_area: m365
+    function_type: other
+    stars: 1
+  - name: OfficeDocs-Teams-PhoneRef-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/OfficeDocs-Teams-PhoneRef-pr"
+    description: ""
+    product_area: m365
+    function_type: documentation
+    stars: 1
+  - name: Viva
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/Viva"
+    description: Workplace Analytics documentation feedback
+    product_area: m365
+    function_type: documentation
+    stars: 1
+  - name: OfficeDocs-DeployOffice
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/OfficeDocs-DeployOffice"
+    description: Office client deployment documentation
+    product_area: m365
+    function_type: documentation
+    stars: 1
+  - name: OfficeDocs-Exchange-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/OfficeDocs-Exchange-pr"
+    description: ""
+    product_area: m365
+    function_type: documentation
+    stars: 1
+  - name: OfficeDocs-Enterprise
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/OfficeDocs-Enterprise"
+    description: Documentation for Office 365 Enterprise features
+    product_area: m365
+    function_type: documentation
+    stars: 1
+  - name: OfficeDocs-OfficeOnlineServer
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/OfficeDocs-OfficeOnlineServer"
+    description: Documentation for Office Online Server
+    product_area: m365
+    function_type: documentation
+    stars: 1
+  - name: OfficeDocs-O365ITPro
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/OfficeDocs-O365ITPro"
+    description: "Documentation for Office 365 Kaizala, Yammer"
+    product_area: m365
+    function_type: documentation
+    stars: 1
+  - name: office-js-docs-reference-first-party
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-js-docs-reference-first-party"
+    description: ""
+    product_area: m365
+    function_type: documentation
+    stars: 1
+  - name: teams-sdk-python
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/teams-sdk-python"
+    description: ""
+    product_area: m365
+    function_type: sdk
+    stars: 1
+  - name: open_specs_sharepoint
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/open_specs_sharepoint"
+    description: ""
+    product_area: m365
+    function_type: other
+    stars: 1
+  - name: open_specs_exchange
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/open_specs_exchange"
+    description: ""
+    product_area: m365
+    function_type: other
+    stars: 1
+  - name: amplifier-bundle-dot-graph
+    org: microsoft
+    url: "https://github.com/microsoft/amplifier-bundle-dot-graph"
+    description: DOT graph bundle for the Amplifier project
+    product_area: m365
+    function_type: other
+    stars: 0
+  - name: m365-copilot-resources
+    org: microsoft
+    url: "https://github.com/microsoft/m365-copilot-resources"
+    description: Resources for M365 Copilot
+    product_area: m365
+    function_type: other
+    stars: 0
+  - name: enduser-sharepoint-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/enduser-sharepoint-pr"
+    description: ""
+    product_area: m365
+    function_type: other
+    stars: 0
+  - name: OfficeEDU-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/OfficeEDU-pr"
+    description: Documentation for Office Education offerings
+    product_area: m365
+    function_type: documentation
+    stars: 0
+  - name: enduser-microsoft-365-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/enduser-microsoft-365-pr"
+    description: ""
+    product_area: m365
+    function_type: other
+    stars: 0
+  - name: enduser-office-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/enduser-office-pr"
+    description: ""
+    product_area: m365
+    function_type: other
+    stars: 0
+  - name: outlook
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/outlook"
+    description: ""
+    product_area: m365
+    function_type: other
+    stars: 0
+  - name: outlook-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/outlook-pr"
+    description: ""
+    product_area: m365
+    function_type: other
+    stars: 0
+  - name: enduser-viva-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/enduser-viva-pr"
+    description: ""
+    product_area: m365
+    function_type: other
+    stars: 0
+  - name: m365platform-schemas
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/m365platform-schemas"
+    description: ""
+    product_area: m365
+    function_type: specification
+    stars: 0
+  - name: Yammer-rest
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/Yammer-rest"
+    description: ""
+    product_area: m365
+    function_type: other
+    stars: 0
+  - name: teams-sdk-typescript
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/teams-sdk-typescript"
+    description: ""
+    product_area: m365
+    function_type: sdk
+    stars: 0
+  - name: teams-sdk-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/teams-sdk-dotnet"
+    description: ""
+    product_area: m365
+    function_type: sdk
+    stars: 0
+  - name: graph-core-docs-sdk-java
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/graph-core-docs-sdk-java"
+    description: ""
+    product_area: m365
+    function_type: documentation
+    stars: 0
+  - name: graph-core-docs-sdk-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/graph-core-docs-sdk-dotnet"
+    description: ""
+    product_area: m365
+    function_type: documentation
+    stars: 0
+  - name: office-developer-msproject-xml-docs.fr-FR
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/office-developer-msproject-xml-docs.fr-FR"
+    description: ""
+    product_area: m365
+    function_type: documentation
+    stars: 0

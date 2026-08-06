@@ -1,0 +1,367 @@
+# Azure Security Repository Cross-Reference
+# Auto-generated on 2026-03-20
+# Cross-organization index of repos in the "azure-security" product area
+
+category: azure-security
+total_repos: 50
+generated: 2026-03-20
+
+sources:
+  - org: Azure
+    count: 23
+  - org: microsoft
+    count: 9
+  - org: MicrosoftDocs
+    count: 18
+
+repos:
+  - name: Azure-Sentinel
+    org: Azure
+    url: "https://github.com/Azure/Azure-Sentinel"
+    description: Cloud-native SIEM for intelligent security analytics for your entire enterprise.
+    product_area: azure-security
+    function_type: other
+    stars: 5544
+  - name: Microsoft-Defender-for-Cloud
+    org: Azure
+    url: "https://github.com/Azure/Microsoft-Defender-for-Cloud"
+    description: Welcome to the Microsoft Defender for Cloud community repository
+    product_area: azure-security
+    function_type: community
+    stars: 1885
+  - name: winappCli
+    org: microsoft
+    url: "https://github.com/microsoft/winappCli"
+    description: "winapp, the Windows App Development CLI, is a single command-line interface for managing Windows SDKs, packaging, generating app identity, manifests, certificates, and using build tools with any app framework. "
+    product_area: azure-security
+    function_type: cli-tool
+    stars: 931
+  - name: CCF
+    org: microsoft
+    url: "https://github.com/microsoft/CCF"
+    description: Confidential Consortium Framework
+    product_area: azure-security
+    function_type: other
+    stars: 857
+  - name: Azure-Sentinel-Notebooks
+    org: Azure
+    url: "https://github.com/Azure/Azure-Sentinel-Notebooks"
+    description: Interactive Azure Sentinel Notebooks provides security insights and actions to investigate anomalies and hunt for malicious behaviors.
+    product_area: azure-security
+    function_type: other
+    stars: 617
+  - name: WDAC-Toolkit
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/WDAC-Toolkit"
+    description: "Documentation and tools to access Windows Defender Application Control (WDAC) technology. "
+    product_area: azure-security
+    function_type: documentation
+    stars: 261
+  - name: entra-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/entra-docs"
+    description: This is the public repo for Microsoft Entra documentation
+    product_area: azure-security
+    function_type: documentation
+    stars: 175
+  - name: defender-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/defender-docs"
+    description: ""
+    product_area: azure-security
+    function_type: documentation
+    stars: 127
+  - name: terraform-azurerm-avm-res-keyvault-vault
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-keyvault-vault"
+    description: Terraform Azure Verified Resource Module for Key Vault
+    product_area: azure-security
+    function_type: iac
+    stars: 45
+  - name: scitt-ccf-ledger
+    org: microsoft
+    url: "https://github.com/microsoft/scitt-ccf-ledger"
+    description: Supply Chain Integrity Transparency and Trust ledger application using Confidential Consortium Framework (CCF)
+    product_area: azure-security
+    function_type: other
+    stars: 41
+  - name: iot-identity-service
+    org: Azure
+    url: "https://github.com/Azure/iot-identity-service"
+    description: Source of the Azure IoT Identity Service and related services.
+    product_area: azure-security
+    function_type: service
+    stars: 39
+  - name: identity-management-samples
+    org: Azure
+    url: "https://github.com/Azure/identity-management-samples"
+    description: ""
+    product_area: azure-security
+    function_type: sample
+    stars: 22
+  - name: microsoft-authentication-library-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/microsoft-authentication-library-dotnet"
+    description: 📚 Documentation repository for MSAL.NET
+    product_area: azure-security
+    function_type: documentation
+    stars: 22
+  - name: aad-auth-proxy
+    org: Azure
+    url: "https://github.com/Azure/aad-auth-proxy"
+    description: Azure Active Directory authentication proxy is an http proxy that is design to add authentication information required to talk to Microsoft Azure services.
+    product_area: azure-security
+    function_type: other
+    stars: 18
+  - name: GlobalSecureAccess
+    org: microsoft
+    url: "https://github.com/microsoft/GlobalSecureAccess"
+    description: "Explore a diverse array of scenarios featuring documentation, step-by-step guides, and recorded demos for Microsoft Entra Internet Access and Microsoft Entra Private Access. Whether you're delving into the basics or seeking advanced insights, our repository is your go-to source for mastering Microsoft's Security Service Edge (SSE) solution."
+    product_area: azure-security
+    function_type: documentation
+    stars: 12
+  - name: kiota-authentication-azure-go
+    org: microsoft
+    url: "https://github.com/microsoft/kiota-authentication-azure-go"
+    description: Kiota authentication provider implementation with Azure Identity
+    product_area: azure-security
+    function_type: other
+    stars: 10
+  - name: mslearn-security-ops-sentinel
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-security-ops-sentinel"
+    description: ""
+    product_area: azure-security
+    function_type: other
+    stars: 8
+  - name: keyvaultcertdownloader
+    org: Azure
+    url: "https://github.com/Azure/keyvaultcertdownloader"
+    description: Tool that downloads Azure KeyVault managed certificates as PEM file
+    product_area: azure-security
+    function_type: cli-tool
+    stars: 7
+  - name: cvm-attestation-tools
+    org: Azure
+    url: "https://github.com/Azure/cvm-attestation-tools"
+    description: ""
+    product_area: azure-security
+    function_type: other
+    stars: 7
+  - name: issue-sentinel
+    org: Azure
+    url: "https://github.com/Azure/issue-sentinel"
+    description: A GitHub Action for the Issue Sentinel that streamlines and enhances your issue management process.
+    product_area: azure-security
+    function_type: other
+    stars: 7
+  - name: entra-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/entra-docs-pr"
+    description: ""
+    product_area: azure-security
+    function_type: documentation
+    stars: 7
+  - name: spatio-private-preview-docs
+    org: Azure
+    url: "https://github.com/Azure/spatio-private-preview-docs"
+    description: "Documentation for the Azure Spatio Private Preview [PREVIEW/CONFIDENTIAL]"
+    product_area: azure-security
+    function_type: documentation
+    stars: 6
+  - name: cvmboot
+    org: microsoft
+    url: "https://github.com/microsoft/cvmboot"
+    description: The cvmboot project provides ephemeral disk integrity protection for Linux confidential virtual machines (CVMs)
+    product_area: azure-security
+    function_type: other
+    stars: 6
+  - name: defender-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/defender-docs-pr"
+    description: ""
+    product_area: azure-security
+    function_type: documentation
+    stars: 6
+  - name: terraform-azurerm-avm-res-managedidentity-userassignedidentity
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-managedidentity-userassignedidentity"
+    description: Terraform Azure Verified Resource Module for User Assigned Identity
+    product_area: azure-security
+    function_type: iac
+    stars: 5
+  - name: microsoft-authentication-library-java
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/microsoft-authentication-library-java"
+    description: 📚 Documentation repository for MSAL Java
+    product_area: azure-security
+    function_type: documentation
+    stars: 5
+  - name: confidential-aci-testing
+    org: microsoft
+    url: "https://github.com/microsoft/confidential-aci-testing"
+    description: A library for testing infrastructure for workloads involving deployment to Confidential ACI
+    product_area: azure-security
+    function_type: sdk
+    stars: 4
+  - name: microsoft-authentication-library-for-go
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/microsoft-authentication-library-for-go"
+    description: 📚 Documentation repository for MSAL.NET
+    product_area: azure-security
+    function_type: documentation
+    stars: 4
+  - name: entra-powershell-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/entra-powershell-docs"
+    description: Public sync with private repo entra-powershell-docs-pr
+    product_area: azure-security
+    function_type: documentation
+    stars: 3
+  - name: confidential-computing-cvm
+    org: Azure
+    url: "https://github.com/Azure/confidential-computing-cvm"
+    description: ""
+    product_area: azure-security
+    function_type: other
+    stars: 2
+  - name: entrauth
+    org: Azure
+    url: "https://github.com/Azure/entrauth"
+    description: "A thin auth layer on top of azidentity, with an opinionated token credential for Azure Terraform providers"
+    product_area: azure-security
+    function_type: iac
+    stars: 2
+  - name: confidential-aci-dashboard
+    org: microsoft
+    url: "https://github.com/microsoft/confidential-aci-dashboard"
+    description: A suite of user-facing system level testing for Confidential ACI
+    product_area: azure-security
+    function_type: other
+    stars: 2
+  - name: entra-powershell-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/entra-powershell-docs-pr"
+    description: Microsoft Entra PowerShell Public Learn Documentation
+    product_area: azure-security
+    function_type: documentation
+    stars: 1
+  - name: microsoft-authentication-library-for-python
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/microsoft-authentication-library-for-python"
+    description: 📚 Documentation repository for MSAL Python
+    product_area: azure-security
+    function_type: documentation
+    stars: 1
+  - name: ccf-identity
+    org: Azure
+    url: "https://github.com/Azure/ccf-identity"
+    description: CCF Identity package
+    product_area: azure-security
+    function_type: other
+    stars: 0
+  - name: azure-guest-attestation-sdk
+    org: Azure
+    url: "https://github.com/Azure/azure-guest-attestation-sdk"
+    description: Azure Guest Attestation SDK
+    product_area: azure-security
+    function_type: sdk
+    stars: 0
+  - name: terraform-azurerm-avm-res-aad-domainservice
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-aad-domainservice"
+    description: Terraform Azure Verified Resource Module for Entra ID Domain Services
+    product_area: azure-security
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-ptn-confidential-compute
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-confidential-compute"
+    description: Terraform Azure Verified Pattern Module for Confidential Compute
+    product_area: azure-security
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-ptn-alz-application-landing-zone-identity-and-access
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-alz-application-landing-zone-identity-and-access"
+    description: Terraform Azure Verified Pattern Module for ALZ Identity and Access Management
+    product_area: azure-security
+    function_type: template
+    stars: 0
+  - name: azure-managed-hsm-key-attestation
+    org: Azure
+    url: "https://github.com/Azure/azure-managed-hsm-key-attestation"
+    description: Repository for storing azure key attestation validation files
+    product_area: azure-security
+    function_type: other
+    stars: 0
+  - name: Microsoft-Sentinel-Vibe-Playbooks
+    org: Azure
+    url: "https://github.com/Azure/Microsoft-Sentinel-Vibe-Playbooks"
+    description: ""
+    product_area: azure-security
+    function_type: other
+    stars: 0
+  - name: azns-manage-identity
+    org: Azure
+    url: "https://github.com/Azure/azns-manage-identity"
+    description: The source for REST API specifications for Microsoft Azure.
+    product_area: azure-security
+    function_type: service
+    stars: 0
+  - name: confidential-linux-disk-encryption
+    org: Azure
+    url: "https://github.com/Azure/confidential-linux-disk-encryption"
+    description: ""
+    product_area: azure-security
+    function_type: other
+    stars: 0
+  - name: artifacts-keyring-nofuss
+    org: microsoft
+    url: "https://github.com/microsoft/artifacts-keyring-nofuss"
+    description: "Minimal, pure-Python keyring backend for Azure DevOps Artifacts feeds.  Replaces the official artifacts-keyring (which wraps a ~100 MB .NET binary) with a no-fuss implementation that covers the most common Linux auth scenarios using raw HTTP — no msal, no azure-identity, no .NET."
+    product_area: azure-security
+    function_type: service
+    stars: 0
+  - name: enduser-identity-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/enduser-identity-pr"
+    description: ""
+    product_area: azure-security
+    function_type: other
+    stars: 0
+  - name: MIMDocs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/MIMDocs-pr"
+    description: OPS content repo for Microsoft Identity Manager.
+    product_area: azure-security
+    function_type: documentation
+    stars: 0
+  - name: mim-docs-powershell
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mim-docs-powershell"
+    description: Repo for Microsoft Identity Manager module cmdlets reference
+    product_area: azure-security
+    function_type: documentation
+    stars: 0
+  - name: microsoft-authentication-libraries-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/microsoft-authentication-libraries-pr"
+    description: 📚 Documentation repository for the MSAL landing page
+    product_area: azure-security
+    function_type: documentation
+    stars: 0
+  - name: microsoft-identity-web-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/microsoft-identity-web-docs-pr"
+    description: ""
+    product_area: azure-security
+    function_type: documentation
+    stars: 0
+  - name: entra-docs-archive-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/entra-docs-archive-pr"
+    description: ""
+    product_area: azure-security
+    function_type: documentation
+    stars: 0

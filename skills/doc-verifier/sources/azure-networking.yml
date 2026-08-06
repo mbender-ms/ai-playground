@@ -1,0 +1,530 @@
+# Azure Networking Repository Cross-Reference
+# Auto-generated on 2026-03-20
+# Cross-organization index of repos related to Azure Networking
+# Includes: VNet, NSG, Firewall, Load Balancer, App Gateway, Front Door,
+#           ExpressRoute, VPN, DNS, Private Link, Bastion, DDoS, CDN, WAF
+
+category: azure-networking
+total_repos: 73
+generated: 2026-03-20
+
+sources:
+  - org: Azure
+    count: 62
+  - org: microsoft
+    count: 9
+  - org: MicrosoftDocs
+    count: 2
+
+repos:
+  - name: DotNetty
+    org: Azure
+    url: "https://github.com/Azure/DotNetty"
+    description: "DotNetty project – a port of netty, event-driven asynchronous network application framework"
+    product_area: azure-networking
+    function_type: other
+    stars: 4235
+  - name: retina
+    org: microsoft
+    url: "https://github.com/microsoft/retina"
+    description: eBPF distributed networking observability tool for Kubernetes
+    product_area: azure-networking
+    function_type: cli-tool
+    stars: 3109
+  - name: Azure-Network-Security
+    org: Azure
+    url: "https://github.com/Azure/Azure-Network-Security"
+    description: Resources for improving Customer Experience with Azure Network Security
+    product_area: azure-networking
+    function_type: other
+    stars: 923
+  - name: application-gateway-kubernetes-ingress
+    org: Azure
+    url: "https://github.com/Azure/application-gateway-kubernetes-ingress"
+    description: This is an ingress controller that can be run on Azure Kubernetes Service (AKS) to allow an Azure Application Gateway to act as the ingress for an AKS cluster.
+    product_area: azure-networking
+    function_type: service
+    stars: 700
+  - name: xdp-for-windows
+    org: microsoft
+    url: "https://github.com/microsoft/xdp-for-windows"
+    description: XDP speeds up networking on Windows
+    product_area: azure-networking
+    function_type: other
+    stars: 459
+  - name: azure-container-networking
+    org: Azure
+    url: "https://github.com/Azure/azure-container-networking"
+    description: Azure Container Networking Solutions for Linux and Windows Containers
+    product_area: azure-networking
+    function_type: other
+    stars: 420
+  - name: azure-relay-bridge
+    org: Azure
+    url: "https://github.com/Azure/azure-relay-bridge"
+    description: Azure Relay Bridge - A cross-platform command line tool to create VPN-less TCP tunnels from and to anywhere
+    product_area: azure-networking
+    function_type: cli-tool
+    stars: 158
+  - name: Azure-Proactive-Resiliency-Library-v2
+    org: Azure
+    url: "https://github.com/Azure/Azure-Proactive-Resiliency-Library-v2"
+    description: "Azure Proactive Resiliency Library v2 (APRL) - Source for Azure WAF reliability guidance and associated ARG queries "
+    product_area: azure-networking
+    function_type: sdk
+    stars: 103
+  - name: azure-relay
+    org: Azure
+    url: "https://github.com/Azure/azure-relay"
+    description: ☁️ Azure Relay service issue tracking and samples
+    product_area: azure-networking
+    function_type: sample
+    stars: 89
+  - name: netperf
+    org: microsoft
+    url: "https://github.com/microsoft/netperf"
+    description: Automation system for executing networking performance tests
+    product_area: azure-networking
+    function_type: other
+    stars: 54
+  - name: azure-relay-dotnet
+    org: Azure
+    url: "https://github.com/Azure/azure-relay-dotnet"
+    description: ☁️ .NET Standard client library for Azure Relay Hybrid Connections
+    product_area: azure-networking
+    function_type: sdk
+    stars: 41
+  - name: SdnDiagnostics
+    org: microsoft
+    url: "https://github.com/microsoft/SdnDiagnostics"
+    description: SdnDiagnostics is a PowerShell module that is designed to simplify the diagnostic troubleshooting and data collection process when troubleshooting issues related to Microsoft Software Defined Network.
+    product_area: azure-networking
+    function_type: other
+    stars: 32
+  - name: terraform-azurerm-avm-res-network-privatednszone
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-privatednszone"
+    description: Terraform Azure Verified Resource Module for Private DNS Zone
+    product_area: azure-networking
+    function_type: iac
+    stars: 30
+  - name: fleet-networking
+    org: Azure
+    url: "https://github.com/Azure/fleet-networking"
+    description: Multi Cluster Networking
+    product_area: azure-networking
+    function_type: other
+    stars: 28
+  - name: terraform-azurerm-avm-ptn-network-private-link-private-dns-zones
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-network-private-link-private-dns-zones"
+    description: Terraform Azure Verified Pattern Module for Private Link Private DNS Zones
+    product_area: azure-networking
+    function_type: iac
+    stars: 17
+  - name: terraform-azurerm-avm-res-network-networksecuritygroup
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-networksecuritygroup"
+    description: Terraform Azure Verified Resource Module for Network Security Group
+    product_area: azure-networking
+    function_type: iac
+    stars: 17
+  - name: jrt-controller
+    org: microsoft
+    url: "https://github.com/microsoft/jrt-controller"
+    description: Real time controller for network functions instrumented with the jbpf framework
+    product_area: azure-networking
+    function_type: other
+    stars: 17
+  - name: terraform-azurerm-avm-res-network-firewallpolicy
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-firewallpolicy"
+    description: Terraform Azure Verified Resource Module for Azure Firewall Policy
+    product_area: azure-networking
+    function_type: iac
+    stars: 15
+  - name: data-integration
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/data-integration"
+    description: Microsoft Documentation for the on-premises data gateway and the virtual network (VNet) data gateway.
+    product_area: azure-networking
+    function_type: documentation
+    stars: 15
+  - name: ip-masq-agent-v2
+    org: Azure
+    url: "https://github.com/Azure/ip-masq-agent-v2"
+    description: "ip-masq-agent-v2 aims to solve more complex networking cases, allow for more configuration options, and improve observability compared to the original."
+    product_area: azure-networking
+    function_type: other
+    stars: 14
+  - name: wssdagent
+    org: microsoft
+    url: "https://github.com/microsoft/wssdagent"
+    description: "WSSD Agent provides the required services for an on-prem cloud to deploy several resources like storage, compute and network"
+    product_area: azure-networking
+    function_type: iac
+    stars: 14
+  - name: terraform-azurerm-avm-res-network-applicationgateway
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-applicationgateway"
+    description: Terraform Azure Verified Resource Module for Application Gateway
+    product_area: azure-networking
+    function_type: iac
+    stars: 13
+  - name: azure-relay-node
+    org: Azure
+    url: "https://github.com/Azure/azure-relay-node"
+    description: ☁️Node.js library for Azure Relay Hybrid Connections
+    product_area: azure-networking
+    function_type: sdk
+    stars: 12
+  - name: aks-traffic-manager
+    org: Azure
+    url: "https://github.com/Azure/aks-traffic-manager"
+    description: AKS traffic manager manages calls to Azure resource manager
+    product_area: azure-networking
+    function_type: other
+    stars: 12
+  - name: AzLoadBalancerMigration
+    org: Azure
+    url: "https://github.com/Azure/AzLoadBalancerMigration"
+    description: This repo contains a PowerShell module to support Azure Load Balancer migration from Basic to Standard SKU
+    product_area: azure-networking
+    function_type: specification
+    stars: 11
+  - name: terraform-azurerm-avm-res-network-bastionhost
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-bastionhost"
+    description: Terraform Azure Verified Resource Module for Bastion Host
+    product_area: azure-networking
+    function_type: iac
+    stars: 10
+  - name: terraform-azurerm-avm-res-network-publicipaddress
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-publicipaddress"
+    description: Terraform Azure Verified Resource Module for Public IP Address
+    product_area: azure-networking
+    function_type: iac
+    stars: 10
+  - name: terraform-azurerm-avm-res-network-routetable
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-routetable"
+    description: Terraform Azure Verified Resource Module for Route Table
+    product_area: azure-networking
+    function_type: iac
+    stars: 9
+  - name: terraform-azurerm-avm-res-network-virtualnetwork
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-virtualnetwork"
+    description: Terraform Azure Verified Resource Module for Virtual Network
+    product_area: azure-networking
+    function_type: iac
+    stars: 9
+  - name: terraform-azurerm-avm-res-network-azurefirewall
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-azurefirewall"
+    description: Terraform Azure Verified Resource Module for Azure Firewall
+    product_area: azure-networking
+    function_type: iac
+    stars: 9
+  - name: cyclecloud-slurm-workspace
+    org: Azure
+    url: "https://github.com/Azure/cyclecloud-slurm-workspace"
+    description: Azure Marketplace application to deploy and configure Azure CycleCloud and an Azure CycleCloud Slurm cluster with required vnet and filesystems.
+    product_area: azure-networking
+    function_type: iac
+    stars: 9
+  - name: odinforazurelocal
+    org: Azure
+    url: "https://github.com/Azure/odinforazurelocal"
+    description: "Odin, the Norse god embodying strategic thinking and architecture, is your guide for Azure Local deployments. This Optimal Deployment and Infrastructure Navigator provides a decision tree interface to select an Azure Local deployment type, and instance design using validated architecture and network configuration."
+    product_area: azure-networking
+    function_type: documentation
+    stars: 9
+  - name: terraform-azurerm-vnet-gateway
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-vnet-gateway"
+    description: Terraform module to deploy VPN and ExpressRoute gateways
+    product_area: azure-networking
+    function_type: iac
+    stars: 9
+  - name: ppgnn
+    org: microsoft
+    url: "https://github.com/microsoft/ppgnn"
+    description: "[ICLR GTRL Spotlight 2022, ECML PKDD 2022] Contains code for the paper titled 'PPGNN: A Piece-Wise Polynomial Filtering Approach for Graph Neural Networks'"
+    product_area: azure-networking
+    function_type: other
+    stars: 9
+  - name: terraform-azurerm-avm-ptn-alz-connectivity-hub-and-spoke-vnet
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-alz-connectivity-hub-and-spoke-vnet"
+    description: Terraform Azure Verified Pattern Module for ALZ Connectivity Hub and Spoke
+    product_area: azure-networking
+    function_type: iac
+    stars: 7
+  - name: terraform-azurerm-avm-res-network-privateendpoint
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-privateendpoint"
+    description: Terraform Azure Verified Resource Module for Private Endpoint
+    product_area: azure-networking
+    function_type: iac
+    stars: 7
+  - name: terraform-azurerm-avm-res-network-loadbalancer
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-loadbalancer"
+    description: Terraform Azure Verified Resource Module for Loadbalancer
+    product_area: azure-networking
+    function_type: iac
+    stars: 7
+  - name: terraform-azurerm-avm-res-network-natgateway
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-natgateway"
+    description: Terraform Azure Verified Resource Module for NAT Gateway
+    product_area: azure-networking
+    function_type: iac
+    stars: 7
+  - name: terraform-azurerm-avm-ptn-function-app-storage-private-endpoints
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-function-app-storage-private-endpoints"
+    description: Terraform Azure Verified Pattern Module for Function App and private endpoint-secured Storage
+    product_area: azure-networking
+    function_type: iac
+    stars: 5
+  - name: Application-Gateway-for-Containers-Migration-Utility
+    org: Azure
+    url: "https://github.com/Azure/Application-Gateway-for-Containers-Migration-Utility"
+    description: Migrates Kubernetes Ingress and implementation specific changes to Gateway API for Application Gateway for Containers
+    product_area: azure-networking
+    function_type: cli-tool
+    stars: 4
+  - name: terraform-azurerm-avm-res-network-expressroutecircuit
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-expressroutecircuit"
+    description: Terraform Azure Verified Resource Module for ExpressRoute Circuit
+    product_area: azure-networking
+    function_type: iac
+    stars: 3
+  - name: terraform-azurerm-avm-utl-network-ip-addresses
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-utl-network-ip-addresses"
+    description: Terraform Azure Verified Utility Module for AVM Network IP Addresses
+    product_area: azure-networking
+    function_type: cli-tool
+    stars: 3
+  - name: terraform-azurerm-avm-res-network-dnsresolver
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-dnsresolver"
+    description: Terraform Azure Verified Resource Module for DNS Resolver
+    product_area: azure-networking
+    function_type: iac
+    stars: 3
+  - name: terraform-azurerm-avm-res-servicenetworking-trafficcontroller
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-servicenetworking-trafficcontroller"
+    description: Terraform Azure Verified Resource Module for Application Gateway for Containers (Traffic Controller)
+    product_area: azure-networking
+    function_type: iac
+    stars: 2
+  - name: terraform-azurerm-avm-res-network-networkmanager
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-networkmanager"
+    description: Terraform Azure Verified Resource Module for Azure Virtual Network Manager
+    product_area: azure-networking
+    function_type: iac
+    stars: 2
+  - name: terraform-azurerm-avm-res-network-ddosprotectionplan
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-ddosprotectionplan"
+    description: Terraform Azure Verified Resource Module for DDoS Protection
+    product_area: azure-networking
+    function_type: iac
+    stars: 2
+  - name: terraform-azurerm-avm-res-network-applicationsecuritygroup
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-applicationsecuritygroup"
+    description: Terraform Azure Verified Resource Module for Application Security Group (ASG)
+    product_area: azure-networking
+    function_type: iac
+    stars: 2
+  - name: terraform-azurerm-avm-res-azurestackhci-logicalnetwork
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-azurestackhci-logicalnetwork"
+    description: Terraform Azure Verified Resource Module for AzureStackHCI logical network
+    product_area: azure-networking
+    function_type: iac
+    stars: 2
+  - name: Secure-Cross-Tenant-Azure-App-Access-with-Private-Endpoints
+    org: Azure
+    url: "https://github.com/Azure/Secure-Cross-Tenant-Azure-App-Access-with-Private-Endpoints"
+    description: Eliminate Internet exposure and manage 3rd party access from other Tenants to Azure Web Apps and Function via Private Endpoints.
+    product_area: azure-networking
+    function_type: other
+    stars: 2
+  - name: appinsights-telemetry-flow
+    org: microsoft
+    url: "https://github.com/microsoft/appinsights-telemetry-flow"
+    description: "Self-service diagnostic scripts for Azure Application Insights. Validate connectivity, TLS, AMPLS/Private Link, ingestion, sampling, workspace health — or diagnose Application Insights Agent installation issues — directly from the machine or network where your app runs. Available for PowerShell (Windows) and Bash (Linux)."
+    product_area: azure-networking
+    function_type: service
+    stars: 2
+  - name: confidential-operations
+    org: microsoft
+    url: "https://github.com/microsoft/confidential-operations"
+    description: A suite of tools to make operating a confidential consortium network easier
+    product_area: azure-networking
+    function_type: other
+    stars: 2
+  - name: terraform-azurerm-avm-res-network-dnszone
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-dnszone"
+    description: Terraform Azure Verified Resource Module for Public DNS Zone
+    product_area: azure-networking
+    function_type: iac
+    stars: 1
+  - name: terraform-azurerm-avm-res-network-networkwatcher
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-networkwatcher"
+    description: Terraform Azure Verified Resource Module for Azure Network Watcher
+    product_area: azure-networking
+    function_type: iac
+    stars: 1
+  - name: terraform-azurerm-avm-res-network-applicationgatewaywebapplicationfirewallpolicy
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-applicationgatewaywebapplicationfirewallpolicy"
+    description: Terraform Azure Verified Resource Module for Application Gateway Web Application Firewall (WAF) Policy
+    product_area: azure-networking
+    function_type: iac
+    stars: 1
+  - name: terraform-azurerm-avm-ptn-subnets-nsgs-routes
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-subnets-nsgs-routes"
+    description: Terraform Azure Verified Pattern Module for Network Security Groups
+    product_area: azure-networking
+    function_type: iac
+    stars: 1
+  - name: terraform-azurerm-avm-ptn-cloudshell-vnet
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-cloudshell-vnet"
+    description: Terraform Azure Verified Pattern Module for Cloud Shell with vNET Integration
+    product_area: azure-networking
+    function_type: iac
+    stars: 1
+  - name: privatelinkdnspolicyset
+    org: Azure
+    url: "https://github.com/Azure/privatelinkdnspolicyset"
+    description: ""
+    product_area: azure-networking
+    function_type: other
+    stars: 1
+  - name: azure-cleanroom
+    org: Azure
+    url: "https://github.com/Azure/azure-cleanroom"
+    description: Cleanroom sidecars to enable network sandboxing
+    product_area: azure-networking
+    function_type: other
+    stars: 1
+  - name: terraform-azure-avm-utl-network-virtualnetwork-azapi-replicator
+    org: Azure
+    url: "https://github.com/Azure/terraform-azure-avm-utl-network-virtualnetwork-azapi-replicator"
+    description: Terraform Azure Verified Utility Module for utl module that helps users to migrate azurerm_virtual_network into azapi_resource
+    product_area: azure-networking
+    function_type: cli-tool
+    stars: 0
+  - name: terraform-azure-avm-utl-network-subnet-azapi-replicator
+    org: Azure
+    url: "https://github.com/Azure/terraform-azure-avm-utl-network-subnet-azapi-replicator"
+    description: Terraform Azure Verified Utility Module for utl module that helps users to migrate azurerm_subnet into azapi_resource
+    product_area: azure-networking
+    function_type: cli-tool
+    stars: 0
+  - name: terraform-azurerm-avm-res-network-trafficmanagerprofile
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-trafficmanagerprofile"
+    description: Terraform Azure Verified Resource Module for Traffic Manager Profile
+    product_area: azure-networking
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-network-serviceendpointpolicy
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-serviceendpointpolicy"
+    description: Terraform Azure Verified Resource Module for Service Endpoint Policies
+    product_area: azure-networking
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-network-publicipprefix
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-publicipprefix"
+    description: Terraform Azure Verified Resource Module for Public IP Prefix
+    product_area: azure-networking
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-network-privatelinkservice
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-privatelinkservice"
+    description: Terraform Azure Verified Resource Module for Private Link Service
+    product_area: azure-networking
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-network-networkinterface
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-networkinterface"
+    description: Terraform Azure Verified Resource Module for Network Interface
+    product_area: azure-networking
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-network-localnetworkgateway
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-localnetworkgateway"
+    description: Terraform Azure Verified Resource Module for Local Network Gateway
+    product_area: azure-networking
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-network-frontdoorwebapplicationfirewallpolicy
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-frontdoorwebapplicationfirewallpolicy"
+    description: Terraform Azure Verified Resource Module for Front Door Web Application Firewall (WAF) Policy
+    product_area: azure-networking
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-network-dnsforwardingruleset
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-dnsforwardingruleset"
+    description: Terraform Azure Verified Resource Module for DNS Forwarding Ruleset
+    product_area: azure-networking
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-network-connection
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-network-connection"
+    description: Terraform Azure Verified Resource Module for Virtual Network Gateway Connection
+    product_area: azure-networking
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-insights-privatelinkscope
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-insights-privatelinkscope"
+    description: Terraform Azure Verified Resource Module for Managed Services Registration Definition
+    product_area: azure-networking
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-ptn-network-routeserver
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-network-routeserver"
+    description: Terraform Azure Verified Pattern Module for Azure Route Server
+    product_area: azure-networking
+    function_type: iac
+    stars: 0
+  - name: network-cloud-emitter
+    org: Azure
+    url: "https://github.com/Azure/network-cloud-emitter"
+    description: The emitter for network cloud service.
+    product_area: azure-networking
+    function_type: service
+    stars: 0
+  - name: data-integration-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/data-integration-pr"
+    description: Private repo of the Microsoft Learn content for the on-premises data gateway and the virtual network (VNet) data gateway.
+    product_area: azure-networking
+    function_type: documentation
+    stars: 0

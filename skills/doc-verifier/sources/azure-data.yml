@@ -1,0 +1,577 @@
+# Azure Data Repository Cross-Reference
+# Auto-generated on 2026-03-20
+# Cross-organization index of repos in the "azure-data" product area
+
+category: azure-data
+total_repos: 80
+generated: 2026-03-20
+
+sources:
+  - org: microsoft
+    count: 27
+  - org: MicrosoftDocs
+    count: 13
+  - org: Azure
+    count: 40
+
+repos:
+  - name: garnet
+    org: microsoft
+    url: "https://github.com/microsoft/garnet"
+    description: "Garnet is a remote cache-store from Microsoft Research that offers strong performance (throughput and latency), scalability, storage, recovery, cluster sharding, key migration, and replication features. Garnet can work with existing Redis clients."
+    product_area: azure-data
+    function_type: other
+    stars: 11777
+  - name: sql-server-samples
+    org: microsoft
+    url: "https://github.com/microsoft/sql-server-samples"
+    description: "Azure Data SQL Samples - Official Microsoft GitHub Repository containing code samples for SQL Server, Azure SQL, Azure Synapse, and Azure SQL Edge"
+    product_area: azure-data
+    function_type: sample
+    stars: 10965
+  - name: SynapseML
+    org: microsoft
+    url: "https://github.com/microsoft/SynapseML"
+    description: Simple and Distributed Machine Learning
+    product_area: azure-data
+    function_type: other
+    stars: 5215
+  - name: msphpsql
+    org: microsoft
+    url: "https://github.com/microsoft/msphpsql"
+    description: Microsoft Drivers for PHP for SQL Server
+    product_area: azure-data
+    function_type: service
+    stars: 1862
+  - name: vscode-mssql
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-mssql"
+    description: Visual Studio Code SQL Server extension.
+    product_area: azure-data
+    function_type: cli-tool
+    stars: 1856
+  - name: sql-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/sql-docs"
+    description: "Technical documentation for Microsoft SQL Server, tools such as SQL Server Management Studio (SSMS) ,  SQL Server Data Tools (SSDT) etc."
+    product_area: azure-data
+    function_type: documentation
+    stars: 1269
+  - name: mssql-jdbc
+    org: microsoft
+    url: "https://github.com/microsoft/mssql-jdbc"
+    description: The Microsoft JDBC Driver for SQL Server is a Type 4 JDBC driver that provides database connectivity with SQL Server through the standard JDBC application program interfaces (APIs).
+    product_area: azure-data
+    function_type: service
+    stars: 1124
+  - name: azure-cosmos-dotnet-v3
+    org: Azure
+    url: "https://github.com/Azure/azure-cosmos-dotnet-v3"
+    description: .NET SDK for Azure Cosmos DB for the core SQL API
+    product_area: azure-data
+    function_type: sdk
+    stars: 785
+  - name: Multi-Agent-Custom-Automation-Engine-Solution-Accelerator
+    org: microsoft
+    url: "https://github.com/microsoft/Multi-Agent-Custom-Automation-Engine-Solution-Accelerator"
+    description: "The Multi-Agent Custom Automation Engine Solution Accelerator is an AI-driven system that manages a group of AI agents to accomplish tasks based on user input. Powered by Microsoft Agent Framework, Azure Foundry, Azure Cosmos DB, and infrastructure services, it provides a reference application, allowing you to hit the ground running."
+    product_area: azure-data
+    function_type: documentation
+    stars: 748
+  - name: Azure-DataFactory
+    org: Azure
+    url: "https://github.com/Azure/Azure-DataFactory"
+    description: ""
+    product_area: azure-data
+    function_type: other
+    stars: 524
+  - name: go-sqlcmd
+    org: microsoft
+    url: "https://github.com/microsoft/go-sqlcmd"
+    description: "The new sqlcmd, CLI for SQL Server and Azure SQL (winget install sqlcmd / sqlcmd create mssql / sqlcmd open ads)"
+    product_area: azure-data
+    function_type: cli-tool
+    stars: 518
+  - name: sqltoolsservice
+    org: microsoft
+    url: "https://github.com/microsoft/sqltoolsservice"
+    description: SQL Tools API service that provides SQL Server data management capabilities.
+    product_area: azure-data
+    function_type: service
+    stars: 493
+  - name: DacFx
+    org: microsoft
+    url: "https://github.com/microsoft/DacFx"
+    description: "DacFx, SqlPackage, and other SQL development libraries enable declarative database development and database portability across SQL versions and environments. Share feedback here on dacpacs, bacpacs, and SQL projects."
+    product_area: azure-data
+    function_type: other
+    stars: 443
+  - name: SqlNexus
+    org: microsoft
+    url: "https://github.com/microsoft/SqlNexus"
+    description: "SQL Nexus is a tool that helps you identify the root cause of SQL Server performance issues. It loads and analyzes performance data collected by  SQL LogScout, SQLDiag or PSSDiag. It can dramatically reduce the amount of time you spend manually analyzing data."
+    product_area: azure-data
+    function_type: cli-tool
+    stars: 407
+  - name: mssql-python
+    org: microsoft
+    url: "https://github.com/microsoft/mssql-python"
+    description: Microsoft Python Driver for SQL Server
+    product_area: azure-data
+    function_type: service
+    stars: 403
+  - name: go-mssqldb
+    org: microsoft
+    url: "https://github.com/microsoft/go-mssqldb"
+    description: Microsoft SQL server driver written in go language
+    product_area: azure-data
+    function_type: service
+    stars: 391
+  - name: data-accelerator
+    org: microsoft
+    url: "https://github.com/microsoft/data-accelerator"
+    description: "Data Accelerator for Apache Spark simplifies onboarding to Streaming of Big Data. It offers a rich, easy to use experience to help with creation, editing and management of Spark jobs on Azure HDInsights or Databricks while enabling the full power of the Spark engine."
+    product_area: azure-data
+    function_type: template
+    stars: 309
+  - name: SqlScriptDOM
+    org: microsoft
+    url: "https://github.com/microsoft/SqlScriptDOM"
+    description: ScriptDOM/SqlDOM is a .NET library for parsing T-SQL statements and interacting with its abstract syntax tree
+    product_area: azure-data
+    function_type: sdk
+    stars: 240
+  - name: azure-stream-analytics
+    org: Azure
+    url: "https://github.com/Azure/azure-stream-analytics"
+    description: Azure Stream Analytics
+    product_area: azure-data
+    function_type: other
+    stars: 228
+  - name: azure-cosmos-db-emulator-docker
+    org: Azure
+    url: "https://github.com/Azure/azure-cosmos-db-emulator-docker"
+    description: "This repo serves as hub for managing issues, gathering feedback, and having discussions regarding the Azure Cosmos DB Emulator."
+    product_area: azure-data
+    function_type: other
+    stars: 222
+  - name: content-processing-solution-accelerator
+    org: microsoft
+    url: "https://github.com/microsoft/content-processing-solution-accelerator"
+    description: "Programmatically extract data and apply schemas to unstructured documents across text-based and multi-modal content using Azure AI Foundry, Azure OpenAI, Azure AI Content Understanding, and Cosmos DB."
+    product_area: azure-data
+    function_type: documentation
+    stars: 191
+  - name: vscode-cosmosdb
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-cosmosdb"
+    description: Azure Cosmos DB extension for VS Code
+    product_area: azure-data
+    function_type: cli-tool
+    stars: 191
+  - name: azure-cosmosdb-node
+    org: Azure
+    url: "https://github.com/Azure/azure-cosmosdb-node"
+    description: "We recently announced deprecation of JS v1 SDK and this repo. Starting September 2020 Microsoft will not provide support for this library. Existing applications using library will continue to work as-is. We strongly recommend upgrading to @azure/cosmos library."
+    product_area: azure-data
+    function_type: sdk
+    stars: 139
+  - name: sql-action
+    org: Azure
+    url: "https://github.com/Azure/sql-action"
+    description: 🚀 Deploy changes to your SQL database easily with SQL projects or SQL scripts and sql-action for GitHub workflows
+    product_area: azure-data
+    function_type: iac
+    stars: 132
+  - name: cosmos-explorer
+    org: Azure
+    url: "https://github.com/Azure/cosmos-explorer"
+    description: "UI for Azure Cosmos DB. Powers the Azure Portal, https://cosmos.azure.com/, and the Cosmos DB Emulator"
+    product_area: azure-data
+    function_type: other
+    stars: 129
+  - name: sql-server-language-extensions
+    org: microsoft
+    url: "https://github.com/microsoft/sql-server-language-extensions"
+    description: language-extensions-sqlserver
+    product_area: azure-data
+    function_type: cli-tool
+    stars: 114
+  - name: Modernize-your-code-solution-accelerator
+    org: microsoft
+    url: "https://github.com/microsoft/Modernize-your-code-solution-accelerator"
+    description: "Designed to help customers transition their SQL queries to new environments quickly and efficiently. This accelerator is particularly useful for organizations modernizing their data estates, as it simplifies the process of translating SQL queries from various dialects."
+    product_area: azure-data
+    function_type: template
+    stars: 114
+  - name: azure-databricks-client
+    org: Azure
+    url: "https://github.com/Azure/azure-databricks-client"
+    description: Client library for Azure Databricks
+    product_area: azure-data
+    function_type: sdk
+    stars: 85
+  - name: SQL-Connectivity-Checker
+    org: Azure
+    url: "https://github.com/Azure/SQL-Connectivity-Checker"
+    description: This PowerShell script will run some connectivity checks from this machine to the server and database.
+    product_area: azure-data
+    function_type: service
+    stars: 80
+  - name: dbt-synapse
+    org: microsoft
+    url: "https://github.com/microsoft/dbt-synapse"
+    description: dbt adapter for Azure Synapse Dedicated SQL Pools
+    product_area: azure-data
+    function_type: other
+    stars: 77
+  - name: Microsoft.Extensions.Caching.Postgres
+    org: Azure
+    url: "https://github.com/Azure/Microsoft.Extensions.Caching.Postgres"
+    description: Distributed cache implemented with Postgres
+    product_area: azure-data
+    function_type: cli-tool
+    stars: 55
+  - name: azure-event-hubs-emulator-installer
+    org: Azure
+    url: "https://github.com/Azure/azure-event-hubs-emulator-installer"
+    description: "This repository acts as a central hub for handling issues, collecting feedback, and facilitating discussions related to the Azure Event Hubs emulator."
+    product_area: azure-data
+    function_type: other
+    stars: 53
+  - name: azure-event-hubs-java
+    org: Azure
+    url: "https://github.com/Azure/azure-event-hubs-java"
+    description: ☁️ Java client library for Azure Event Hubs
+    product_area: azure-data
+    function_type: sdk
+    stars: 53
+  - name: azure-mysql
+    org: Azure
+    url: "https://github.com/Azure/azure-mysql"
+    description: Azure Database for MySQL (fully managed service for MySQL in Azure)
+    product_area: azure-data
+    function_type: service
+    stars: 53
+  - name: azure-reference-other
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-reference-other"
+    description: "Reference documentation for U-SQL, Stream Analytics query language, and Machine Learning Studio modules."
+    product_area: azure-data
+    function_type: documentation
+    stars: 49
+  - name: synapse-spark-runtime
+    org: microsoft
+    url: "https://github.com/microsoft/synapse-spark-runtime"
+    description: Release notes for Apache Spark based Runtime for Azure Synapse Analytics and Microsoft Fabric
+    product_area: azure-data
+    function_type: other
+    stars: 35
+  - name: m365-copilot-automated-readiness-assessment
+    org: microsoft
+    url: "https://github.com/microsoft/m365-copilot-automated-readiness-assessment"
+    description: "Data-driven M365 Copilot deployment readiness assessment - Graph API analysis of 💼 tenant, 🔐 Entra ID, 🛡️ Defender XDR, 📋 Purview DLP, ⚡ Power Platform, 🤖 Copilot Studio"
+    product_area: azure-data
+    function_type: iac
+    stars: 35
+  - name: azure-kusto-trender
+    org: Azure
+    url: "https://github.com/Azure/azure-kusto-trender"
+    description: "A JavaScript client for Kusto (Azure Data Explorer, Synapse Data Explorer, Kusto free), featuring components for making calls directly to Kusto, rendering results from the API, and more"
+    product_area: azure-data
+    function_type: service
+    stars: 34
+  - name: unified-data-foundation-with-fabric-solution-accelerator
+    org: microsoft
+    url: "https://github.com/microsoft/unified-data-foundation-with-fabric-solution-accelerator"
+    description: Unified Data Foundation with Microsoft Fabric with Options to Integrate with Azure Databricks and Microsoft Purview
+    product_area: azure-data
+    function_type: template
+    stars: 23
+  - name: Microsoft.Azure.StackExchangeRedis
+    org: Azure
+    url: "https://github.com/Azure/Microsoft.Azure.StackExchangeRedis"
+    description: Azure-specific wrapper for the StackExchange.Redis client library
+    product_area: azure-data
+    function_type: sdk
+    stars: 21
+  - name: Data-and-Agent-Governance-and-Security-Accelerator
+    org: microsoft
+    url: "https://github.com/microsoft/Data-and-Agent-Governance-and-Security-Accelerator"
+    description: "Automate end-to-end AI governance with Microsoft Purview DSPM for AI and Defender for AI. Configure DLP, sensitivity labels, audit logging, and threat detection across M365 Copilot, Microsoft Foundry, Microsoft Fabric, and custom agentic solutions."
+    product_area: azure-data
+    function_type: template
+    stars: 20
+  - name: sql-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/sql-docs-pr"
+    description: content for sql server
+    product_area: azure-data
+    function_type: documentation
+    stars: 17
+  - name: mslearn-monitor-azure-cosmos-db
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-monitor-azure-cosmos-db"
+    description: Code repo for Monitor Azure CosmosDB learning module
+    product_area: azure-data
+    function_type: other
+    stars: 14
+  - name: terraform-azurerm-avm-res-databricks-workspace
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-databricks-workspace"
+    description: Terraform Azure Verified Resource Module for Azure Databricks Workspace
+    product_area: azure-data
+    function_type: iac
+    stars: 11
+  - name: terraform-azurerm-avm-res-documentdb-databaseaccount
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-documentdb-databaseaccount"
+    description: Terraform Azure Verified Resource Module for CosmosDB Database Account
+    product_area: azure-data
+    function_type: iac
+    stars: 9
+  - name: terraform-azurerm-avm-res-sql-server
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-sql-server"
+    description: Terraform Azure Verified Resource Module for Azure SQL Server
+    product_area: azure-data
+    function_type: iac
+    stars: 7
+  - name: terraform-azurerm-avm-res-dbforpostgresql-flexibleserver
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-dbforpostgresql-flexibleserver"
+    description: Terraform Azure Verified Resource Module for DB for Postgre SQL Flexible Server
+    product_area: azure-data
+    function_type: iac
+    stars: 6
+  - name: azure-cosmosdb-migration-support
+    org: Azure
+    url: "https://github.com/Azure/azure-cosmosdb-migration-support"
+    description: "This repo contains asset files used in mongo migration extension like icons, readme, change log, etc."
+    product_area: azure-data
+    function_type: cli-tool
+    stars: 5
+  - name: HDInsight
+    org: Azure
+    url: "https://github.com/Azure/HDInsight"
+    description: ""
+    product_area: azure-data
+    function_type: other
+    stars: 4
+  - name: terraform-azurerm-avm-res-eventhub-namespace
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-eventhub-namespace"
+    description: Terraform Azure Verified Resource Module for Event Hub Namespace
+    product_area: azure-data
+    function_type: iac
+    stars: 3
+  - name: Purview-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/Purview-pr"
+    description: ""
+    product_area: azure-data
+    function_type: other
+    stars: 3
+  - name: databricks-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/databricks-pr"
+    description: "Private repo to sync Databricks documentation source and display that content on https://learn.microsoft.com/azure/databricks"
+    product_area: azure-data
+    function_type: documentation
+    stars: 3
+  - name: operation-cache-controller
+    org: Azure
+    url: "https://github.com/Azure/operation-cache-controller"
+    description: A k8s controller used to manage operations and cache the outcome of that operation
+    product_area: azure-data
+    function_type: other
+    stars: 2
+  - name: AzureSqlBulkFailover
+    org: Azure
+    url: "https://github.com/Azure/AzureSqlBulkFailover"
+    description: "Automated failover for many Azure SQL Database and Azure SQL Managed Instance resources. Handles databases, elastic pools, and managed instances. "
+    product_area: azure-data
+    function_type: other
+    stars: 2
+  - name: Data-Governance-with-Purview-Fabric-and-Databricks
+    org: Azure
+    url: "https://github.com/Azure/Data-Governance-with-Purview-Fabric-and-Databricks"
+    description: Data Governance with Purview Fabric and Databricks accelerator repositorya contain samples and examples of use case about data goverance tools and practices
+    product_area: azure-data
+    function_type: sample
+    stars: 2
+  - name: terraform-azurerm-avm-res-synapse-workspace
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-synapse-workspace"
+    description: Terraform Azure Verified Resource Module for Synapse Workspace
+    product_area: azure-data
+    function_type: iac
+    stars: 1
+  - name: postgres-entra-auth
+    org: Azure
+    url: "https://github.com/Azure/postgres-entra-auth"
+    description: Client libraries for using Entra authentication with Azure Database for PostgreSQL
+    product_area: azure-data
+    function_type: other
+    stars: 1
+  - name: azure-cosmos-client-engine
+    org: Azure
+    url: "https://github.com/Azure/azure-cosmos-client-engine"
+    description: "The Client Engine for Azure Cosmos is a Rust library, intended for use in various languages, that implements the client-side query engine and other client-side components necessary to support Azure Cosmos SDKs."
+    product_area: azure-data
+    function_type: sdk
+    stars: 1
+  - name: SQL-Modernisation-Hack
+    org: Azure
+    url: "https://github.com/Azure/SQL-Modernisation-Hack"
+    description: ""
+    product_area: azure-data
+    function_type: other
+    stars: 1
+  - name: purview-dlm-mcp
+    org: microsoft
+    url: "https://github.com/microsoft/purview-dlm-mcp"
+    description: ""
+    product_area: azure-data
+    function_type: other
+    stars: 1
+  - name: pg_azure_cdc
+    org: microsoft
+    url: "https://github.com/microsoft/pg_azure_cdc"
+    description: Change data capture extension for azure postgres
+    product_area: azure-data
+    function_type: cli-tool
+    stars: 1
+  - name: Microsoft-Purview-SDK
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/Microsoft-Purview-SDK"
+    description: ""
+    product_area: azure-data
+    function_type: sdk
+    stars: 1
+  - name: terraform-azurerm-avm-res-cache-redisenterprise
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-cache-redisenterprise"
+    description: Terraform Azure Verified Resource Module for avm-res-cache-redisenterprise
+    product_area: azure-data
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-sql-managedinstance
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-sql-managedinstance"
+    description: Terraform Azure Verified Resource Module for SQL Managed Instance
+    product_area: azure-data
+    function_type: iac
+    stars: 0
+  - name: terraform-azapi-avm-res-sql-instancepool
+    org: Azure
+    url: "https://github.com/Azure/terraform-azapi-avm-res-sql-instancepool"
+    description: Terraform Azure Verified Resource Module for Azure SQL Managed Instance Pools.
+    product_area: azure-data
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-documentdb-mongocluster
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-documentdb-mongocluster"
+    description: Terraform Azure Verified Resource Module for Cosmos DB for MongoDB (vCore)
+    product_area: azure-data
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-dbformysql-flexibleserver
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-dbformysql-flexibleserver"
+    description: Terraform Azure Verified Resource Module for DB for MySQL Flexible Server
+    product_area: azure-data
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-datafactory-factory
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-datafactory-factory"
+    description: Terraform Azure Verified Resource Module for Data Factory
+    product_area: azure-data
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-databricks-accessconnector
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-databricks-accessconnector"
+    description: Terraform Azure Verified Resource Module for Azure Databricks Access Connector
+    product_area: azure-data
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-cache-redis
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-cache-redis"
+    description: Terraform Azure Verified Resource Module for Redis Cache
+    product_area: azure-data
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-ptn-app-paas-ase-cosmosdb-tier-four
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-app-paas-ase-cosmosdb-tier-four"
+    description: Terraform Azure Verified Pattern Module for Corporate Line of Business application architecture using PaaS components Application Service Environment and CosmosDB in the context of Enterprise Scale Landing Zones
+    product_area: azure-data
+    function_type: iac
+    stars: 0
+  - name: sonic-sairedis.msft
+    org: Azure
+    url: "https://github.com/Azure/sonic-sairedis.msft"
+    description: ""
+    product_area: azure-data
+    function_type: other
+    stars: 0
+  - name: cyclecloud-mysql
+    org: Azure
+    url: "https://github.com/Azure/cyclecloud-mysql"
+    description: ""
+    product_area: azure-data
+    function_type: other
+    stars: 0
+  - name: pg_azure_storage
+    org: microsoft
+    url: "https://github.com/microsoft/pg_azure_storage"
+    description: Azure Storage Extension for PostgreSQL Flexible Server
+    product_area: azure-data
+    function_type: cli-tool
+    stars: 0
+  - name: sql-docs-archive-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/sql-docs-archive-pr"
+    description: ""
+    product_area: azure-data
+    function_type: documentation
+    stars: 0
+  - name: sql-managed-reference-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/sql-managed-reference-pr"
+    description: "Repo for SQL Sever Managed Reference Documentation "
+    product_area: azure-data
+    function_type: documentation
+    stars: 0
+  - name: purview-powershell-pip-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/purview-powershell-pip-pr"
+    description: ""
+    product_area: azure-data
+    function_type: other
+    stars: 0
+  - name: sql-docs-powershell
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/sql-docs-powershell"
+    description: "SQL Server PowerShell Cmdlets help docs "
+    product_area: azure-data
+    function_type: documentation
+    stars: 0
+  - name: purview-data-governance-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/purview-data-governance-pr"
+    description: ""
+    product_area: azure-data
+    function_type: community
+    stars: 0
+  - name: sql-dacfx-managed-reference.pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/sql-dacfx-managed-reference.pr"
+    description: ""
+    product_area: azure-data
+    function_type: documentation
+    stars: 0

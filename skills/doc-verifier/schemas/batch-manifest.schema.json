@@ -1,0 +1,142 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "doc-verifier/batch-manifest.schema.json",
+  "title": "doc-verifier Fleet Batch manifest",
+  "description": "Authoritative pre-dispatch inventory of in-scope articles, claims, canonical topic keys, and adaptive track assignments.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "taxonomy_version",
+    "run_id",
+    "articles",
+    "claims",
+    "topic_index",
+    "track_plan"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.3.0" },
+    "taxonomy_version": { "const": "1.3.0" },
+    "run_id": { "type": "string", "pattern": "^[0-9]{8}-[0-9]{6}$" },
+    "articles": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/article" }
+    },
+    "claims": {
+      "type": "array",
+      "items": { "$ref": "claims.schema.json#/$defs/claim" }
+    },
+    "topic_index": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/topic_entry" }
+    },
+    "track_plan": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/track_plan" }
+    }
+  },
+  "$defs": {
+    "article": {
+      "type": "object",
+      "required": ["path", "service_area", "claim_ids", "claim_count", "high_risk_count"],
+      "properties": {
+        "path": { "type": "string", "minLength": 1 },
+        "service_area": { "type": "string", "minLength": 1 },
+        "claim_ids": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "pattern": "^[CL][0-9]{3,}$" }
+        },
+        "claim_count": { "type": "integer", "minimum": 0 },
+        "high_risk_count": { "type": "integer", "minimum": 0 }
+      },
+      "additionalProperties": false
+    },
+    "topic_entry": {
+      "type": "object",
+      "required": ["topic_key", "claims"],
+      "properties": {
+        "topic_key": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(-[a-z0-9]+)+$"
+        },
+        "claims": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "claims.schema.json#/$defs/claim_ref" }
+        }
+      },
+      "additionalProperties": false
+    },
+    "track_plan": {
+      "type": "object",
+      "required": [
+        "track_id",
+        "article_paths",
+        "claims",
+        "claim_count",
+        "high_risk_count",
+        "weight_class",
+        "routing_signals"
+      ],
+      "properties": {
+        "track_id": { "type": "string", "pattern": "^track-[a-z0-9-]+$" },
+        "article_paths": {
+          "type": "array",
+          "minItems": 1,
+          "maxItems": 7,
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        },
+        "claims": {
+          "type": "array",
+          "items": { "$ref": "claims.schema.json#/$defs/claim_ref" }
+        },
+        "claim_count": { "type": "integer", "minimum": 0 },
+        "high_risk_count": { "type": "integer", "minimum": 0 },
+        "weight_class": { "enum": ["light", "medium", "heavy"] },
+        "routing_signals": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": {
+            "enum": [
+              "low-risk",
+              "security-rbac",
+              "lifecycle",
+              "numeric-contract",
+              "resource-id-api",
+              "source-conflict",
+              "low-confidence",
+              "oversized-article"
+            ]
+          }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "weight_class": { "enum": ["light", "medium"] } },
+            "required": ["weight_class"]
+          },
+          "then": {
+            "properties": {
+              "claims": { "maxItems": 40 },
+              "claim_count": { "maximum": 40 },
+              "high_risk_count": { "maximum": 10 }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": { "weight_class": { "const": "heavy" } },
+            "required": ["weight_class"]
+          },
+          "then": {
+            "properties": { "article_paths": { "maxItems": 1 } }
+          }
+        }
+      ],
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

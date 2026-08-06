@@ -1,0 +1,73 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "doc-verifier/claims.schema.json",
+  "title": "doc-verifier claim manifest sidecar",
+  "description": "Machine-readable sidecar (claims_<article>_<runid>.json) emitted alongside the markdown claim manifest. The top-level array is retained for batch-presearch.sh compatibility; article_path plus claim_id form the stable compound identity.",
+  "type": "array",
+  "items": { "$ref": "#/$defs/claim" },
+  "$defs": {
+    "claim": {
+      "type": "object",
+      "required": [
+        "schema_version",
+        "article_path",
+        "claim_id",
+        "line",
+        "type",
+        "risk_class",
+        "topic_key",
+        "text",
+        "service_area"
+      ],
+      "properties": {
+        "schema_version": { "const": "1.3.0" },
+        "article_path": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Repo-relative documentation path; combines with claim_id to form the run-stable identity"
+        },
+        "claim_id": { "type": "string", "pattern": "^[CL][0-9]{3,}$" },
+        "line": { "type": "integer", "minimum": 1 },
+        "type": {
+          "enum": ["feature", "config", "api", "cli", "code", "limit", "pricing", "status", "link", "prereq"]
+        },
+        "risk_class": { "enum": ["high", "low"] },
+        "topic_key": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Canonical cross-article correlation slug for high-risk claims; the em-dash sentinel — for claims not subject to reconciliation"
+        },
+        "text": { "type": "string", "minLength": 1 },
+        "service_area": { "type": "string", "minLength": 1 },
+        "context": { "type": "string" },
+        "include_file": {
+          "type": ["string", "null"],
+          "description": "Path of the [!INCLUDE] file this claim came from, if any"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "risk_class": { "const": "high" } },
+            "required": ["risk_class"]
+          },
+          "then": {
+            "properties": {
+              "topic_key": { "pattern": "^[a-z0-9]+(-[a-z0-9]+)+$" }
+            }
+          }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "claim_ref": {
+      "type": "object",
+      "required": ["article_path", "claim_id"],
+      "properties": {
+        "article_path": { "type": "string", "minLength": 1 },
+        "claim_id": { "type": "string", "pattern": "^[CL][0-9]{3,}$" }
+      },
+      "additionalProperties": false
+    }
+  }
+}

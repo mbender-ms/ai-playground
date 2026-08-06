@@ -1,0 +1,710 @@
+# Windows Repository Cross-Reference
+# Auto-generated on 2026-03-20
+# Cross-organization index of repos in the "windows" product area
+
+category: windows
+total_repos: 99
+generated: 2026-03-20
+
+sources:
+  - org: microsoft
+    count: 42
+  - org: MicrosoftDocs
+    count: 53
+  - org: Azure
+    count: 4
+
+repos:
+  - name: PowerToys
+    org: microsoft
+    url: "https://github.com/microsoft/PowerToys"
+    description: Microsoft PowerToys is a collection of utilities that supercharge productivity and customization on Windows
+    product_area: windows
+    function_type: other
+    stars: 130750
+  - name: WSL
+    org: microsoft
+    url: "https://github.com/microsoft/WSL"
+    description: Windows Subsystem for Linux
+    product_area: windows
+    function_type: other
+    stars: 31475
+  - name: vcpkg
+    org: microsoft
+    url: "https://github.com/microsoft/vcpkg"
+    description: "C++ Library Manager for Windows, Linux, and MacOS"
+    product_area: windows
+    function_type: sdk
+    stars: 26765
+  - name: react-native-windows
+    org: microsoft
+    url: "https://github.com/microsoft/react-native-windows"
+    description: A framework for building native Windows apps with React.
+    product_area: windows
+    function_type: other
+    stars: 17206
+  - name: windows-rs
+    org: microsoft
+    url: "https://github.com/microsoft/windows-rs"
+    description: Rust for Windows
+    product_area: windows
+    function_type: other
+    stars: 12014
+  - name: Windows-driver-samples
+    org: microsoft
+    url: "https://github.com/microsoft/Windows-driver-samples"
+    description: This repo contains driver samples prepared for use with Microsoft Visual Studio and the Windows Driver Kit (WDK). It contains both Universal Windows Driver and desktop-only driver samples.
+    product_area: windows
+    function_type: sample
+    stars: 7657
+  - name: microsoft-ui-xaml
+    org: microsoft
+    url: "https://github.com/microsoft/microsoft-ui-xaml"
+    description: "WinUI: a modern UI framework with a rich set of controls and styles to build dynamic and high-performing Windows applications."
+    product_area: windows
+    function_type: other
+    stars: 7347
+  - name: WPF-Samples
+    org: microsoft
+    url: "https://github.com/microsoft/WPF-Samples"
+    description: Repository for WPF related samples
+    product_area: windows
+    function_type: sample
+    stars: 5625
+  - name: DirectXShaderCompiler
+    org: microsoft
+    url: "https://github.com/microsoft/DirectXShaderCompiler"
+    description: This repo hosts the source for the DirectX Shader Compiler which is based on LLVM/Clang.
+    product_area: windows
+    function_type: other
+    stars: 3518
+  - name: ebpf-for-windows
+    org: microsoft
+    url: "https://github.com/microsoft/ebpf-for-windows"
+    description: eBPF implementation that runs on top of Windows
+    product_area: windows
+    function_type: other
+    stars: 3450
+  - name: WinUI-Gallery
+    org: microsoft
+    url: "https://github.com/microsoft/WinUI-Gallery"
+    description: This app demonstrates the controls available in WinUI and the Fluent Design System.
+    product_area: windows
+    function_type: other
+    stars: 3428
+  - name: DirectXTK
+    org: microsoft
+    url: "https://github.com/microsoft/DirectXTK"
+    description: The DirectX Tool Kit (aka DirectXTK) is a collection of helper classes for writing DirectX 11.x code in C++
+    product_area: windows
+    function_type: cli-tool
+    stars: 2786
+  - name: WSL
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/WSL"
+    description: Source code behind the Windows Subsystem for Linux documentation.
+    product_area: windows
+    function_type: documentation
+    stars: 2273
+  - name: DirectXTex
+    org: microsoft
+    url: "https://github.com/microsoft/DirectXTex"
+    description: DirectXTex texture processing library
+    product_area: windows
+    function_type: sdk
+    stars: 2085
+  - name: Win2D
+    org: microsoft
+    url: "https://github.com/microsoft/Win2D"
+    description: "Win2D is an easy-to-use Windows Runtime API for immediate mode 2D graphics rendering with GPU acceleration. It is available to C#, C++ and VB developers writing apps for the Windows Universal Platform (UWP). It utilizes the power of Direct2D, and integrates seamlessly with XAML and CoreWindow."
+    product_area: windows
+    function_type: service
+    stars: 1890
+  - name: windows-drivers-rs
+    org: microsoft
+    url: "https://github.com/microsoft/windows-drivers-rs"
+    description: Platform that enables Windows driver development in Rust
+    product_area: windows
+    function_type: other
+    stars: 1848
+  - name: cppwinrt
+    org: microsoft
+    url: "https://github.com/microsoft/cppwinrt"
+    description: C++/WinRT
+    product_area: windows
+    function_type: other
+    stars: 1824
+  - name: DirectXMath
+    org: microsoft
+    url: "https://github.com/microsoft/DirectXMath"
+    description: DirectXMath is an all inline SIMD C++ linear algebra library for use in games and graphics apps
+    product_area: windows
+    function_type: sdk
+    stars: 1756
+  - name: DirectXTK12
+    org: microsoft
+    url: "https://github.com/microsoft/DirectXTK12"
+    description: The DirectX Tool Kit (aka DirectXTK12) is a collection of helper classes for writing DirectX 12 code in C++
+    product_area: windows
+    function_type: cli-tool
+    stars: 1708
+  - name: windowsserverdocs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windowsserverdocs"
+    description: Public content repository for Windows Server content.
+    product_area: windows
+    function_type: documentation
+    stars: 1541
+  - name: win32metadata
+    org: microsoft
+    url: "https://github.com/microsoft/win32metadata"
+    description: Tooling to generate metadata for Win32 APIs in the Windows SDK.
+    product_area: windows
+    function_type: sdk
+    stars: 1461
+  - name: win32
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/win32"
+    description: Public mirror for win32-pr
+    product_area: windows
+    function_type: other
+    stars: 1276
+  - name: go-winio
+    org: microsoft
+    url: "https://github.com/microsoft/go-winio"
+    description: Win32 IO-related utilities for Go
+    product_area: windows
+    function_type: other
+    stars: 1059
+  - name: windows-driver-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-driver-docs"
+    description: The official Windows Driver Kit documentation sources
+    product_area: windows
+    function_type: documentation
+    stars: 1016
+  - name: WindowsAppSDK-Samples
+    org: microsoft
+    url: "https://github.com/microsoft/WindowsAppSDK-Samples"
+    description: Feature samples for the Windows App SDK
+    product_area: windows
+    function_type: sdk
+    stars: 935
+  - name: XamlBehaviorsWpf
+    org: microsoft
+    url: "https://github.com/microsoft/XamlBehaviorsWpf"
+    description: "Home for WPF XAML Behaviors on GitHub. "
+    product_area: windows
+    function_type: other
+    stars: 902
+  - name: DirectXMesh
+    org: microsoft
+    url: "https://github.com/microsoft/DirectXMesh"
+    description: DirectXMesh geometry processing library
+    product_area: windows
+    function_type: sdk
+    stars: 844
+  - name: binskim
+    org: microsoft
+    url: "https://github.com/microsoft/binskim"
+    description: "A binary static analysis tool that provides security and correctness results for Windows Portable Executable and *nix ELF binary formats"
+    product_area: windows
+    function_type: cli-tool
+    stars: 842
+  - name: DirectStorage
+    org: microsoft
+    url: "https://github.com/microsoft/DirectStorage"
+    description: DirectStorage for Windows is an API that allows game developers to unlock the full potential of high speed NVMe drives for loading game assets.
+    product_area: windows
+    function_type: service
+    stars: 836
+  - name: DirectX-Specs
+    org: microsoft
+    url: "https://github.com/microsoft/DirectX-Specs"
+    description: Engineering specs for DirectX features.
+    product_area: windows
+    function_type: other
+    stars: 824
+  - name: windows-dev-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-dev-docs"
+    description: Conceptual and overview content for developing Windows apps
+    product_area: windows
+    function_type: documentation
+    stars: 780
+  - name: XamlBehaviors
+    org: microsoft
+    url: "https://github.com/microsoft/XamlBehaviors"
+    description: This is the official home for WinUI/UWP XAML Behaviors on GitHub.
+    product_area: windows
+    function_type: other
+    stars: 773
+  - name: DirectX-Headers
+    org: microsoft
+    url: "https://github.com/microsoft/DirectX-Headers"
+    description: Official DirectX headers available under an open source license
+    product_area: windows
+    function_type: other
+    stars: 700
+  - name: hcsshim
+    org: microsoft
+    url: "https://github.com/microsoft/hcsshim"
+    description: Windows - Host Compute Service Shim
+    product_area: windows
+    function_type: service
+    stars: 650
+  - name: MIDI
+    org: microsoft
+    url: "https://github.com/microsoft/MIDI"
+    description: Windows MIDI Services
+    product_area: windows
+    function_type: other
+    stars: 585
+  - name: react-native-windows-samples
+    org: microsoft
+    url: "https://github.com/microsoft/react-native-windows-samples"
+    description: "A repository showcasing React Native samples and templates for Windows, macOS, and Surface Duo."
+    product_area: windows
+    function_type: sample
+    stars: 535
+  - name: sdk-api
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/sdk-api"
+    description: Public contributions for win32 API documentation
+    product_area: windows
+    function_type: documentation
+    stars: 464
+  - name: Windows-rust-driver-samples
+    org: microsoft
+    url: "https://github.com/microsoft/Windows-rust-driver-samples"
+    description: Rust port of the official Windows Driver Samples on Github. Leverages windows-drivers-rs
+    product_area: windows
+    function_type: sample
+    stars: 339
+  - name: windows-driver-docs-ddi
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-driver-docs-ddi"
+    description: The official Windows Driver Kit DDI reference documentation sources
+    product_area: windows
+    function_type: documentation
+    stars: 303
+  - name: winrt-api
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/winrt-api"
+    description: WinRT reference content for developing Microsoft Universal Windows Platform (UWP) apps
+    product_area: windows
+    function_type: documentation
+    stars: 251
+  - name: Console-Docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/Console-Docs"
+    description: Windows Console Docs Repo
+    product_area: windows
+    function_type: documentation
+    stars: 231
+  - name: WindowsCommunityToolkitDocs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/WindowsCommunityToolkitDocs"
+    description: "This is the old Windows Community Toolkit docs repository, soon to be archived/redirected. Please see the new repository at MicrosoftDocs/CommunityToolkit"
+    product_area: windows
+    function_type: documentation
+    stars: 185
+  - name: winui-api
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/winui-api"
+    description: Public contributions for the Windows User Interface library
+    product_area: windows
+    function_type: sdk
+    stars: 83
+  - name: winrt-related
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/winrt-related"
+    description: WinRT related reference content for developing Microsoft Universal Windows Platform (UWP) apps
+    product_area: windows
+    function_type: documentation
+    stars: 81
+  - name: hermes-windows
+    org: microsoft
+    url: "https://github.com/microsoft/hermes-windows"
+    description: Hermes is a small and lightweight JavaScript engine optimized for running React Native apps..
+    product_area: windows
+    function_type: other
+    stars: 75
+  - name: go-crypto-winnative
+    org: microsoft
+    url: "https://github.com/microsoft/go-crypto-winnative"
+    description: Go crypto backend for Windows using CNG
+    product_area: windows
+    function_type: service
+    stars: 43
+  - name: go-winmd
+    org: microsoft
+    url: "https://github.com/microsoft/go-winmd"
+    description: "Windows Metadata parser for Go "
+    product_area: windows
+    function_type: other
+    stars: 37
+  - name: node-windows-mutex
+    org: microsoft
+    url: "https://github.com/microsoft/node-windows-mutex"
+    description: Expose the Windows CreateMutex API to Node.JS
+    product_area: windows
+    function_type: service
+    stars: 35
+  - name: windows-topic-specific-samples
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-topic-specific-samples"
+    description: Samples for specific topics across Windows dev doc repos.
+    product_area: windows
+    function_type: documentation
+    stars: 26
+  - name: mcp-on-windows-samples
+    org: microsoft
+    url: "https://github.com/microsoft/mcp-on-windows-samples"
+    description: Samples for MCP servers on Windows
+    product_area: windows
+    function_type: sample
+    stars: 21
+  - name: WindowsVMAgent
+    org: Azure
+    url: "https://github.com/Azure/WindowsVMAgent"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 20
+  - name: windows-itpro-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-itpro-docs"
+    description: This repository is used for Windows client for IT Pro content on Microsoft Learn.
+    product_area: windows
+    function_type: documentation
+    stars: 19
+  - name: WidgetDeveloperPlatform
+    org: microsoft
+    url: "https://github.com/microsoft/WidgetDeveloperPlatform"
+    description: The Windows Widget Developer Platform SDKs
+    product_area: windows
+    function_type: other
+    stars: 15
+  - name: WindowsAppKiosk
+    org: Azure
+    url: "https://github.com/Azure/WindowsAppKiosk"
+    description: Code to configure Windows 10 and 11 Thin Clients as a locked down Windows 365 or AVD Client using the Windows App.
+    product_area: windows
+    function_type: other
+    stars: 14
+  - name: commercialization-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/commercialization-docs-pr"
+    description: The official Windows commercialization documentation sources
+    product_area: windows
+    function_type: documentation
+    stars: 11
+  - name: winapps-winrt-api
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/winapps-winrt-api"
+    description: Public docs mirror for the Windows App SDK
+    product_area: windows
+    function_type: documentation
+    stars: 10
+  - name: python-etwtrace
+    org: microsoft
+    url: "https://github.com/microsoft/python-etwtrace"
+    description: Python extension for generating profiling data and stack samples for Windows Performance Analyzer
+    product_area: windows
+    function_type: cli-tool
+    stars: 9
+  - name: windows-dev-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-dev-docs-pr"
+    description: ""
+    product_area: windows
+    function_type: documentation
+    stars: 8
+  - name: XboxLive-API
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/XboxLive-API"
+    description: Repo for Xbox Live WinRT reference content
+    product_area: windows
+    function_type: documentation
+    stars: 8
+  - name: windowsserverdocs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windowsserverdocs-pr"
+    description: ""
+    product_area: windows
+    function_type: documentation
+    stars: 7
+  - name: webview2-win32-reference
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/webview2-win32-reference"
+    description: Developer documentation for the Microsoft Edge WebView2 control for Win32 C++ published on docs.microsoft.com reference site.
+    product_area: windows
+    function_type: documentation
+    stars: 7
+  - name: wssd-sdk-for-go
+    org: microsoft
+    url: "https://github.com/microsoft/wssd-sdk-for-go"
+    description: Windows Server SDK for GoLang
+    product_area: windows
+    function_type: sdk
+    stars: 6
+  - name: windows-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-docs-pr"
+    description: This repository is used for Windows client for IT Pro content on Microsoft Learn.
+    product_area: windows
+    function_type: documentation
+    stars: 6
+  - name: winapps-win32-api
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/winapps-win32-api"
+    description: Public mirror for the Windows App SDK win32 API docs repo
+    product_area: windows
+    function_type: documentation
+    stars: 6
+  - name: windows-cloud-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-cloud-pr"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 5
+  - name: hpcpack-linux-agent
+    org: Azure
+    url: "https://github.com/Azure/hpcpack-linux-agent"
+    description: linux communicator for windows hpc pack
+    product_area: windows
+    function_type: other
+    stars: 4
+  - name: WindowsAppSdkResources
+    org: microsoft
+    url: "https://github.com/microsoft/WindowsAppSdkResources"
+    description: Indexing resources for the Windows App SDK mcp.
+    product_area: windows
+    function_type: sdk
+    stars: 4
+  - name: win32-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/win32-pr"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 4
+  - name: open_specs_windows
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/open_specs_windows"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 3
+  - name: artifact-signing-clienttools
+    org: Azure
+    url: "https://github.com/Azure/artifact-signing-clienttools"
+    description: The Artifact Signing Client Tools installer simplifies the setup of a node for signing with Windows SDK SignTool.exe by installing the needed dependencies and the Artifact Signing dlib on to a supported Windows-based node.
+    product_area: windows
+    function_type: sdk
+    stars: 2
+  - name: windows-release-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-release-pr"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 2
+  - name: windows-insider-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-insider-pr"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 2
+  - name: webview2-winrt-reference
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/webview2-winrt-reference"
+    description: Developer documentation for the Microsoft Edge WebView2 control for WinRT published on docs.microsoft.com reference site.
+    product_area: windows
+    function_type: documentation
+    stars: 2
+  - name: ebpf-extension-common
+    org: microsoft
+    url: "https://github.com/microsoft/ebpf-extension-common"
+    description: Common code that can be used across ebpf-for-windows extensions.
+    product_area: windows
+    function_type: cli-tool
+    stars: 1
+  - name: windows-app-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-app-pr"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 1
+  - name: windows-driver-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-driver-docs-pr"
+    description: The official Windows Driver Kit documentation sources
+    product_area: windows
+    function_type: documentation
+    stars: 1
+  - name: winrt-related-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/winrt-related-pr"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 1
+  - name: windows-release-pr.zh-TW
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-release-pr.zh-TW"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 0
+  - name: windows-release-pr.zh-CN
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-release-pr.zh-CN"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 0
+  - name: windows-release-pr.ru-RU
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-release-pr.ru-RU"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 0
+  - name: windows-release-pr.pt-BR
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-release-pr.pt-BR"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 0
+  - name: windows-release-pr.ko-KR
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-release-pr.ko-KR"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 0
+  - name: windows-release-pr.ja-JP
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-release-pr.ja-JP"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 0
+  - name: windows-release-pr.it-IT
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-release-pr.it-IT"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 0
+  - name: windows-release-pr.fr-FR
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-release-pr.fr-FR"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 0
+  - name: windows-release-pr.es-ES
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-release-pr.es-ES"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 0
+  - name: windows-release-pr.de-DE
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-release-pr.de-DE"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 0
+  - name: windows365
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows365"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 0
+  - name: windows-code-snippets-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-code-snippets-pr"
+    description: Code snippets for Windows developer documentation
+    product_area: windows
+    function_type: documentation
+    stars: 0
+  - name: windows-dev-docs-archive-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-dev-docs-archive-pr"
+    description: ""
+    product_area: windows
+    function_type: documentation
+    stars: 0
+  - name: WindowsArchive-EdgeLegacy-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/WindowsArchive-EdgeLegacy-pr"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 0
+  - name: windows-release-pr-Fortestonly
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-release-pr-Fortestonly"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 0
+  - name: win32-archive-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/win32-archive-pr"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 0
+  - name: windowsserverdocs-archive-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windowsserverdocs-archive-pr"
+    description: ""
+    product_area: windows
+    function_type: documentation
+    stars: 0
+  - name: windows-actions-source-generation
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-actions-source-generation"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 0
+  - name: windows-driver-docs-archive-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-driver-docs-archive-pr"
+    description: ""
+    product_area: windows
+    function_type: documentation
+    stars: 0
+  - name: WindowsServer-SystemInsights-PR
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/WindowsServer-SystemInsights-PR"
+    description: ""
+    product_area: windows
+    function_type: service
+    stars: 0
+  - name: windows-release-pr-Fortestonly.ja-jp
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-release-pr-Fortestonly.ja-jp"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 0
+  - name: windows-release-pr-Fortestonly.de-de
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-release-pr-Fortestonly.de-de"
+    description: ""
+    product_area: windows
+    function_type: other
+    stars: 0

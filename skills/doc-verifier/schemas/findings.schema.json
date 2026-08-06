@@ -1,0 +1,404 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "doc-verifier/findings.schema.json",
+  "title": "doc-verifier run findings",
+  "description": "Run-level JSON artifact (findings_<runid>.json) emitted when the user requests JSON reports (--report with a directory, or --report-json). The markdown report is generated from this same logical model.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "taxonomy_version",
+    "run_id",
+    "workflow",
+    "run_status",
+    "gate_notes",
+    "files",
+    "findings",
+    "failed_claims"
+  ],
+  "properties": {
+    "schema_version": { "const": "1.3.0" },
+    "taxonomy_version": { "const": "1.3.0" },
+    "run_id": { "type": "string", "pattern": "^[0-9]{8}-[0-9]{6}$" },
+    "workflow": {
+      "enum": ["single-article", "pr-review", "research", "fleet-batch", "live-validation"]
+    },
+    "run_status": {
+      "enum": ["passed", "degraded", "failed"],
+      "description": "Result of the run quality gate in assets/_taxonomy.md"
+    },
+    "gate_notes": {
+      "type": "array",
+      "items": { "type": "string" },
+      "description": "One entry per degraded/failed gate check, with the reason"
+    },
+    "files": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/file_result" }
+    },
+    "findings": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/finding" }
+    },
+    "failed_claims": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/failed_claim" }
+    },
+    "tracks": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/track_summary" }
+    },
+    "completeness": {
+      "oneOf": [
+        { "$ref": "#/$defs/completeness" },
+        { "type": "null" }
+      ]
+    },
+    "telemetry": {
+      "oneOf": [
+        { "$ref": "#/$defs/telemetry_summary" },
+        { "type": "null" }
+      ]
+    },
+    "reconciliation": {
+      "type": "array",
+      "description": "Cross-article topic_key conflicts (fleet runs) — the highest-value findings, listed first in reports",
+      "items": {
+        "type": "object",
+        "required": ["topic_key", "authoritative_value", "source_url", "conflicts"],
+        "properties": {
+          "topic_key": { "type": "string" },
+          "authoritative_value": { "type": "string" },
+          "source_url": { "type": "string" },
+          "source_tier": { "type": "string" },
+          "conflicts": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": ["file", "asserted_value"],
+              "properties": {
+                "file": { "type": "string" },
+                "asserted_value": { "type": "string" }
+              },
+              "additionalProperties": false
+            }
+          }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "$defs": {
+    "status": {
+      "enum": ["accurate", "partial", "inaccurate", "outdated", "unverifiable", "broken", "contested"]
+    },
+    "claim_type": {
+      "enum": ["feature", "config", "api", "cli", "code", "limit", "pricing", "status", "link", "prereq"]
+    },
+    "unverifiable_reason": {
+      "enum": [
+        "unverifiable_no_authoritative_source",
+        "unverifiable_insufficient_evidence",
+        "unverifiable_source_unavailable",
+        "unverifiable_evidence_gate_failed",
+        "unverifiable_out_of_scope_artifact"
+      ]
+    },
+    "failure_reason": {
+      "enum": [
+        "empty_response",
+        "timeout",
+        "tool_error",
+        "malformed_json",
+        "schema_validation_failed",
+        "unknown_claim_id",
+        "incomplete_claim_coverage",
+        "output_limit_exceeded",
+        "retry_exhausted"
+      ]
+    },
+    "failure": {
+      "type": "object",
+      "required": ["reason_code", "message", "retryable"],
+      "properties": {
+        "reason_code": { "$ref": "#/$defs/failure_reason" },
+        "message": { "type": "string", "minLength": 1 },
+        "retryable": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+    "finding": {
+      "type": "object",
+      "required": [
+        "claim_id",
+        "file",
+        "status",
+        "claim_type",
+        "risk_class",
+        "verification_method",
+        "confidence",
+        "verified_value",
+        "contract_required",
+        "contract_checked",
+        "contract_value",
+        "contract_source",
+        "source_independent",
+        "source_url",
+        "source_tier",
+        "reason_code",
+        "fix",
+        "gate_notes"
+      ],
+      "properties": {
+        "claim_id": { "type": "string", "pattern": "^[CL][0-9]{3,}$" },
+        "file": { "type": "string", "minLength": 1 },
+        "line": { "type": "integer", "minimum": 1 },
+        "topic_key": { "type": "string", "minLength": 1 },
+        "status": { "$ref": "#/$defs/status" },
+        "claim_type": { "$ref": "#/$defs/claim_type" },
+        "risk_class": { "enum": ["high", "low"] },
+        "verified_value": { "type": ["string", "null"] },
+        "verification_method": {
+          "enum": ["search", "fetch", "code-sample", "contract", "live", "ledger"]
+        },
+        "contract_required": { "type": "boolean" },
+        "contract_checked": { "type": "boolean" },
+        "contract_value": { "type": ["string", "null"] },
+        "contract_source": {
+          "oneOf": [
+            { "type": "string", "format": "uri" },
+            { "type": "null" }
+          ]
+        },
+        "confidence": { "enum": ["high", "medium", "low"] },
+        "evidence": { "type": "string", "minLength": 1 },
+        "source_independent": { "type": "boolean" },
+        "source_url": {
+          "oneOf": [
+            { "type": "string", "format": "uri" },
+            { "type": "null" }
+          ]
+        },
+        "source_tier": {
+          "oneOf": [
+            { "enum": ["1", "1-C", "2", "3", "4"] },
+            { "type": "null" }
+          ]
+        },
+        "reason_code": {
+          "oneOf": [
+            { "$ref": "#/$defs/unverifiable_reason" },
+            { "type": "null" }
+          ]
+        },
+        "fix": { "type": ["string", "null"] },
+        "gate_notes": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 }
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "status": { "const": "unverifiable" } },
+            "required": ["status"]
+          },
+          "then": {
+            "properties": { "reason_code": { "$ref": "#/$defs/unverifiable_reason" } }
+          },
+          "else": {
+            "properties": { "reason_code": { "type": "null" } }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": { "const": "accurate" },
+              "risk_class": { "const": "high" }
+            },
+            "required": ["status", "risk_class"]
+          },
+          "then": {
+            "required": ["evidence"],
+            "properties": {
+              "verification_method": { "enum": ["fetch", "code-sample", "contract", "live", "ledger"] },
+              "verified_value": { "type": "string", "minLength": 1 },
+              "source_independent": { "const": true },
+              "source_url": { "type": "string", "format": "uri" },
+              "source_tier": { "enum": ["1", "1-C", "2"] }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "status": { "const": "accurate" },
+              "contract_required": { "const": true }
+            },
+            "required": ["status", "contract_required"]
+          },
+          "then": {
+            "properties": {
+              "contract_checked": { "const": true },
+              "contract_value": { "type": "string", "minLength": 1 },
+              "contract_source": { "type": "string", "format": "uri" }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": { "status": { "const": "accurate" } },
+            "required": ["status"]
+          },
+          "else": {
+            "required": ["evidence"],
+            "properties": { "fix": { "type": "string", "minLength": 1 } }
+          }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "failed_claim": {
+      "type": "object",
+      "required": ["claim_id", "file", "reason_code", "message"],
+      "properties": {
+        "claim_id": { "type": "string", "pattern": "^[CL][0-9]{3,}$" },
+        "file": { "type": "string", "minLength": 1 },
+        "reason_code": { "$ref": "#/$defs/failure_reason" },
+        "message": { "type": "string", "minLength": 1 }
+      },
+      "additionalProperties": false
+    },
+    "file_result": {
+      "type": "object",
+      "required": [
+        "path",
+        "processing_status",
+        "claims_expected",
+        "claims_checked",
+        "claims_failed",
+        "skipped_reason",
+        "failure",
+        "ms_date_bumped"
+      ],
+      "properties": {
+        "path": { "type": "string", "minLength": 1 },
+        "processing_status": { "enum": ["completed", "failed", "skipped"] },
+        "claims_expected": { "type": "integer", "minimum": 0 },
+        "claims_checked": { "type": "integer", "minimum": 0 },
+        "claims_failed": { "type": "integer", "minimum": 0 },
+        "skipped_reason": { "type": ["string", "null"] },
+        "failure": {
+          "oneOf": [
+            { "$ref": "#/$defs/failure" },
+            { "type": "null" }
+          ]
+        },
+        "ms_date_bumped": { "type": "boolean" }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": { "processing_status": { "const": "completed" } },
+            "required": ["processing_status"]
+          },
+          "then": {
+            "properties": {
+              "skipped_reason": { "type": "null" },
+              "failure": { "type": "null" }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": { "processing_status": { "const": "failed" } },
+            "required": ["processing_status"]
+          },
+          "then": {
+            "properties": { "failure": { "$ref": "#/$defs/failure" } }
+          }
+        },
+        {
+          "if": {
+            "properties": { "processing_status": { "const": "skipped" } },
+            "required": ["processing_status"]
+          },
+          "then": {
+            "properties": { "skipped_reason": { "type": "string", "minLength": 1 } }
+          }
+        }
+      ],
+      "additionalProperties": false
+    },
+    "track_summary": {
+      "type": "object",
+      "required": ["track_id", "attempts", "status", "article_count", "claim_count", "failed_claim_count", "output_bytes"],
+      "properties": {
+        "track_id": { "type": "string", "minLength": 1 },
+        "attempts": { "type": "integer", "minimum": 1, "maximum": 2 },
+        "status": { "enum": ["completed", "failed"] },
+        "article_count": { "type": "integer", "minimum": 1 },
+        "claim_count": { "type": "integer", "minimum": 0 },
+        "failed_claim_count": { "type": "integer", "minimum": 0 },
+        "output_bytes": { "type": "integer", "minimum": 0 },
+        "routing_mode": { "type": ["string", "null"] },
+        "routing_reason": { "type": ["string", "null"] }
+      },
+      "additionalProperties": false
+    },
+    "completeness": {
+      "type": "object",
+      "required": [
+        "discovered_in_scope",
+        "completed_files",
+        "failed_files",
+        "expected_claims",
+        "terminal_findings",
+        "failed_claims",
+        "file_invariant_satisfied",
+        "claim_invariant_satisfied"
+      ],
+      "properties": {
+        "discovered_in_scope": { "type": "integer", "minimum": 0 },
+        "completed_files": { "type": "integer", "minimum": 0 },
+        "failed_files": { "type": "integer", "minimum": 0 },
+        "expected_claims": { "type": "integer", "minimum": 0 },
+        "terminal_findings": { "type": "integer", "minimum": 0 },
+        "failed_claims": { "type": "integer", "minimum": 0 },
+        "file_invariant_satisfied": { "type": "boolean" },
+        "claim_invariant_satisfied": { "type": "boolean" }
+      },
+      "additionalProperties": false
+    },
+    "telemetry_summary": {
+      "type": "object",
+      "required": ["elapsed_ms", "retry_count", "output_bytes", "unavailable_fields"],
+      "properties": {
+        "elapsed_ms": { "type": ["integer", "null"], "minimum": 0 },
+        "retry_count": { "type": "integer", "minimum": 0 },
+        "output_bytes": {
+          "type": "object",
+          "required": ["minimum", "median", "maximum"],
+          "properties": {
+            "minimum": { "type": ["integer", "null"], "minimum": 0 },
+            "median": { "type": ["number", "null"], "minimum": 0 },
+            "maximum": { "type": ["integer", "null"], "minimum": 0 }
+          },
+          "additionalProperties": false
+        },
+        "input_tokens": { "type": ["integer", "null"], "minimum": 0 },
+        "output_tokens": { "type": ["integer", "null"], "minimum": 0 },
+        "search_calls": { "type": ["integer", "null"], "minimum": 0 },
+        "fetch_calls": { "type": ["integer", "null"], "minimum": 0 },
+        "code_sample_calls": { "type": ["integer", "null"], "minimum": 0 },
+        "cache_hits": { "type": ["integer", "null"], "minimum": 0 },
+        "unavailable_fields": {
+          "type": "array",
+          "uniqueItems": true,
+          "items": { "type": "string", "minLength": 1 }
+        }
+      },
+      "additionalProperties": false
+    }
+  },
+  "additionalProperties": false
+}

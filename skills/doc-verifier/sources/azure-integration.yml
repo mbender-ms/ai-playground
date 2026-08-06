@@ -1,0 +1,134 @@
+# Azure Integration Repository Cross-Reference
+# Auto-generated on 2026-03-20
+# Cross-organization index of repos in the "azure-integration" product area
+
+category: azure-integration
+total_repos: 17
+generated: 2026-03-20
+
+sources:
+  - org: Azure
+    count: 15
+  - org: MicrosoftDocs
+    count: 2
+
+repos:
+  - name: api-management-developer-portal
+    org: Azure
+    url: "https://github.com/Azure/api-management-developer-portal"
+    description: Developer portal provided by the Azure API Management service.
+    product_area: azure-integration
+    function_type: service
+    stars: 531
+  - name: logicapps
+    org: Azure
+    url: "https://github.com/Azure/logicapps"
+    description: "Azure Logic Apps labs, samples, and tools"
+    product_area: azure-integration
+    function_type: sample
+    stars: 425
+  - name: api-management-policy-snippets
+    org: Azure
+    url: "https://github.com/Azure/api-management-policy-snippets"
+    description: Re-usable examples of Azure API Management policies
+    product_area: azure-integration
+    function_type: sample
+    stars: 396
+  - name: apim-landing-zone-accelerator
+    org: Azure
+    url: "https://github.com/Azure/apim-landing-zone-accelerator"
+    description: "The Azure API Management landing zone accelerator provides an architectural approach and reference implementation to prepare landing zone subscriptions for a secure API Management infrastructure. "
+    product_area: azure-integration
+    function_type: documentation
+    stars: 199
+  - name: API-Management
+    org: Azure
+    url: "https://github.com/Azure/API-Management"
+    description: Repository with Azure API Management release notes.
+    product_area: azure-integration
+    function_type: service
+    stars: 167
+  - name: LogicAppsUX
+    org: Azure
+    url: "https://github.com/Azure/LogicAppsUX"
+    description: ""
+    product_area: azure-integration
+    function_type: other
+    stars: 108
+  - name: api-management-self-hosted-gateway
+    org: Azure
+    url: "https://github.com/Azure/api-management-self-hosted-gateway"
+    description: "Home of Azure API Management's Self-Hosted Gateway"
+    product_area: azure-integration
+    function_type: service
+    stars: 89
+  - name: apim-lab
+    org: Azure
+    url: "https://github.com/Azure/apim-lab"
+    description: API Management - Hands-on Lab Workshop
+    product_area: azure-integration
+    function_type: sample
+    stars: 85
+  - name: azure-api-management-policy-toolkit
+    org: Azure
+    url: "https://github.com/Azure/azure-api-management-policy-toolkit"
+    description: Azure API Management policy toolkit is a set of libraries and tools to help managing and testing policies.
+    product_area: azure-integration
+    function_type: service
+    stars: 83
+  - name: APICenter-Portal-Starter
+    org: Azure
+    url: "https://github.com/Azure/APICenter-Portal-Starter"
+    description: Reference implementation of API Center portal for a web-based API discovery and consumption experience
+    product_area: azure-integration
+    function_type: documentation
+    stars: 37
+  - name: LogicAppsTemplates
+    org: Azure
+    url: "https://github.com/Azure/LogicAppsTemplates"
+    description: Templates for Logic Apps Workflow Gallery
+    product_area: azure-integration
+    function_type: template
+    stars: 29
+  - name: logicapps-labs
+    org: Azure
+    url: "https://github.com/Azure/logicapps-labs"
+    description: "Grab and go resources to learn about Azure Logic Apps.  The labs are organized by topic and are designed to be hands-on, with step-by-step instructions."
+    product_area: azure-integration
+    function_type: documentation
+    stars: 14
+  - name: mslearn-control-authentication-with-apim
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-control-authentication-with-apim"
+    description: Sample code for MS Learn module
+    product_area: azure-integration
+    function_type: documentation
+    stars: 13
+  - name: apim-policy-update
+    org: Azure
+    url: "https://github.com/Azure/apim-policy-update"
+    description: ""
+    product_area: azure-integration
+    function_type: other
+    stars: 10
+  - name: api-management-resources
+    org: Azure
+    url: "https://github.com/Azure/api-management-resources"
+    description: A library of useful resources about Azure API Management.
+    product_area: azure-integration
+    function_type: sdk
+    stars: 7
+  - name: LogicAppsUXRedesign
+    org: Azure
+    url: "https://github.com/Azure/LogicAppsUXRedesign"
+    description: ""
+    product_area: azure-integration
+    function_type: other
+    stars: 0
+  - name: azure-logic-apps-ref-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-logic-apps-ref-pr"
+    description: ""
+    product_area: azure-integration
+    function_type: other
+    stars: 0

@@ -1,0 +1,255 @@
+# Azure Monitor Repository Cross-Reference
+# Auto-generated on 2026-03-20
+# Cross-organization index of repos in the "azure-monitor" product area
+
+category: azure-monitor
+total_repos: 34
+generated: 2026-03-20
+
+sources:
+  - org: microsoft
+    count: 18
+  - org: Azure
+    count: 13
+  - org: MicrosoftDocs
+    count: 3
+
+repos:
+  - name: Detours
+    org: microsoft
+    url: "https://github.com/microsoft/Detours"
+    description: Detours is a software package for monitoring and instrumenting API calls on Windows.  It is distributed in source code form.
+    product_area: azure-monitor
+    function_type: service
+    stars: 6180
+  - name: tensorwatch
+    org: microsoft
+    url: "https://github.com/microsoft/tensorwatch"
+    description: "Debugging, monitoring and visualization for Python Machine Learning and Data Science"
+    product_area: azure-monitor
+    function_type: other
+    stars: 3466
+  - name: Microsoft365DSC
+    org: microsoft
+    url: "https://github.com/microsoft/Microsoft365DSC"
+    description: "Manages, configures, extracts and monitors Microsoft 365 tenant configurations"
+    product_area: azure-monitor
+    function_type: other
+    stars: 2229
+  - name: vscode-cmake-tools
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-cmake-tools"
+    description: "CMake Tools provides a robust, convenient workflow for CMake projects in VS Code. It simplifies configurations with CMake presets, supports IntelliSense and built-in debugging for CMake scripts, and offers configurable tasks. Its customizable interface allows for efficient project control, while also simplifying test execution and monitoring."
+    product_area: azure-monitor
+    function_type: other
+    stars: 1652
+  - name: clrmd
+    org: microsoft
+    url: "https://github.com/microsoft/clrmd"
+    description: Microsoft.Diagnostics.Runtime is a set of APIs for introspecting processes and dumps.
+    product_area: azure-monitor
+    function_type: other
+    stars: 1134
+  - name: Application-Insights-Workbooks
+    org: microsoft
+    url: "https://github.com/microsoft/Application-Insights-Workbooks"
+    description: Templates for Azure Monitor Workbooks
+    product_area: azure-monitor
+    function_type: template
+    stars: 645
+  - name: ApplicationInsights-dotnet
+    org: microsoft
+    url: "https://github.com/microsoft/ApplicationInsights-dotnet"
+    description: ApplicationInsights-dotnet
+    product_area: azure-monitor
+    function_type: other
+    stars: 595
+  - name: azure-monitor-baseline-alerts
+    org: Azure
+    url: "https://github.com/Azure/azure-monitor-baseline-alerts"
+    description: Azure Monitor Baseline Alerts
+    product_area: azure-monitor
+    function_type: other
+    stars: 303
+  - name: VirtualClient
+    org: microsoft
+    url: "https://github.com/microsoft/VirtualClient"
+    description: "Benchmarking and monitoring automation, designed for cloud, built with .NET."
+    product_area: azure-monitor
+    function_type: other
+    stars: 110
+  - name: AzureMonitorStarterPacks
+    org: Azure
+    url: "https://github.com/Azure/AzureMonitorStarterPacks"
+    description: A project to create a framework for workloads and services monitoring in Azure
+    product_area: azure-monitor
+    function_type: sample
+    stars: 63
+  - name: AzureLinuxVulnerabilityData
+    org: microsoft
+    url: "https://github.com/microsoft/AzureLinuxVulnerabilityData"
+    description: Contains a regularly published and updated vulnerability database for Vulnerability Monitoring.
+    product_area: azure-monitor
+    function_type: other
+    stars: 43
+  - name: applicationinsights-angularplugin-js
+    org: microsoft
+    url: "https://github.com/microsoft/applicationinsights-angularplugin-js"
+    description: ""
+    product_area: azure-monitor
+    function_type: cli-tool
+    stars: 34
+  - name: fluentd-plugin-mdsd
+    org: Azure
+    url: "https://github.com/Azure/fluentd-plugin-mdsd"
+    description: Azure Linux monitoring agent (mdsd) output plugin for fluentd
+    product_area: azure-monitor
+    function_type: cli-tool
+    stars: 28
+  - name: evee
+    org: microsoft
+    url: "https://github.com/microsoft/evee"
+    description: "simplifies model evaluation, just give it ground truth data, any model you wish to test, and the metrics you care about, evee will infer and evaluate your models multithreaded locally or remotely on compute cluster and provide dashboard to compare and find best model with best hyper parameters."
+    product_area: azure-monitor
+    function_type: other
+    stars: 28
+  - name: azure-monitor-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-monitor-docs"
+    description: Open source documentation repository for Azure monitor-related services. All content in this repository is published to learn.microsoft.com.
+    product_area: azure-monitor
+    function_type: documentation
+    stars: 22
+  - name: PSRule.Monitor
+    org: microsoft
+    url: "https://github.com/microsoft/PSRule.Monitor"
+    description: Log PSRule analysis results to Azure Monitor.
+    product_area: azure-monitor
+    function_type: other
+    stars: 15
+  - name: ApplicationInsights-SAP-Fiori-Plugin
+    org: microsoft
+    url: "https://github.com/microsoft/ApplicationInsights-SAP-Fiori-Plugin"
+    description: SAP Fiori Launchpad Plugin to gain insights into Fiori metrics with Azure Application Insights
+    product_area: azure-monitor
+    function_type: cli-tool
+    stars: 12
+  - name: azure-managed-grafana
+    org: Azure
+    url: "https://github.com/Azure/azure-managed-grafana"
+    description: "Azure Managed Grafana samples, tips and references."
+    product_area: azure-monitor
+    function_type: sample
+    stars: 10
+  - name: blue-bridge
+    org: Azure
+    url: "https://github.com/Azure/blue-bridge"
+    description: "Sample prompts and recipes for using Model Context Protocol (MCP) server to query and manage Azure resources — scenarios include Azure Managed Grafana, Azure Data Explorer (Kusto), Azure Resource Graph, Azure Resource Manager and more."
+    product_area: azure-monitor
+    function_type: sample
+    stars: 10
+  - name: go-otel-audit
+    org: microsoft
+    url: "https://github.com/microsoft/go-otel-audit"
+    description: Client for sending audit events
+    product_area: azure-monitor
+    function_type: other
+    stars: 10
+  - name: ApplicationInsights-node.js-native-metrics
+    org: microsoft
+    url: "https://github.com/microsoft/ApplicationInsights-node.js-native-metrics"
+    description: Native Metrics Agent for the Application Insights Node.js SDK
+    product_area: azure-monitor
+    function_type: sdk
+    stars: 9
+  - name: azuremonitor-opentelemetry-profiler-net
+    org: Azure
+    url: "https://github.com/Azure/azuremonitor-opentelemetry-profiler-net"
+    description: Azure Monitor OpenTelemetry Profiler for .NET
+    product_area: azure-monitor
+    function_type: other
+    stars: 6
+  - name: vscode-diagnostic-tools
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-diagnostic-tools"
+    description: A collection of tools designed to aid in diagnosing issues in VS Code
+    product_area: azure-monitor
+    function_type: other
+    stars: 6
+  - name: AzureLocal-LENS-Workbook
+    org: Azure
+    url: "https://github.com/Azure/AzureLocal-LENS-Workbook"
+    description: "Azure Local LENS (Lifecycle, Events & Notification Status) Dashboard | Azure Workbook"
+    product_area: azure-monitor
+    function_type: other
+    stars: 5
+  - name: cyclecloud-monitoring
+    org: Azure
+    url: "https://github.com/Azure/cyclecloud-monitoring"
+    description: Cluster-init project and related tools for adding managed monitoring to a CycleCloud cluster.
+    product_area: azure-monitor
+    function_type: other
+    stars: 3
+  - name: otel-lib
+    org: Azure
+    url: "https://github.com/Azure/otel-lib"
+    description: ""
+    product_area: azure-monitor
+    function_type: other
+    stars: 2
+  - name: azure-docs-rest-apis
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-docs-rest-apis"
+    description: "Repository for documentation on the Azure REST APIs. If you want to add reference content to this repo, see https://aka.ms/publish-on-docs/reference.   For conceptual updates, PRs in this repo are monitored by the PRReview team. See https://aka.ms/docs-pr-review for details"
+    product_area: azure-monitor
+    function_type: documentation
+    stars: 2
+  - name: azure-monitor-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-monitor-docs-pr"
+    description: Internal documentation repository for Azure monitor-related services. All content in this repository is published to learn.microsoft.com.
+    product_area: azure-monitor
+    function_type: documentation
+    stars: 2
+  - name: cluster-health-monitor
+    org: Azure
+    url: "https://github.com/Azure/cluster-health-monitor"
+    description: ""
+    product_area: azure-monitor
+    function_type: other
+    stars: 0
+  - name: ahm-signal-manifest
+    org: Azure
+    url: "https://github.com/Azure/ahm-signal-manifest"
+    description: "Azure Monitor health models signal manifest. Contains recommended signals and suggested thresholds.  "
+    product_area: azure-monitor
+    function_type: other
+    stars: 0
+  - name: online-experimentation-deploy-metrics
+    org: Azure
+    url: "https://github.com/Azure/online-experimentation-deploy-metrics"
+    description: Github action to deploy metrics to Azure Online Experimentation workspace
+    product_area: azure-monitor
+    function_type: iac
+    stars: 0
+  - name: AzureMonitorHealthModels-migration-utility
+    org: Azure
+    url: "https://github.com/Azure/AzureMonitorHealthModels-migration-utility"
+    description: Migration utility to port health models from the private preview version to the public preview version of Azure Monitor Health Models
+    product_area: azure-monitor
+    function_type: cli-tool
+    stars: 0
+  - name: volumetric-sdk-staging
+    org: microsoft
+    url: "https://github.com/microsoft/volumetric-sdk-staging"
+    description: ""
+    product_area: azure-monitor
+    function_type: sdk
+    stars: 0
+  - name: volumetric-sdk-docs-staging
+    org: microsoft
+    url: "https://github.com/microsoft/volumetric-sdk-docs-staging"
+    description: ""
+    product_area: azure-monitor
+    function_type: documentation
+    stars: 0

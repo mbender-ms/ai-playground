@@ -1,0 +1,475 @@
+<!DOCTYPE html>
+<!--
+  SPRINT ONE-PAGER TEMPLATE
+
+  Every {{token}} below is substituted at generation time. Tokens written as
+  {{config.*}} come straight from config.json and should never be hardcoded here —
+  a teammate edits config.json only.
+
+    {{config.onePager.preparedFor}}   onePager.preparedFor
+    {{config.owner.name}}             owner.name
+    {{config.ado.org}}                ado.org (host segment shown in the masthead)
+    {{config.ado.project}}            ado.project
+
+  Everything else ({{sprintTitle}}, {{date}}, table rows, prose) is generated per run.
+  Replace the sample content inside <div class="sheet"> and keep the theme block,
+  print styles, and component classes.
+
+  Reusable classes:
+    .rank / .rank.muted   priority badges (muted = deferred)
+    .callout              the one-sentence sprint framing
+    .tag / .warn/.danger/.ok   status pills
+    tr.total              emphasized summary row
+    .risks                auto-numbered risk list
+    .net                  closing summary box
+
+  Print → Save as PDF produces a clean handout; the controls are hidden in print.
+-->
+<html lang="en" data-theme="light">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>August FY27 Q1 sprint — one-pager</title>
+<script>
+  (() => {
+    const param = new URLSearchParams(window.location.search).get("clawpilotTheme");
+    const theme =
+      param || (window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light");
+    document.documentElement.setAttribute("data-theme", theme);
+  })();
+</script>
+<style>
+:root {
+  color-scheme: light;
+  --cp-bg: #f7f4ef;
+  --cp-bg-elevated: #fcfbf8;
+  --cp-surface: #ffffff;
+  --cp-surface-soft: #f5f5f5;
+  --cp-border: #dedede;
+  --cp-border-strong: #919191;
+  --cp-text: #242424;
+  --cp-text-muted: #5c5c5c;
+  --cp-text-soft: #6f6f6f;
+  --cp-accent: #b11f4b;
+  --cp-accent-hover: #9a1a41;
+  --cp-accent-soft: rgba(177, 31, 75, 0.08);
+  --cp-accent-fg: #ffffff;
+  --cp-success: #16a34a;
+  --cp-danger: #dc2626;
+  --cp-warning: #f59e0b;
+  --cp-link: #0078d4;
+  --cp-shadow: 0 18px 48px rgba(0, 0, 0, 0.12);
+  --cp-overlay: rgba(255, 255, 255, 0.8);
+  --cp-panel: rgba(255, 255, 255, 0.86);
+  --cp-panel-strong: rgba(255, 255, 255, 0.96);
+  --cp-sheen: rgba(255, 255, 255, 0.55);
+  --cp-highlight: rgba(177, 31, 75, 0.12);
+}
+html[data-theme="dark"] {
+  color-scheme: dark;
+  --cp-bg: #3d3b3a;
+  --cp-bg-elevated: #343231;
+  --cp-surface: #292929;
+  --cp-surface-soft: #2e2e2e;
+  --cp-border: #474747;
+  --cp-border-strong: #5f5f5f;
+  --cp-text: #dedede;
+  --cp-text-muted: #919191;
+  --cp-text-soft: #b0b0b0;
+  --cp-accent: #fd8ea1;
+  --cp-accent-hover: #fb7b91;
+  --cp-accent-soft: rgba(253, 142, 161, 0.14);
+  --cp-accent-fg: #1a1a1a;
+  --cp-success: #4ade80;
+  --cp-danger: #f87171;
+  --cp-warning: #fbbf24;
+  --cp-link: #4da6ff;
+  --cp-shadow: 0 18px 48px rgba(0, 0, 0, 0.32);
+  --cp-overlay: rgba(41, 41, 41, 0.88);
+  --cp-panel: rgba(41, 41, 41, 0.72);
+  --cp-panel-strong: rgba(41, 41, 41, 0.96);
+  --cp-sheen: rgba(255, 255, 255, 0.04);
+  --cp-highlight: rgba(253, 142, 161, 0.12);
+}
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 32px 16px 64px;
+  background: var(--cp-bg);
+  color: var(--cp-text);
+  font-family: "Segoe UI", Aptos, Calibri, -apple-system, BlinkMacSystemFont, sans-serif;
+  font-size: 15px;
+  line-height: 1.55;
+}
+
+.sheet {
+  max-width: 1040px;
+  margin: 0 auto;
+  background: var(--cp-surface);
+  border: 1px solid var(--cp-border);
+  border-radius: 16px;
+  box-shadow: 0 0 2px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.14);
+  padding: 40px 44px 44px;
+}
+
+header.masthead {
+  border-bottom: 3px solid var(--cp-accent);
+  padding-bottom: 20px;
+  margin-bottom: 28px;
+}
+
+h1 {
+  margin: 0 0 4px;
+  font-size: 30px;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+}
+
+.eyebrow {
+  text-transform: uppercase;
+  letter-spacing: 0.09em;
+  font-size: 11px;
+  font-weight: 600;
+  color: var(--cp-accent);
+  margin: 0 0 10px;
+}
+
+.meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px 28px;
+  margin-top: 16px;
+  font-size: 13px;
+  color: var(--cp-text-muted);
+}
+.meta div { min-width: 0; }
+.meta .label {
+  display: block;
+  font-size: 10.5px;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  color: var(--cp-text-soft);
+  margin-bottom: 1px;
+}
+.meta .value { color: var(--cp-text); font-weight: 600; }
+
+h2 {
+  font-size: 19px;
+  font-weight: 600;
+  margin: 34px 0 12px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid var(--cp-border);
+}
+
+p { margin: 0 0 12px; }
+
+a { color: var(--cp-link); text-decoration: none; }
+a:hover { text-decoration: underline; }
+
+code, .mono {
+  font-family: Consolas, "Courier New", Courier, monospace;
+  font-size: 0.88em;
+  background: var(--cp-surface-soft);
+  border: 1px solid var(--cp-border);
+  border-radius: 4px;
+  padding: 1px 5px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0 0 14px;
+  font-size: 14px;
+}
+th {
+  text-align: left;
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--cp-text-soft);
+  border-bottom: 1px solid var(--cp-border-strong);
+  padding: 8px 12px 8px 0;
+  vertical-align: bottom;
+}
+td {
+  padding: 10px 12px 10px 0;
+  border-bottom: 1px solid var(--cp-border);
+  vertical-align: top;
+}
+tbody tr:last-child td { border-bottom: none; }
+td:last-child, th:last-child { padding-right: 0; }
+.num { text-align: right; white-space: nowrap; padding-right: 18px; }
+th.num { padding-right: 18px; }
+tr.total td {
+  border-top: 2px solid var(--cp-border-strong);
+  border-bottom: none;
+  font-weight: 600;
+  background: var(--cp-accent-soft);
+}
+
+.rank {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 24px;
+  height: 24px;
+  border-radius: 0.625rem;
+  background: var(--cp-accent);
+  color: var(--cp-accent-fg);
+  font-size: 12px;
+  font-weight: 700;
+}
+.rank.muted { background: var(--cp-surface-soft); color: var(--cp-text-soft); border: 1px solid var(--cp-border); }
+
+.callout {
+  border-left: 3px solid var(--cp-accent);
+  background: var(--cp-accent-soft);
+  border-radius: 0 0.625rem 0.625rem 0;
+  padding: 14px 18px;
+  margin: 0 0 16px;
+}
+.callout p:last-child { margin-bottom: 0; }
+
+.tag {
+  display: inline-block;
+  font-size: 10.5px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  border-radius: 0.625rem;
+  padding: 2px 8px;
+  border: 1px solid var(--cp-border);
+  color: var(--cp-text-muted);
+  background: var(--cp-surface-soft);
+  white-space: nowrap;
+}
+.tag.warn { color: var(--cp-warning); border-color: var(--cp-warning); background: transparent; }
+.tag.danger { color: var(--cp-danger); border-color: var(--cp-danger); background: transparent; }
+.tag.ok { color: var(--cp-success); border-color: var(--cp-success); background: transparent; }
+
+.risks { list-style: none; counter-reset: risk; margin: 0; padding: 0; }
+.risks li {
+  counter-increment: risk;
+  position: relative;
+  padding: 0 0 0 38px;
+  margin-bottom: 14px;
+}
+.risks li::before {
+  content: counter(risk);
+  position: absolute;
+  left: 0;
+  top: 1px;
+  width: 24px;
+  height: 24px;
+  border-radius: 0.625rem;
+  background: var(--cp-surface-soft);
+  border: 1px solid var(--cp-border-strong);
+  color: var(--cp-text-muted);
+  font-size: 12px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.net {
+  margin-top: 32px;
+  padding: 18px 22px;
+  border: 1px solid var(--cp-border-strong);
+  border-radius: 16px;
+  background: var(--cp-bg-elevated);
+}
+.net strong:first-child { color: var(--cp-accent); }
+
+.controls {
+  max-width: 1040px;
+  margin: 0 auto 16px;
+  display: flex;
+  gap: 8px;
+  justify-content: flex-end;
+}
+.controls button {
+  font-family: inherit;
+  font-size: 12.5px;
+  font-weight: 600;
+  color: var(--cp-text-muted);
+  background: var(--cp-surface);
+  border: 1px solid var(--cp-border);
+  border-radius: 0.625rem;
+  padding: 6px 14px;
+  cursor: pointer;
+}
+.controls button:hover { color: var(--cp-accent); border-color: var(--cp-accent); }
+
+@media print {
+  body { background: #fff; padding: 0; font-size: 11.5pt; }
+  .sheet { border: none; box-shadow: none; max-width: none; padding: 0; border-radius: 0; }
+  .controls { display: none; }
+  h2 { page-break-after: avoid; }
+  table, .callout, .net { page-break-inside: avoid; }
+}
+</style>
+</head>
+<body>
+
+<div class="controls">
+  <button id="themeBtn" type="button">Toggle theme</button>
+  <button onclick="window.print()" type="button">Print / PDF</button>
+</div>
+
+<div class="sheet">
+
+  <header class="masthead">
+    <p class="eyebrow">Sprint one-pager</p>
+    <h1>{{sprintTitle}}</h1>
+    <div class="meta">
+      <div><span class="label">Prepared for</span><span class="value">{{config.onePager.preparedFor}}</span></div>
+      <div><span class="label">From</span><span class="value">{{config.owner.name}}</span></div>
+      <div><span class="label">Date</span><span class="value">{{date}}</span></div>
+      <div><span class="label">Sprint</span><span class="value mono">{{iterationPath}}</span></div>
+      <div><span class="label">Board</span><span class="value mono">{{config.ado.org}}/{{config.ado.project}}</span></div>
+      <div><span class="label">Reference velocity</span><span class="value">{{velocityPoints}} pts ({{velocityBasis}})</span></div>
+    </div>
+  </header>
+
+  <h2>Priorities, in order</h2>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:34px">#</th>
+        <th>Workstream</th>
+        <th class="num" style="width:80px">{{sprintName}} pts</th>
+        <th>What it is</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><span class="rank">1</span></td>
+        <td><strong>{{priority1.name}}</strong></td>
+        <td class="num">{{priority1.points}}</td>
+        <td>{{priority1.description}}</td>
+      </tr>
+      <tr>
+        <td><span class="rank">2</span></td>
+        <td><strong>{{priority2.name}}</strong></td>
+        <td class="num">{{priority2.points}}</td>
+        <td>{{priority2.description}}</td>
+      </tr>
+      <tr>
+        <td><span class="rank">3</span></td>
+        <td><strong>{{priority3.name}}</strong> <span class="tag">new priority</span></td>
+        <td class="num">{{priority3.points}}</td>
+        <td>{{priority3.description}}</td>
+      </tr>
+      <tr>
+        <td><span class="rank muted">4</span></td>
+        <td>{{priority4.name}}</td>
+        <td class="num">0</td>
+        <td>Deferred to {{nextSprintName}} to protect the above</td>
+      </tr>
+    </tbody>
+  </table>
+  <p>{{workstreamsOutsideThePriorityList}}</p>
+
+  <h2>{{sprintName}} at a glance</h2>
+  <div class="callout">
+    <p>{{sprintFramingSentence}}</p>
+  </div>
+  <table>
+    <thead>
+      <tr>
+        <th></th>
+        <th class="num" style="width:90px">Items</th>
+        <th class="num" style="width:90px">Points</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr><td>Board as of today</td><td class="num">{{board.items}}</td><td class="num">{{board.points}}</td></tr>
+      <tr><td>After planned deferrals and pull-forward</td><td class="num">{{planned.items}}</td><td class="num"><strong>{{planned.points}}</strong></td></tr>
+      <tr><td>Reserved for unplanned work</td><td class="num">&mdash;</td><td class="num">{{config.conventions.defaultCapacityReservePoints}}</td></tr>
+      <tr class="total"><td>Planned load vs. velocity</td><td class="num"></td><td class="num">{{planned.total}} of {{velocityPoints}}</td></tr>
+    </tbody>
+  </table>
+  <p>{{headroomExplanation}}</p>
+
+  <h2>{{datedCommitment.title}}</h2>
+  <p>{{datedCommitment.description}} Tracked as <a href="{{config.ado.org}}/{{config.ado.project}}/_workitems/edit/{{datedCommitment.workItemId}}"><strong>{{datedCommitment.workItemId}}</strong></a>.</p>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:110px">Sprint</th>
+        <th>Work</th>
+        <th style="width:290px">Gate</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>{{gate1.sprint}}</td>
+        <td>{{gate1.work}}</td>
+        <td>{{gate1.criteria}}</td>
+      </tr>
+      <tr>
+        <td>{{gate2.sprint}}</td>
+        <td>{{gate2.work}}</td>
+        <td>{{gate2.criteria}}</td>
+      </tr>
+      <tr>
+        <td><strong>{{gate3.sprint}}</strong></td>
+        <td>{{gate3.work}}</td>
+        <td><strong>{{gate3.criteria}}</strong> <span class="tag ok">commitment</span></td>
+      </tr>
+    </tbody>
+  </table>
+  <p>{{datedCommitment.outOfScopeNote}}</p>
+
+  <h2>New responsibilities</h2>
+  <table>
+    <thead>
+      <tr>
+        <th style="width:230px">Area</th>
+        <th style="width:170px">Status</th>
+        <th>Sprint impact</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td><strong>{{responsibility1.area}}</strong></td>
+        <td><span class="tag warn">{{responsibility1.status}}</span></td>
+        <td>{{responsibility1.impact}}</td>
+      </tr>
+      <tr>
+        <td><strong>{{responsibility2.area}}</strong></td>
+        <td><span class="tag">{{responsibility2.status}}</span></td>
+        <td>{{responsibility2.impact}}</td>
+      </tr>
+    </tbody>
+  </table>
+
+  <h2>Risks and asks</h2>
+  <ol class="risks">
+    <li><strong>{{risk1.headline}}</strong> {{risk1.detail}}</li>
+    <li><strong>{{risk2.headline}}</strong> {{risk2.detail}}</li>
+    <li><strong>{{risk3.headline}}</strong> {{risk3.detail}}</li>
+  </ol>
+
+  <h2>Deferred to {{nextSprintName}} (by decision, not by slippage)</h2>
+  <p>{{deferredItems}}</p>
+
+  <div class="net">
+    <p><strong>Net:</strong> {{closingSummary}}</p>
+  </div>
+
+</div>
+
+<script>
+  document.getElementById("themeBtn").addEventListener("click", () => {
+    const root = document.documentElement;
+    root.setAttribute("data-theme", root.getAttribute("data-theme") === "dark" ? "light" : "dark");
+  });
+</script>
+
+</body>
+</html>

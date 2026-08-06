@@ -1,0 +1,1053 @@
+# Azure Iac Repository Cross-Reference
+# Auto-generated on 2026-03-20
+# Cross-organization index of repos in the "azure-iac" product area
+
+category: azure-iac
+total_repos: 148
+generated: 2026-03-20
+
+sources:
+  - org: Azure
+    count: 139
+  - org: microsoft
+    count: 5
+  - org: MicrosoftDocs
+    count: 4
+
+repos:
+  - name: azure-quickstart-templates
+    org: Azure
+    url: "https://github.com/Azure/azure-quickstart-templates"
+    description: Azure Quickstart Templates
+    product_area: azure-iac
+    function_type: sample
+    stars: 14756
+  - name: aztfexport
+    org: Azure
+    url: "https://github.com/Azure/aztfexport"
+    description: "A tool to bring existing Azure resources under Terraform's management"
+    product_area: azure-iac
+    function_type: cli-tool
+    stars: 1876
+  - name: terraform-azurerm-caf-enterprise-scale
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-caf-enterprise-scale"
+    description: Azure landing zones Terraform module
+    product_area: azure-iac
+    function_type: iac
+    stars: 953
+  - name: ALZ-Bicep
+    org: Azure
+    url: "https://github.com/Azure/ALZ-Bicep"
+    description: "This repository contains the Azure Landing Zones (ALZ) Bicep (Classic) modules that help deliver and deploy the Azure Landing Zone conceptual architecture in a modular approach. https://aka.ms/alz/docs"
+    product_area: azure-iac
+    function_type: documentation
+    stars: 872
+  - name: bicep-registry-modules
+    org: Azure
+    url: "https://github.com/Azure/bicep-registry-modules"
+    description: Bicep registry modules
+    product_area: azure-iac
+    function_type: iac
+    stars: 704
+  - name: azure-resource-manager-schemas
+    org: Azure
+    url: "https://github.com/Azure/azure-resource-manager-schemas"
+    description: "Schemas used to author and validate Resource Manager Templates. These schemas power the intellisense and syntax completion in our ARM Tools VSCode extension, as well as the Export Template API"
+    product_area: azure-iac
+    function_type: cli-tool
+    stars: 623
+  - name: AzOps
+    org: Azure
+    url: "https://github.com/Azure/AzOps"
+    description: "AzOps is a PowerShell module which deploys (Push) ARM Resource Templates & Bicep files at all Azure scope levels and exports (Pull) ARM resource hierarchy."
+    product_area: azure-iac
+    function_type: template
+    stars: 419
+  - name: terraform-azurerm-naming
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-naming"
+    description: ""
+    product_area: azure-iac
+    function_type: iac
+    stars: 271
+  - name: terraform-provider-azapi
+    org: Azure
+    url: "https://github.com/Azure/terraform-provider-azapi"
+    description: Terraform provider for Azure Resource Manager Rest API
+    product_area: azure-iac
+    function_type: iac
+    stars: 233
+  - name: alz-terraform-accelerator
+    org: Azure
+    url: "https://github.com/Azure/alz-terraform-accelerator"
+    description: Azure Landing Zones Terraform Accelerator
+    product_area: azure-iac
+    function_type: template
+    stars: 176
+  - name: terraform-azurerm-avm-ptn-alz
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-alz"
+    description: Terraform Azure Verified Pattern Module for Azure Landing Zone
+    product_area: azure-iac
+    function_type: iac
+    stars: 122
+  - name: terraform-provider-fabric
+    org: microsoft
+    url: "https://github.com/microsoft/terraform-provider-fabric"
+    description: Terraform Provider for Microsoft Fabric
+    product_area: azure-iac
+    function_type: iac
+    stars: 109
+  - name: bicep-types-az
+    org: Azure
+    url: "https://github.com/Azure/bicep-types-az"
+    description: Bicep type definitions for ARM resources
+    product_area: azure-iac
+    function_type: iac
+    stars: 101
+  - name: arm-template-whatif
+    org: Azure
+    url: "https://github.com/Azure/arm-template-whatif"
+    description: A repository to track issues related to what-if noise suppression
+    product_area: azure-iac
+    function_type: template
+    stars: 98
+  - name: azure-roles
+    org: microsoft
+    url: "https://github.com/microsoft/azure-roles"
+    description: "Simplify using Azure roles in Azure Deployments using, Az Cli, Azure PowerShell, Bicep & other Azure Deployments mechanisms including SDK's and 3rd party offerings like Terraform Pulumi & more."
+    product_area: azure-iac
+    function_type: sdk
+    stars: 75
+  - name: terraform-azurerm-avm-template
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-template"
+    description: Template repo for Azure Verified Modules using Terraform
+    product_area: azure-iac
+    function_type: template
+    stars: 69
+  - name: bicep-deploy
+    org: Azure
+    url: "https://github.com/Azure/bicep-deploy"
+    description: Azure Deploy GitHub Action
+    product_area: azure-iac
+    function_type: iac
+    stars: 59
+  - name: aztfmigrate
+    org: Azure
+    url: "https://github.com/Azure/aztfmigrate"
+    description: A tool to migrate terraform resources between the AzAPI and AzureRM providers.
+    product_area: azure-iac
+    function_type: cli-tool
+    stars: 54
+  - name: terraform-provider-msgraph
+    org: microsoft
+    url: "https://github.com/microsoft/terraform-provider-msgraph"
+    description: ""
+    product_area: azure-iac
+    function_type: iac
+    stars: 54
+  - name: terraform-provider-power-platform
+    org: microsoft
+    url: "https://github.com/microsoft/terraform-provider-power-platform"
+    description: Power Platform Terraform Provider
+    product_area: azure-iac
+    function_type: iac
+    stars: 50
+  - name: fabric-terraform-quickstart
+    org: microsoft
+    url: "https://github.com/microsoft/fabric-terraform-quickstart"
+    description: Examples for using the Terraform Provider for Microsoft Fabric
+    product_area: azure-iac
+    function_type: sample
+    stars: 45
+  - name: terraform-provider-alz
+    org: Azure
+    url: "https://github.com/Azure/terraform-provider-alz"
+    description: Azure Landing Zones Terraform provider
+    product_area: azure-iac
+    function_type: iac
+    stars: 43
+  - name: PSRule.Rules.Azure-quickstart
+    org: Azure
+    url: "https://github.com/Azure/PSRule.Rules.Azure-quickstart"
+    description: Sample code you can use to quickly start using PSRule for Azure.
+    product_area: azure-iac
+    function_type: sample
+    stars: 39
+  - name: vscode-azureterraform
+    org: Azure
+    url: "https://github.com/Azure/vscode-azureterraform"
+    description: VS Code extension for developing with Terraform on Azure
+    product_area: azure-iac
+    function_type: cli-tool
+    stars: 38
+  - name: terraform-azurerm-avm-ptn-cicd-agents-and-runners
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-cicd-agents-and-runners"
+    description: Terraform Azure Verified Pattern Module for CI CD Agents and Runners
+    product_area: azure-iac
+    function_type: iac
+    stars: 38
+  - name: accelerator-bootstrap-modules
+    org: Azure
+    url: "https://github.com/Azure/accelerator-bootstrap-modules"
+    description: Terraform modules that support version control system bootstrapping for the ALZ Accelerators
+    product_area: azure-iac
+    function_type: template
+    stars: 32
+  - name: SAP-automation-samples
+    org: Azure
+    url: "https://github.com/Azure/SAP-automation-samples"
+    description: This repository will contain the sample SAP Application files and the Terraform configuration files
+    product_area: azure-iac
+    function_type: sample
+    stars: 22
+  - name: terraform-azurerm-avm-ptn-alz-management
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-alz-management"
+    description: Terraform Azure Verified Pattern Module for ALZ Management
+    product_area: azure-iac
+    function_type: iac
+    stars: 22
+  - name: bicep-extensibility
+    org: Azure
+    url: "https://github.com/Azure/bicep-extensibility"
+    description: The service-side implementation for Bicep extensibility
+    product_area: azure-iac
+    function_type: iac
+    stars: 18
+  - name: terraform-cdk-constructs
+    org: Azure
+    url: "https://github.com/Azure/terraform-cdk-constructs"
+    description: A collection of L2 Terraform Azure CDK constructs used for quickly building infrastructure.
+    product_area: azure-iac
+    function_type: iac
+    stars: 18
+  - name: terraform-azurerm-avm-res-authorization-roleassignment
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-authorization-roleassignment"
+    description: Terraform Azure Verified Resource Module for Role Assignment
+    product_area: azure-iac
+    function_type: iac
+    stars: 17
+  - name: terraform-azurerm-avm-res-web-serverfarm
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-web-serverfarm"
+    description: Terraform Azure Verified Resource Module for App Service Plan
+    product_area: azure-iac
+    function_type: iac
+    stars: 14
+  - name: terraform-azurerm-avm-res-desktopvirtualization-hostpool
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-hostpool"
+    description: Terraform Azure Verified Resource Module for Azure Virtual Desktop (AVD) Host Pool
+    product_area: azure-iac
+    function_type: iac
+    stars: 14
+  - name: terraform-azure-avm-ptn-alz-sub-vending
+    org: Azure
+    url: "https://github.com/Azure/terraform-azure-avm-ptn-alz-sub-vending"
+    description: Terraform Azure Verified Pattern Module for Subscription Vending
+    product_area: azure-iac
+    function_type: iac
+    stars: 14
+  - name: alz-bicep-accelerator
+    org: Azure
+    url: "https://github.com/Azure/alz-bicep-accelerator"
+    description: Azure Verified Modules for Platform Landing Zones - Bicep
+    product_area: azure-iac
+    function_type: template
+    stars: 14
+  - name: terraform-state-importer
+    org: Azure
+    url: "https://github.com/Azure/terraform-state-importer"
+    description: A tool to aid in an iterative approach to Terraform state import for Azure resources
+    product_area: azure-iac
+    function_type: cli-tool
+    stars: 14
+  - name: terraform-azurerm-avm-res-operationalinsights-workspace
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-operationalinsights-workspace"
+    description: Terraform Azure Verified Resource Module for Log Analytics workspace
+    product_area: azure-iac
+    function_type: iac
+    stars: 13
+  - name: terratest-terraform-fluent
+    org: Azure
+    url: "https://github.com/Azure/terratest-terraform-fluent"
+    description: Go module for Terraform module testing with fluent assertions
+    product_area: azure-iac
+    function_type: iac
+    stars: 13
+  - name: armstrong
+    org: Azure
+    url: "https://github.com/Azure/armstrong"
+    description: A Terraform based ARM REST API testing tool.
+    product_area: azure-iac
+    function_type: cli-tool
+    stars: 13
+  - name: bicep-types
+    org: Azure
+    url: "https://github.com/Azure/bicep-types"
+    description: Shared libraries for reading and writing Bicep type definitions
+    product_area: azure-iac
+    function_type: iac
+    stars: 11
+  - name: terraform-azurerm-avm-res-resources-resourcegroup
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-resources-resourcegroup"
+    description: Terraform Azure Verified Resource Module for Resource Group
+    product_area: azure-iac
+    function_type: iac
+    stars: 9
+  - name: homebrew-bicep
+    org: Azure
+    url: "https://github.com/Azure/homebrew-bicep"
+    description: Homebrew formula for bicep
+    product_area: azure-iac
+    function_type: iac
+    stars: 9
+  - name: terraform-azurerm-avm-res-app-managedenvironment
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-app-managedenvironment"
+    description: Terraform Azure Verified Resource Module for App Managed Environment
+    product_area: azure-iac
+    function_type: iac
+    stars: 8
+  - name: terraform-provider-modtm
+    org: Azure
+    url: "https://github.com/Azure/terraform-provider-modtm"
+    description: ""
+    product_area: azure-iac
+    function_type: iac
+    stars: 8
+  - name: terraform-azurerm-avm-ptn-avd-lza-managementplane
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-avd-lza-managementplane"
+    description: Terraform Azure Verified Pattern Module for AVD Management Plane
+    product_area: azure-iac
+    function_type: iac
+    stars: 7
+  - name: terraform-module-test-helper
+    org: Azure
+    url: "https://github.com/Azure/terraform-module-test-helper"
+    description: ""
+    product_area: azure-iac
+    function_type: cli-tool
+    stars: 7
+  - name: terraform-azurerm-avm-res-recoveryservices-vault
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-recoveryservices-vault"
+    description: Terraform Azure Verified Resource Module for Recovery Services Vault
+    product_area: azure-iac
+    function_type: iac
+    stars: 6
+  - name: terraform-azurerm-avm-res-insights-component
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-insights-component"
+    description: Terraform Azure Verified Resource Module for Application Insight
+    product_area: azure-iac
+    function_type: iac
+    stars: 6
+  - name: terraform-azurerm-avm-res-desktopvirtualization-workspace
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-workspace"
+    description: Terraform Azure Verified Resource Module for Azure Virtual Desktop (AVD) Workspace
+    product_area: azure-iac
+    function_type: iac
+    stars: 6
+  - name: terraform-azurerm-avm-res-desktopvirtualization-scalingplan
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-scalingplan"
+    description: Terraform Azure Verified Resource Module for Azure Virtual Desktop (AVD) Scaling Plan
+    product_area: azure-iac
+    function_type: iac
+    stars: 6
+  - name: terraform-azurerm-avm-ptn-monitoring-amba-alz
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-monitoring-amba-alz"
+    description: Terraform Azure Verified Pattern Module for AMBA ALZ Pattern
+    product_area: azure-iac
+    function_type: iac
+    stars: 5
+  - name: terraform-azurerm-avm-utl-regions
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-utl-regions"
+    description: Terraform Azure Verified Utility Module for Azure Regions Data
+    product_area: azure-iac
+    function_type: cli-tool
+    stars: 5
+  - name: terraform-azurerm-avm-res-desktopvirtualization-applicationgroup
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-desktopvirtualization-applicationgroup"
+    description: Terraform Azure Verified Resource Module for Azure Virtual Desktop (AVD) Application Group
+    product_area: azure-iac
+    function_type: iac
+    stars: 5
+  - name: terraform-azurerm-avm-res-web-staticsite
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-web-staticsite"
+    description: Terraform Azure Verified Resource Module for Static Web App
+    product_area: azure-iac
+    function_type: iac
+    stars: 4
+  - name: terraform-azurerm-avm-res-avs-privatecloud
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-avs-privatecloud"
+    description: Terraform Azure Verified Resource Module for AVS Private Cloud
+    product_area: azure-iac
+    function_type: iac
+    stars: 4
+  - name: terraform-azurerm-avm-ptn-avd-lza-insights
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-avd-lza-insights"
+    description: Terraform Azure Verified Pattern Module for AVD Insights
+    product_area: azure-iac
+    function_type: iac
+    stars: 4
+  - name: ms-terraform-lsp
+    org: Azure
+    url: "https://github.com/Azure/ms-terraform-lsp"
+    description: lsp for azurerm terraform provider ide extension
+    product_area: azure-iac
+    function_type: cli-tool
+    stars: 3
+  - name: terraform-azurerm-avm-res-web-hostingenvironment
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-web-hostingenvironment"
+    description: Terraform Azure Verified Resource Module for App Service Environment
+    product_area: azure-iac
+    function_type: iac
+    stars: 3
+  - name: terraform-azurerm-avm-res-dataprotection-backupvault
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-dataprotection-backupvault"
+    description: Terraform Azure Verified Resource Module for Data Protection Backup Vault
+    product_area: azure-iac
+    function_type: iac
+    stars: 3
+  - name: avm-terraform-governance
+    org: Azure
+    url: "https://github.com/Azure/avm-terraform-governance"
+    description: Centralized governance repository for Azure Verified Modules Terraform
+    product_area: azure-iac
+    function_type: iac
+    stars: 3
+  - name: terraform-azurerm-avm-res-cdn-profile
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-cdn-profile"
+    description: Terraform Azure Verified Resource Module for CDN Profile
+    product_area: azure-iac
+    function_type: iac
+    stars: 3
+  - name: terraform-azure-avm-utl-interfaces
+    org: Azure
+    url: "https://github.com/Azure/terraform-azure-avm-utl-interfaces"
+    description: Terraform Azure Verified Utility Module for AVM Interfaces
+    product_area: azure-iac
+    function_type: cli-tool
+    stars: 3
+  - name: terraform-azurerm-avm-res-redhatopenshift-openshiftcluster
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-redhatopenshift-openshiftcluster"
+    description: Terraform Azure Verified Resource Module for OpenShift Cluster
+    product_area: azure-iac
+    function_type: iac
+    stars: 3
+  - name: terraform-azurerm-avm-res-netapp-netappaccount
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-netapp-netappaccount"
+    description: Terraform Azure Verified Resource Module for Azure NetApp File
+    product_area: azure-iac
+    function_type: iac
+    stars: 3
+  - name: terraform-azurerm-avm-res-logic-workflow
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-logic-workflow"
+    description: Terraform Azure Verified Resource Module for Logic Apps (Workflow)
+    product_area: azure-iac
+    function_type: iac
+    stars: 3
+  - name: terraform-azurerm-avm-res-apimanagement-service
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-apimanagement-service"
+    description: Terraform Azure Verified Resource Module for API Management Service
+    product_area: azure-iac
+    function_type: iac
+    stars: 3
+  - name: terraform-azurerm-avm-ptn-policyassignment
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-policyassignment"
+    description: Terraform Azure Verified Pattern Module for Policy assignment
+    product_area: azure-iac
+    function_type: iac
+    stars: 3
+  - name: terraform-azurerm-avm-ptn-alz-connectivity-virtual-wan
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-alz-connectivity-virtual-wan"
+    description: Terraform Azure Verified Pattern Module for ALZ Connectivity vWAN
+    product_area: azure-iac
+    function_type: iac
+    stars: 3
+  - name: TerraformModuleTelemetryService
+    org: Azure
+    url: "https://github.com/Azure/TerraformModuleTelemetryService"
+    description: ""
+    product_area: azure-iac
+    function_type: iac
+    stars: 3
+  - name: terraform-azapi-avm-utl-sku-finder
+    org: Azure
+    url: "https://github.com/Azure/terraform-azapi-avm-utl-sku-finder"
+    description: "Terraform Azure Verified Utility Module for AVM SKU Finder "
+    product_area: azure-iac
+    function_type: cli-tool
+    stars: 2
+  - name: terraform-azurerm-avm-res-servicebus-namespace
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-servicebus-namespace"
+    description: Terraform Azure Verified Resource Module for Service Bus Namespace
+    product_area: azure-iac
+    function_type: iac
+    stars: 2
+  - name: terraform-azurerm-avm-ptn-cicd-bootstrap
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-cicd-bootstrap"
+    description: Terraform Azure Verified Pattern Module for CI CD bootstrap
+    product_area: azure-iac
+    function_type: iac
+    stars: 2
+  - name: terraform-azurerm-avm-ptn-azure-ipam
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-azure-ipam"
+    description: Terraform Azure Verified Pattern Module for IPAM
+    product_area: azure-iac
+    function_type: iac
+    stars: 2
+  - name: terraform-azurerm-avm-ptn-avd-lza-sessionhosts
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-avd-lza-sessionhosts"
+    description: Terraform Azure Verified Pattern Module for AVD Session Host
+    product_area: azure-iac
+    function_type: iac
+    stars: 2
+  - name: azure-terraform-mcp-server
+    org: Azure
+    url: "https://github.com/Azure/azure-terraform-mcp-server"
+    description: ""
+    product_area: azure-iac
+    function_type: iac
+    stars: 1
+  - name: AzPolicyFactory
+    org: Azure
+    url: "https://github.com/Azure/AzPolicyFactory"
+    description: AzPolicyFactory is a Infrastructure as Code solution for deploying Azure Policy resources using Azure Bicep
+    product_area: azure-iac
+    function_type: iac
+    stars: 1
+  - name: terraform-azurerm-avm-res-certificateregistration-certificateorder
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-certificateregistration-certificateorder"
+    description: Terraform Azure Verified Resource Module for Certificate Order
+    product_area: azure-iac
+    function_type: iac
+    stars: 1
+  - name: terraform-azure-avm-utl-roledefinitions
+    org: Azure
+    url: "https://github.com/Azure/terraform-azure-avm-utl-roledefinitions"
+    description: Terraform Azure Verified Utility Module for AVM Utility module for role definitions
+    product_area: azure-iac
+    function_type: cli-tool
+    stars: 1
+  - name: terraform-azurerm-avm-res-search-searchservice
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-search-searchservice"
+    description: Terraform Azure Verified Resource Module for Search Service
+    product_area: azure-iac
+    function_type: iac
+    stars: 1
+  - name: terraform-azurerm-avm-res-oracledatabase-cloudexadatainfrastructure
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-oracledatabase-cloudexadatainfrastructure"
+    description: Terraform Azure Verified Resource Module for Oracle Exadata Infrastructure
+    product_area: azure-iac
+    function_type: iac
+    stars: 1
+  - name: terraform-azurerm-avm-res-oracledatabase-autonomous
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-oracledatabase-autonomous"
+    description: Terraform Azure Verified Resource Module for Oracle Database Autonomous
+    product_area: azure-iac
+    function_type: iac
+    stars: 1
+  - name: terraform-azurerm-avm-res-maintenance-maintenanceconfiguration
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-maintenance-maintenanceconfiguration"
+    description: Terraform Azure Verified Resource Module for Maintenance Configuration
+    product_area: azure-iac
+    function_type: iac
+    stars: 1
+  - name: terraform-azurerm-avm-res-devtestlab-lab
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-devtestlab-lab"
+    description: Terraform Azure Verified Resource Module for Digital Twins Instance
+    product_area: azure-iac
+    function_type: sample
+    stars: 1
+  - name: terraform-azurerm-avm-res-dashboard-grafana
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-dashboard-grafana"
+    description: Terraform Azure Verified Resource Module for Azure Managed Grafana
+    product_area: azure-iac
+    function_type: iac
+    stars: 1
+  - name: terraform-azurerm-avm-res-communication-emailservice
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-communication-emailservice"
+    description: Terraform Azure Verified Resource Module for Email Communication Service
+    product_area: azure-iac
+    function_type: iac
+    stars: 1
+  - name: terraform-azurerm-avm-res-azurestackhci-cluster
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-azurestackhci-cluster"
+    description: Terraform Azure Verified Resource Module for Azure Stack HCI Cluster
+    product_area: azure-iac
+    function_type: iac
+    stars: 1
+  - name: terraform-azurerm-avm-res-automation-automationaccount
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-automation-automationaccount"
+    description: Terraform Azure Verified Resource Module for Automation Account
+    product_area: azure-iac
+    function_type: iac
+    stars: 1
+  - name: terraform-azurerm-avm-res-app-job
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-app-job"
+    description: Terraform Azure Verified Resource Module for App Job
+    product_area: azure-iac
+    function_type: iac
+    stars: 1
+  - name: terraform-azurerm-avm-ptn-azuremonitorwindowsagent
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-azuremonitorwindowsagent"
+    description: Terraform Azure Verified Pattern Module for Azure Monitor Windows Agent
+    product_area: azure-iac
+    function_type: iac
+    stars: 1
+  - name: azure-resource-manager-schema-reference-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-resource-manager-schema-reference-pr"
+    description: Used for housing the ARM template schema reference content
+    product_area: azure-iac
+    function_type: documentation
+    stars: 1
+  - name: terraform-azurerm-avm-res-compute-disk
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-compute-disk"
+    description: Terraform Azure Verified Resource Module for Compute Disk
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-ptn-dev-center-dev-box
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-dev-center-dev-box"
+    description: Terraform Azure Verified Pattern Module for Microsoft Dev Center Dev Box
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azure-avm-utl-resources-resourcegroup-azapi-replicator
+    org: Azure
+    url: "https://github.com/Azure/terraform-azure-avm-utl-resources-resourcegroup-azapi-replicator"
+    description: Terraform Azure Verified Utility Module for utl module that helps users to migrate azurerm_resource_group into azapi_resource
+    product_area: azure-iac
+    function_type: cli-tool
+    stars: 0
+  - name: terraform-azure-avm-utl-privatedns-privatednszone-azapi-replicator
+    org: Azure
+    url: "https://github.com/Azure/terraform-azure-avm-utl-privatedns-privatednszone-azapi-replicator"
+    description: Terraform Azure Verified Utility Module for avm-utl-privatedns-privatednszone-azapi-replicator
+    product_area: azure-iac
+    function_type: cli-tool
+    stars: 0
+  - name: terraform-azurerm-avm-utl-naming
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-utl-naming"
+    description: Terraform Azure Verified Utility Module for AVM Naming
+    product_area: azure-iac
+    function_type: cli-tool
+    stars: 0
+  - name: terraform-azurerm-avm-res-web-connection
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-web-connection"
+    description: Terraform Azure Verified Resource Module for API Connection
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-relay-namespace
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-relay-namespace"
+    description: Terraform Azure Verified Resource Module for Relay Namespace
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-resourcegraph-query
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-resourcegraph-query"
+    description: Terraform Azure Verified Resource Module for Resource Graph Query
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-portal-dashboard
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-portal-dashboard"
+    description: Terraform Azure Verified Resource Module for Azure Portal Dashboard
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-management-servicegroup
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-management-servicegroup"
+    description: Terraform Azure Verified Resource Module for Service Group
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-management-managementgroup
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-management-managementgroup"
+    description: Terraform Azure Verified Resource Module for Management Groups
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-managedservices-registrationdefinition
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-managedservices-registrationdefinition"
+    description: Terraform Azure Verified Resource Module for Managed Services Registration Definition
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-loadtestservice-loadtest
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-loadtestservice-loadtest"
+    description: Terraform Azure Verified Resource Module for Load Testing Service
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-iotoperations-instance
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-iotoperations-instance"
+    description: Terraform Azure Verified Resource Module for IOT Operations Instance
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-insights-scheduledqueryrule
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-insights-scheduledqueryrule"
+    description: Terraform Azure Verified Resource Module for Scheduled Query Rule
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-insights-metricalert
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-insights-metricalert"
+    description: Terraform Azure Verified Resource Module for Insights Metric Alert
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-insights-logprofile
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-insights-logprofile"
+    description: Terraform Azure Verified Resource Module for Log profile
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-insights-datacollectionrule
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-insights-datacollectionrule"
+    description: Terraform Azure Verified Resource Module for Data Collection Rule
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-insights-datacollectionendpoint
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-insights-datacollectionendpoint"
+    description: Terraform Azure Verified Resource Module for Data Collection Endpoint
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-insights-activitylogalert
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-insights-activitylogalert"
+    description: Terraform Azure Verified Resource Module for Activity Log Alerts
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-insights-actiongroup
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-insights-actiongroup"
+    description: Terraform Azure Verified Resource Module for Insights Action Group
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-hybridcompute-machine
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-hybridcompute-machine"
+    description: Terraform Azure Verified Resource Module for Hybrid Compute Machine
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-healthbot-healthbot
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-healthbot-healthbot"
+    description: Terraform Azure Verified Resource Module for Health Bot
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-features-feature
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-features-feature"
+    description: Terraform Azure Verified Resource Module for Subcription Feature
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-eventgrid-topic
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-eventgrid-topic"
+    description: Terraform Azure Verified Resource Module for EventGrid Topic
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azure-avm-res-fabric-capacity
+    org: Azure
+    url: "https://github.com/Azure/terraform-azure-avm-res-fabric-capacity"
+    description: Terraform Azure Verified Resource Module for Fabric Capacity
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-eventgrid-systemtopic
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-eventgrid-systemtopic"
+    description: Terraform Azure Verified Resource Module for EventGrid System Topic
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-eventgrid-namespace
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-eventgrid-namespace"
+    description: Terraform Azure Verified Resource Module for EventGrid Namespace
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-eventgrid-domain
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-eventgrid-domain"
+    description: Terraform Azure Verified Resource Module for EventGrid Domain
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-edge-site
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-edge-site"
+    description: Terraform Azure Verified Resource Module for Azure Arc Site manager
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-digitaltwins-digitaltwinsinstance
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-digitaltwins-digitaltwinsinstance"
+    description: Terraform Azure Verified Resource Module for Digital Twins Instance
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azure-avm-res-deviceregistry-assetendpointprofiles
+    org: Azure
+    url: "https://github.com/Azure/terraform-azure-avm-res-deviceregistry-assetendpointprofiles"
+    description: Terraform Azure Verified Resource Module for avm-res-deviceregistry-assetendpointprofiles
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-deviceregistry-assetendpointprofile
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-deviceregistry-assetendpointprofile"
+    description: Terraform Azure Verified Resource Module for Device Registry Asset Endpoint Profile
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-devcenter-devcenter
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-devcenter-devcenter"
+    description: Terraform Azure Verified Resource Module for Dev Center
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-dataprotection-resourceguard
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-dataprotection-resourceguard"
+    description: Terraform Azure Verified Resource Module for Data Protection Resource Guard
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-consumption-budget
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-consumption-budget"
+    description: Terraform Azure Verified Resource Module for Consumption Budget
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-compute-sshpublickey
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-compute-sshpublickey"
+    description: Terraform Azure Verified Resource Module for Public SSH Key
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-compute-proximityplacementgroup
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-compute-proximityplacementgroup"
+    description: Terraform Azure Verified Resource Module for Proximity Placement Group
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-compute-image
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-compute-image"
+    description: Terraform Azure Verified Resource Module for Image
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-compute-hostgroup
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-compute-hostgroup"
+    description: Terraform Azure Verified Resource Module for Host Groups
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-compute-gallery
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-compute-gallery"
+    description: Terraform Azure Verified Resource Module for Azure Compute Gallery
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-compute-diskencryptionset
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-compute-diskencryptionset"
+    description: Terraform Azure Verified Resource Module for Disk Encryption Set
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azure-avm-res-appconfiguration-configurationstore
+    org: Azure
+    url: "https://github.com/Azure/terraform-azure-avm-res-appconfiguration-configurationstore"
+    description: Terraform Azure Verified Resource Module for App Configuration Store
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-analysisservices-server
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-analysisservices-server"
+    description: Terraform Azure Verified Resource Module for Analysis Services Server
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-res-alertsmanagement-actionrule
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-alertsmanagement-actionrule"
+    description: Terraform Azure Verified Resource Module for Alert Action Rules
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-ptn-subscription-service-health-alerts
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-subscription-service-health-alerts"
+    description: Terraform Azure Verified Pattern Module for Subscription Service Health Alerts
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-ptn-odaa
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-odaa"
+    description: Terraform Azure Verified Pattern Module for Oracle Exedata Workload
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-ptn-mongodb-atlas-lza
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-mongodb-atlas-lza"
+    description: Terraform Azure Verified Pattern Module for MongoDB Atlas on Azure - Landing Zone (LZ)
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-ptn-example-repo
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-example-repo"
+    description: Terraform Azure Verified Pattern Module for Example Repository for Testing
+    product_area: azure-iac
+    function_type: sample
+    stars: 0
+  - name: terraform-azurerm-avm-ptn-finopstoolkit-finopshub
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-finopstoolkit-finopshub"
+    description: Terraform Azure Verified Pattern Module for FinOps Toolkit FinOps Hub
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azure-avm-ptn-ephemeral-credential
+    org: Azure
+    url: "https://github.com/Azure/terraform-azure-avm-ptn-ephemeral-credential"
+    description: Terraform Azure Verified Pattern Module for avm-ptn-ephemeral-credential
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-ptn-azure-local-migrate
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-azure-local-migrate"
+    description: Terraform Azure Verified Pattern Module for Azure Local Azure Migrate Project
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: US-SLED-AzureLandingZone-TF
+    org: Azure
+    url: "https://github.com/Azure/US-SLED-AzureLandingZone-TF"
+    description: Usage examples gathered by the US SLED CSAs for the Terraform Azure Verified Modules to deploy Landing Zones
+    product_area: azure-iac
+    function_type: sample
+    stars: 0
+  - name: infrastructure-as-code-utilities
+    org: Azure
+    url: "https://github.com/Azure/infrastructure-as-code-utilities"
+    description: Utility scripts and files shared by Terraform labs.
+    product_area: azure-iac
+    function_type: cli-tool
+    stars: 0
+  - name: terraform-azurerm-avm-res-compute-capacityreservationgroup
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-compute-capacityreservationgroup"
+    description: Terraform Azure Verified Resource Module for Compute Capacity Reservation Group
+    product_area: azure-iac
+    function_type: iac
+    stars: 0
+  - name: msgraph-bicep-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/msgraph-bicep-docs-pr"
+    description: ""
+    product_area: azure-iac
+    function_type: documentation
+    stars: 0
+  - name: msgraph-terraform-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/msgraph-terraform-docs-pr"
+    description: ""
+    product_area: azure-iac
+    function_type: documentation
+    stars: 0
+  - name: azure-terraform-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-terraform-docs-pr"
+    description: ""
+    product_area: azure-iac
+    function_type: documentation
+    stars: 0

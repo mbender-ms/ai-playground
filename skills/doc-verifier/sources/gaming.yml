@@ -1,0 +1,106 @@
+# Gaming Repository Cross-Reference
+# Auto-generated on 2026-03-20
+# Cross-organization index of repos in the "gaming" product area
+
+category: gaming
+total_repos: 13
+generated: 2026-03-20
+
+sources:
+  - org: microsoft
+    count: 6
+  - org: MicrosoftDocs
+    count: 7
+
+repos:
+  - name: Microsoft.Unity.Analyzers
+    org: microsoft
+    url: "https://github.com/microsoft/Microsoft.Unity.Analyzers"
+    description: Roslyn analyzers for Unity game developers
+    product_area: gaming
+    function_type: other
+    stars: 785
+  - name: pxt-arcade
+    org: microsoft
+    url: "https://github.com/microsoft/pxt-arcade"
+    description: Arcade game editor based on Microsoft MakeCode
+    product_area: gaming
+    function_type: other
+    stars: 542
+  - name: PackageUploader
+    org: microsoft
+    url: "https://github.com/microsoft/PackageUploader"
+    description: "This is a wrapper for game developers to use to upload into partner center via API's. "
+    product_area: gaming
+    function_type: service
+    stars: 58
+  - name: Game-Asset-Conditioning-Library
+    org: microsoft
+    url: "https://github.com/microsoft/Game-Asset-Conditioning-Library"
+    description: "A library containing utilities and APIs for improving compression of game assets, primarily textures"
+    product_area: gaming
+    function_type: sdk
+    stars: 12
+  - name: playfab-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/playfab-docs-pr"
+    description: ""
+    product_area: gaming
+    function_type: documentation
+    stars: 10
+  - name: gdk-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/gdk-docs-pr"
+    description: ""
+    product_area: gaming
+    function_type: documentation
+    stars: 6
+  - name: trivia-challenge
+    org: microsoft
+    url: "https://github.com/microsoft/trivia-challenge"
+    description: An online game to learn new things based on Flashcards
+    product_area: gaming
+    function_type: documentation
+    stars: 4
+  - name: game-publishing-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/game-publishing-pr"
+    description: ""
+    product_area: gaming
+    function_type: other
+    stars: 1
+  - name: sage-game
+    org: microsoft
+    url: "https://github.com/microsoft/sage-game"
+    description: ""
+    product_area: gaming
+    function_type: other
+    stars: 0
+  - name: enduser-xbox-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/enduser-xbox-pr"
+    description: ""
+    product_area: gaming
+    function_type: other
+    stars: 0
+  - name: xbox-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/xbox-pr"
+    description: Service guides (and possibly other content) for Xbox devices
+    product_area: gaming
+    function_type: documentation
+    stars: 0
+  - name: playfab-docs-rest-apis
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/playfab-docs-rest-apis"
+    description: ""
+    product_area: gaming
+    function_type: documentation
+    stars: 0
+  - name: xbox-gamebar-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/xbox-gamebar-pr"
+    description: ""
+    product_area: gaming
+    function_type: other
+    stars: 0

@@ -1,0 +1,1634 @@
+# Azure Compute Repository Cross-Reference
+# Auto-generated on 2026-03-20
+# Cross-organization index of repos in the "azure-compute" product area
+
+category: azure-compute
+total_repos: 231
+generated: 2026-03-20
+
+sources:
+  - org: Azure
+    count: 186
+  - org: microsoft
+    count: 32
+  - org: MicrosoftDocs
+    count: 13
+
+repos:
+  - name: AKS
+    org: Azure
+    url: "https://github.com/Azure/AKS"
+    description: Azure Kubernetes Service
+    product_area: azure-compute
+    function_type: service
+    stars: 2102
+  - name: azure-functions-host
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-host"
+    description: The host/runtime that powers Azure Functions
+    product_area: azure-compute
+    function_type: other
+    stars: 2015
+  - name: azure-functions-core-tools
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-core-tools"
+    description: Command line tools for Azure Functions
+    product_area: azure-compute
+    function_type: other
+    stars: 1436
+  - name: terraform
+    org: Azure
+    url: "https://github.com/Azure/terraform"
+    description: Source code for the Azure Marketplace Terraform development VM package.
+    product_area: azure-compute
+    function_type: iac
+    stars: 896
+  - name: vscode-remote-try-node
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-remote-try-node"
+    description: Node.js sample project for trying out Dev Containers
+    product_area: azure-compute
+    function_type: sample
+    stars: 811
+  - name: azure-functions-durable-extension
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-durable-extension"
+    description: Durable Task Framework extension for Azure Functions
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 761
+  - name: static-web-apps-cli
+    org: Azure
+    url: "https://github.com/Azure/static-web-apps-cli"
+    description: Azure Static Web Apps CLI ✨
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 660
+  - name: kubelogin
+    org: Azure
+    url: "https://github.com/Azure/kubelogin"
+    description: A Kubernetes credential (exec) plugin implementing azure authentication
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 563
+  - name: karpenter-provider-azure
+    org: Azure
+    url: "https://github.com/Azure/karpenter-provider-azure"
+    description: AKS Karpenter Provider
+    product_area: azure-compute
+    function_type: other
+    stars: 533
+  - name: mcp-gateway
+    org: microsoft
+    url: "https://github.com/microsoft/mcp-gateway"
+    description: "MCP Gateway is a reverse proxy and management layer for MCP servers, enabling scalable, session-aware stateful routing and lifecycle management of MCP servers in Kubernetes environments."
+    product_area: azure-compute
+    function_type: service
+    stars: 531
+  - name: azure-functions-dotnet-worker
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-dotnet-worker"
+    description: Azure Functions out-of-process .NET language worker
+    product_area: azure-compute
+    function_type: other
+    stars: 463
+  - name: secrets-store-csi-driver-provider-azure
+    org: Azure
+    url: "https://github.com/Azure/secrets-store-csi-driver-provider-azure"
+    description: Azure Key Vault provider for Secret Store CSI driver allows you to get secret contents stored in Azure Key Vault instance and use the Secret Store CSI driver interface to mount them into Kubernetes pods.
+    product_area: azure-compute
+    function_type: other
+    stars: 460
+  - name: reliable-web-app-pattern-dotnet
+    org: Azure
+    url: "https://github.com/Azure/reliable-web-app-pattern-dotnet"
+    description: The Reliable Web App Pattern is a set of objectives to help your web application converge on the cloud. This repo contains a reference implementation of a reliable web application for .NET.
+    product_area: azure-compute
+    function_type: documentation
+    stars: 456
+  - name: navcontainerhelper
+    org: microsoft
+    url: "https://github.com/microsoft/navcontainerhelper"
+    description: "Official Microsoft repository for BcContainerHelper, a PowerShell module, which makes it easier to work with Business Central Containers on Docker."
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 442
+  - name: AzureStorageExplorer
+    org: microsoft
+    url: "https://github.com/microsoft/AzureStorageExplorer"
+    description: "Easily manage your storage account data with Microsoft Azure Storage Explorer. Easily upload, download, and manage data from blob containers, file shares, queues, tables, and virtual machine disks. Control access and sharing through CORS rules, ACLs and more."
+    product_area: azure-compute
+    function_type: other
+    stars: 435
+  - name: onnxscript
+    org: microsoft
+    url: "https://github.com/microsoft/onnxscript"
+    description: ONNX Script enables developers to naturally author ONNX functions and models using a subset of Python.
+    product_area: azure-compute
+    function_type: other
+    stars: 432
+  - name: container-service-for-azure-china
+    org: Azure
+    url: "https://github.com/Azure/container-service-for-azure-china"
+    description: Container Service for Azure China
+    product_area: azure-compute
+    function_type: service
+    stars: 426
+  - name: azure-functions-openapi-extension
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-openapi-extension"
+    description: This extension provides an Azure Functions app with Open API capability for better discoverability to consuming parties
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 390
+  - name: terraform-azurerm-aks
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-aks"
+    description: Terraform Module for deploying an AKS cluster
+    product_area: azure-compute
+    function_type: iac
+    stars: 387
+  - name: AKS-Construction
+    org: Azure
+    url: "https://github.com/Azure/AKS-Construction"
+    description: "Accelerate your onboarding to AKS with; Helper Web App, bicep templating and CI/CD samples. Flexible & secure AKS baseline implementations in a Microsoft + community maintained reference implementation."
+    product_area: azure-compute
+    function_type: documentation
+    stars: 375
+  - name: azure-functions-templates
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-templates"
+    description: "Azure functions templates for the azure portal, CLI, and VS"
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 360
+  - name: azure-functions-python-worker
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-python-worker"
+    description: Python worker for Azure Functions.
+    product_area: azure-compute
+    function_type: other
+    stars: 356
+  - name: azure-workload-identity
+    org: Azure
+    url: "https://github.com/Azure/azure-workload-identity"
+    description: Azure AD Workload Identity uses Kubernetes primitives to associate managed identities for Azure resources and identities in Azure Active Directory (AAD) with pods.
+    product_area: azure-compute
+    function_type: other
+    stars: 334
+  - name: webapps-deploy
+    org: Azure
+    url: "https://github.com/Azure/webapps-deploy"
+    description: Enable GitHub developers to deploy to Azure WebApps using GitHub Actions
+    product_area: azure-compute
+    function_type: iac
+    stars: 328
+  - name: vscode-azurefunctions
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-azurefunctions"
+    description: Azure Functions extension for VS Code
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 319
+  - name: k8s-deploy
+    org: Azure
+    url: "https://github.com/Azure/k8s-deploy"
+    description: GitHub Action for deploying to Kubernetes clusters
+    product_area: azure-compute
+    function_type: iac
+    stars: 288
+  - name: azure-functions-docker
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-docker"
+    description: This repo contains the base Docker images for working with azure functions
+    product_area: azure-compute
+    function_type: other
+    stars: 278
+  - name: AKS-Landing-Zone-Accelerator
+    org: Azure
+    url: "https://github.com/Azure/AKS-Landing-Zone-Accelerator"
+    description: Official repository for the AKS Landing Zone Accelerator program
+    product_area: azure-compute
+    function_type: template
+    stars: 277
+  - name: service-fabric-dotnet
+    org: microsoft
+    url: "https://github.com/microsoft/service-fabric-dotnet"
+    description: Reliable Services and Reliable Actors are Service Fabric application frameworks for building highly-scalable distributed cloud applications.
+    product_area: azure-compute
+    function_type: service
+    stars: 275
+  - name: CloudShell
+    org: Azure
+    url: "https://github.com/Azure/CloudShell"
+    description: "Container Image for Azure Cloud Shell (https://azure.microsoft.com/en-us/features/cloud-shell/)"
+    product_area: azure-compute
+    function_type: other
+    stars: 274
+  - name: AzureML-Containers
+    org: Azure
+    url: "https://github.com/Azure/AzureML-Containers"
+    description: Docker containers for running training scripts on AzureML
+    product_area: azure-compute
+    function_type: other
+    stars: 235
+  - name: appservice-landing-zone-accelerator
+    org: Azure
+    url: "https://github.com/Azure/appservice-landing-zone-accelerator"
+    description: The Azure App Service landing zone accelerator is an open-source collection of architectural guidance and reference implementation to accelerate deployment of Azure App Service at scale.
+    product_area: azure-compute
+    function_type: documentation
+    stars: 231
+  - name: blackbelt-aks-hackfest
+    org: Azure
+    url: "https://github.com/Azure/blackbelt-aks-hackfest"
+    description: "Microsoft Intelligent Cloud Blackbelt Team :: Hackfest Repo"
+    product_area: azure-compute
+    function_type: other
+    stars: 226
+  - name: aca-landing-zone-accelerator
+    org: Azure
+    url: "https://github.com/Azure/aca-landing-zone-accelerator"
+    description: The Azure Container Apps landing zone accelerator is an open-source collection of architectural guidance and reference implementation to accelerate deployment of Azure Container Apps at scale.
+    product_area: azure-compute
+    function_type: documentation
+    stars: 216
+  - name: azure-functions-powershell-worker
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-powershell-worker"
+    description: PowerShell language worker for Azure Functions.
+    product_area: azure-compute
+    function_type: other
+    stars: 213
+  - name: BatchExplorer
+    org: Azure
+    url: "https://github.com/Azure/BatchExplorer"
+    description: "A client tool to help create, debug and monitor Azure Batch Applications "
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 208
+  - name: kubernetes-kms
+    org: Azure
+    url: "https://github.com/Azure/kubernetes-kms"
+    description: 🔐 Azure Key Vault KMS plugin for Kubernetes
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 181
+  - name: azure-functions-python-library
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-python-library"
+    description: Azure Functions Python SDK
+    product_area: azure-compute
+    function_type: sdk
+    stars: 179
+  - name: functions-action
+    org: Azure
+    url: "https://github.com/Azure/functions-action"
+    description: Enable GitHub developers to deploy to Azure Function Apps using GitHub Actions
+    product_area: azure-compute
+    function_type: iac
+    stars: 177
+  - name: acr
+    org: Azure
+    url: "https://github.com/Azure/acr"
+    description: "Azure Container Registry samples, troubleshooting tips and references"
+    product_area: azure-compute
+    function_type: sample
+    stars: 173
+  - name: Docker-Provider
+    org: microsoft
+    url: "https://github.com/microsoft/Docker-Provider"
+    description: Azure Monitor for Containers
+    product_area: azure-compute
+    function_type: other
+    stars: 166
+  - name: azure-functions-durable-python
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-durable-python"
+    description: Python library for using the Durable Functions bindings.
+    product_area: azure-compute
+    function_type: sdk
+    stars: 155
+  - name: modern-web-app-pattern-dotnet
+    org: Azure
+    url: "https://github.com/Azure/modern-web-app-pattern-dotnet"
+    description: The Modern Web App Pattern is a set of objectives to help you apply an iterative change to modernize a cloud deployed monolith. This content builds on the Reliable Web App. This repo contains a reference implementation of a Modern Web App for .NET.
+    product_area: azure-compute
+    function_type: documentation
+    stars: 148
+  - name: app-service-linux-docs
+    org: Azure
+    url: "https://github.com/Azure/app-service-linux-docs"
+    description: "Azure App Service: Frequently Asked Questions on Linux App Service"
+    product_area: azure-compute
+    function_type: documentation
+    stars: 148
+  - name: azure-functions-durable-js
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-durable-js"
+    description: JavaScript library for using the Durable Functions bindings
+    product_area: azure-compute
+    function_type: sdk
+    stars: 143
+  - name: wordpress-linux-appservice
+    org: Azure
+    url: "https://github.com/Azure/wordpress-linux-appservice"
+    description: ""
+    product_area: azure-compute
+    function_type: service
+    stars: 138
+  - name: Service-Fabric-Troubleshooting-Guides
+    org: Azure
+    url: "https://github.com/Azure/Service-Fabric-Troubleshooting-Guides"
+    description: Service Fabric Trouble Shooting Guides used by Azure Customer Support Services and Product Group Site Reliability Engineers.
+    product_area: azure-compute
+    function_type: documentation
+    stars: 135
+  - name: peerd
+    org: Azure
+    url: "https://github.com/Azure/peerd"
+    description: Peer to peer distribution of container content in Kubernetes clusters.
+    product_area: azure-compute
+    function_type: documentation
+    stars: 132
+  - name: azure-functions-sql-extension
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-sql-extension"
+    description: "Azure SQL bindings for Azure Functions ⚡️ supports Azure SQL Database, Azure SQL Managed Instance, and SQL Server 2016+"
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 129
+  - name: azhpc-images
+    org: Azure
+    url: "https://github.com/Azure/azhpc-images"
+    description: Azure HPC/AI VM Images
+    product_area: azure-compute
+    function_type: other
+    stars: 128
+  - name: kubernetes-volume-drivers
+    org: Azure
+    url: "https://github.com/Azure/kubernetes-volume-drivers"
+    description: Kubernetes volume drivers for Azure
+    product_area: azure-compute
+    function_type: other
+    stars: 127
+  - name: aks-mcp
+    org: Azure
+    url: "https://github.com/Azure/aks-mcp"
+    description: "A Model Context Protocol (MCP) server that enables AI assistants to interact with AKS clusters. It serves as a bridge between AI tools (like Claude, Cursor, and GitHub Copilot) and AKS."
+    product_area: azure-compute
+    function_type: service
+    stars: 122
+  - name: aksArc
+    org: Azure
+    url: "https://github.com/Azure/aksArc"
+    description: Welcome to the Azure Kubernetes Service enabled by Azure Arc (AKS Arc) official Github repo. This is where AKS Arc team tracks features and issues related to AKS Arc products and engage with our community.
+    product_area: azure-compute
+    function_type: service
+    stars: 117
+  - name: azure-functions-kafka-extension
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-kafka-extension"
+    description: Kafka extension for Azure Functions
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 116
+  - name: vscode-azureappservice
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-azureappservice"
+    description: Azure App Service extension for VS Code
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 115
+  - name: azure-functions-nodejs-worker
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-nodejs-worker"
+    description: "The Node.js worker for the Azure Functions runtime - https://functions.azure.com"
+    product_area: azure-compute
+    function_type: other
+    stars: 110
+  - name: AppService
+    org: Azure
+    url: "https://github.com/Azure/AppService"
+    description: Blog posts from the App Service team
+    product_area: azure-compute
+    function_type: service
+    stars: 109
+  - name: vscode-containers
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-containers"
+    description: Container Tools Extension for Visual Studio Code
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 107
+  - name: k8s-set-context
+    org: Azure
+    url: "https://github.com/Azure/k8s-set-context"
+    description: GitHub Action for setting context and retrieving Kubeconfig before deploying to Kubernetes clusters
+    product_area: azure-compute
+    function_type: iac
+    stars: 103
+  - name: azure-functions-dapr-extension
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-dapr-extension"
+    description: Extension for interacting with Dapr APIs from an Azure Function
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 101
+  - name: durabletask-mssql
+    org: microsoft
+    url: "https://github.com/microsoft/durabletask-mssql"
+    description: Microsoft SQL storage provider for Durable Functions and the Durable Task Framework
+    product_area: azure-compute
+    function_type: other
+    stars: 100
+  - name: azure-functions-openai-extension
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-openai-extension"
+    description: "An extension that adds support for Azure OpenAI/ OpenAI bindings in Azure Functions for LLM (GPT-3.5-Turbo, GPT-4, etc)"
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 99
+  - name: azure-functions-vs-build-sdk
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-vs-build-sdk"
+    description: MSBuild task for Azure Functions
+    product_area: azure-compute
+    function_type: sdk
+    stars: 98
+  - name: vscode-azurestaticwebapps
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-azurestaticwebapps"
+    description: Azure Static Web Apps extension for VS Code
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 98
+  - name: azure-functions-java-worker
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-java-worker"
+    description: Java runtime and core types for Microsoft Azure Functions
+    product_area: azure-compute
+    function_type: other
+    stars: 97
+  - name: aks-baseline-automation
+    org: Azure
+    url: "https://github.com/Azure/aks-baseline-automation"
+    description: "Repository for the AKS Landing Zone Accelerator program's Automation reference implementation"
+    product_area: azure-compute
+    function_type: documentation
+    stars: 87
+  - name: mslearn-staticwebapp
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-staticwebapp"
+    description: Static Web App template repository
+    product_area: azure-compute
+    function_type: template
+    stars: 87
+  - name: azure-functions-on-container-apps
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-on-container-apps"
+    description: "Docs , samples and issues for Azure Functions on Azure Container Apps"
+    product_area: azure-compute
+    function_type: documentation
+    stars: 85
+  - name: kata-containers
+    org: microsoft
+    url: "https://github.com/microsoft/kata-containers"
+    description: "Kata Containers is an open source project and community working to build a standard implementation of lightweight Virtual Machines (VMs) that feel and perform like containers, but provide the workload isolation and security advantages of VMs. https://katacontainers.io/"
+    product_area: azure-compute
+    function_type: specification
+    stars: 82
+  - name: confidential-computing-cvm-guest-attestation
+    org: Azure
+    url: "https://github.com/Azure/confidential-computing-cvm-guest-attestation"
+    description: Confidential VM Platform Guest attestation sample apps
+    product_area: azure-compute
+    function_type: sample
+    stars: 81
+  - name: azure-functions-dotnet-extensions
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-dotnet-extensions"
+    description: Azure Functions .NET extensions
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 81
+  - name: azure-functions-extension-bundles
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-extension-bundles"
+    description: Azure Functions Extension Bundles
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 78
+  - name: kube-egress-gateway
+    org: Azure
+    url: "https://github.com/Azure/kube-egress-gateway"
+    description: kube-egress-gateway provides fixed egress IPs for Kubernetes workloads running on Azure.
+    product_area: azure-compute
+    function_type: service
+    stars: 75
+  - name: aks-desktop
+    org: Azure
+    url: "https://github.com/Azure/aks-desktop"
+    description: AKS desktop delivers an application focused experience for deploying and managing workloads on Azure Kubernetes Service.
+    product_area: azure-compute
+    function_type: iac
+    stars: 73
+  - name: azure-functions-nodejs-library
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-nodejs-library"
+    description: The Node.js framework for Azure Functions
+    product_area: azure-compute
+    function_type: sdk
+    stars: 68
+  - name: acr-cli
+    org: Azure
+    url: "https://github.com/Azure/acr-cli"
+    description: Command Line Tool for interacting with Azure Container Registry Images
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 67
+  - name: vscode-aks-tools
+    org: Azure
+    url: "https://github.com/Azure/vscode-aks-tools"
+    description: Visual Studio Code extension for Azure Kubernetes Service
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 64
+  - name: k8s-bake
+    org: Azure
+    url: "https://github.com/Azure/k8s-bake"
+    description: "GitHub Action creating Kubernetes manifest files with Helm, Kustomize, or Kompose"
+    product_area: azure-compute
+    function_type: other
+    stars: 64
+  - name: AKS-Edge
+    org: Azure
+    url: "https://github.com/Azure/AKS-Edge"
+    description: " Welcome to the Azure Kubernetes Service (AKS) Edge repo."
+    product_area: azure-compute
+    function_type: service
+    stars: 63
+  - name: aks-set-context
+    org: Azure
+    url: "https://github.com/Azure/aks-set-context"
+    description: GitHub Action for setting context (retrieving Kubeconfig) before interacting with Kubernetes cluster
+    product_area: azure-compute
+    function_type: other
+    stars: 59
+  - name: container-upstream
+    org: Azure
+    url: "https://github.com/Azure/container-upstream"
+    description: "This project captures work in progress, and completed work for the Azure Core Container Upstream team"
+    product_area: azure-compute
+    function_type: other
+    stars: 59
+  - name: reliable-web-app-pattern-java
+    org: Azure
+    url: "https://github.com/Azure/reliable-web-app-pattern-java"
+    description: The reliable web app pattern is a set of objectives to help your web application converge on the cloud. This repo contains a reference implementation of a reliable web application for Java.
+    product_area: azure-compute
+    function_type: documentation
+    stars: 59
+  - name: cmd-call-graph
+    org: microsoft
+    url: "https://github.com/microsoft/cmd-call-graph"
+    description: A simple tool to generate a call graph for calls within Windows CMD (batch) files.
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 55
+  - name: mcr
+    org: microsoft
+    url: "https://github.com/microsoft/mcr"
+    description: Microsoft Container Registry
+    product_area: azure-compute
+    function_type: other
+    stars: 54
+  - name: mslearn-interact-with-data-blazor-web-apps
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-interact-with-data-blazor-web-apps"
+    description: Sample repo for Interact with Data for Blazor Web Apps Learn Module
+    product_area: azure-compute
+    function_type: documentation
+    stars: 54
+  - name: CoseSignTool
+    org: microsoft
+    url: "https://github.com/microsoft/CoseSignTool"
+    description: CoseSignTool is a platform-agnostic command line application to COSE sign files and validate COSE signatures.  CoseHandler is a library of functions for COSE signing and validation for use by .NET applications.
+    product_area: azure-compute
+    function_type: sdk
+    stars: 52
+  - name: mcp-kubernetes
+    org: Azure
+    url: "https://github.com/Azure/mcp-kubernetes"
+    description: "A Model Context Protocol (MCP) server that enables AI assistants to interact with Kubernetes clusters. It serves as a bridge between AI tools (like Claude, Cursor, and GitHub Copilot) and Kubernetes"
+    product_area: azure-compute
+    function_type: service
+    stars: 51
+  - name: ml-wrappers
+    org: microsoft
+    url: "https://github.com/microsoft/ml-wrappers"
+    description: A unified wrapper for various ML frameworks - to have one uniform scikit-learn format for predict and predict_proba functions.
+    product_area: azure-compute
+    function_type: documentation
+    stars: 49
+  - name: azure-functions-rabbitmq-extension
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-rabbitmq-extension"
+    description: RabbitMQ extension for Azure Functions
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 48
+  - name: azure-functions-java-library
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-java-library"
+    description: Contains annotations for writing Azure Functions in Java
+    product_area: azure-compute
+    function_type: sdk
+    stars: 44
+  - name: terraform-azurerm-avm-ptn-aks-production
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-aks-production"
+    description: Terraform Azure Verified Pattern Module for Azure Kubernetes Service
+    product_area: azure-compute
+    function_type: iac
+    stars: 43
+  - name: terraform-azurerm-avm-res-compute-virtualmachine
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachine"
+    description: Terraform Azure Verified Resource Module for Virtual Machine
+    product_area: azure-compute
+    function_type: iac
+    stars: 40
+  - name: aks-app-routing-operator
+    org: Azure
+    url: "https://github.com/Azure/aks-app-routing-operator"
+    description: Kubernetes operator that implements AKS Application Routing
+    product_area: azure-compute
+    function_type: other
+    stars: 40
+  - name: k8s-create-secret
+    org: Azure
+    url: "https://github.com/Azure/k8s-create-secret"
+    description: GitHub Action to create Kubernetes cluster secrets
+    product_area: azure-compute
+    function_type: other
+    stars: 40
+  - name: vscode-azurecontainerapps
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-azurecontainerapps"
+    description: Azure Container Apps extension for VS Code
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 39
+  - name: mslearn-advocates.azure-functions-and-signalr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-advocates.azure-functions-and-signalr"
+    description: "Sample code repo for Microsoft Learn module:  Enable automatic updates in a web application using Azure Functions and SignalR"
+    product_area: azure-compute
+    function_type: documentation
+    stars: 39
+  - name: containerization-assist
+    org: Azure
+    url: "https://github.com/Azure/containerization-assist"
+    description: ""
+    product_area: azure-compute
+    function_type: other
+    stars: 38
+  - name: acr-builder
+    org: Azure
+    url: "https://github.com/Azure/acr-builder"
+    description: Azure Container Registry Build Runner
+    product_area: azure-compute
+    function_type: other
+    stars: 38
+  - name: k8s-lint
+    org: Azure
+    url: "https://github.com/Azure/k8s-lint"
+    description: GitHub Action to validate Kubernetes manifest files
+    product_area: azure-compute
+    function_type: other
+    stars: 37
+  - name: kubernetes-carbon-intensity-exporter
+    org: Azure
+    url: "https://github.com/Azure/kubernetes-carbon-intensity-exporter"
+    description: Kubernetes Carbon Intensity Exporter
+    product_area: azure-compute
+    function_type: other
+    stars: 37
+  - name: vscode-azurevirtualmachines
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-azurevirtualmachines"
+    description: Azure Virtual Machines extension for Visual Studio Code
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 36
+  - name: azure-functions-language-worker-protobuf
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-language-worker-protobuf"
+    description: Protobuf definitions for the gRPC connections between the script host and the language workers
+    product_area: azure-compute
+    function_type: other
+    stars: 34
+  - name: kubectl-aks
+    org: Azure
+    url: "https://github.com/Azure/kubectl-aks"
+    description: Azure Kubernetes Service (AKS) kubectl plugin
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 34
+  - name: azure-functions-mcp-extension
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-mcp-extension"
+    description: Model Context Protocol extension for Azure Functions.
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 32
+  - name: kubeflow-aks
+    org: Azure
+    url: "https://github.com/Azure/kubeflow-aks"
+    description: Official repository for the Kubeflow on Azure and AKS project
+    product_area: azure-compute
+    function_type: other
+    stars: 32
+  - name: terraform-azurerm-avm-res-containerservice-managedcluster
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-containerservice-managedcluster"
+    description: Terraform Azure Verified Resource Module for AKS managed clusters
+    product_area: azure-compute
+    function_type: iac
+    stars: 31
+  - name: azure-functions-tooling-feed
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-tooling-feed"
+    description: "Functions tooling metadata feed consumed by Visual Studio, Visual Studio Code, and other tools"
+    product_area: azure-compute
+    function_type: other
+    stars: 30
+  - name: local-csi-driver
+    org: Azure
+    url: "https://github.com/Azure/local-csi-driver"
+    description: local-csi-driver provides access to local NVMe storage from Kubernetes
+    product_area: azure-compute
+    function_type: other
+    stars: 29
+  - name: terraform-azurerm-avm-res-web-site
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-web-site"
+    description: Terraform Azure Verified Resource Module for Web/Function App
+    product_area: azure-compute
+    function_type: iac
+    stars: 29
+  - name: functions-container-action
+    org: Azure
+    url: "https://github.com/Azure/functions-container-action"
+    description: Enable GitHub developers to deploy to Azure Function Apps Containers using GitHub Actions
+    product_area: azure-compute
+    function_type: iac
+    stars: 29
+  - name: bpf_performance
+    org: microsoft
+    url: "https://github.com/microsoft/bpf_performance"
+    description: A set of platform-agnostic tools to measure the performance of various BPF helper functions.
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 29
+  - name: msi-acrpull
+    org: Azure
+    url: "https://github.com/Azure/msi-acrpull"
+    description: Kubernetes controller that allows using Managed Service Identities (MSI) to pull images from ACR.
+    product_area: azure-compute
+    function_type: service
+    stars: 28
+  - name: durabletask-java
+    org: microsoft
+    url: "https://github.com/microsoft/durabletask-java"
+    description: Java SDK for Durable Functions and the Durable Task Framework
+    product_area: azure-compute
+    function_type: sdk
+    stars: 28
+  - name: Batch
+    org: Azure
+    url: "https://github.com/Azure/Batch"
+    description: Microsoft Azure Batch
+    product_area: azure-compute
+    function_type: other
+    stars: 26
+  - name: eno
+    org: Azure
+    url: "https://github.com/Azure/eno"
+    description: Dynamic configuration management for Kubernetes
+    product_area: azure-compute
+    function_type: other
+    stars: 25
+  - name: fabric-user-data-functions-samples
+    org: microsoft
+    url: "https://github.com/microsoft/fabric-user-data-functions-samples"
+    description: "Samples for fabric user data functions "
+    product_area: azure-compute
+    function_type: sample
+    stars: 25
+  - name: gpu-provisioner
+    org: Azure
+    url: "https://github.com/Azure/gpu-provisioner"
+    description: gpu-provisioner is a Karpenter Azure provider implementation. This project is used in Kaito to create a machine which is an Azure nodepool with one VM
+    product_area: azure-compute
+    function_type: iac
+    stars: 23
+  - name: aks-rdma-infiniband
+    org: Azure
+    url: "https://github.com/Azure/aks-rdma-infiniband"
+    description: "⚡ Guidance, samples, and tools for HPC workloads on AKS clusters with RDMA and InfiniBand support, including GPUDirect RDMA."
+    product_area: azure-compute
+    function_type: sample
+    stars: 22
+  - name: aks-engine-azurestack
+    org: Azure
+    url: "https://github.com/Azure/aks-engine-azurestack"
+    description: "AKS Engine: Units of Kubernetes on Azure Stack Hub!"
+    product_area: azure-compute
+    function_type: other
+    stars: 21
+  - name: terraform-azurerm-avm-res-containerregistry-registry
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-containerregistry-registry"
+    description: Terraform Azure Verified Resource Module for Azure Container Registry (ACR)
+    product_area: azure-compute
+    function_type: iac
+    stars: 20
+  - name: PSRule.Rules.Kubernetes
+    org: microsoft
+    url: "https://github.com/microsoft/PSRule.Rules.Kubernetes"
+    description: A suite of rules to validate Kubernetes resources using PSRule.
+    product_area: azure-compute
+    function_type: other
+    stars: 19
+  - name: modern-web-app-pattern-java
+    org: Azure
+    url: "https://github.com/Azure/modern-web-app-pattern-java"
+    description: The Modern Web App Pattern is a set of objectives to help you apply an iterative change to modernize a cloud deployed monolith. This content builds on the Reliable Web App. This repo contains a reference implementation of a Modern Web App for Java.
+    product_area: azure-compute
+    function_type: documentation
+    stars: 18
+  - name: mslearn-tailspin-spacegame-web-kubernetes
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-tailspin-spacegame-web-kubernetes"
+    description: Code used in Microsoft Learn modules to support Azure DevOps
+    product_area: azure-compute
+    function_type: documentation
+    stars: 17
+  - name: homebrew-functions
+    org: Azure
+    url: "https://github.com/Azure/homebrew-functions"
+    description: Homebrew formula for azure functions core tools
+    product_area: azure-compute
+    function_type: other
+    stars: 16
+  - name: typescript-bot-test-triggerer
+    org: microsoft
+    url: "https://github.com/microsoft/typescript-bot-test-triggerer"
+    description: A quick azure function for reading comments on the TypeScript repo and then doing things like running tests
+    product_area: azure-compute
+    function_type: other
+    stars: 16
+  - name: azure-cloud-services-files
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-cloud-services-files"
+    description: Supports RSS feed for monthly Guest OS Updates
+    product_area: azure-compute
+    function_type: other
+    stars: 16
+  - name: service-fabric-rs
+    org: Azure
+    url: "https://github.com/Azure/service-fabric-rs"
+    description: Service Fabric Rust
+    product_area: azure-compute
+    function_type: service
+    stars: 15
+  - name: AKS-Edge-Labs
+    org: Azure
+    url: "https://github.com/Azure/AKS-Edge-Labs"
+    description: Welcome to the Azure Kubernetes Service (AKS) Edge Lab repo. This is where the AKS-Edge team will upload our labs and workshops.
+    product_area: azure-compute
+    function_type: sample
+    stars: 15
+  - name: aks-node-viewer
+    org: Azure
+    url: "https://github.com/Azure/aks-node-viewer"
+    description: "Fork of eks-node-viewer, large thanks to the aws/karpenter maintainers!"
+    product_area: azure-compute
+    function_type: other
+    stars: 15
+  - name: semantic-link-functions
+    org: microsoft
+    url: "https://github.com/microsoft/semantic-link-functions"
+    description: Semantic Functions for Semantic Link
+    product_area: azure-compute
+    function_type: other
+    stars: 14
+  - name: SimpleL7Proxy
+    org: microsoft
+    url: "https://github.com/microsoft/SimpleL7Proxy"
+    description: Container based solution to do performance based proxy requests to APIM backends.
+    product_area: azure-compute
+    function_type: service
+    stars: 14
+  - name: service-fabric-traefik
+    org: microsoft
+    url: "https://github.com/microsoft/service-fabric-traefik"
+    description: service-fabric-traefik contains services to fetch endpoint information from Service Fabric and expose Traefik endpoints.
+    product_area: azure-compute
+    function_type: service
+    stars: 14
+  - name: terraform-azurerm-avm-res-app-containerapp
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-app-containerapp"
+    description: Terraform Azure Verified Resource Module for Container App
+    product_area: azure-compute
+    function_type: iac
+    stars: 13
+  - name: LinuxPatchExtension
+    org: Azure
+    url: "https://github.com/Azure/LinuxPatchExtension"
+    description: Microsoft Azure VM Guest Linux Patch Extension
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 12
+  - name: azure-functions-nodejs-samples
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-nodejs-samples"
+    description: ""
+    product_area: azure-compute
+    function_type: sample
+    stars: 11
+  - name: agentic-cli-for-aks
+    org: Azure
+    url: "https://github.com/Azure/agentic-cli-for-aks"
+    description: ""
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 11
+  - name: azure-aks-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-aks-docs"
+    description: Public sync with private repo azure-aks-docs-pr
+    product_area: azure-compute
+    function_type: documentation
+    stars: 11
+  - name: mslearn-tailspin-spacegame-web-azure-functions
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-tailspin-spacegame-web-azure-functions"
+    description: Code used in Microsoft Learn modules to support Azure DevOps
+    product_area: azure-compute
+    function_type: documentation
+    stars: 11
+  - name: aks-gpu
+    org: Azure
+    url: "https://github.com/Azure/aks-gpu"
+    description: "Setup and configure nodes to support GPUs on k8s, with a focus on AKS nodes. This repo contains steps to build a container image with the Nvidia driver, and dependencies for integration. "
+    product_area: azure-compute
+    function_type: other
+    stars: 10
+  - name: AppConfiguration-KubernetesProvider
+    org: Azure
+    url: "https://github.com/Azure/AppConfiguration-KubernetesProvider"
+    description: "Bring your data in Azure App Configuration down to your Kubernetes cluster, available as ConfigMap and Secrets and ready to be consumed by any workload."
+    product_area: azure-compute
+    function_type: other
+    stars: 10
+  - name: aks-ctf
+    org: Azure
+    url: "https://github.com/Azure/aks-ctf"
+    description: "Attacking and Defending AKS: A Guided Tour"
+    product_area: azure-compute
+    function_type: documentation
+    stars: 10
+  - name: azure-vm-utils
+    org: Azure
+    url: "https://github.com/Azure/azure-vm-utils"
+    description: Azure VM utilities
+    product_area: azure-compute
+    function_type: other
+    stars: 10
+  - name: OnBoardVMInsights
+    org: Azure
+    url: "https://github.com/Azure/OnBoardVMInsights"
+    description: Scripts to enable On-Boarding to VM Insights
+    product_area: azure-compute
+    function_type: other
+    stars: 10
+  - name: azure-functions-durable-powershell
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-durable-powershell"
+    description: PowerShell SDK for writing Durable Functions apps
+    product_area: azure-compute
+    function_type: sdk
+    stars: 9
+  - name: AKS-Arc-Private-Previews
+    org: Azure
+    url: "https://github.com/Azure/AKS-Arc-Private-Previews"
+    description: "Documentation for the Private Preview of \"Azure Local Small Form Factor\" and \"AKS Arc on Baremetal\""
+    product_area: azure-compute
+    function_type: documentation
+    stars: 8
+  - name: terraform-azurerm-avm-res-compute-virtualmachinescaleset
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-compute-virtualmachinescaleset"
+    description: Terraform Azure Verified Resource Module for Virtual Machine Scale Set
+    product_area: azure-compute
+    function_type: iac
+    stars: 8
+  - name: Container-Migration-Solution-Accelerator
+    org: microsoft
+    url: "https://github.com/microsoft/Container-Migration-Solution-Accelerator"
+    description: "This accelerator is a multi-service application that provides a multi-agent, AI-driven migration solution for users moving container service configurations from a cloud platform to Azure Kubernetes Service."
+    product_area: azure-compute
+    function_type: template
+    stars: 8
+  - name: AKSFlexNode
+    org: Azure
+    url: "https://github.com/Azure/AKSFlexNode"
+    description: Connecting a node to AKS cluster from anywhere
+    product_area: azure-compute
+    function_type: other
+    stars: 7
+  - name: terraform-azurerm-avm-res-azurestackhci-virtualmachineinstance
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-azurestackhci-virtualmachineinstance"
+    description: Terraform Azure Verified Resource Module for Stack HCI Virtual Machine Instance
+    product_area: azure-compute
+    function_type: iac
+    stars: 7
+  - name: azure-functions-python-extensions
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-python-extensions"
+    description: ""
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 7
+  - name: azure-functions-nodejs-e2e-tests
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-nodejs-e2e-tests"
+    description: End-to-end tests covering the Node.js experience on Azure Functions
+    product_area: azure-compute
+    function_type: other
+    stars: 7
+  - name: azure-aks-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-aks-docs-pr"
+    description: Internal documentation repository for Azure Kubernetes Service (AKS) - all content in this repository is published to learn.microsoft.com.
+    product_area: azure-compute
+    function_type: documentation
+    stars: 7
+  - name: vscode-win32-app-container-tokens
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-win32-app-container-tokens"
+    description: Native win32 Node.js addon to retrieve named pipes from app contains
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 6
+  - name: Webjobs.Extensions.Kusto
+    org: Azure
+    url: "https://github.com/Azure/Webjobs.Extensions.Kusto"
+    description: "Azure functions Input and output bindings for Kusto (ADX) "
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 5
+  - name: artifact-signing-notation-plugin
+    org: Azure
+    url: "https://github.com/Azure/artifact-signing-notation-plugin"
+    description: "This Notation plugin allows you to use Microsoft's Artifact Signing to sign and verify container images and other OCI artifacts. Signatures enable users to verify that these artifacts are from a particular source and have not been tampered with since their release."
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 5
+  - name: aks-secure-tls-bootstrap
+    org: Azure
+    url: "https://github.com/Azure/aks-secure-tls-bootstrap"
+    description: Holds the client implementation and proto definitions of the AKS Secure TLS Bootstrapping protocol.
+    product_area: azure-compute
+    function_type: specification
+    stars: 5
+  - name: applicationhealth-extension-linux
+    org: Azure
+    url: "https://github.com/Azure/applicationhealth-extension-linux"
+    description: The application health extension periodically probes for application health based on user configuration within a Linux VM when configured.
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 5
+  - name: aks-middleware
+    org: Azure
+    url: "https://github.com/Azure/aks-middleware"
+    description: Public facing middleware for Service Hub
+    product_area: azure-compute
+    function_type: service
+    stars: 5
+  - name: mslearn-use-forms-in-blazor-web-apps
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-use-forms-in-blazor-web-apps"
+    description: Sample for Use Forms in Blazor Web Apps Learn Module
+    product_area: azure-compute
+    function_type: documentation
+    stars: 5
+  - name: Kubernetes-Windows-GPU-Device-Plugin
+    org: Azure
+    url: "https://github.com/Azure/Kubernetes-Windows-GPU-Device-Plugin"
+    description: The Kubernetes Device Plugins for Windows GPUs
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 4
+  - name: terraform-azurerm-avm-ptn-aks-dev
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-aks-dev"
+    description: Terraform Azure Verified Pattern Module for AKS dev
+    product_area: azure-compute
+    function_type: iac
+    stars: 4
+  - name: kube-state-logs
+    org: Azure
+    url: "https://github.com/Azure/kube-state-logs"
+    description: "Snapshots of Kubernetes objects, exposed as logs"
+    product_area: azure-compute
+    function_type: other
+    stars: 4
+  - name: azure-functions-java-additions
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-java-additions"
+    description: Azure Functions Java Worker Additions
+    product_area: azure-compute
+    function_type: other
+    stars: 4
+  - name: kwok
+    org: Azure
+    url: "https://github.com/Azure/kwok"
+    description: Kubernetes WithOut Kubelet -  Simulates thousands of Nodes and Clusters.
+    product_area: azure-compute
+    function_type: other
+    stars: 4
+  - name: run-command-extension-linux
+    org: Azure
+    url: "https://github.com/Azure/run-command-extension-linux"
+    description: RunCommand extension runs scripts on VMs send by the RunCommand operation to a Linux VM.
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 4
+  - name: bicep-types-k8s
+    org: Azure
+    url: "https://github.com/Azure/bicep-types-k8s"
+    description: Bicep type definitions for Kubernetes resources
+    product_area: azure-compute
+    function_type: iac
+    stars: 3
+  - name: aks-flex
+    org: Azure
+    url: "https://github.com/Azure/aks-flex"
+    description: A cloud-agnostic Kubernetes node autoscaler that dynamically scales infrastructure across Azure and emerging neoclouds like Nebius—managed from a single control plane.
+    product_area: azure-compute
+    function_type: iac
+    stars: 3
+  - name: terraform-azurerm-avm-res-containerinstance-containergroup
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-containerinstance-containergroup"
+    description: Terraform Azure Verified Resource Module for Container Instance
+    product_area: azure-compute
+    function_type: iac
+    stars: 3
+  - name: terraform-azurerm-avm-res-hybridcontainerservice-provisionedclusterinstance
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-hybridcontainerservice-provisionedclusterinstance"
+    description: Terraform Azure Verified Resource Module for AKS Arc
+    product_area: azure-compute
+    function_type: iac
+    stars: 3
+  - name: azure-extension-platform
+    org: Azure
+    url: "https://github.com/Azure/azure-extension-platform"
+    description: Repository for common code for Azure VM extensions in golang
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 3
+  - name: azure-ipoib-ipam-cni
+    org: Azure
+    url: "https://github.com/Azure/azure-ipoib-ipam-cni"
+    description: cni ipam plugin for azure vm which supports infiniband/RDMA
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 3
+  - name: operatortrace
+    org: Azure
+    url: "https://github.com/Azure/operatortrace"
+    description: OperatorTrace is a lightweight library designed to facilitate tracing in Kubernetes controller-based projects
+    product_area: azure-compute
+    function_type: sdk
+    stars: 3
+  - name: EdgeActionsSamples
+    org: Azure
+    url: "https://github.com/Azure/EdgeActionsSamples"
+    description: Edge Actions sample code and sample dev container configuration
+    product_area: azure-compute
+    function_type: sample
+    stars: 3
+  - name: aks-async
+    org: Azure
+    url: "https://github.com/Azure/aks-async"
+    description: Public facing interfaces for async operations implementation.
+    product_area: azure-compute
+    function_type: other
+    stars: 3
+  - name: run-command-handler-linux
+    org: Azure
+    url: "https://github.com/Azure/run-command-handler-linux"
+    description: RunCommand extension handler runs scripts within VMs sent by PUT RunCommand resource to a Linux VM.
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 3
+  - name: avm-container-images-cicd-agents-and-runners
+    org: Azure
+    url: "https://github.com/Azure/avm-container-images-cicd-agents-and-runners"
+    description: Azure Verified Modules Container Images for the CI/CD Agents and Runners Modules for Bicep and Terraform
+    product_area: azure-compute
+    function_type: iac
+    stars: 3
+  - name: azure-functions-nodejs-extensions
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-nodejs-extensions"
+    description: "This repository contains custom extensions that enable seamless binding and interaction with Azure resources in Node.js Azure Functions. Designed to simplify development, these extensions encapsulate client setup, configuration, and invocation logic for each service."
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 2
+  - name: terraform-azurerm-avm-res-batch-batchaccount
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-batch-batchaccount"
+    description: Terraform Azure Verified Resource Module for Batch Account
+    product_area: azure-compute
+    function_type: iac
+    stars: 2
+  - name: terraform-azurerm-avm-ptn-aks-enterprise
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-aks-enterprise"
+    description: Terraform Azure Verified Pattern Module for AKS Enterprise
+    product_area: azure-compute
+    function_type: iac
+    stars: 2
+  - name: terraform-azurerm-avm-ptn-aca-lza-hosting-environment
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-aca-lza-hosting-environment"
+    description: Terraform Azure Verified Pattern Module for Azure Container Apps LZA Hosting Environment
+    product_area: azure-compute
+    function_type: iac
+    stars: 2
+  - name: terraform-azurerm-avm-ptn-aks-economy
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-aks-economy"
+    description: Terraform Azure Verified Pattern Module for AKS economy
+    product_area: azure-compute
+    function_type: iac
+    stars: 2
+  - name: autoscaler
+    org: Azure
+    url: "https://github.com/Azure/autoscaler"
+    description: Autoscaling components for Kubernetes
+    product_area: azure-compute
+    function_type: other
+    stars: 2
+  - name: k8s-gh-action-toolkit
+    org: Azure
+    url: "https://github.com/Azure/k8s-gh-action-toolkit"
+    description: "A collection of GitHub Actions to automate Kubernetes workflows—deployments, secrets management, linting, and more."
+    product_area: azure-compute
+    function_type: iac
+    stars: 2
+  - name: azure-functions-nodejs-opentelemetry
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-nodejs-opentelemetry"
+    description: OpenTelemetry Azure Functions Instrumentation for Node.js
+    product_area: azure-compute
+    function_type: other
+    stars: 2
+  - name: perf-tests
+    org: Azure
+    url: "https://github.com/Azure/perf-tests"
+    description: Kubernetes Performance tests and benchmarks
+    product_area: azure-compute
+    function_type: other
+    stars: 2
+  - name: VM-cross-zone-recovery-private-preview
+    org: Azure
+    url: "https://github.com/Azure/VM-cross-zone-recovery-private-preview"
+    description: ""
+    product_area: azure-compute
+    function_type: other
+    stars: 2
+  - name: azure-functions-powershell-library
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-powershell-library"
+    description: ""
+    product_area: azure-compute
+    function_type: sdk
+    stars: 2
+  - name: Azure-functions-mongodb-extension
+    org: Azure
+    url: "https://github.com/Azure/Azure-functions-mongodb-extension"
+    description: Azure functions extension for Azure MongoDB
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 2
+  - name: azure-docs-powershell-servicefabric
+    org: Azure
+    url: "https://github.com/Azure/azure-docs-powershell-servicefabric"
+    description: "This repo contains powershell cmdlets ref content for Azure Service fabric. "
+    product_area: azure-compute
+    function_type: documentation
+    stars: 2
+  - name: azure-functions-powershell-opentelemetry
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-powershell-opentelemetry"
+    description: A PowerShell module containing cmdlets for interacting with OpenTelemetry in the context of Azure Functions
+    product_area: azure-compute
+    function_type: other
+    stars: 2
+  - name: fabric-stateful-streaming-lakehouse
+    org: microsoft
+    url: "https://github.com/microsoft/fabric-stateful-streaming-lakehouse"
+    description: Fabric Jumpstart tutorial showing how Spark Structured Streaming can be used to build stateful data pipelines that operation in either streaming or batch mode.
+    product_area: azure-compute
+    function_type: documentation
+    stars: 2
+  - name: Virtualization-Documentation-Private
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/Virtualization-Documentation-Private"
+    description: Documents for Windows Server and Hyper-V Containers.
+    product_area: azure-compute
+    function_type: documentation
+    stars: 2
+  - name: azure-functions-templates-mcp-server
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-templates-mcp-server"
+    description: Azure Functions Create Triggers Bindings MCP Server for Azure Functions Samples and Templates
+    product_area: azure-compute
+    function_type: sample
+    stars: 1
+  - name: terraform-azurerm-avm-res-oracledatabase-cloudvmcluster
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-oracledatabase-cloudvmcluster"
+    description: Terraform Azure Verified Resource Module for Oracle VM cluster
+    product_area: azure-compute
+    function_type: iac
+    stars: 1
+  - name: terraform-azurerm-avm-res-insights-autoscalesetting
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-insights-autoscalesetting"
+    description: Terraform Azure Verified Resource Module for Auto scale settings
+    product_area: azure-compute
+    function_type: iac
+    stars: 1
+  - name: AzDataMaker
+    org: Azure
+    url: "https://github.com/Azure/AzDataMaker"
+    description: It is a sample .NET Core app that runs in a Linux Azure Container Instance that generates files and uploads them to Azure Blob Storage.
+    product_area: azure-compute
+    function_type: sample
+    stars: 1
+  - name: edgeactions-devcontainers
+    org: Azure
+    url: "https://github.com/Azure/edgeactions-devcontainers"
+    description: Devcontainer template repository for authoring EdgeActions
+    product_area: azure-compute
+    function_type: template
+    stars: 1
+  - name: acr-task-commands
+    org: Azure
+    url: "https://github.com/Azure/acr-task-commands"
+    description: Azure Container Registry Task Commands
+    product_area: azure-compute
+    function_type: other
+    stars: 1
+  - name: service-fabric-metadata
+    org: Azure
+    url: "https://github.com/Azure/service-fabric-metadata"
+    description: ""
+    product_area: azure-compute
+    function_type: service
+    stars: 1
+  - name: aks-middleware-csharp
+    org: Azure
+    url: "https://github.com/Azure/aks-middleware-csharp"
+    description: ""
+    product_area: azure-compute
+    function_type: other
+    stars: 1
+  - name: Prior-Authorization-Multi-Agent-Solution-Accelerator
+    org: microsoft
+    url: "https://github.com/microsoft/Prior-Authorization-Multi-Agent-Solution-Accelerator"
+    description: "Payer-side AI-assisted prior authorization review using Microsoft Agent Framework with four Foundry Hosted Agents (Compliance, Clinical, Coverage, Synthesis). Gate-based decision rubric, MCP healthcare data access, confidence scoring, audit trails, and human-in-the-loop oversight. Deploys via azd to Azure Container Apps."
+    product_area: azure-compute
+    function_type: template
+    stars: 1
+  - name: container-secure-supply-chain-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/container-secure-supply-chain-pr"
+    description: ""
+    product_area: azure-compute
+    function_type: other
+    stars: 1
+  - name: san-csi-driver
+    org: Azure
+    url: "https://github.com/Azure/san-csi-driver"
+    description: san-csi-driver provides access to Azure Elastic SAN from Kubernetes
+    product_area: azure-compute
+    function_type: other
+    stars: 0
+  - name: AKS-Health-Signal
+    org: Azure
+    url: "https://github.com/Azure/AKS-Health-Signal"
+    description: ""
+    product_area: azure-compute
+    function_type: other
+    stars: 0
+  - name: terraform-azure-avm-ptn-app-service-landing-zone
+    org: Azure
+    url: "https://github.com/Azure/terraform-azure-avm-ptn-app-service-landing-zone"
+    description: Terraform Azure Verified Pattern Module for avm-ptn-app-service-landing-zone
+    product_area: azure-compute
+    function_type: template
+    stars: 0
+  - name: aks-kafka
+    org: Azure
+    url: "https://github.com/Azure/aks-kafka"
+    description: Deploying Apache Kafka with Strimzi on AKS
+    product_area: azure-compute
+    function_type: iac
+    stars: 0
+  - name: azure-functions-golang-worker
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-golang-worker"
+    description: ""
+    product_area: azure-compute
+    function_type: other
+    stars: 0
+  - name: terraform-azure-avm-utl-containerregistry-containerregistry-azapi-replicator
+    org: Azure
+    url: "https://github.com/Azure/terraform-azure-avm-utl-containerregistry-containerregistry-azapi-replicator"
+    description: Terraform Azure Verified Utility Module for avm-utl-containerregistry-containerregistry-azapi-replicator
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 0
+  - name: terraform-azure-avm-utl-compute-windowsvirtualmachine-azapi-replicator
+    org: Azure
+    url: "https://github.com/Azure/terraform-azure-avm-utl-compute-windowsvirtualmachine-azapi-replicator"
+    description: Terraform Azure Verified Utility Module for avm-utl-compute-windowsvirtualmachine-azapi-replicator
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 0
+  - name: terraform-azure-avm-utl-compute-orchestratedvirtualmachinescaleset-azapi-replicator
+    org: Azure
+    url: "https://github.com/Azure/terraform-azure-avm-utl-compute-orchestratedvirtualmachinescaleset-azapi-replicator"
+    description: Terraform Azure Verified Utility Module for utl module that helps users to migrate azurerm_orchestrated_virtual_machine_scale_set resource into azapi_resource
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 0
+  - name: terraform-azure-avm-utl-compute-linuxvirtualmachine-azapi-replicator
+    org: Azure
+    url: "https://github.com/Azure/terraform-azure-avm-utl-compute-linuxvirtualmachine-azapi-replicator"
+    description: Terraform Azure Verified Utility Module for avm-utl-compute-linuxvirtualmachine-azapi-replicator
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 0
+  - name: terraform-azurerm-avm-res-virtualmachineimages-imagetemplate
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-virtualmachineimages-imagetemplate"
+    description: Terraform Azure Verified Resource Module for Virtual Machine Image Template
+    product_area: azure-compute
+    function_type: template
+    stars: 0
+  - name: terraform-azurerm-avm-res-sqlvirtualmachine-sqlvirtualmachine
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-sqlvirtualmachine-sqlvirtualmachine"
+    description: Terraform Azure Verified Resource Module for Sql Virtual Machine
+    product_area: azure-compute
+    function_type: iac
+    stars: 0
+  - name: terraform-azure-avm-res-kubernetesconfiguration-extension
+    org: Azure
+    url: "https://github.com/Azure/terraform-azure-avm-res-kubernetesconfiguration-extension"
+    description: Terraform Azure Verified Resource Module for avm-res-kubernetesconfiguration-extension
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 0
+  - name: terraform-azurerm-avm-res-containerservice-fleet
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-containerservice-fleet"
+    description: Terraform Azure Verified Resource Module for Azure Kubernetes Service Fleet
+    product_area: azure-compute
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-ptn-lbvmss
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-lbvmss"
+    description: Terraform Azure Verified Pattern Module for VMSS Flex Deployment
+    product_area: azure-compute
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-ptn-app-iaas-vm-cosmosdb-tier-four
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-app-iaas-vm-cosmosdb-tier-four"
+    description: Terraform Azure Verified Pattern Module for Corporate Line of Business application architecture using IaaS components (VMs) and PaaS DB from the perspective of Enterprise Scale Landing Zones
+    product_area: azure-compute
+    function_type: iac
+    stars: 0
+  - name: azure-functions-mysql-extension
+    org: Azure
+    url: "https://github.com/Azure/azure-functions-mysql-extension"
+    description: Azure functions for Mysql
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 0
+  - name: terraform-provider-aca
+    org: Azure
+    url: "https://github.com/Azure/terraform-provider-aca"
+    description: The official Azure Container Apps Terraform module.
+    product_area: azure-compute
+    function_type: iac
+    stars: 0
+  - name: aks-traffic-ingress-competitive-testing
+    org: Azure
+    url: "https://github.com/Azure/aks-traffic-ingress-competitive-testing"
+    description: Collection of common scripts and tooling to be used by AKS Ingress competitive testing.
+    product_area: azure-compute
+    function_type: other
+    stars: 0
+  - name: VMExtensions
+    org: Azure
+    url: "https://github.com/Azure/VMExtensions"
+    description: Deployment and rollout information for Azure VM Extensions
+    product_area: azure-compute
+    function_type: cli-tool
+    stars: 0
+  - name: Managed-Instance-on-Azure-App-Service
+    org: Azure
+    url: "https://github.com/Azure/Managed-Instance-on-Azure-App-Service"
+    description: "Repository for example installation and configuration scripts, FAQs and samples"
+    product_area: azure-compute
+    function_type: sample
+    stars: 0
+  - name: watchtower-prod-tests
+    org: Azure
+    url: "https://github.com/Azure/watchtower-prod-tests"
+    description: Apps used for the Azure Functions Watchtower project.
+    product_area: azure-compute
+    function_type: other
+    stars: 0
+  - name: Kaito-Exec-Docs
+    org: Azure
+    url: "https://github.com/Azure/Kaito-Exec-Docs"
+    description: E2E Executable Docs for Kubernetes AI Toolchain Operator (KAITO)
+    product_area: azure-compute
+    function_type: documentation
+    stars: 0
+  - name: azhpc-guest-monitoring
+    org: Azure
+    url: "https://github.com/Azure/azhpc-guest-monitoring"
+    description: "Azure HPC guest observability toolkit: exporters, scripts, dashboards, and deployment workflows for VM/VMSS and AKS nodes."
+    product_area: azure-compute
+    function_type: iac
+    stars: 0
+  - name: keda-azure-functions-timer-external-scaler
+    org: Azure
+    url: "https://github.com/Azure/keda-azure-functions-timer-external-scaler"
+    description: ""
+    product_area: azure-compute
+    function_type: other
+    stars: 0
+  - name: cluster-api-provider-for-slinky
+    org: Azure
+    url: "https://github.com/Azure/cluster-api-provider-for-slinky"
+    description: Kubernetes Cluster API Provider HPC
+    product_area: azure-compute
+    function_type: service
+    stars: 0
+  - name: Basic-protection-Azure-Virtual-Machines-Private-preview
+    org: Azure
+    url: "https://github.com/Azure/Basic-protection-Azure-Virtual-Machines-Private-preview"
+    description: Private preview of Basic backup protection for Azure virtual machines
+    product_area: azure-compute
+    function_type: other
+    stars: 0
+  - name: WSL-Container-API
+    org: microsoft
+    url: "https://github.com/microsoft/WSL-Container-API"
+    description: "Demo and sample code that use the WSL Container API's"
+    product_area: azure-compute
+    function_type: sample
+    stars: 0
+  - name: fabric-user-data-functions-python-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/fabric-user-data-functions-python-pr"
+    description: ""
+    product_area: azure-compute
+    function_type: other
+    stars: 0
+  - name: azure-aks-docs-archive-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-aks-docs-archive-pr"
+    description: ""
+    product_area: azure-compute
+    function_type: documentation
+    stars: 0

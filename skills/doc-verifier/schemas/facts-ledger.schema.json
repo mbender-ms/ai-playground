@@ -1,0 +1,114 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "doc-verifier/facts-ledger.schema.json",
+  "title": "doc-verifier fact ledger",
+  "description": "Persistent record of verified facts, keyed by topic_key, stored at <target-repo>/.doc-verifier/facts-ledger.json. Version 1 remains readable for migration; version 2 writes require claim-class TTL provenance. Written at run end with fetch/code-sample/contract/live-verified facts only — never search-only or ledger-derived verdicts.",
+  "type": "object",
+  "required": ["version", "facts"],
+  "properties": {
+    "version": { "enum": [1, 2] },
+    "facts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "topic_key",
+          "verified_value",
+          "status",
+          "verification_method",
+          "source_url",
+          "source_tier",
+          "verified_at",
+          "ttl_days"
+        ],
+        "properties": {
+          "topic_key": {
+            "type": "string",
+            "description": "Stable fact identity slug ({service}-{subject}-{attribute}); names the fact, not the value",
+            "pattern": "^[a-z0-9]+(-[a-z0-9]+)+$"
+          },
+          "claim_class": {
+            "enum": ["pricing", "status", "limit", "config", "prereq", "feature"],
+            "description": "Normative claim class used to select the freshness policy. Link claims are never ledgered."
+          },
+          "verified_value": {
+            "type": "string",
+            "description": "Normalized fact the authoritative source states (number, range, version, date, or lifecycle state)"
+          },
+          "status": {
+            "enum": ["accurate", "partial", "inaccurate", "outdated", "unverifiable", "broken", "contested"]
+          },
+          "verification_method": {
+            "enum": ["fetch", "code-sample", "contract", "live"],
+            "description": "search-only and ledger-derived verdicts are never written to the ledger"
+          },
+          "source_url": { "type": "string", "format": "uri" },
+          "source_tier": {
+            "type": "string",
+            "description": "1, 1-C, 2, 3, or 4",
+            "pattern": "^(1|1-C|2|3|4)$"
+          },
+          "contract_value": { "type": ["string", "null"] },
+          "contract_source": { "type": ["string", "null"], "format": "uri" },
+          "verified_at": { "type": "string", "format": "date-time" },
+          "ttl_days": {
+            "type": "integer",
+            "enum": [14, 30, 60],
+            "description": "Freshness window by claim class: limit/config/prereq 30, pricing 14, status(lifecycle) 14, prose feature 60. link claims are never ledgered."
+          },
+          "ttl_policy": {
+            "const": "claim-class-v1",
+            "description": "Identifies the policy that selected ttl_days so future migrations can distinguish provenance."
+          },
+          "seen_in": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Repo-relative paths of articles where this fact appears"
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": { "claim_class": { "enum": ["pricing", "status"] } },
+              "required": ["claim_class"]
+            },
+            "then": { "properties": { "ttl_days": { "const": 14 } } }
+          },
+          {
+            "if": {
+              "properties": { "claim_class": { "enum": ["limit", "config", "prereq"] } },
+              "required": ["claim_class"]
+            },
+            "then": { "properties": { "ttl_days": { "const": 30 } } }
+          },
+          {
+            "if": {
+              "properties": { "claim_class": { "const": "feature" } },
+              "required": ["claim_class"]
+            },
+            "then": { "properties": { "ttl_days": { "const": 60 } } }
+          }
+        ],
+        "additionalProperties": false
+      }
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": { "version": { "const": 2 } },
+        "required": ["version"]
+      },
+      "then": {
+        "properties": {
+          "facts": {
+            "items": {
+              "required": ["claim_class", "ttl_policy"]
+            }
+          }
+        }
+      }
+    }
+  ],
+  "additionalProperties": false
+}

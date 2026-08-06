@@ -1,0 +1,444 @@
+# Azure Devops Repository Cross-Reference
+# Auto-generated on 2026-03-20
+# Cross-organization index of repos in the "azure-devops" product area
+
+category: azure-devops
+total_repos: 61
+generated: 2026-03-20
+
+sources:
+  - org: microsoft
+    count: 28
+  - org: MicrosoftDocs
+    count: 14
+  - org: Azure
+    count: 19
+
+repos:
+  - name: presidio
+    org: microsoft
+    url: "https://github.com/microsoft/presidio"
+    description: "An open-source framework for detecting, redacting, masking, and anonymizing sensitive data (PII) across text, images, and structured data. Supports NLP, pattern matching, and customizable pipelines."
+    product_area: azure-devops
+    function_type: other
+    stars: 7308
+  - name: azure-pipelines-tasks
+    org: microsoft
+    url: "https://github.com/microsoft/azure-pipelines-tasks"
+    description: Tasks for Azure Pipelines
+    product_area: azure-devops
+    function_type: other
+    stars: 3623
+  - name: sbom-tool
+    org: microsoft
+    url: "https://github.com/microsoft/sbom-tool"
+    description: The SBOM tool is a highly scalable and enterprise ready tool to create SPDX 2.2 compatible SBOMs for any variety of artifacts.
+    product_area: azure-devops
+    function_type: cli-tool
+    stars: 2004
+  - name: azure-pipelines-agent
+    org: microsoft
+    url: "https://github.com/microsoft/azure-pipelines-agent"
+    description: Azure Pipelines Agent 🚀
+    product_area: azure-devops
+    function_type: other
+    stars: 1884
+  - name: azure-devops-mcp
+    org: microsoft
+    url: "https://github.com/microsoft/azure-devops-mcp"
+    description: "The MCP server for Azure DevOps, bringing the power of Azure DevOps directly to your agents."
+    product_area: azure-devops
+    function_type: service
+    stars: 1440
+  - name: azure-devops-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-devops-docs"
+    description: This repo is the home of the official Azure DevOps documentation for Microsoft. GitHub Issues filed in this repository should be for problems with the documentation.
+    product_area: azure-devops
+    function_type: documentation
+    stars: 923
+  - name: artifacts-credprovider
+    org: microsoft
+    url: "https://github.com/microsoft/artifacts-credprovider"
+    description: "The Azure Artifacts Credential Provider enables dotnet, NuGet.exe, and MSBuild to interactively acquire credentials for Azure Artifacts feeds."
+    product_area: azure-devops
+    function_type: other
+    stars: 922
+  - name: ResourceModules
+    org: Azure
+    url: "https://github.com/Azure/ResourceModules"
+    description: This repository includes a CI platform for and collection of mature and curated Bicep modules. The platform supports both ARM and Bicep and can be leveraged using GitHub actions as well as Azure DevOps pipelines.
+    product_area: azure-devops
+    function_type: iac
+    stars: 738
+  - name: azure-devops-cli-extension
+    org: Azure
+    url: "https://github.com/Azure/azure-devops-cli-extension"
+    description: Azure DevOps Extension for Azure CLI
+    product_area: azure-devops
+    function_type: cli-tool
+    stars: 671
+  - name: enterprise-azure-policy-as-code
+    org: Azure
+    url: "https://github.com/Azure/enterprise-azure-policy-as-code"
+    description: "Enterprise-ready Azure Policy-as-Code (PaC) solution (includes Az DevOps pipeline) "
+    product_area: azure-devops
+    function_type: other
+    stars: 518
+  - name: azure-pipelines-task-lib
+    org: microsoft
+    url: "https://github.com/microsoft/azure-pipelines-task-lib"
+    description: Libraries for writing VSTS and TFS build tasks
+    product_area: azure-devops
+    function_type: other
+    stars: 454
+  - name: AL-Go
+    org: microsoft
+    url: "https://github.com/microsoft/AL-Go"
+    description: The plug-and-play DevOps solution for Business Central app development on GitHub
+    product_area: azure-devops
+    function_type: other
+    stars: 450
+  - name: apiops
+    org: Azure
+    url: "https://github.com/Azure/apiops"
+    description: "APIOps applies the concepts of GitOps and DevOps to API deployment. By using practices from these two methodologies, APIOps can enable everyone involved in the lifecycle of API design, development, and deployment with self-service and automated tools to ensure the quality of the specifications and APIs that they’re building."
+    product_area: azure-devops
+    function_type: iac
+    stars: 424
+  - name: terraform-provider-azuredevops
+    org: microsoft
+    url: "https://github.com/microsoft/terraform-provider-azuredevops"
+    description: Terraform Azure DevOps provider
+    product_area: azure-devops
+    function_type: iac
+    stars: 420
+  - name: azure-pipelines-extensions
+    org: microsoft
+    url: "https://github.com/microsoft/azure-pipelines-extensions"
+    description: Collection of all RM and deployment extensions
+    product_area: azure-devops
+    function_type: cli-tool
+    stars: 302
+  - name: mslearn-tailspin-spacegame-web
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-tailspin-spacegame-web"
+    description: Code used in Microsoft Learn modules to support Azure DevOps
+    product_area: azure-devops
+    function_type: documentation
+    stars: 215
+  - name: azure-devops-extension-tasks
+    org: microsoft
+    url: "https://github.com/microsoft/azure-devops-extension-tasks"
+    description: Pipeline tasks for Azure DevOps Extensions
+    product_area: azure-devops
+    function_type: cli-tool
+    stars: 199
+  - name: azure-pipelines-vscode
+    org: microsoft
+    url: "https://github.com/microsoft/azure-pipelines-vscode"
+    description: VS Code extension for working with Azure Pipelines YAML files
+    product_area: azure-devops
+    function_type: cli-tool
+    stars: 183
+  - name: security-devops-action
+    org: microsoft
+    url: "https://github.com/microsoft/security-devops-action"
+    description: Microsoft Security DevOps for GitHub Actions.
+    product_area: azure-devops
+    function_type: other
+    stars: 145
+  - name: axe-pipelines-samples
+    org: microsoft
+    url: "https://github.com/microsoft/axe-pipelines-samples"
+    description: Samples that demonstrate running axe accessibility scans from Azure Pipelines
+    product_area: azure-devops
+    function_type: sample
+    stars: 115
+  - name: azure-devops-extension-hot-reload-and-debug
+    org: microsoft
+    url: "https://github.com/microsoft/azure-devops-extension-hot-reload-and-debug"
+    description: Azure DevOps extension sample that uses hot reloading and is debuggable directly in VS Code
+    product_area: azure-devops
+    function_type: cli-tool
+    stars: 105
+  - name: ps-rule
+    org: microsoft
+    url: "https://github.com/microsoft/ps-rule"
+    description: Validate infrastructure as code (IaC) and DevOps repositories using GitHub Actions.
+    product_area: azure-devops
+    function_type: iac
+    stars: 90
+  - name: PR-Metrics
+    org: microsoft
+    url: "https://github.com/microsoft/PR-Metrics"
+    description: "A GitHub Action & Azure Pipelines task for augmenting pull request titles to let reviewers quickly determine PR size and test coverage."
+    product_area: azure-devops
+    function_type: other
+    stars: 77
+  - name: azure-devops-rust-api
+    org: microsoft
+    url: "https://github.com/microsoft/azure-devops-rust-api"
+    description: Rust API crate for the Azure DevOps API
+    product_area: azure-devops
+    function_type: service
+    stars: 73
+  - name: PSDocs.Azure
+    org: Azure
+    url: "https://github.com/Azure/PSDocs.Azure"
+    description: Generate documentation from Azure infrastructure as code (IaC) artifacts.
+    product_area: azure-devops
+    function_type: documentation
+    stars: 66
+  - name: azure-support-scripts
+    org: Azure
+    url: "https://github.com/Azure/azure-support-scripts"
+    description: Public repository for Azure Support scripts and artifacts
+    product_area: azure-devops
+    function_type: other
+    stars: 52
+  - name: GHAzDO-Resources
+    org: microsoft
+    url: "https://github.com/microsoft/GHAzDO-Resources"
+    description: "Resources, Scripts, etc. for GitHub Advanced Security on Azure DevOps"
+    product_area: azure-devops
+    function_type: other
+    stars: 49
+  - name: artifacts-keyring
+    org: microsoft
+    url: "https://github.com/microsoft/artifacts-keyring"
+    description: Keyring backend for Azure Artifacts
+    product_area: azure-devops
+    function_type: service
+    stars: 45
+  - name: mslearn-tailspin-spacegame-web-deploy
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-tailspin-spacegame-web-deploy"
+    description: Code used in Microsoft Learn modules to support Azure DevOps
+    product_area: azure-devops
+    function_type: documentation
+    stars: 41
+  - name: document-vector-pipeline
+    org: Azure
+    url: "https://github.com/Azure/document-vector-pipeline"
+    description: Pipeline for ingesting documents (like pdfs and docx) into a searchable Azure Database for vector and hybrid searching.
+    product_area: azure-devops
+    function_type: other
+    stars: 38
+  - name: azure-pipelines-tasks-common-packages
+    org: microsoft
+    url: "https://github.com/microsoft/azure-pipelines-tasks-common-packages"
+    description: ""
+    product_area: azure-devops
+    function_type: other
+    stars: 38
+  - name: mslearn-tailspin-spacegame-web-models
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-tailspin-spacegame-web-models"
+    description: Code used in Microsoft Learn modules to support Azure DevOps
+    product_area: azure-devops
+    function_type: documentation
+    stars: 38
+  - name: azure-devops-yaml-schema
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-devops-yaml-schema"
+    description: "Public mirror for the azure-devops-yaml-schema-pr repo. "
+    product_area: azure-devops
+    function_type: specification
+    stars: 32
+  - name: rats
+    org: microsoft
+    url: "https://github.com/microsoft/rats"
+    description: "Rats is a collection of tools to help researchers define and run experiments. It is designed to be a modular and extensible framework currently supporting building and running pipelines, integrating configs and services."
+    product_area: azure-devops
+    function_type: other
+    stars: 31
+  - name: azure-devops-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-devops-docs-pr"
+    description: ""
+    product_area: azure-devops
+    function_type: documentation
+    stars: 26
+  - name: terraform-azurerm-avm-res-devopsinfrastructure-pool
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-devopsinfrastructure-pool"
+    description: Terraform Azure Verified Resource Module for DevOps Pools
+    product_area: azure-devops
+    function_type: iac
+    stars: 21
+  - name: mslearn-dotnet-cloudnative-devops
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-dotnet-cloudnative-devops"
+    description: Sample repo for the dev ops with .NET cloud native training module
+    product_area: azure-devops
+    function_type: sample
+    stars: 20
+  - name: mslearn-tailspin-spacegame-web-docker
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-tailspin-spacegame-web-docker"
+    description: Code used in Microsoft Learn modules to support Azure DevOps
+    product_area: azure-devops
+    function_type: documentation
+    stars: 18
+  - name: arc_jumpstart_drops
+    org: Azure
+    url: "https://github.com/Azure/arc_jumpstart_drops"
+    description: A public repo for hosting the Arc Jumpstart Drops artifacts
+    product_area: azure-devops
+    function_type: other
+    stars: 14
+  - name: AzureGovernedPipelines
+    org: Azure
+    url: "https://github.com/Azure/AzureGovernedPipelines"
+    description: A template repository for governed pipelines.
+    product_area: azure-devops
+    function_type: template
+    stars: 11
+  - name: dropvalidator
+    org: microsoft
+    url: "https://github.com/microsoft/dropvalidator"
+    description: Code for the executable that validates a drop in a build or release pipeline
+    product_area: azure-devops
+    function_type: other
+    stars: 11
+  - name: azure-devops-docs-sdk-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-devops-docs-sdk-dotnet"
+    description: ""
+    product_area: azure-devops
+    function_type: documentation
+    stars: 11
+  - name: PSDocs.Azure-quickstart
+    org: Azure
+    url: "https://github.com/Azure/PSDocs.Azure-quickstart"
+    description: Generate documentation from Azure infrastructure as code (IaC) artifacts.
+    product_area: azure-devops
+    function_type: documentation
+    stars: 10
+  - name: arc_jumpstart_levelup
+    org: Azure
+    url: "https://github.com/Azure/arc_jumpstart_levelup"
+    description: A public repo for hosting the Azure Arc Jumpstart LevelUp artifacts
+    product_area: azure-devops
+    function_type: other
+    stars: 9
+  - name: component-detection-internal
+    org: microsoft
+    url: "https://github.com/microsoft/component-detection-internal"
+    description: "Repository holding the Azure DevOps wrapper of the component detection executable, used by the Open Source Engineering team for Component Governance integration. "
+    product_area: azure-devops
+    function_type: community
+    stars: 9
+  - name: azure-devops-docs-sdk-web
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-devops-docs-sdk-web"
+    description: ""
+    product_area: azure-devops
+    function_type: documentation
+    stars: 9
+  - name: azure-devops-server-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-devops-server-docs-pr"
+    description: ""
+    product_area: azure-devops
+    function_type: documentation
+    stars: 6
+  - name: azdo-extension-team-randomizer
+    org: microsoft
+    url: "https://github.com/microsoft/azdo-extension-team-randomizer"
+    description: Team Member Randomizer Extension for Azure DevOps
+    product_area: azure-devops
+    function_type: cli-tool
+    stars: 5
+  - name: jumpstart-sdk
+    org: Azure
+    url: "https://github.com/Azure/jumpstart-sdk"
+    description: "A public repo for hosting the Arc Jumpstart SDK artifacts, scripts, and docs"
+    product_area: azure-devops
+    function_type: documentation
+    stars: 4
+  - name: DevOps-Landing-Zone
+    org: Azure
+    url: "https://github.com/Azure/DevOps-Landing-Zone"
+    description: DevOps Landing Zone for CI/CD deployment of your Azure Projects
+    product_area: azure-devops
+    function_type: template
+    stars: 3
+  - name: azure-pipelines-canary
+    org: microsoft
+    url: "https://github.com/microsoft/azure-pipelines-canary"
+    description: Azure Pipelines definitions to validate hosted image and agent releases
+    product_area: azure-devops
+    function_type: other
+    stars: 3
+  - name: onnxruntime-github-actions
+    org: microsoft
+    url: "https://github.com/microsoft/onnxruntime-github-actions"
+    description: "Reusable GitHub Actions for ONNX Runtime repos. The actions are used for constructing ONNX Runtime's public pull request pipelines."
+    product_area: azure-devops
+    function_type: other
+    stars: 2
+  - name: azure-devops-yaml-schema-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-devops-yaml-schema-pr"
+    description: ""
+    product_area: azure-devops
+    function_type: specification
+    stars: 2
+  - name: devops-resource-center-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/devops-resource-center-pr"
+    description: Azure DevOps Resource Center
+    product_area: azure-devops
+    function_type: other
+    stars: 2
+  - name: tattler
+    org: Azure
+    url: "https://github.com/Azure/tattler"
+    description: Packages for a K8 API  Server object information pipeline
+    product_area: azure-devops
+    function_type: service
+    stars: 1
+  - name: bicep-shared-tools
+    org: Azure
+    url: "https://github.com/Azure/bicep-shared-tools"
+    description: Tools used by the build pipelines of one or more Bicep repositories.
+    product_area: azure-devops
+    function_type: iac
+    stars: 1
+  - name: Microsoft.AVS.Management-FCT
+    org: Azure
+    url: "https://github.com/Azure/Microsoft.AVS.Management-FCT"
+    description: Public Azure Functional Pipeline for AVS.Management
+    product_area: azure-devops
+    function_type: other
+    stars: 1
+  - name: kcl-azure-pipelines
+    org: Azure
+    url: "https://github.com/Azure/kcl-azure-pipelines"
+    description: An unofficial kcl model for Azure Pipelines
+    product_area: azure-devops
+    function_type: other
+    stars: 1
+  - name: azure-devops-docs-archive-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-devops-docs-archive-pr"
+    description: ""
+    product_area: azure-devops
+    function_type: documentation
+    stars: 1
+  - name: acom-data-pipeline
+    org: Azure
+    url: "https://github.com/Azure/acom-data-pipeline"
+    description: Azure Data Pipeline is used to provide data integration for internal and 3rd party APIs. It is hosted on Azure Marketing Site (azure.microsoft.com)
+    product_area: azure-devops
+    function_type: other
+    stars: 0
+  - name: mvp26-LAB011-end-to-end-agentic-devops-with-azure-mcp
+    org: microsoft
+    url: "https://github.com/microsoft/mvp26-LAB011-end-to-end-agentic-devops-with-azure-mcp"
+    description: ""
+    product_area: azure-devops
+    function_type: other
+    stars: 0

@@ -1,0 +1,316 @@
+# Copilot Repository Cross-Reference
+# Auto-generated on 2026-03-20
+# Cross-organization index of repos in the "copilot" product area
+
+category: copilot
+total_repos: 43
+generated: 2026-03-20
+
+sources:
+  - org: microsoft
+    count: 30
+  - org: MicrosoftDocs
+    count: 13
+
+repos:
+  - name: vscode-copilot-chat
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-copilot-chat"
+    description: Copilot Chat extension for VS Code
+    product_area: copilot
+    function_type: cli-tool
+    stars: 9652
+  - name: chat-copilot
+    org: microsoft
+    url: "https://github.com/microsoft/chat-copilot"
+    description: ""
+    product_area: copilot
+    function_type: other
+    stars: 2433
+  - name: agent-academy
+    org: microsoft
+    url: "https://github.com/microsoft/agent-academy"
+    description: Curated lessons on getting started building agents with Copilot Studio
+    product_area: copilot
+    function_type: other
+    stars: 1852
+  - name: hve-core
+    org: microsoft
+    url: "https://github.com/microsoft/hve-core"
+    description: "A refined collection of Hypervelocity Engineering components (instructions, prompts, agents, and skills) to start your project off right, or upgrade your existing projects to get the most out of all Copilots"
+    product_area: copilot
+    function_type: other
+    stars: 879
+  - name: CopilotStudioSamples
+    org: microsoft
+    url: "https://github.com/microsoft/CopilotStudioSamples"
+    description: ""
+    product_area: copilot
+    function_type: sample
+    stars: 717
+  - name: aitour26-WRK541-real-world-code-migration-with-github-copilot-agent-mode
+    org: microsoft
+    url: "https://github.com/microsoft/aitour26-WRK541-real-world-code-migration-with-github-copilot-agent-mode"
+    description: ""
+    product_area: copilot
+    function_type: other
+    stars: 406
+  - name: vscode-mermAId
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-mermAId"
+    description: Exploration into Copilot Chat-powered Diagram Generation
+    product_area: copilot
+    function_type: other
+    stars: 168
+  - name: copilot-intellij-feedback
+    org: microsoft
+    url: "https://github.com/microsoft/copilot-intellij-feedback"
+    description: Feedback on GitHub Copilot for JetBrains IDEs.
+    product_area: copilot
+    function_type: other
+    stars: 118
+  - name: vscode-copilotstudio
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-copilotstudio"
+    description: VS Code Extension for Copilot Studio
+    product_area: copilot
+    function_type: cli-tool
+    stars: 77
+  - name: vscode-websearchforcopilot
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-websearchforcopilot"
+    description: ""
+    product_area: copilot
+    function_type: other
+    stars: 58
+  - name: power-platform-skills
+    org: microsoft
+    url: "https://github.com/microsoft/power-platform-skills"
+    description: "A plugin marketplace for Claude Code/GitHub Copilot that provides Power Platform development plugins, including reusable skills, agents, and commands for building and deploying solutions."
+    product_area: copilot
+    function_type: cli-tool
+    stars: 58
+  - name: vscode-data-analysis-for-copilot
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-data-analysis-for-copilot"
+    description: ""
+    product_area: copilot
+    function_type: other
+    stars: 52
+  - name: aitour26-WRK532-building-agentic-solutions-with-copilot-studio
+    org: microsoft
+    url: "https://github.com/microsoft/aitour26-WRK532-building-agentic-solutions-with-copilot-studio"
+    description: ""
+    product_area: copilot
+    function_type: other
+    stars: 29
+  - name: conductor
+    org: microsoft
+    url: "https://github.com/microsoft/conductor"
+    description: A CLI tool for defining and running multi-agent workflows with the GitHub Copilot SDK and Anthropic Agents SDK.
+    product_area: copilot
+    function_type: sdk
+    stars: 25
+  - name: mslearn-copilot-codespaces-python
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-copilot-codespaces-python"
+    description: ""
+    product_area: copilot
+    function_type: other
+    stars: 21
+  - name: github-agent-mode-webinar
+    org: microsoft
+    url: "https://github.com/microsoft/github-agent-mode-webinar"
+    description: 🤖 How GitHub Copilot has grown and changed 💡 Exciting new features and updates 📺 A live Copilot demo in action
+    product_area: copilot
+    function_type: sample
+    stars: 17
+  - name: mslearn-advanced-copilot
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-advanced-copilot"
+    description: Learn how to apply advanced techniques to make the most out of GitHub Copilot
+    product_area: copilot
+    function_type: documentation
+    stars: 12
+  - name: dragon-copilot-extension-samples
+    org: microsoft
+    url: "https://github.com/microsoft/dragon-copilot-extension-samples"
+    description: ""
+    product_area: copilot
+    function_type: cli-tool
+    stars: 11
+  - name: TechWorkshop-L300-GitHub-Copilot-and-platform
+    org: microsoft
+    url: "https://github.com/microsoft/TechWorkshop-L300-GitHub-Copilot-and-platform"
+    description: ""
+    product_area: copilot
+    function_type: sample
+    stars: 11
+  - name: Microsoft.Plugins.Manifest
+    org: microsoft
+    url: "https://github.com/microsoft/Microsoft.Plugins.Manifest"
+    description: A library for parsing and validating API Plugins and Declarative Copilot manifests
+    product_area: copilot
+    function_type: sdk
+    stars: 11
+  - name: businessapps-copilot-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/businessapps-copilot-docs-pr"
+    description: Source repository for Copilot Studio technical documentation
+    product_area: copilot
+    function_type: documentation
+    stars: 10
+  - name: copilot-intellij
+    org: microsoft
+    url: "https://github.com/microsoft/copilot-intellij"
+    description: Copilot IntelliJ IDEA Plugin
+    product_area: copilot
+    function_type: cli-tool
+    stars: 8
+  - name: industry-apps
+    org: microsoft
+    url: "https://github.com/microsoft/industry-apps"
+    description: "Reusable Power Apps, Dynamics 365, and Copilot Studio Agent modules for common industry use cases."
+    product_area: copilot
+    function_type: other
+    stars: 6
+  - name: dragon-copilot-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dragon-copilot-pr"
+    description: ""
+    product_area: copilot
+    function_type: other
+    stars: 4
+  - name: security-copilot-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/security-copilot-pr"
+    description: ""
+    product_area: copilot
+    function_type: other
+    stars: 4
+  - name: durable-copilot-runtime
+    org: microsoft
+    url: "https://github.com/microsoft/durable-copilot-runtime"
+    description: "A durable execution runtime for GitHub Copilot SDK agents. Crash recovery, durable timers, session dehydration, and multi-node scaling — powered by duroxide. Just add a connection string."
+    product_area: copilot
+    function_type: sdk
+    stars: 3
+  - name: L400-Copilot-and-Agents-at-work
+    org: microsoft
+    url: "https://github.com/microsoft/L400-Copilot-and-Agents-at-work"
+    description: ""
+    product_area: copilot
+    function_type: other
+    stars: 3
+  - name: msx-copilot-mcp
+    org: microsoft
+    url: "https://github.com/microsoft/msx-copilot-mcp"
+    description: ""
+    product_area: copilot
+    function_type: other
+    stars: 3
+  - name: copilot-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/copilot-pr"
+    description: ""
+    product_area: copilot
+    function_type: other
+    stars: 3
+  - name: Dataverse-skills
+    org: microsoft
+    url: "https://github.com/microsoft/Dataverse-skills"
+    description: Agent skills and MCP configuration for Microsoft Dataverse — works with Claude Code and GitHub Copilot.
+    product_area: copilot
+    function_type: other
+    stars: 2
+  - name: cat
+    org: microsoft
+    url: "https://github.com/microsoft/cat"
+    description: Copilot Acceleration Team
+    product_area: copilot
+    function_type: other
+    stars: 2
+  - name: amplifier-module-provider-github-copilot
+    org: microsoft
+    url: "https://github.com/microsoft/amplifier-module-provider-github-copilot"
+    description: Enables access to GitHub Copilot models via the Copilot SDK
+    product_area: copilot
+    function_type: sdk
+    stars: 1
+  - name: copilot-studio-resources
+    org: microsoft
+    url: "https://github.com/microsoft/copilot-studio-resources"
+    description: Resources for Copilot Studio
+    product_area: copilot
+    function_type: other
+    stars: 1
+  - name: copilot-connectors
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/copilot-connectors"
+    description: ""
+    product_area: copilot
+    function_type: other
+    stars: 1
+  - name: microsoft-salescopilot-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/microsoft-salescopilot-docs"
+    description: ""
+    product_area: copilot
+    function_type: documentation
+    stars: 1
+  - name: copilot-releaseplan-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/copilot-releaseplan-pr"
+    description: ""
+    product_area: copilot
+    function_type: other
+    stars: 1
+  - name: microsoft-copilot-finance-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/microsoft-copilot-finance-pr"
+    description: ""
+    product_area: copilot
+    function_type: other
+    stars: 1
+  - name: opensource-docs
+    org: microsoft
+    url: "https://github.com/microsoft/opensource-docs"
+    description: A mirror of the internal open source policies and guidance to enable our Copilot context - DO NOT CONTRIBUTE TO THIS REPO
+    product_area: copilot
+    function_type: documentation
+    stars: 0
+  - name: IntuneThrottlingAgent
+    org: microsoft
+    url: "https://github.com/microsoft/IntuneThrottlingAgent"
+    description: VS Code Copilot Chat agent for assessing Intune ThrottleV2 policies
+    product_area: copilot
+    function_type: other
+    stars: 0
+  - name: copilot-for-eclipse
+    org: microsoft
+    url: "https://github.com/microsoft/copilot-for-eclipse"
+    description: ""
+    product_area: copilot
+    function_type: other
+    stars: 0
+  - name: copilot-connectors-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/copilot-connectors-pr"
+    description: Documentation about Microsoft 365 Copilot connectors
+    product_area: copilot
+    function_type: documentation
+    stars: 0
+  - name: copilot-test-releaseplan-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/copilot-test-releaseplan-pr"
+    description: ""
+    product_area: copilot
+    function_type: other
+    stars: 0
+  - name: mslearn-challenge-project-create-mini-game-with-copilot-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-challenge-project-create-mini-game-with-copilot-dotnet"
+    description: ""
+    product_area: copilot
+    function_type: other
+    stars: 0

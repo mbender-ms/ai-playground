@@ -1,0 +1,49 @@
+{
+  "$comment": "Sprint planning configuration. This is the ONLY file a new user needs to edit. Replace every value with your own before the first run.",
+
+  "ado": {
+    "org": "https://dev.azure.com/your-org",
+    "project": "YourProject",
+    "areaPathRoot": "YourProject\\Path\\To\\Your\\Area",
+    "iterationRoot": "YourProject"
+  },
+
+  "owner": {
+    "$comment": "Used as the AssignedTo filter in every board query and as the 'From' line on the one-pager.",
+    "name": "Your Name",
+    "email": "you@example.com"
+  },
+
+  "velocity": {
+    "$comment": "trailing-3-sprint is strongly preferred. single-prior-sprint is noisy — one large bundle closing late distorts it.",
+    "source": "trailing-3-sprint",
+    "fallbackToSinglePrior": true
+  },
+
+  "output": {
+    "$comment": "Where the one-pager markdown and HTML are written. Supports ~ expansion.",
+    "dir": "~/sprint-one-pagers",
+    "filenamePattern": "{date}-{month}-sprint-one-pager"
+  },
+
+  "onePager": {
+    "$comment": "Default recipient shown in the masthead. Override per-run if sharing more widely.",
+    "preparedFor": "Your Manager",
+    "includeAdoLinks": true
+  },
+
+  "requestInformation": {
+    "$comment": "Custom fields some orgs require on every work item create and update. Set to null if your org has none. Adjust ProposalType per item — Update for existing content, New for net-new.",
+    "modality": "Documentation",
+    "resourceType": "Technical Writer",
+    "defaultProposalType": "Update",
+    "proposalPointOfContact": "you@example.com"
+  },
+
+  "conventions": {
+    "$comment": "Point values the planner should treat as house style. Set to null to have the skill ask instead of assuming.",
+    "featuresCarryPoints": false,
+    "defaultCapacityReservePoints": 5,
+    "tagSuffix": "your-tag"
+  }
+}

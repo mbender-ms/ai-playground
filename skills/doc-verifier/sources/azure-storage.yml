@@ -1,0 +1,99 @@
+# Azure Storage Repository Cross-Reference
+# Auto-generated on 2026-03-20
+# Cross-organization index of repos in the "azure-storage" product area
+
+category: azure-storage
+total_repos: 12
+generated: 2026-03-20
+
+sources:
+  - org: Azure
+    count: 11
+  - org: microsoft
+    count: 1
+
+repos:
+  - name: azure-storage-fuse
+    org: Azure
+    url: "https://github.com/Azure/azure-storage-fuse"
+    description: A virtual file system adapter for Azure Blob storage
+    product_area: azure-storage
+    function_type: other
+    stars: 796
+  - name: azure-storage-azcopy
+    org: Azure
+    url: "https://github.com/Azure/azure-storage-azcopy"
+    description: The new Azure Storage data transfer utility - AzCopy v10
+    product_area: azure-storage
+    function_type: cli-tool
+    stars: 680
+  - name: vscode-azurestorage
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-azurestorage"
+    description: Azure Storage extension for VS Code
+    product_area: azure-storage
+    function_type: cli-tool
+    stars: 70
+  - name: terraform-azurerm-avm-res-storage-storageaccount
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-storage-storageaccount"
+    description: Terraform Azure Verified Resource Module for Storage Account
+    product_area: azure-storage
+    function_type: iac
+    stars: 42
+  - name: azure-diskinspect-service
+    org: Azure
+    url: "https://github.com/Azure/azure-diskinspect-service"
+    description: Inspect Azure IaaS Disks for Windows and Linux
+    product_area: azure-storage
+    function_type: service
+    stars: 32
+  - name: azure-data-lake-store-java
+    org: Azure
+    url: "https://github.com/Azure/azure-data-lake-store-java"
+    description: Microsoft Azure Data Lake Store Filesystem Library for Java
+    product_area: azure-storage
+    function_type: sdk
+    stars: 21
+  - name: azure-data-lake-store-net
+    org: Azure
+    url: "https://github.com/Azure/azure-data-lake-store-net"
+    description: Azure Data Lake Store .Net SDK
+    product_area: azure-storage
+    function_type: sdk
+    stars: 19
+  - name: azure-storage-for-pytorch
+    org: Azure
+    url: "https://github.com/Azure/azure-storage-for-pytorch"
+    description: Azure Storage Connector for PyTorch
+    product_area: azure-storage
+    function_type: other
+    stars: 11
+  - name: data-lake-adlstool
+    org: Azure
+    url: "https://github.com/Azure/data-lake-adlstool"
+    description: Azure Data Lake Store command-line tools in Java
+    product_area: azure-storage
+    function_type: cli-tool
+    stars: 9
+  - name: azcu-bazel-cache
+    org: Azure
+    url: "https://github.com/Azure/azcu-bazel-cache"
+    description: A bazel remote cache implementation for azure blob storage that supports injecting auth into bazel grpc requests
+    product_area: azure-storage
+    function_type: other
+    stars: 2
+  - name: azure-storage-mirror
+    org: Azure
+    url: "https://github.com/Azure/azure-storage-mirror"
+    description: ""
+    product_area: azure-storage
+    function_type: other
+    stars: 0
+  - name: azure-storage-azacsnap
+    org: Azure
+    url: "https://github.com/Azure/azure-storage-azacsnap"
+    description: Azure Application Consistent Snapshot Tool
+    product_area: azure-storage
+    function_type: cli-tool
+    stars: 0

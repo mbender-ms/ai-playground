@@ -1,0 +1,1501 @@
+# Azure Ai Repository Cross-Reference
+# Auto-generated on 2026-03-20
+# Cross-organization index of repos in the "azure-ai" product area
+
+category: azure-ai
+total_repos: 212
+generated: 2026-03-20
+
+sources:
+  - org: microsoft
+    count: 109
+  - org: Azure
+    count: 65
+  - org: MicrosoftDocs
+    count: 38
+
+repos:
+  - name: generative-ai-for-beginners
+    org: microsoft
+    url: "https://github.com/microsoft/generative-ai-for-beginners"
+    description: "21 Lessons, Get Started Building with Generative AI "
+    product_area: azure-ai
+    function_type: other
+    stars: 108292
+  - name: ML-For-Beginners
+    org: microsoft
+    url: "https://github.com/microsoft/ML-For-Beginners"
+    description: "12 weeks, 26 lessons, 52 quizzes, classic Machine Learning for all"
+    product_area: azure-ai
+    function_type: other
+    stars: 84608
+  - name: autogen
+    org: microsoft
+    url: "https://github.com/microsoft/autogen"
+    description: A programming framework for agentic AI
+    product_area: azure-ai
+    function_type: other
+    stars: 55937
+  - name: ai-agents-for-beginners
+    org: microsoft
+    url: "https://github.com/microsoft/ai-agents-for-beginners"
+    description: 12 Lessons to Get Started Building AI Agents
+    product_area: azure-ai
+    function_type: other
+    stars: 54538
+  - name: AI-For-Beginners
+    org: microsoft
+    url: "https://github.com/microsoft/AI-For-Beginners"
+    description: "12 Weeks, 24 Lessons, AI for All!"
+    product_area: azure-ai
+    function_type: other
+    stars: 46162
+  - name: semantic-kernel
+    org: microsoft
+    url: "https://github.com/microsoft/semantic-kernel"
+    description: Integrate cutting-edge LLM technology quickly and easily into your apps
+    product_area: azure-ai
+    function_type: other
+    stars: 27518
+  - name: onnxruntime
+    org: microsoft
+    url: "https://github.com/microsoft/onnxruntime"
+    description: "ONNX Runtime: cross-platform, high performance ML inferencing and training accelerator"
+    product_area: azure-ai
+    function_type: template
+    stars: 19618
+  - name: data-formulator
+    org: microsoft
+    url: "https://github.com/microsoft/data-formulator"
+    description: "🪄 Create rich visualizations with AI "
+    product_area: azure-ai
+    function_type: other
+    stars: 15142
+  - name: language-server-protocol
+    org: microsoft
+    url: "https://github.com/microsoft/language-server-protocol"
+    description: Defines a common protocol for language servers.
+    product_area: azure-ai
+    function_type: service
+    stars: 12667
+  - name: RD-Agent
+    org: microsoft
+    url: "https://github.com/microsoft/RD-Agent"
+    description: "Research and development (R&D) is crucial for the enhancement of industrial productivity, especially in the AI era, where the core aspects of R&D are mainly focused on data and models. We are committed to automating these high-value generic R&D processes through R&D-Agent, which lets AI drive data-driven AI. 🔗https://aka.ms/RD-Agent-Tech-Report"
+    product_area: azure-ai
+    function_type: other
+    stars: 11943
+  - name: promptflow
+    org: microsoft
+    url: "https://github.com/microsoft/promptflow"
+    description: "Build high-quality LLM apps - from prototyping, testing to production deployment and monitoring."
+    product_area: azure-ai
+    function_type: iac
+    stars: 11072
+  - name: agent-framework
+    org: microsoft
+    url: "https://github.com/microsoft/agent-framework"
+    description: "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Python and .NET."
+    product_area: azure-ai
+    function_type: iac
+    stars: 8095
+  - name: LMOps
+    org: microsoft
+    url: "https://github.com/microsoft/LMOps"
+    description: General technology for enabling AI capabilities w/ LLMs and MLLMs
+    product_area: azure-ai
+    function_type: other
+    stars: 4304
+  - name: PhiCookBook
+    org: microsoft
+    url: "https://github.com/microsoft/PhiCookBook"
+    description: "This is a Phi Family of SLMs book for getting started with Phi Models. Phi a family of open sourced AI models developed by Microsoft. Phi models are the most capable and cost-effective small language models (SLMs) available, outperforming models of the same size and next size up across a variety of language, reasoning, coding, and math benchmarks"
+    product_area: azure-ai
+    function_type: other
+    stars: 3708
+  - name: PyRIT
+    org: Azure
+    url: "https://github.com/Azure/PyRIT"
+    description: The Python Risk Identification Tool for generative AI (PyRIT) is an open source framework built to empower security professionals and engineers to proactively identify risks in generative AI systems.
+    product_area: azure-ai
+    function_type: cli-tool
+    stars: 3577
+  - name: bicep
+    org: Azure
+    url: "https://github.com/Azure/bicep"
+    description: Bicep is a declarative language for describing and deploying Azure resources
+    product_area: azure-ai
+    function_type: iac
+    stars: 3567
+  - name: mcp
+    org: microsoft
+    url: "https://github.com/microsoft/mcp"
+    description: Catalog of official Microsoft MCP (Model Context Protocol) server implementations for AI-powered data access and tool integration
+    product_area: azure-ai
+    function_type: cli-tool
+    stars: 2826
+  - name: Generative-AI-for-beginners-dotnet
+    org: microsoft
+    url: "https://github.com/microsoft/Generative-AI-for-beginners-dotnet"
+    description: "Five lessons, learn how to really apply AI to your .NET Applications"
+    product_area: azure-ai
+    function_type: documentation
+    stars: 2384
+  - name: Olive
+    org: microsoft
+    url: "https://github.com/microsoft/Olive"
+    description: "Olive: Simplify ML Model Finetuning, Conversion, Quantization, and Optimization for CPUs, GPUs and NPUs."
+    product_area: azure-ai
+    function_type: other
+    stars: 2269
+  - name: Foundry-Local
+    org: microsoft
+    url: "https://github.com/microsoft/Foundry-Local"
+    description: ""
+    product_area: azure-ai
+    function_type: other
+    stars: 2051
+  - name: vscode-ai-toolkit
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-ai-toolkit"
+    description: ""
+    product_area: azure-ai
+    function_type: other
+    stars: 1931
+  - name: sample-app-aoai-chatGPT
+    org: microsoft
+    url: "https://github.com/microsoft/sample-app-aoai-chatGPT"
+    description: "Sample code for a simple web chat experience through Azure OpenAI, including Azure OpenAI On Your Data."
+    product_area: azure-ai
+    function_type: sample
+    stars: 1920
+  - name: ml-basics
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/ml-basics"
+    description: Exercise notebooks for Machine Learning modules on Microsoft Learn
+    product_area: azure-ai
+    function_type: documentation
+    stars: 1903
+  - name: BotFramework-WebChat
+    org: microsoft
+    url: "https://github.com/microsoft/BotFramework-WebChat"
+    description: A highly-customizable web-based client for Azure Bot Services.
+    product_area: azure-ai
+    function_type: other
+    stars: 1772
+  - name: vscode-languageserver-node
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-languageserver-node"
+    description: Language server protocol implementation for VSCode. This allows implementing language services in JS/TS running on node.js
+    product_area: azure-ai
+    function_type: service
+    stars: 1731
+  - name: mcp
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mcp"
+    description: "Official Microsoft Learn MCP Server and CLI tool – powering LLMs and AI agents with real-time, trusted Microsoft docs & code samples."
+    product_area: azure-ai
+    function_type: documentation
+    stars: 1480
+  - name: ai-dev-gallery
+    org: microsoft
+    url: "https://github.com/microsoft/ai-dev-gallery"
+    description: An open-source project for Windows developers to learn how to add AI with local models and APIs to Windows apps.
+    product_area: azure-ai
+    function_type: documentation
+    stars: 1428
+  - name: GPT-RAG
+    org: Azure
+    url: "https://github.com/Azure/GPT-RAG"
+    description: "Sharing the learning along the way we been gathering to enable Azure OpenAI at enterprise scale in a secure manner. GPT-RAG core is a Retrieval-Augmented Generation pattern running in Azure, using Azure Cognitive Search for retrieval and Azure OpenAI large language models to power ChatGPT-style and Q&A experiences."
+    product_area: azure-ai
+    function_type: other
+    stars: 1144
+  - name: onnxruntime-genai
+    org: microsoft
+    url: "https://github.com/microsoft/onnxruntime-genai"
+    description: Generative AI extensions for onnxruntime
+    product_area: azure-ai
+    function_type: cli-tool
+    stars: 986
+  - name: azure-search-vector-samples
+    org: Azure
+    url: "https://github.com/Azure/azure-search-vector-samples"
+    description: A repository of code samples for Vector search capabilities in Azure AI Search.
+    product_area: azure-ai
+    function_type: sample
+    stars: 907
+  - name: AL
+    org: microsoft
+    url: "https://github.com/microsoft/AL"
+    description: Home of the Dynamics 365 Business Central AL Language extension for Visual Studio Code. Used to track issues regarding the latest version of the AL compiler and developer tools available in the Visual Studio Code Marketplace or as part of the AL Developer Preview builds for Dynamics 365 Business Central.
+    product_area: azure-ai
+    function_type: cli-tool
+    stars: 847
+  - name: TypeAgent
+    org: microsoft
+    url: "https://github.com/microsoft/TypeAgent"
+    description: Sample code that explores an architecture for using language models to build a personal agent that can work with application agents.
+    product_area: azure-ai
+    function_type: sample
+    stars: 668
+  - name: CsWinRT
+    org: microsoft
+    url: "https://github.com/microsoft/CsWinRT"
+    description: "C# language projection for the Windows Runtime"
+    product_area: azure-ai
+    function_type: other
+    stars: 629
+  - name: Security-Copilot
+    org: Azure
+    url: "https://github.com/Azure/Security-Copilot"
+    description: "Microsoft Security Copilot is a generative AI-powered security solution that helps increase the efficiency and capabilities of defenders to improve security outcomes at machine speed and scale, while remaining compliant to responsible AI principles"
+    product_area: azure-ai
+    function_type: other
+    stars: 617
+  - name: co-op-translator
+    org: Azure
+    url: "https://github.com/Azure/co-op-translator"
+    description: "Easily automate the translation of your documentation into multiple languages, powered by Azure AI Services"
+    product_area: azure-ai
+    function_type: documentation
+    stars: 602
+  - name: Azure-Verified-Modules
+    org: Azure
+    url: "https://github.com/Azure/Azure-Verified-Modules"
+    description: "Azure Verified Modules (AVM) is an initiative to consolidate and set the standards for what a good Infrastructure-as-Code module looks like. Modules will then align to these standards, across languages (Bicep, Terraform etc.) and will then be classified as AVMs and available from their respective language specific registries."
+    product_area: azure-ai
+    function_type: iac
+    stars: 529
+  - name: azure-dev
+    org: Azure
+    url: "https://github.com/Azure/azure-dev"
+    description: "A developer CLI for working with Azure resources to build and deploy AI applications. Commands map to key workflow stages: code, build, deploy, and monitor."
+    product_area: azure-ai
+    function_type: cli-tool
+    stars: 510
+  - name: mscclpp
+    org: microsoft
+    url: "https://github.com/microsoft/mscclpp"
+    description: "MSCCL++: A GPU-driven communication stack for scalable AI applications"
+    product_area: azure-ai
+    function_type: other
+    stars: 491
+  - name: vscode-markdown-languageservice
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-markdown-languageservice"
+    description: "The language service that powers VS Code's Markdown support, extracted so that it can be reused by other editors and tools"
+    product_area: azure-ai
+    function_type: service
+    stars: 434
+  - name: Agent-Skills
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/Agent-Skills"
+    description: "Curated Agent Skills for Microsoft & Azure – giving AI coding assistants structured, real-time expertise from Microsoft Learn docs."
+    product_area: azure-ai
+    function_type: documentation
+    stars: 433
+  - name: Conversation-Knowledge-Mining-Solution-Accelerator
+    org: microsoft
+    url: "https://github.com/microsoft/Conversation-Knowledge-Mining-Solution-Accelerator"
+    description: "This solution accelerator leverages Microsoft Foundry, Azure Content Understanding, Azure OpenAI Service, and Foundry IQ to enable organizations to derive insights from volumes of conversational data using generative AI. It offers key phrase extraction, topic modeling, and interactive chat experiences through an intuitive web interface."
+    product_area: azure-ai
+    function_type: documentation
+    stars: 429
+  - name: semantic-kernel-starters
+    org: microsoft
+    url: "https://github.com/microsoft/semantic-kernel-starters"
+    description: Starter Projects for Semantic Kernel
+    product_area: azure-ai
+    function_type: sample
+    stars: 410
+  - name: PowerApps-Tooling
+    org: microsoft
+    url: "https://github.com/microsoft/PowerApps-Tooling"
+    description: "Tooling support for PowerApps language and .msapp files "
+    product_area: azure-ai
+    function_type: other
+    stars: 408
+  - name: superbenchmark
+    org: microsoft
+    url: "https://github.com/microsoft/superbenchmark"
+    description: A validation and profiling tool for AI infrastructure
+    product_area: azure-ai
+    function_type: cli-tool
+    stars: 367
+  - name: rag-experiment-accelerator
+    org: microsoft
+    url: "https://github.com/microsoft/rag-experiment-accelerator"
+    description: "The RAG Experiment Accelerator is a versatile tool designed to expedite and facilitate the process of conducting experiments and evaluations using Azure Cognitive Search and RAG pattern. "
+    product_area: azure-ai
+    function_type: cli-tool
+    stars: 298
+  - name: agent-governance-toolkit
+    org: microsoft
+    url: "https://github.com/microsoft/agent-governance-toolkit"
+    description: "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10."
+    product_area: azure-ai
+    function_type: community
+    stars: 296
+  - name: powerplatform-actions
+    org: microsoft
+    url: "https://github.com/microsoft/powerplatform-actions"
+    description: "Power Platform GitHub Actions automate common build and deployment tasks related to Power Platform. This includes synchronization of solution metadata (a.k.a. solutions) between development environments and source control, generating build artifacts, deploying to downstream environments, provisioning/de-provisioning of environments, and the ability to perform static analysis checks against your solution using the PowerApps checker service."
+    product_area: azure-ai
+    function_type: iac
+    stars: 279
+  - name: semantic-kernel-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/semantic-kernel-docs"
+    description: "Semantic Kernel (SK) is a lightweight SDK enabling integration of AI Large Language Models (LLMs) with conventional programming languages. "
+    product_area: azure-ai
+    function_type: documentation
+    stars: 250
+  - name: AI-Landing-Zones
+    org: Azure
+    url: "https://github.com/Azure/AI-Landing-Zones"
+    description: "The AI Landing Zone is a secure, resilient and scalable reference architecture and reference implementation in the form of bicep, terraform and portal"
+    product_area: azure-ai
+    function_type: documentation
+    stars: 235
+  - name: macos-cookbook
+    org: microsoft
+    url: "https://github.com/microsoft/macos-cookbook"
+    description: A Chef cookbook used to provision macOS
+    product_area: azure-ai
+    function_type: iac
+    stars: 231
+  - name: content-generation-solution-accelerator
+    org: microsoft
+    url: "https://github.com/microsoft/content-generation-solution-accelerator"
+    description: Accelerate marketing content creation with an AI-powered multi-agent system using Microsoft Foundry.
+    product_area: azure-ai
+    function_type: documentation
+    stars: 212
+  - name: intro-to-intelligent-apps
+    org: Azure
+    url: "https://github.com/Azure/intro-to-intelligent-apps"
+    description: This repository introduces and helps organizations get started with building Intelligent Apps and incorporating Large Language Models (LLMs) via AI Orchestration into them.
+    product_area: azure-ai
+    function_type: other
+    stars: 207
+  - name: Document-Knowledge-Mining-Solution-Accelerator
+    org: microsoft
+    url: "https://github.com/microsoft/Document-Knowledge-Mining-Solution-Accelerator"
+    description: "Solution accelerator built on Azure OpenAI Service and Azure AI Document Intelligence to process and extract summaries, entities, and metadata from unstructured, multi-modal documents and enable searching and chatting over this data."
+    product_area: azure-ai
+    function_type: template
+    stars: 206
+  - name: intelligent-app-workshop
+    org: Azure
+    url: "https://github.com/Azure/intelligent-app-workshop"
+    description: "Immersive workshop showcasing the remarkable potential of integrating SoTA foundation models to enhance product experiences and streamline backend workflows. Leverages Microsoft's Copilot stack, Microsoft Agent Framework and Azure primitives to offer an engaging and comprehensive introduction to AI-infused app development and deployment"
+    product_area: azure-ai
+    function_type: sample
+    stars: 204
+  - name: CAIRA
+    org: microsoft
+    url: "https://github.com/microsoft/CAIRA"
+    description: Composable AI Reference Architectures (CAIRA)
+    product_area: azure-ai
+    function_type: documentation
+    stars: 197
+  - name: lsif-node
+    org: microsoft
+    url: "https://github.com/microsoft/lsif-node"
+    description: Define an index format for Language Servers
+    product_area: azure-ai
+    function_type: other
+    stars: 190
+  - name: Deploy-Your-AI-Application-In-Production
+    org: microsoft
+    url: "https://github.com/microsoft/Deploy-Your-AI-Application-In-Production"
+    description: "A deployment of a secure, extensible and integrated environment for running AI Foundry workloads in Production. It simplifies the process of including essential Azure services necessary to run mission-critical AI applications and adhere to Microsoft Well Architected Framework recommendations."
+    product_area: azure-ai
+    function_type: iac
+    stars: 182
+  - name: ai-chat-protocol
+    org: microsoft
+    url: "https://github.com/microsoft/ai-chat-protocol"
+    description: A library + API spec for easily streaming generative AI output to your chat applications.
+    product_area: azure-ai
+    function_type: sdk
+    stars: 172
+  - name: gpt-rag-ingestion
+    org: Azure
+    url: "https://github.com/Azure/gpt-rag-ingestion"
+    description: "The GPT-RAG Data Ingestion service automates processing of diverse documents—PDFs, images, spreadsheets, transcripts, and SharePoint—readying them for Azure AI Search. It applies smart chunking, generates text and image embeddings, and enables rich, multimodal retrieval."
+    product_area: azure-ai
+    function_type: service
+    stars: 167
+  - name: vscode-languagedetection
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-languagedetection"
+    description: An npm package that uses ML to detect source code languages
+    product_area: azure-ai
+    function_type: other
+    stars: 162
+  - name: Earth-Copilot
+    org: microsoft
+    url: "https://github.com/microsoft/Earth-Copilot"
+    description: An AI powered geospatial application that allows you to explore and visualize Earth science data using natural language.
+    product_area: azure-ai
+    function_type: other
+    stars: 139
+  - name: AgentBaker
+    org: Azure
+    url: "https://github.com/Azure/AgentBaker"
+    description: "Agent Baker is aiming to provide a centralized, portable k8s agent node provisioning lib as well as rich support on different OS image with optimized k8s binaries."
+    product_area: azure-ai
+    function_type: iac
+    stars: 137
+  - name: azure-ai-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-ai-docs"
+    description: "Open Source Azure AI documentation including, azure ai, azure studio, machine learning, genomics, open-datasets, and search"
+    product_area: azure-ai
+    function_type: documentation
+    stars: 132
+  - name: simplechat
+    org: microsoft
+    url: "https://github.com/microsoft/simplechat"
+    description: "Secure AI conversations with documents, video, audio, and more. Personal workspaces for focused context, group spaces for shared insight. Classify docs, reuse prompts, and extend with modular features."
+    product_area: azure-ai
+    function_type: documentation
+    stars: 123
+  - name: gpt-rag-agentic
+    org: Azure
+    url: "https://github.com/Azure/gpt-rag-agentic"
+    description: ""
+    product_area: azure-ai
+    function_type: other
+    stars: 120
+  - name: ai-developer
+    org: microsoft
+    url: "https://github.com/microsoft/ai-developer"
+    description: This repository contains hackathon challenges for Semantic Kernel.
+    product_area: azure-ai
+    function_type: other
+    stars: 118
+  - name: immersive-reader-sdk
+    org: microsoft
+    url: "https://github.com/microsoft/immersive-reader-sdk"
+    description: SDK for using the Immersive Reader through Cognitive Services
+    product_area: azure-ai
+    function_type: sdk
+    stars: 108
+  - name: intelligence-toolkit
+    org: microsoft
+    url: "https://github.com/microsoft/intelligence-toolkit"
+    description: Interactive workflows for creating AI intelligence reports from real-world data sources
+    product_area: azure-ai
+    function_type: other
+    stars: 106
+  - name: compose-language-service
+    org: microsoft
+    url: "https://github.com/microsoft/compose-language-service"
+    description: Language service for Docker Compose documents
+    product_area: azure-ai
+    function_type: service
+    stars: 106
+  - name: cognitive-services-speech-sdk-go
+    org: microsoft
+    url: "https://github.com/microsoft/cognitive-services-speech-sdk-go"
+    description: Go bindings for the Microsoft Cognitive Services Speech SDK
+    product_area: azure-ai
+    function_type: sdk
+    stars: 103
+  - name: aitour26-BRK441-Build-and-launch-AI-agents-fast-with-Microsoft-Foundry-and-the-AI-Toolkit
+    org: microsoft
+    url: "https://github.com/microsoft/aitour26-BRK441-Build-and-launch-AI-agents-fast-with-Microsoft-Foundry-and-the-AI-Toolkit"
+    description: ""
+    product_area: azure-ai
+    function_type: other
+    stars: 99
+  - name: spec-to-agents
+    org: microsoft
+    url: "https://github.com/microsoft/spec-to-agents"
+    description: "A multi-agent event planning workflow built with Microsoft Agent Framework - combining Semantic Kernel's enterprise orchestration with AutoGen's multi-agent patterns."
+    product_area: azure-ai
+    function_type: specification
+    stars: 89
+  - name: GenAIOps
+    org: Azure
+    url: "https://github.com/Azure/GenAIOps"
+    description: Generative AI Operations Solution Accelerator
+    product_area: azure-ai
+    function_type: template
+    stars: 84
+  - name: llm-steer-instruct
+    org: microsoft
+    url: "https://github.com/microsoft/llm-steer-instruct"
+    description: A method for steering llms to better follow instructions
+    product_area: azure-ai
+    function_type: other
+    stars: 83
+  - name: monaco-kusto
+    org: Azure
+    url: "https://github.com/Azure/monaco-kusto"
+    description: Kusto query language support for the Monaco editor
+    product_area: azure-ai
+    function_type: other
+    stars: 81
+  - name: gpt-rag-orchestrator
+    org: Azure
+    url: "https://github.com/Azure/gpt-rag-orchestrator"
+    description: "The GPT-RAG Orchestrator service is an agentic orchestration layer built on Azure AI Foundry Agent Service and the Semantic Kernel framework. It enables agent-based RAG workflows by coordinating multiple specialized agents to collaboratively generate accurate, context-aware responses for complex user queries."
+    product_area: azure-ai
+    function_type: service
+    stars: 80
+  - name: learn
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/learn"
+    description: "Microsoft Learn: Cloud & AI Training Content. This repository is public for Instructor Led Training purposes; we do not accept pull requests in this repository."
+    product_area: azure-ai
+    function_type: documentation
+    stars: 80
+  - name: typescript-template-language-service-decorator
+    org: microsoft
+    url: "https://github.com/microsoft/typescript-template-language-service-decorator"
+    description: Framework for decorating a TypeScript language service with additional support for languages embedded inside of template strings
+    product_area: azure-ai
+    function_type: template
+    stars: 79
+  - name: AnthropomorphicIntelligence
+    org: microsoft
+    url: "https://github.com/microsoft/AnthropomorphicIntelligence"
+    description: "Advancing AI by embracing human-likeness for better AI understanding, human–AI collaboration, and social simulation, bridging technology and genuine human experience."
+    product_area: azure-ai
+    function_type: other
+    stars: 76
+  - name: azure-ai-agents-labs
+    org: Azure
+    url: "https://github.com/Azure/azure-ai-agents-labs"
+    description: This repo contains hands-on labs for building AI Agents using the Azure AI Agent Service SDK and Semantic Kernel. The Azure AI Agent Service is used to create AI agents and Semantic Kernel is used to orchestrate the agents in a multi-agent system.
+    product_area: azure-ai
+    function_type: sdk
+    stars: 73
+  - name: agentic-applications-for-unified-data-foundation-solution-accelerator
+    org: microsoft
+    url: "https://github.com/microsoft/agentic-applications-for-unified-data-foundation-solution-accelerator"
+    description: "This accelerator unifies enterprise data with Microsoft Fabric and applies agentic AI to enable faster, smarter decisions. With Microsoft Foundry agents and the Microsoft Agent Framework orchestration, teams can automate workflows, query data in natural language, and uncover insights that fuel agility, collaboration, and innovation."
+    product_area: azure-ai
+    function_type: template
+    stars: 71
+  - name: iq-series
+    org: microsoft
+    url: "https://github.com/microsoft/iq-series"
+    description: "The IQ Series is a hands-on learning experience for Microsoft IQ: Microsoft's unified intelligence layer for the enterprise, spanning Foundry IQ, Work IQ, and Fabric IQ. The series includes video episodes, Jupyter notebooks, and Azure deployment templates."
+    product_area: azure-ai
+    function_type: sample
+    stars: 70
+  - name: microsoft-foundry-for-vscode
+    org: microsoft
+    url: "https://github.com/microsoft/microsoft-foundry-for-vscode"
+    description: ""
+    product_area: azure-ai
+    function_type: other
+    stars: 68
+  - name: aihub
+    org: Azure
+    url: "https://github.com/Azure/aihub"
+    description: AI Hub Executive Demo HandsOn
+    product_area: azure-ai
+    function_type: sample
+    stars: 64
+  - name: skills-for-copilot-studio
+    org: microsoft
+    url: "https://github.com/microsoft/skills-for-copilot-studio"
+    description: "A skill for AI-coding tools to build and edit Microsoft Copilot Studio agents as YAML — with schema validation, templates, and AI-powered skills. Suited for Claude Code, GitHub Copilot CLI, and more."
+    product_area: azure-ai
+    function_type: cli-tool
+    stars: 64
+  - name: sre-agent
+    org: microsoft
+    url: "https://github.com/microsoft/sre-agent"
+    description: "Azure SRE Agent is an AI-powered reliability assistant that helps teams diagnose and resolve production issues, reduce operational toil, and lower mean time to resolution"
+    product_area: azure-ai
+    function_type: other
+    stars: 60
+  - name: edge-ai
+    org: microsoft
+    url: "https://github.com/microsoft/edge-ai"
+    description: "Production-ready Infrastructure as Code, applications, pluggable components, and PlatformOps toolchains that empower organizations to achieve more with cloud and edge AI-powered solutions. Built by friendly geeks, for every team that needs edge solutions to achieve real production results."
+    product_area: azure-ai
+    function_type: iac
+    stars: 55
+  - name: agent-innovator-lab
+    org: Azure
+    url: "https://github.com/Azure/agent-innovator-lab"
+    description: "Agent Innovator Lab – building AI agents on Azure, covering search optimization, agent design, evaluation, and RAG best practices."
+    product_area: azure-ai
+    function_type: sample
+    stars: 52
+  - name: Obliviate-Unmemorization
+    org: microsoft
+    url: "https://github.com/microsoft/Obliviate-Unmemorization"
+    description: "The code for Obliviate: Efficient Unmemorization for Protecting Intellectual Property in Large Language Models"
+    product_area: azure-ai
+    function_type: other
+    stars: 52
+  - name: LLM-Fine-Tuning-Azure
+    org: Azure
+    url: "https://github.com/Azure/LLM-Fine-Tuning-Azure"
+    description: "A modular, beginner-to-expert guide to fine-tuning both OpenAI GPT models and open-source LLMs/SLMs on Azure - designed for technical and non-technical users alike."
+    product_area: azure-ai
+    function_type: documentation
+    stars: 50
+  - name: brainsmith
+    org: microsoft
+    url: "https://github.com/microsoft/brainsmith"
+    description: "Open-source AI acceleration on FPGA: from ONNX to RTL"
+    product_area: azure-ai
+    function_type: other
+    stars: 50
+  - name: AI-Dev-Days-Hackathon
+    org: Azure
+    url: "https://github.com/Azure/AI-Dev-Days-Hackathon"
+    description: ""
+    product_area: azure-ai
+    function_type: other
+    stars: 49
+  - name: powerquery-language-services
+    org: microsoft
+    url: "https://github.com/microsoft/powerquery-language-services"
+    description: Library to provide intellisense and other language services for the Power Query / M language.
+    product_area: azure-ai
+    function_type: sdk
+    stars: 47
+  - name: slm-innovator-lab
+    org: Azure
+    url: "https://github.com/Azure/slm-innovator-lab"
+    description: "This lab is a 1-day/2-day end-to-end SLM workshop led and developed by AI GBB. Attendees will learn how to quickly and easily perform the data preparation-fine tuning-serving-LLMOps series of processes using Azure ML Studio and AI Studio, and will be able to expand the workload based on this."
+    product_area: azure-ai
+    function_type: documentation
+    stars: 46
+  - name: az-python
+    org: microsoft
+    url: "https://github.com/microsoft/az-python"
+    description: A collection of Python Packages for AI usecases
+    product_area: azure-ai
+    function_type: other
+    stars: 46
+  - name: ai-builder
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/ai-builder"
+    description: AI Builder documentation
+    product_area: azure-ai
+    function_type: documentation
+    stars: 46
+  - name: AI-benchmarking-guide
+    org: Azure
+    url: "https://github.com/Azure/AI-benchmarking-guide"
+    description: Benchmarking guide for the Azure AI Infrastructure.
+    product_area: azure-ai
+    function_type: documentation
+    stars: 40
+  - name: learn-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/learn-pr"
+    description: "Microsoft Learn: Cloud & AI Training Content"
+    product_area: azure-ai
+    function_type: documentation
+    stars: 39
+  - name: agentic-factory-hack
+    org: microsoft
+    url: "https://github.com/microsoft/agentic-factory-hack"
+    description: "Build AI-powered predictive maintenance orchestration with Microsoft Foundry, multi-agent workflows, and MCP"
+    product_area: azure-ai
+    function_type: other
+    stars: 38
+  - name: Microsoft-AI-Decision-Framework
+    org: microsoft
+    url: "https://github.com/microsoft/Microsoft-AI-Decision-Framework"
+    description: "Evidence-based decision framework for selecting the right Microsoft AI technology (M365 Copilot, Copilot Studio, Azure AI Foundry, Agent Service) for your business needs"
+    product_area: azure-ai
+    function_type: service
+    stars: 37
+  - name: agent-forge
+    org: microsoft
+    url: "https://github.com/microsoft/agent-forge"
+    description: "AGENT-FORGE is a Context Engineering Toolkit that generates GitHub Copilot customization files for your VS Code project. Instead of manually authoring .github/ configuration, you describe what you need and a multi-agent AI pipeline plans, generates, validates, and installs everything."
+    product_area: azure-ai
+    function_type: community
+    stars: 37
+  - name: synthetic-rag-index
+    org: microsoft
+    url: "https://github.com/microsoft/synthetic-rag-index"
+    description: "Service to import data from various sources and index it in AI Search. Increases data relevance and reduces final size by 90%+. Useful for RAG scenarios with LLM. Hosted in Azure with serverless architecture."
+    product_area: azure-ai
+    function_type: service
+    stars: 36
+  - name: TechWorkshop-L300-AI-Apps-and-agents
+    org: microsoft
+    url: "https://github.com/microsoft/TechWorkshop-L300-AI-Apps-and-agents"
+    description: ""
+    product_area: azure-ai
+    function_type: sample
+    stars: 30
+  - name: aitour26-WRK542-prototype-agents-with-the-ai-toolkit-and-model-context-protocol
+    org: microsoft
+    url: "https://github.com/microsoft/aitour26-WRK542-prototype-agents-with-the-ai-toolkit-and-model-context-protocol"
+    description: ""
+    product_area: azure-ai
+    function_type: specification
+    stars: 29
+  - name: AI-in-One-Dashboard
+    org: microsoft
+    url: "https://github.com/microsoft/AI-in-One-Dashboard"
+    description: AI-in-One Dashboard Power BI template for comprehensive AI usage analytics
+    product_area: azure-ai
+    function_type: template
+    stars: 28
+  - name: windows-ai-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-ai-docs"
+    description: Windows AI docs
+    product_area: azure-ai
+    function_type: documentation
+    stars: 28
+  - name: ai-infrastructure-on-azure
+    org: Azure
+    url: "https://github.com/Azure/ai-infrastructure-on-azure"
+    description: This repositories contains examples and best practices for AI workloads on Azure
+    product_area: azure-ai
+    function_type: sample
+    stars: 25
+  - name: terraform-azurerm-avm-ptn-aiml-landing-zone
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-aiml-landing-zone"
+    description: Terraform Azure Verified Pattern Module for Azure AI and ML Landing Zone
+    product_area: azure-ai
+    function_type: template
+    stars: 24
+  - name: physical-ai-toolchain
+    org: microsoft
+    url: "https://github.com/microsoft/physical-ai-toolchain"
+    description: ""
+    product_area: azure-ai
+    function_type: other
+    stars: 24
+  - name: customer-chatbot-solution-accelerator
+    org: microsoft
+    url: "https://github.com/microsoft/customer-chatbot-solution-accelerator"
+    description: " Customer Chatbot Solution Accelerator empowers organizations to build intelligent, conversational customer service experiences by leveraging Microsoft Foundry's agent framework."
+    product_area: azure-ai
+    function_type: template
+    stars: 23
+  - name: trident
+    org: microsoft
+    url: "https://github.com/microsoft/trident"
+    description: "Azure Linux servicing agent - security focused install, provisioning, and update "
+    product_area: azure-ai
+    function_type: iac
+    stars: 21
+  - name: gpt-rag-mcp
+    org: Azure
+    url: "https://github.com/Azure/gpt-rag-mcp"
+    description: gpt-rag-mcp
+    product_area: azure-ai
+    function_type: other
+    stars: 20
+  - name: interwhen
+    org: microsoft
+    url: "https://github.com/microsoft/interwhen"
+    description: "A framework for verifiable reasoning with language models. "
+    product_area: azure-ai
+    function_type: other
+    stars: 19
+  - name: intent-formalization
+    org: microsoft
+    url: "https://github.com/microsoft/intent-formalization"
+    description: Artefacts for evaluating user-intent-formalization (translating natural language intent to formal specifications)  in different languages
+    product_area: azure-ai
+    function_type: other
+    stars: 19
+  - name: dynamics-365-ai
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics-365-ai"
+    description: Help content for Microsoft Dynamics 365 AI apps
+    product_area: azure-ai
+    function_type: documentation
+    stars: 19
+  - name: ai-document-processor
+    org: Azure
+    url: "https://github.com/Azure/ai-document-processor"
+    description: AI-enabled document processing engine
+    product_area: azure-ai
+    function_type: other
+    stars: 18
+  - name: machine-learning-server-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/machine-learning-server-docs"
+    description: "This is the GitHub repository for the technical product documentation for Machine Learning Server. See the README.md file for more.  This documentation is published to:"
+    product_area: azure-ai
+    function_type: documentation
+    stars: 18
+  - name: aifoundry-apps
+    org: Azure
+    url: "https://github.com/Azure/aifoundry-apps"
+    description: "Enables solution engineers to customize, deploy, and collaborate on multi-agent AI solutions using Azure AI Foundry"
+    product_area: azure-ai
+    function_type: iac
+    stars: 16
+  - name: azure-init
+    org: Azure
+    url: "https://github.com/Azure/azure-init"
+    description: A minimal provisioning agent designed for Azure Linux VMs.
+    product_area: azure-ai
+    function_type: iac
+    stars: 15
+  - name: az-prototype
+    org: Azure
+    url: "https://github.com/Azure/az-prototype"
+    description: Azure CLI extension for building rapid prototypes on Azure using GitHub Copilot or Open Ai
+    product_area: azure-ai
+    function_type: cli-tool
+    stars: 15
+  - name: torchtune-azureml
+    org: Azure
+    url: "https://github.com/Azure/torchtune-azureml"
+    description: "This lab is a starter for quickly and easily applying SLM/LLM fine-tuning, evaluation, and quantization with torchtune on Azure ML."
+    product_area: azure-ai
+    function_type: sample
+    stars: 15
+  - name: microhacks-trust-ai
+    org: microsoft
+    url: "https://github.com/microsoft/microhacks-trust-ai"
+    description: ""
+    product_area: azure-ai
+    function_type: other
+    stars: 15
+  - name: terraform-azurerm-avm-res-machinelearningservices-workspace
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-machinelearningservices-workspace"
+    description: Terraform Azure Verified Resource Module for Machine Learning Services Workspace
+    product_area: azure-ai
+    function_type: iac
+    stars: 14
+  - name: terraform-azurerm-avm-res-cognitiveservices-account
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-cognitiveservices-account"
+    description: Terraform Azure Verified Resource Module for Cognitive Service
+    product_area: azure-ai
+    function_type: iac
+    stars: 13
+  - name: protool
+    org: microsoft
+    url: "https://github.com/microsoft/protool"
+    description: A tool for working with Apple provisioning profiles
+    product_area: azure-ai
+    function_type: cli-tool
+    stars: 13
+  - name: real-time-intelligence-operations-solution-accelerator
+    org: microsoft
+    url: "https://github.com/microsoft/real-time-intelligence-operations-solution-accelerator"
+    description: "This solution accelerator provides the architecture and working solution for real-time intelligence for operations. Key features include real-time dashboard, anomaly detection, and fabric data agent."
+    product_area: azure-ai
+    function_type: template
+    stars: 12
+  - name: WPLUS-Azure-AI-Platform-and-Services
+    org: Azure
+    url: "https://github.com/Azure/WPLUS-Azure-AI-Platform-and-Services"
+    description: WPLUS Azure AI Platform and Services
+    product_area: azure-ai
+    function_type: other
+    stars: 11
+  - name: Metro.AI.PowerShell
+    org: Azure
+    url: "https://github.com/Azure/Metro.AI.PowerShell"
+    description: "Metro-AI is a unified PowerShell module that streamlines management of Azure AI Agent and Assistant APIs. "
+    product_area: azure-ai
+    function_type: other
+    stars: 11
+  - name: hve-learning
+    org: microsoft
+    url: "https://github.com/microsoft/hve-learning"
+    description: "AI-assisted learning platform for hyper-velocity engineering education featuring katas, training labs, and intelligent coaching"
+    product_area: azure-ai
+    function_type: other
+    stars: 11
+  - name: Teams-Auto-Attendant-and-Call-Queue-Backup-and-Bulk-Provisioning-Tools
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/Teams-Auto-Attendant-and-Call-Queue-Backup-and-Bulk-Provisioning-Tools"
+    description: ""
+    product_area: azure-ai
+    function_type: iac
+    stars: 11
+  - name: terraform-azurerm-avm-ptn-aiml-ai-foundry
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-aiml-ai-foundry"
+    description: Terraform Azure Verified Pattern Module for Azure AI Foundry Pattern
+    product_area: azure-ai
+    function_type: iac
+    stars: 10
+  - name: setup-azd
+    org: Azure
+    url: "https://github.com/Azure/setup-azd"
+    description: "This GitHub Action allows you to provision resources and deploy your application on Azure with Azure Developer CLI commands. The action installs the Azure Developer CLI on a user-defined Azure Developer CLI version. If the user does not specify a version, latest CLI version is used."
+    product_area: azure-ai
+    function_type: cli-tool
+    stars: 10
+  - name: RAI-vNext-Preview
+    org: Azure
+    url: "https://github.com/Azure/RAI-vNext-Preview"
+    description: A Repository for the public preview of Responsible AI in AML vNext
+    product_area: azure-ai
+    function_type: other
+    stars: 10
+  - name: aifsdk
+    org: microsoft
+    url: "https://github.com/microsoft/aifsdk"
+    description: "AI Frontiers Software Development Toolkit for data generation, training, fine-tuning and reinforcement learning."
+    product_area: azure-ai
+    function_type: other
+    stars: 10
+  - name: mlops-aisearch-pull
+    org: microsoft
+    url: "https://github.com/microsoft/mlops-aisearch-pull"
+    description: A template that shows how to setup MLOps in Azure AI Search using pull approach
+    product_area: azure-ai
+    function_type: template
+    stars: 10
+  - name: agent-framework-go
+    org: microsoft
+    url: "https://github.com/microsoft/agent-framework-go"
+    description: "A framework for building, orchestrating and deploying AI agents and multi-agent workflows with support for Go."
+    product_area: azure-ai
+    function_type: iac
+    stars: 7
+  - name: customer-zero
+    org: microsoft
+    url: "https://github.com/microsoft/customer-zero"
+    description: Starter repository to accelerate the ideation-to-prototyping journey for Microsoft developers using AI
+    product_area: azure-ai
+    function_type: sample
+    stars: 7
+  - name: gpt-rag-ui
+    org: Azure
+    url: "https://github.com/Azure/gpt-rag-ui"
+    description: "This repository provides the user interface for the GPT-RAG solution, enabling seamless interaction with the Orchestrator backend. Built with Chainlit, it supports customization, theming, and ensures a smooth end-user experience."
+    product_area: azure-ai
+    function_type: service
+    stars: 6
+  - name: SAIL
+    org: Azure
+    url: "https://github.com/Azure/SAIL"
+    description: The Sovereign AI Landing Zone deployment template is an open-source Infrastructure as Code (IaC) solution designed to deploy LLM models to run completely within an Azure region. This template enables organizations—especially those in highly regulated industries—to implement LLMs on Azure with full data and compute sovereignty
+    product_area: azure-ai
+    function_type: template
+    stars: 6
+  - name: microsoft-foundry-e2e-js
+    org: microsoft
+    url: "https://github.com/microsoft/microsoft-foundry-e2e-js"
+    description: Hands-on quest to understand the E2E model development journey on Microsoft Foundry
+    product_area: azure-ai
+    function_type: sample
+    stars: 6
+  - name: vscode-ts-customized-language-service
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-ts-customized-language-service"
+    description: TS/JS VS Code Customized Language Service to improve code navigation of the vscode source code.
+    product_area: azure-ai
+    function_type: service
+    stars: 6
+  - name: ai-discovery-agent
+    org: microsoft
+    url: "https://github.com/microsoft/ai-discovery-agent"
+    description: AIDA the AI Discovery Agent and Workshop Facilitator
+    product_area: azure-ai
+    function_type: sample
+    stars: 5
+  - name: copilot-language-server-internal
+    org: microsoft
+    url: "https://github.com/microsoft/copilot-language-server-internal"
+    description: Internal private repo for Copilot Language Server
+    product_area: azure-ai
+    function_type: service
+    stars: 4
+  - name: AutoGenesis
+    org: microsoft
+    url: "https://github.com/microsoft/AutoGenesis"
+    description: "AutoGenesis is an AI-powered automated testing framework based on Model Context Protocol (MCP), supporting multiple platforms including desktop applications (Windows/macOS) and mobile applications (iOS/Android)."
+    product_area: azure-ai
+    function_type: specification
+    stars: 4
+  - name: azure-ai-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-ai-docs-pr"
+    description: "Azure AI documentation including, azure ai, azure studio, machine learning, genomics, open-datasets, and search"
+    product_area: azure-ai
+    function_type: documentation
+    stars: 4
+  - name: bicep-ptn-aiml-landing-zone
+    org: Azure
+    url: "https://github.com/Azure/bicep-ptn-aiml-landing-zone"
+    description: "AI Landing Zone Bicep templates for deploying a secure, modular baseline for AI applications and agents on Azure."
+    product_area: azure-ai
+    function_type: template
+    stars: 3
+  - name: chatbot_with_promptflow
+    org: Azure
+    url: "https://github.com/Azure/chatbot_with_promptflow"
+    description: ""
+    product_area: azure-ai
+    function_type: other
+    stars: 3
+  - name: PromptKit
+    org: microsoft
+    url: "https://github.com/microsoft/PromptKit"
+    description: "Agentic prompts are the most important code you're not engineering. PromptKit fixes that — composable, version-controlled prompt components (personas, protocols, formats, templates) that snap together into reliable, repeatable prompts for bug investigation, design docs, code review, security audits, and more. Works with any LLM."
+    product_area: azure-ai
+    function_type: documentation
+    stars: 3
+  - name: AIF-iRacing
+    org: microsoft
+    url: "https://github.com/microsoft/AIF-iRacing"
+    description: Collaboration between MSR AI Frontiers and iRacing
+    product_area: azure-ai
+    function_type: other
+    stars: 3
+  - name: botframework-webchat-adapter-azure-communication-chat
+    org: microsoft
+    url: "https://github.com/microsoft/botframework-webchat-adapter-azure-communication-chat"
+    description: WebChat Adapter to use Azure Communication Services Chat with WebChat
+    product_area: azure-ai
+    function_type: other
+    stars: 3
+  - name: semantic-kernel-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/semantic-kernel-pr"
+    description: ""
+    product_area: azure-ai
+    function_type: other
+    stars: 3
+  - name: ai-builder-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/ai-builder-pr"
+    description: ""
+    product_area: azure-ai
+    function_type: other
+    stars: 3
+  - name: dynamics-365-ai-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics-365-ai-pr"
+    description: ""
+    product_area: azure-ai
+    function_type: other
+    stars: 3
+  - name: AzureAIVisionFaceUI
+    org: Azure
+    url: "https://github.com/Azure/AzureAIVisionFaceUI"
+    description: Azure AI Face UI SDK for iOS
+    product_area: azure-ai
+    function_type: sdk
+    stars: 2
+  - name: aifsdk-experiments
+    org: microsoft
+    url: "https://github.com/microsoft/aifsdk-experiments"
+    description: AI Frontiers experiments source files and configurations.
+    product_area: azure-ai
+    function_type: other
+    stars: 2
+  - name: FlowSim
+    org: microsoft
+    url: "https://github.com/microsoft/FlowSim"
+    description: Semantically-rich AI workload tracing
+    product_area: azure-ai
+    function_type: other
+    stars: 2
+  - name: aibast-agents-library
+    org: microsoft
+    url: "https://github.com/microsoft/aibast-agents-library"
+    description: Main repository for AI BAST Specialist Teal AI Agents Library
+    product_area: azure-ai
+    function_type: sdk
+    stars: 2
+  - name: windows-ai-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-ai-docs-pr"
+    description: Documentation for the Windows AI platform
+    product_area: azure-ai
+    function_type: documentation
+    stars: 2
+  - name: speechkit-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/speechkit-pr"
+    description: ""
+    product_area: azure-ai
+    function_type: other
+    stars: 2
+  - name: terraform-azurerm-avm-res-botservice-botservice
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-res-botservice-botservice"
+    description: Terraform Azure Verified Resource Module for Bot Service
+    product_area: azure-ai
+    function_type: iac
+    stars: 1
+  - name: ai-foundry-isv-mcp-agent
+    org: Azure
+    url: "https://github.com/Azure/ai-foundry-isv-mcp-agent"
+    description: AI Foundry Agent with ISV Partner MCP Server integration
+    product_area: azure-ai
+    function_type: service
+    stars: 1
+  - name: Kusto-Explorer-VsCode
+    org: microsoft
+    url: "https://github.com/microsoft/Kusto-Explorer-VsCode"
+    description: VS Code extension for the Kusto Query Language (KQL)
+    product_area: azure-ai
+    function_type: cli-tool
+    stars: 1
+  - name: ASR.Foundations.SBSEval.Scraper
+    org: microsoft
+    url: "https://github.com/microsoft/ASR.Foundations.SBSEval.Scraper"
+    description: Scraping tools for MCS AI Benchmark
+    product_area: azure-ai
+    function_type: other
+    stars: 1
+  - name: ai-agent-eval-scenario-library
+    org: microsoft
+    url: "https://github.com/microsoft/ai-agent-eval-scenario-library"
+    description: ""
+    product_area: azure-ai
+    function_type: sdk
+    stars: 1
+  - name: Model_Based_Testing_Using_LLMs
+    org: microsoft
+    url: "https://github.com/microsoft/Model_Based_Testing_Using_LLMs"
+    description: ""
+    product_area: azure-ai
+    function_type: other
+    stars: 1
+  - name: quipy
+    org: microsoft
+    url: "https://github.com/microsoft/quipy"
+    description: "AI agent platform with dual voice backends (OpenAI Realtime & Azure Voice Live), powered by .NET Aspire, FastAPI, and React"
+    product_area: azure-ai
+    function_type: service
+    stars: 1
+  - name: Agent365-Python-AI-First
+    org: microsoft
+    url: "https://github.com/microsoft/Agent365-Python-AI-First"
+    description: ""
+    product_area: azure-ai
+    function_type: other
+    stars: 1
+  - name: azure-policy-autogen-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-policy-autogen-docs"
+    description: "This repository contains files that are autogenerated from source code and can't be edited. The files are used to publish the docs for Azure Policy and Regulatory Compliance built-in definitions and initiatives."
+    product_area: azure-ai
+    function_type: documentation
+    stars: 1
+  - name: ai-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/ai-docs-pr"
+    description: ""
+    product_area: azure-ai
+    function_type: documentation
+    stars: 1
+  - name: teams-ai-library
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/teams-ai-library"
+    description: ""
+    product_area: azure-ai
+    function_type: sdk
+    stars: 1
+  - name: copilot-sdk-docs-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/copilot-sdk-docs-dotnet"
+    description: ""
+    product_area: azure-ai
+    function_type: documentation
+    stars: 1
+  - name: MachineLearning-Python-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/MachineLearning-Python-pr"
+    description: Learn how to work with this repo in the repo wiki.
+    product_area: azure-ai
+    function_type: documentation
+    stars: 1
+  - name: AgenticAha
+    org: Azure
+    url: "https://github.com/Azure/AgenticAha"
+    description: "Azure Agentic Aha (AAA) is a modular and flexible Infrastructure as Code (IaC) solution deployment framework for the Microsoft Discovery Agentic AI managed platform & Azure High-Performance Computing (HPC) infrastructure."
+    product_area: azure-ai
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-ptn-openai-cognitivesearch
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-openai-cognitivesearch"
+    description: "Terraform Azure Verified Pattern Module for Corporate Line of Business (LoB) ChatBot "
+    product_area: azure-ai
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-ptn-hci-server-provisioner
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-hci-server-provisioner"
+    description: Terraform Azure Verified Pattern Module for Arc for Server registration
+    product_area: azure-ai
+    function_type: iac
+    stars: 0
+  - name: terraform-azurerm-avm-ptn-hci-ad-provisioner
+    org: Azure
+    url: "https://github.com/Azure/terraform-azurerm-avm-ptn-hci-ad-provisioner"
+    description: Terraform Azure Verified Pattern Module for Arc for AD registration
+    product_area: azure-ai
+    function_type: iac
+    stars: 0
+  - name: microsoft-agent-framework-foundry-starter-pack-net
+    org: Azure
+    url: "https://github.com/Azure/microsoft-agent-framework-foundry-starter-pack-net"
+    description: This provides a starter template to build an agentic AI app using Microsoft Agent Framework and Microsoft Foundry with Aspire
+    product_area: azure-ai
+    function_type: sample
+    stars: 0
+  - name: AIObjStore
+    org: Azure
+    url: "https://github.com/Azure/AIObjStore"
+    description: High Performance Object Store for AI
+    product_area: azure-ai
+    function_type: other
+    stars: 0
+  - name: agent-openai-python-banking-assistant
+    org: Azure
+    url: "https://github.com/Azure/agent-openai-python-banking-assistant"
+    description: Multi-agent banking assistant with Python and Microsoft Agent Framework
+    product_area: azure-ai
+    function_type: other
+    stars: 0
+  - name: Azure-AI-Dev-Days-Hackathon
+    org: Azure
+    url: "https://github.com/Azure/Azure-AI-Dev-Days-Hackathon"
+    description: "Hackathon repository for Azure AI Dev Days launching in February 2026. This repository hosts all hackathon materials, solutions, and resources for participants building AI applications on Azure."
+    product_area: azure-ai
+    function_type: other
+    stars: 0
+  - name: live-voice-agent
+    org: Azure
+    url: "https://github.com/Azure/live-voice-agent"
+    description: "Real-time, voice-first AI agent for natural conversational experiences across web and extensible to other channels."
+    product_area: azure-ai
+    function_type: other
+    stars: 0
+  - name: ai-gateway-portal
+    org: Azure
+    url: "https://github.com/Azure/ai-gateway-portal"
+    description: ""
+    product_area: azure-ai
+    function_type: service
+    stars: 0
+  - name: bicep-avm-ptn-aiml-landing-zone
+    org: Azure
+    url: "https://github.com/Azure/bicep-avm-ptn-aiml-landing-zone"
+    description: "AI Landing Zones repo includes a Bicep-based implementation of the AI Landing Zone, built to deploy a secure, modular baseline for AI apps and agents on Azure."
+    product_area: azure-ai
+    function_type: template
+    stars: 0
+  - name: Hackathon25-MentorAI
+    org: Azure
+    url: "https://github.com/Azure/Hackathon25-MentorAI"
+    description: Sample for deploying AI agents web app with Azure AI Foundry and SDKs
+    product_area: azure-ai
+    function_type: sample
+    stars: 0
+  - name: nvidia-runai-vscode-extension
+    org: Azure
+    url: "https://github.com/Azure/nvidia-runai-vscode-extension"
+    description: "Nvidia Run:ai VSCode extension"
+    product_area: azure-ai
+    function_type: cli-tool
+    stars: 0
+  - name: gpt-rag-realtime
+    org: Azure
+    url: "https://github.com/Azure/gpt-rag-realtime"
+    description: "This service provides an audio-enabled user interface that extends the GPT-RAG ecosystem with real-time voice interaction capabilities. It integrates with the GPT-RAG Orchestrator backend to enable natural, two-way communication, combining speech recognition, speech synthesis, and retrieval-augmented generation in a single experience."
+    product_area: azure-ai
+    function_type: service
+    stars: 0
+  - name: data-ai-solutions-lab
+    org: Azure
+    url: "https://github.com/Azure/data-ai-solutions-lab"
+    description: ""
+    product_area: azure-ai
+    function_type: sample
+    stars: 0
+  - name: gutwise-mvp
+    org: Azure
+    url: "https://github.com/Azure/gutwise-mvp"
+    description: "GutWise is an AI-powered companion for people with digestive sensitivities. It detects restaurants, analyzes menus, and uses health history to suggest safe food choices. With quick meal logging and symptom check-ins, it builds personalized insights for healthier, more confident living."
+    product_area: azure-ai
+    function_type: other
+    stars: 0
+  - name: gutwise-generate-menu
+    org: Azure
+    url: "https://github.com/Azure/gutwise-generate-menu"
+    description: "GutWise is an AI-powered companion for people with digestive sensitivities. It detects restaurants, analyzes menus, and uses health history to suggest safe food choices. With quick meal logging and symptom check-ins, it builds personalized insights for healthier, more confident living."
+    product_area: azure-ai
+    function_type: other
+    stars: 0
+  - name: azure-ai-agent-failover-demo
+    org: Azure
+    url: "https://github.com/Azure/azure-ai-agent-failover-demo"
+    description: Azure AI Agent Failover Demo
+    product_area: azure-ai
+    function_type: sample
+    stars: 0
+  - name: ofp-ai-bootcamp2025-trtran
+    org: Azure
+    url: "https://github.com/Azure/ofp-ai-bootcamp2025-trtran"
+    description: OFP AI Bootcamp 2025 - Tutorial for building a simple MCP Server in Python
+    product_area: azure-ai
+    function_type: documentation
+    stars: 0
+  - name: TeamsAgentBuilderHub
+    org: microsoft
+    url: "https://github.com/microsoft/TeamsAgentBuilderHub"
+    description: "A GitHub Copilot powered hub for building, deploying, and previewing AI agents — supporting Microsoft Foundry agents and Microsoft 365 / Teams agents."
+    product_area: azure-ai
+    function_type: iac
+    stars: 0
+  - name: llm-backdoor-scanner
+    org: microsoft
+    url: "https://github.com/microsoft/llm-backdoor-scanner"
+    description: "Research code for the paper \"The Trigger in the Haystack: Extracting and Reconstructing LLM Backdoor Triggers\" https://arxiv.org/abs/2602.03085"
+    product_area: azure-ai
+    function_type: other
+    stars: 0
+  - name: devsquad-copilot
+    org: microsoft
+    url: "https://github.com/microsoft/devsquad-copilot"
+    description: "GitHub Copilot agents that bring structure to iterative delivery: from business vision through specs, backlog, and implementation."
+    product_area: azure-ai
+    function_type: other
+    stars: 0
+  - name: ASR.Foundations.SBSEval.Evaluation
+    org: microsoft
+    url: "https://github.com/microsoft/ASR.Foundations.SBSEval.Evaluation"
+    description: Evaluation tools for MCS AI Benchmark
+    product_area: azure-ai
+    function_type: other
+    stars: 0
+  - name: aienergy_simulation
+    org: microsoft
+    url: "https://github.com/microsoft/aienergy_simulation"
+    description: "Accompanying code for Joule publication,\" Energy Use of AI Inference: Efficiency Pathways and Test-Time Compute\", Oviedo et al., 2025"
+    product_area: azure-ai
+    function_type: other
+    stars: 0
+  - name: some-python-demos
+    org: microsoft
+    url: "https://github.com/microsoft/some-python-demos"
+    description: "Some python demos, touching on topics like environment management, API design, and AI integration."
+    product_area: azure-ai
+    function_type: service
+    stars: 0
+  - name: teams-ai-library-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/teams-ai-library-pr"
+    description: ""
+    product_area: azure-ai
+    function_type: sdk
+    stars: 0
+  - name: azure-ai-docs-archive-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-ai-docs-archive-pr"
+    description: ""
+    product_area: azure-ai
+    function_type: documentation
+    stars: 0
+  - name: azure-docs-cpp-cognitive-services-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-docs-cpp-cognitive-services-pr"
+    description: ""
+    product_area: azure-ai
+    function_type: documentation
+    stars: 0
+  - name: azure-docs-objective-c-cognitive-services-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-docs-objective-c-cognitive-services-pr"
+    description: ""
+    product_area: azure-ai
+    function_type: documentation
+    stars: 0
+  - name: dragon-copilot-sdk-javascript
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dragon-copilot-sdk-javascript"
+    description: ""
+    product_area: azure-ai
+    function_type: sdk
+    stars: 0
+  - name: windows-ai-docs-archive-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-ai-docs-archive-pr"
+    description: ""
+    product_area: azure-ai
+    function_type: documentation
+    stars: 0
+  - name: machine-learning-server-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/machine-learning-server-docs-pr"
+    description: "ML-related product documentation source (e.g, Microsoft ML Server and R products, …)"
+    product_area: azure-ai
+    function_type: documentation
+    stars: 0
+  - name: openai-dotnet-api-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/openai-dotnet-api-docs"
+    description: ""
+    product_area: azure-ai
+    function_type: documentation
+    stars: 0
+  - name: semantic-kernel-java-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/semantic-kernel-java-pr"
+    description: ""
+    product_area: azure-ai
+    function_type: other
+    stars: 0
+  - name: semantic-kernel-dotnet-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/semantic-kernel-dotnet-pr"
+    description: ""
+    product_area: azure-ai
+    function_type: other
+    stars: 0
+  - name: semantic-kernel-python-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/semantic-kernel-python-pr"
+    description: ""
+    product_area: azure-ai
+    function_type: other
+    stars: 0
+  - name: ShujingProvisionPPETest103024
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/ShujingProvisionPPETest103024"
+    description: ""
+    product_area: azure-ai
+    function_type: iac
+    stars: 0
+  - name: RepoProvisionE2ETestRepo
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/RepoProvisionE2ETestRepo"
+    description: ""
+    product_area: azure-ai
+    function_type: iac
+    stars: 0
+  - name: machine-learning-server-archive-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/machine-learning-server-archive-pr"
+    description: ""
+    product_area: azure-ai
+    function_type: service
+    stars: 0
+  - name: machine-learning-server-docs-archive-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/machine-learning-server-docs-archive-pr"
+    description: ""
+    product_area: azure-ai
+    function_type: documentation
+    stars: 0

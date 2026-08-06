@@ -1,0 +1,330 @@
+# Power Platform Repository Cross-Reference
+# Auto-generated on 2026-03-20
+# Cross-organization index of repos in the "power-platform" product area
+
+category: power-platform
+total_repos: 45
+generated: 2026-03-20
+
+sources:
+  - org: microsoft
+    count: 11
+  - org: MicrosoftDocs
+    count: 34
+
+repos:
+  - name: Power-Fx
+    org: microsoft
+    url: "https://github.com/microsoft/Power-Fx"
+    description: Power Fx low-code programming language
+    product_area: power-platform
+    function_type: other
+    stars: 3343
+  - name: powerapps-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerapps-docs"
+    description: Technical Documentation for Microsoft Power Apps
+    product_area: power-platform
+    function_type: documentation
+    stars: 574
+  - name: powerbi-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerbi-docs"
+    description: ""
+    product_area: power-platform
+    function_type: documentation
+    stars: 560
+  - name: power-platform
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/power-platform"
+    description: Documentation for Microsoft Power Platform
+    product_area: power-platform
+    function_type: documentation
+    stars: 477
+  - name: PowerBI-visuals-tools
+    org: microsoft
+    url: "https://github.com/microsoft/PowerBI-visuals-tools"
+    description: Contains tools for building/packaging Power BI visuals
+    product_area: power-platform
+    function_type: other
+    stars: 405
+  - name: power-automate-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/power-automate-docs"
+    description: ""
+    product_area: power-platform
+    function_type: documentation
+    stars: 351
+  - name: PowerAppsCodeApps
+    org: microsoft
+    url: "https://github.com/microsoft/PowerAppsCodeApps"
+    description: "Create custom web applications to run within Power Apps!"
+    product_area: power-platform
+    function_type: other
+    stars: 350
+  - name: mslearn-developer-tools-power-platform
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-developer-tools-power-platform"
+    description: "Microsoft Learn: Downloads for Power Platform and Dynamics 365 Learn modules."
+    product_area: power-platform
+    function_type: documentation
+    stars: 347
+  - name: powerbi-visuals-timeline
+    org: microsoft
+    url: "https://github.com/microsoft/powerbi-visuals-timeline"
+    description: Timeline slicer is a graphical date range selector used as a filtering component in the report canvas
+    product_area: power-platform
+    function_type: other
+    stars: 49
+  - name: powerbi-visuals-sunburst
+    org: microsoft
+    url: "https://github.com/microsoft/powerbi-visuals-sunburst"
+    description: "Sunburst is a multilevel donut chart, used to visualize hierarchical data, depicted by concentric circles."
+    product_area: power-platform
+    function_type: other
+    stars: 43
+  - name: PowerPlatform-DataverseClient-Python
+    org: microsoft
+    url: "https://github.com/microsoft/PowerPlatform-DataverseClient-Python"
+    description: ""
+    product_area: power-platform
+    function_type: other
+    stars: 38
+  - name: power-pages-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/power-pages-docs"
+    description: ""
+    product_area: power-platform
+    function_type: documentation
+    stars: 36
+  - name: power-pages-samples
+    org: microsoft
+    url: "https://github.com/microsoft/power-pages-samples"
+    description: A repo containing sample websites for Power Pages.
+    product_area: power-platform
+    function_type: sample
+    stars: 30
+  - name: powerbi-visuals-dualkpi
+    org: microsoft
+    url: "https://github.com/microsoft/powerbi-visuals-dualkpi"
+    description: A visual for displaying two correlated KPIs within a single visual.
+    product_area: power-platform
+    function_type: other
+    stars: 22
+  - name: powerbi-visuals-dotplot
+    org: microsoft
+    url: "https://github.com/microsoft/powerbi-visuals-dotplot"
+    description: A dot plot is used to show a representation of the distribution of frequencies. It is most often used to show counts of an occurrence.
+    product_area: power-platform
+    function_type: other
+    stars: 20
+  - name: power-platform-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/power-platform-pr"
+    description: ""
+    product_area: power-platform
+    function_type: other
+    stars: 17
+  - name: powerapps-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerapps-docs-pr"
+    description: Source repository for Microsoft Power Apps technical documentation
+    product_area: power-platform
+    function_type: documentation
+    stars: 12
+  - name: PowerPlatform-EnterprisePolicies
+    org: microsoft
+    url: "https://github.com/microsoft/PowerPlatform-EnterprisePolicies"
+    description: ""
+    product_area: power-platform
+    function_type: other
+    stars: 8
+  - name: power-automate-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/power-automate-docs-pr"
+    description: "Microsoft Flow Technical Documentation "
+    product_area: power-platform
+    function_type: documentation
+    stars: 8
+  - name: powerbi-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerbi-docs-pr"
+    description: ""
+    product_area: power-platform
+    function_type: documentation
+    stars: 6
+  - name: powerplatform-licensing-samples
+    org: microsoft
+    url: "https://github.com/microsoft/powerplatform-licensing-samples"
+    description: Power Platform Licensing Samples provide an interactive way to demonstrate APIs behind the Power Platform API Gateway
+    product_area: power-platform
+    function_type: sample
+    stars: 3
+  - name: powerbi-rest-api-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerbi-rest-api-docs-pr"
+    description: ""
+    product_area: power-platform
+    function_type: documentation
+    stars: 3
+  - name: powerapps-docs-web-api-ref-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerapps-docs-web-api-ref-pr"
+    description: ""
+    product_area: power-platform
+    function_type: documentation
+    stars: 2
+  - name: powerplatform-releasenotes-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerplatform-releasenotes-pr"
+    description: ""
+    product_area: power-platform
+    function_type: other
+    stars: 2
+  - name: powerplatform-released-versions-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerplatform-released-versions-pr"
+    description: ""
+    product_area: power-platform
+    function_type: other
+    stars: 1
+  - name: power-pages-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/power-pages-docs-pr"
+    description: ""
+    product_area: power-platform
+    function_type: documentation
+    stars: 1
+  - name: powerplatform-2023w2-releaseplan-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerplatform-2023w2-releaseplan-pr"
+    description: ""
+    product_area: power-platform
+    function_type: other
+    stars: 1
+  - name: powerplatform-2022w1-releaseplan-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerplatform-2022w1-releaseplan-pr"
+    description: ""
+    product_area: power-platform
+    function_type: other
+    stars: 1
+  - name: powerplatform-2022w2-releaseplan-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerplatform-2022w2-releaseplan-pr"
+    description: ""
+    product_area: power-platform
+    function_type: other
+    stars: 1
+  - name: powerplatform-releaseplan-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerplatform-releaseplan-pr"
+    description: ""
+    product_area: power-platform
+    function_type: other
+    stars: 0
+  - name: powerplatform-test-releaseplan-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerplatform-test-releaseplan-pr"
+    description: ""
+    product_area: power-platform
+    function_type: other
+    stars: 0
+  - name: dataverse-sdk-docs-python
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dataverse-sdk-docs-python"
+    description: ""
+    product_area: power-platform
+    function_type: documentation
+    stars: 0
+  - name: powerbi-docs-javascript
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerbi-docs-javascript"
+    description: ""
+    product_area: power-platform
+    function_type: documentation
+    stars: 0
+  - name: powerplatform-rest
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerplatform-rest"
+    description: ""
+    product_area: power-platform
+    function_type: other
+    stars: 0
+  - name: powerapps-sdk-docs-javascript
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerapps-sdk-docs-javascript"
+    description: ""
+    product_area: power-platform
+    function_type: documentation
+    stars: 0
+  - name: powerplatform-releaseplan-archive-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerplatform-releaseplan-archive-pr"
+    description: ""
+    product_area: power-platform
+    function_type: other
+    stars: 0
+  - name: powerplatform-2021w1-releaseplan-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerplatform-2021w1-releaseplan-pr"
+    description: ""
+    product_area: power-platform
+    function_type: other
+    stars: 0
+  - name: powerplatform-2021w2-releaseplan-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerplatform-2021w2-releaseplan-pr"
+    description: ""
+    product_area: power-platform
+    function_type: other
+    stars: 0
+  - name: powerplatform-2023w1-releaseplan-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerplatform-2023w1-releaseplan-pr"
+    description: ""
+    product_area: power-platform
+    function_type: other
+    stars: 0
+  - name: power-platform-rest
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/power-platform-rest"
+    description: ""
+    product_area: power-platform
+    function_type: other
+    stars: 0
+  - name: powerapps-docs-pr.pt-BR
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerapps-docs-pr.pt-BR"
+    description: ""
+    product_area: power-platform
+    function_type: documentation
+    stars: 0
+  - name: powerapps-docs-pr.sr-Latn-RS
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerapps-docs-pr.sr-Latn-RS"
+    description: ""
+    product_area: power-platform
+    function_type: documentation
+    stars: 0
+  - name: powerplatform-releasenotes-archive-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerplatform-releasenotes-archive-pr"
+    description: ""
+    product_area: power-platform
+    function_type: other
+    stars: 0
+  - name: powerplatform-2020w2-releaseplan-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerplatform-2020w2-releaseplan-pr"
+    description: ""
+    product_area: power-platform
+    function_type: other
+    stars: 0
+  - name: powerplatform-2020w2-releaseplan-archive-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerplatform-2020w2-releaseplan-archive-pr"
+    description: ""
+    product_area: power-platform
+    function_type: other
+    stars: 0

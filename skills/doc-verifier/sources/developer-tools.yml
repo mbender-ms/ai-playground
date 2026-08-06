@@ -1,0 +1,1522 @@
+# Developer Tools Repository Cross-Reference
+# Auto-generated on 2026-03-20
+# Cross-organization index of repos in the "developer-tools" product area
+
+category: developer-tools
+total_repos: 215
+generated: 2026-03-20
+
+sources:
+  - org: microsoft
+    count: 134
+  - org: Azure
+    count: 7
+  - org: MicrosoftDocs
+    count: 74
+
+repos:
+  - name: vscode
+    org: microsoft
+    url: "https://github.com/microsoft/vscode"
+    description: Visual Studio Code
+    product_area: developer-tools
+    function_type: other
+    stars: 182886
+  - name: TypeScript
+    org: microsoft
+    url: "https://github.com/microsoft/TypeScript"
+    description: TypeScript is a superset of JavaScript that compiles to clean JavaScript output.
+    product_area: developer-tools
+    function_type: other
+    stars: 108224
+  - name: terminal
+    org: microsoft
+    url: "https://github.com/microsoft/terminal"
+    description: "The new Windows Terminal and the original Windows console host, all in the same place!"
+    product_area: developer-tools
+    function_type: other
+    stars: 102278
+  - name: playwright
+    org: microsoft
+    url: "https://github.com/microsoft/playwright"
+    description: "Playwright is a framework for Web Testing and Automation. It allows testing Chromium, Firefox and WebKit with a single API. "
+    product_area: developer-tools
+    function_type: service
+    stars: 84638
+  - name: playwright-mcp
+    org: microsoft
+    url: "https://github.com/microsoft/playwright-mcp"
+    description: Playwright MCP server
+    product_area: developer-tools
+    function_type: service
+    stars: 29336
+  - name: typescript-go
+    org: microsoft
+    url: "https://github.com/microsoft/typescript-go"
+    description: Staging repo for development of native port of TypeScript
+    product_area: developer-tools
+    function_type: other
+    stars: 24508
+  - name: playwright-python
+    org: microsoft
+    url: "https://github.com/microsoft/playwright-python"
+    description: Python version of the Playwright testing and automation library.
+    product_area: developer-tools
+    function_type: sdk
+    stars: 14408
+  - name: winget-pkgs
+    org: microsoft
+    url: "https://github.com/microsoft/winget-pkgs"
+    description: The Microsoft community Windows Package Manager manifest repository
+    product_area: developer-tools
+    function_type: community
+    stars: 10370
+  - name: vscode-docs
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-docs"
+    description: Public documentation for Visual Studio Code
+    product_area: developer-tools
+    function_type: documentation
+    stars: 6418
+  - name: vscode-cpptools
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-cpptools"
+    description: Official repository for the Microsoft C/C++ extension for VS Code.
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 6060
+  - name: autorest
+    org: Azure
+    url: "https://github.com/Azure/autorest"
+    description: "OpenAPI (f.k.a Swagger) Specification code generator. Supports C#, PowerShell, Go, Java, Node.js, TypeScript, Python"
+    product_area: developer-tools
+    function_type: specification
+    stars: 4800
+  - name: fluentui-blazor
+    org: microsoft
+    url: "https://github.com/microsoft/fluentui-blazor"
+    description: Microsoft Fluent UI Blazor components library. For use with ASP.NET Core Blazor applications
+    product_area: developer-tools
+    function_type: sdk
+    stars: 4709
+  - name: vscode-python
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-python"
+    description: Python extension for Visual Studio Code
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 4590
+  - name: WindowsAppSDK
+    org: microsoft
+    url: "https://github.com/microsoft/WindowsAppSDK"
+    description: "The Windows App SDK empowers all Windows desktop apps with modern Windows UI, APIs, and platform features, including back-compat support, shipped via NuGet."
+    product_area: developer-tools
+    function_type: sdk
+    stars: 4462
+  - name: RulesEngine
+    org: microsoft
+    url: "https://github.com/microsoft/RulesEngine"
+    description: A fast and reliable .NET Rules Engine with extensive Dynamic expression support
+    product_area: developer-tools
+    function_type: other
+    stars: 4197
+  - name: playwright-dotnet
+    org: microsoft
+    url: "https://github.com/microsoft/playwright-dotnet"
+    description: .NET version of the Playwright testing and automation library.
+    product_area: developer-tools
+    function_type: sdk
+    stars: 2914
+  - name: vscode-react-native
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-react-native"
+    description: VSCode extension for React Native - supports debugging and editor integration
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 2724
+  - name: vscode-pull-request-github
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-pull-request-github"
+    description: GitHub Pull Requests for Visual Studio Code
+    product_area: developer-tools
+    function_type: other
+    stars: 2555
+  - name: TypeScript-Website
+    org: microsoft
+    url: "https://github.com/microsoft/TypeScript-Website"
+    description: The Website and web infrastructure for learning TypeScript
+    product_area: developer-tools
+    function_type: iac
+    stars: 2487
+  - name: PowerShell-Docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/PowerShell-Docs"
+    description: The official PowerShell documentation sources
+    product_area: developer-tools
+    function_type: documentation
+    stars: 2399
+  - name: vscode-js-debug
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-js-debug"
+    description: "A DAP-compatible JavaScript debugger. Used in VS Code, VS, + more"
+    product_area: developer-tools
+    function_type: other
+    stars: 1929
+  - name: vscode-eslint
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-eslint"
+    description: VSCode extension to integrate eslint into VSCode
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 1913
+  - name: OpenAPI.NET
+    org: microsoft
+    url: "https://github.com/microsoft/OpenAPI.NET"
+    description: The OpenAPI.NET SDK contains a useful object model for OpenAPI documents in .NET along with common serializers to extract raw OpenAPI JSON and YAML documents from the model.
+    product_area: developer-tools
+    function_type: sdk
+    stars: 1581
+  - name: vscode-jupyter
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-jupyter"
+    description: VS Code Jupyter extension
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 1482
+  - name: tslib
+    org: microsoft
+    url: "https://github.com/microsoft/tslib"
+    description: Runtime library for TypeScript helpers.
+    product_area: developer-tools
+    function_type: sdk
+    stars: 1333
+  - name: vscode-docker
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-docker"
+    description: Docker Extension Pack for Visual Studio Code
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 1301
+  - name: FeatureManagement-Dotnet
+    org: microsoft
+    url: "https://github.com/microsoft/FeatureManagement-Dotnet"
+    description: "Microsoft.FeatureManagement provides standardized APIs for enabling feature flags within applications. Utilize this library to secure a consistent experience when developing applications that use patterns such as beta access, rollout, dark deployments, and more."
+    product_area: developer-tools
+    function_type: sdk
+    stars: 1170
+  - name: visualstudio-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/visualstudio-docs"
+    description: This repo is the home of the official  documentation for Visual Studio.
+    product_area: developer-tools
+    function_type: documentation
+    stars: 1149
+  - name: vs-threading
+    org: microsoft
+    url: "https://github.com/microsoft/vs-threading"
+    description: "The Microsoft.VisualStudio.Threading is a xplat library that provides many threading and synchronization primitives used in Visual Studio and other applications. "
+    product_area: developer-tools
+    function_type: sdk
+    stars: 1028
+  - name: vs-streamjsonrpc
+    org: microsoft
+    url: "https://github.com/microsoft/vs-streamjsonrpc"
+    description: "The StreamJsonRpc library offers JSON-RPC 2.0 over any .NET Stream, WebSocket, or Pipe. With bonus support for request cancellation, client proxy generation, and more."
+    product_area: developer-tools
+    function_type: sdk
+    stars: 911
+  - name: dotnet-framework-docker
+    org: microsoft
+    url: "https://github.com/microsoft/dotnet-framework-docker"
+    description: The repo for the official docker images for .NET Framework on Windows Server Core.
+    product_area: developer-tools
+    function_type: service
+    stars: 761
+  - name: TypeScript-DOM-lib-generator
+    org: microsoft
+    url: "https://github.com/microsoft/TypeScript-DOM-lib-generator"
+    description: "Tool for generating dom related TypeScript and JavaScript library files "
+    product_area: developer-tools
+    function_type: sdk
+    stars: 729
+  - name: vscode-loc
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-loc"
+    description: VS Code Localization Extension
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 707
+  - name: vscode-textmate
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-textmate"
+    description: A library that helps tokenize text using Text Mate grammars.
+    product_area: developer-tools
+    function_type: sdk
+    stars: 664
+  - name: work-iq
+    org: microsoft
+    url: "https://github.com/microsoft/work-iq"
+    description: MCP Server and CLI for accessing Work IQ
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 585
+  - name: vscode-hexeditor
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-hexeditor"
+    description: VS Code Hex Editor
+    product_area: developer-tools
+    function_type: other
+    stars: 582
+  - name: vscode-livepreview
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-livepreview"
+    description: "Hosts a local server in your workspace for you to preview your webpages. "
+    product_area: developer-tools
+    function_type: service
+    stars: 540
+  - name: terminal
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/terminal"
+    description: ""
+    product_area: developer-tools
+    function_type: other
+    stars: 508
+  - name: windows-powershell-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-powershell-docs"
+    description: "This repo is used to contribute to Windows, Windows Server, and MDOP PowerShell module documentation."
+    product_area: developer-tools
+    function_type: documentation
+    stars: 491
+  - name: PSRule
+    org: microsoft
+    url: "https://github.com/microsoft/PSRule"
+    description: Validate infrastructure as code (IaC) and objects using PowerShell rules.
+    product_area: developer-tools
+    function_type: iac
+    stars: 460
+  - name: playwright-vscode
+    org: microsoft
+    url: "https://github.com/microsoft/playwright-vscode"
+    description: Playwright Test Visual Studio Code integration
+    product_area: developer-tools
+    function_type: other
+    stars: 455
+  - name: vscode-wasm
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-wasm"
+    description: "A WASI implementation that uses VS Code's extension host as the implementing API"
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 444
+  - name: amqpnetlite
+    org: Azure
+    url: "https://github.com/Azure/amqpnetlite"
+    description: AMQP 1.0 .NET Library
+    product_area: developer-tools
+    function_type: sdk
+    stars: 413
+  - name: powerbi-powershell
+    org: microsoft
+    url: "https://github.com/microsoft/powerbi-powershell"
+    description: PowerShell community for Microsoft PowerBI. Here you will find resources and source for PowerShell modules targeting PowerBI.
+    product_area: developer-tools
+    function_type: community
+    stars: 399
+  - name: vscode-mock-debug
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-mock-debug"
+    description: Starter sample for developing debug adapters for VSCode.
+    product_area: developer-tools
+    function_type: sample
+    stars: 352
+  - name: slow-cheetah
+    org: microsoft
+    url: "https://github.com/microsoft/slow-cheetah"
+    description: Tooling for XML and JSON file transforms on build from Visual Studio and MSBuild
+    product_area: developer-tools
+    function_type: other
+    stars: 352
+  - name: vscode-java-test
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-java-test"
+    description: Run and debug Java test cases in Visual Studio Code.
+    product_area: developer-tools
+    function_type: other
+    stars: 328
+  - name: vscode-typescript-next
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-typescript-next"
+    description: "Enables typescript@next as VS Code's built-in TypeScript version"
+    product_area: developer-tools
+    function_type: other
+    stars: 293
+  - name: vscode-prompt-tsx
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-prompt-tsx"
+    description: ""
+    product_area: developer-tools
+    function_type: other
+    stars: 270
+  - name: typescript-lit-html-plugin
+    org: microsoft
+    url: "https://github.com/microsoft/typescript-lit-html-plugin"
+    description: TypeScript server plugin that adds intellisense for lit-html template strings
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 268
+  - name: powerplatform-vscode
+    org: microsoft
+    url: "https://github.com/microsoft/powerplatform-vscode"
+    description: "The Power Platform VSCode extension makes it easy to manage Power Platform environments and allows the developer to create, build and deploy Power Platform solutions, packages and portals."
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 257
+  - name: vscode-custom-data
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-custom-data"
+    description: Documentation and sample for using VS Code custom data format
+    product_area: developer-tools
+    function_type: documentation
+    stars: 238
+  - name: OpenAPI.NET.OData
+    org: microsoft
+    url: "https://github.com/microsoft/OpenAPI.NET.OData"
+    description: Generates OpenAPI document from OData CSDL
+    product_area: developer-tools
+    function_type: specification
+    stars: 236
+  - name: vscode-makefile-tools
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-makefile-tools"
+    description: "Makefile Tools offers a robust workflow for Makefile projects in VS Code, with pre and post-configure script automation, easy configuration switching, and IntelliSense support for Makefile. The customizable user interface and environment variable management simplify development. It can also generate a compilation database for use with other tools."
+    product_area: developer-tools
+    function_type: other
+    stars: 228
+  - name: vscode-maven
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-maven"
+    description: "VSCode extension \"Maven for Java\""
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 201
+  - name: xamarin-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/xamarin-docs"
+    description: Xamarin Documentation - public content repo
+    product_area: developer-tools
+    function_type: documentation
+    stars: 193
+  - name: vscode-black-formatter
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-black-formatter"
+    description: Formatting support for Python using the Black formatter
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 191
+  - name: vscode-java-dependency
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-java-dependency"
+    description: Manage Java projects in Visual Studio Code.
+    product_area: developer-tools
+    function_type: other
+    stars: 190
+  - name: vscode-mono-debug
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-mono-debug"
+    description: A simple VS Code debug adapter for mono
+    product_area: developer-tools
+    function_type: other
+    stars: 179
+  - name: durabletask-dotnet
+    org: microsoft
+    url: "https://github.com/microsoft/durabletask-dotnet"
+    description: Out-of-process .NET SDK for the Durable Task Framework
+    product_area: developer-tools
+    function_type: sdk
+    stars: 178
+  - name: vscode-python-tools-extension-template
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-python-tools-extension-template"
+    description: "Template for creating VS Code extensions for python tools. "
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 177
+  - name: vscode-loader
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-loader"
+    description: "An universal Asynchronous Module Definition (AMD) Loader developed primarily to load VSCode's sources."
+    product_area: developer-tools
+    function_type: other
+    stars: 177
+  - name: vscode-ripgrep
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-ripgrep"
+    description: For consuming the ripgrep binary from microsoft/ripgrep-prebuilt in a Node project
+    product_area: developer-tools
+    function_type: other
+    stars: 174
+  - name: playwright.dev
+    org: microsoft
+    url: "https://github.com/microsoft/playwright.dev"
+    description: Documentation website for Playwright
+    product_area: developer-tools
+    function_type: documentation
+    stars: 173
+  - name: mcp-dotnet-samples
+    org: microsoft
+    url: "https://github.com/microsoft/mcp-dotnet-samples"
+    description: A comprehensive set of samples of creating and using MCP servers and clients with .NET
+    product_area: developer-tools
+    function_type: sample
+    stars: 166
+  - name: vscode-gradle
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-gradle"
+    description: "Manage Gradle Projects, run Gradle tasks and provide better Gradle file authoring experience in VS Code"
+    product_area: developer-tools
+    function_type: other
+    stars: 166
+  - name: vscode-python-debugger
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-python-debugger"
+    description: Python debugger (debugpy) extension for VS Code.
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 164
+  - name: Agents-for-net
+    org: microsoft
+    url: "https://github.com/microsoft/Agents-for-net"
+    description: This repository is for active development of the Microsoft 365 Agent SDK components for .NET
+    product_area: developer-tools
+    function_type: sdk
+    stars: 154
+  - name: vscode-js-profile-visualizer
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-js-profile-visualizer"
+    description: "A custom editor for viewing `.cpuprofile` files in VS Code"
+    product_area: developer-tools
+    function_type: other
+    stars: 152
+  - name: dcp
+    org: microsoft
+    url: "https://github.com/microsoft/dcp"
+    description: Developer Control Plane API server and CLI.
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 149
+  - name: vscode-mypy
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-mypy"
+    description: Linting support for Python using the mypy linter.
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 148
+  - name: ts-gyb
+    org: microsoft
+    url: "https://github.com/microsoft/ts-gyb"
+    description: Generating native code interfaces from TypeScript
+    product_area: developer-tools
+    function_type: other
+    stars: 144
+  - name: tui-test
+    org: microsoft
+    url: "https://github.com/microsoft/tui-test"
+    description: An end-to-end terminal testing framework for CLI and TUI experiences
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 139
+  - name: vscode-notebook-renderers
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-notebook-renderers"
+    description: ""
+    product_area: developer-tools
+    function_type: other
+    stars: 133
+  - name: powerquery-parser
+    org: microsoft
+    url: "https://github.com/microsoft/powerquery-parser"
+    description: "A parser for the Power Query / M formula language, written in TypeScript"
+    product_area: developer-tools
+    function_type: other
+    stars: 130
+  - name: autorest.powershell
+    org: Azure
+    url: "https://github.com/Azure/autorest.powershell"
+    description: AutoRest PowerShell Generator
+    product_area: developer-tools
+    function_type: other
+    stars: 121
+  - name: playwright-testing-service
+    org: microsoft
+    url: "https://github.com/microsoft/playwright-testing-service"
+    description: ""
+    product_area: developer-tools
+    function_type: service
+    stars: 116
+  - name: vscode-python-environments
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-python-environments"
+    description: "VS Code extension for Python environment and package management "
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 109
+  - name: vscode-l10n
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-l10n"
+    description: ""
+    product_area: developer-tools
+    function_type: other
+    stars: 105
+  - name: vscode-isort
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-isort"
+    description: Import sorting for python using the isort library.
+    product_area: developer-tools
+    function_type: sdk
+    stars: 103
+  - name: fabric-cli
+    org: microsoft
+    url: "https://github.com/microsoft/fabric-cli"
+    description: ⚡ Microsoft Fabric CLI
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 97
+  - name: vscode-python-web-wasm
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-python-web-wasm"
+    description: An extension allows to run Python code in a Web browser using WebAssembly technology
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 95
+  - name: vscode-lombok
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-lombok"
+    description: Lombok Annotations Extension for Visual Studio Code
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 93
+  - name: vscode-pylint
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-pylint"
+    description: Linting support for python using the pylint library.
+    product_area: developer-tools
+    function_type: sdk
+    stars: 91
+  - name: vscode-windows-process-tree
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-windows-process-tree"
+    description: Fetch a Windows process tree fast in Node.js
+    product_area: developer-tools
+    function_type: other
+    stars: 88
+  - name: vscode-test-web
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-test-web"
+    description: Node module to help testing VS Code web extensions.
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 84
+  - name: vscode-lsif-extension
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-lsif-extension"
+    description: Extension for a LSIF Server
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 81
+  - name: vscode-jupyter-powertoys
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-jupyter-powertoys"
+    description: PowerToys for Jupyter notebooks in VS Code
+    product_area: developer-tools
+    function_type: other
+    stars: 79
+  - name: kiota-dotnet
+    org: microsoft
+    url: "https://github.com/microsoft/kiota-dotnet"
+    description: Abstractions library for the Kiota generated SDKs in dotnet
+    product_area: developer-tools
+    function_type: sdk
+    stars: 76
+  - name: vscode-spring-initializr
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-spring-initializr"
+    description: VSCode Extension for Spring Initializr
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 76
+  - name: vscode-spring-boot-dashboard
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-spring-boot-dashboard"
+    description: Spring Boot Dashboard for VS Code
+    product_area: developer-tools
+    function_type: other
+    stars: 69
+  - name: kiota-typescript
+    org: microsoft
+    url: "https://github.com/microsoft/kiota-typescript"
+    description: TypeScript libraries for Kiota-generated API clients.
+    product_area: developer-tools
+    function_type: service
+    stars: 59
+  - name: PowerShell-Docs-DSC
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/PowerShell-Docs-DSC"
+    description: Documentation for PowerShell Desired State Configuration
+    product_area: developer-tools
+    function_type: documentation
+    stars: 56
+  - name: vscode-flake8
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-flake8"
+    description: Linting support for python using the flake8 library.
+    product_area: developer-tools
+    function_type: sdk
+    stars: 50
+  - name: vscode-emmet-helper
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-emmet-helper"
+    description: A helper module to use emmet modules with Visual Studio Code
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 46
+  - name: PowerShell-Docs-PSGet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/PowerShell-Docs-PSGet"
+    description: The official documentation for PowerShellGet and PowerShell Gallery
+    product_area: developer-tools
+    function_type: documentation
+    stars: 44
+  - name: vscode-chat-extension-utils
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-chat-extension-utils"
+    description: A library for building VS Code chat participant extensions
+    product_area: developer-tools
+    function_type: sdk
+    stars: 42
+  - name: PowerShell-Docs-Modules
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/PowerShell-Docs-Modules"
+    description: Documentation for modules maintained by the PowerShell team
+    product_area: developer-tools
+    function_type: documentation
+    stars: 42
+  - name: vscode-linux-build-agent
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-linux-build-agent"
+    description: VS Code Linux Build Agent
+    product_area: developer-tools
+    function_type: other
+    stars: 39
+  - name: vscode-fabric
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-fabric"
+    description: Microsoft Fabric extension for VS Code
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 39
+  - name: vscode-windows-registry
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-windows-registry"
+    description: Native node module to access the Windows Registry
+    product_area: developer-tools
+    function_type: other
+    stars: 39
+  - name: vscode-dts
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-dts"
+    description: CLI utility for downloading vscode.d.ts and vscode.proposed.d.ts
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 37
+  - name: vscode-autopep8
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-autopep8"
+    description: Formatting support for python using autopep8.
+    product_area: developer-tools
+    function_type: other
+    stars: 34
+  - name: sccm-docs-powershell-ref
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/sccm-docs-powershell-ref"
+    description: Configuration Manager PowerShell documentation public repo
+    product_area: developer-tools
+    function_type: documentation
+    stars: 32
+  - name: mslearn-dotnetmaui-create-user-interface-xaml
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-dotnetmaui-create-user-interface-xaml"
+    description: Sample repo to support the create user interfaces with XAML learn module
+    product_area: developer-tools
+    function_type: documentation
+    stars: 30
+  - name: vscode-gather
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-gather"
+    description: Gather for the Python Extension
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 29
+  - name: typescript-error-deltas
+    org: microsoft
+    url: "https://github.com/microsoft/typescript-error-deltas"
+    description: "Test popular repos on new versions of TypeScript: display new compiler errors "
+    product_area: developer-tools
+    function_type: other
+    stars: 29
+  - name: vscode-test-adapter-converter
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-test-adapter-converter"
+    description: Bridge extension for converting Test Adapter UI to native VS Code testing
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 26
+  - name: Agent365-devTools
+    org: microsoft
+    url: "https://github.com/microsoft/Agent365-devTools"
+    description: "The Microsoft Agent 365 DevTools CLI is a command-line interface tool designed to streamline the development, deployment, and management of Microsoft Agent 365 applications."
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 26
+  - name: typescript-benchmarking
+    org: microsoft
+    url: "https://github.com/microsoft/typescript-benchmarking"
+    description: "Infrastructure for TypeScript's performance benchmarking system"
+    product_area: developer-tools
+    function_type: iac
+    stars: 25
+  - name: vscode-proxy-agent
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-proxy-agent"
+    description: "A PAC file proxy `http.Agent` implementation for HTTP and HTTPS"
+    product_area: developer-tools
+    function_type: other
+    stars: 25
+  - name: vscode-dwarf-debugging-ext
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-dwarf-debugging-ext"
+    description: Enhanced WebAssembly debugging in VS Code
+    product_area: developer-tools
+    function_type: other
+    stars: 25
+  - name: vscode-commander
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-commander"
+    description: ""
+    product_area: developer-tools
+    function_type: other
+    stars: 24
+  - name: mslearn-dotnetmaui-store-local-data
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-dotnetmaui-store-local-data"
+    description: Sample code repo for storing local data with .NET MAUI MS Learn Module
+    product_area: developer-tools
+    function_type: documentation
+    stars: 23
+  - name: vscode-documentdb
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-documentdb"
+    description: DocumentDB Extension for VS Code
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 22
+  - name: powerplatform-cli-wrapper
+    org: microsoft
+    url: "https://github.com/microsoft/powerplatform-cli-wrapper"
+    description: Power Platform CLI Wrapper
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 22
+  - name: mslearn-dotnetmaui-consume-rest-services
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-dotnetmaui-consume-rest-services"
+    description: Sample for the Consuming REST Services with .NET MAUI Learn Module
+    product_area: developer-tools
+    function_type: documentation
+    stars: 22
+  - name: mslearn-dotnetmaui-customize-xaml-pages-layout
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-dotnetmaui-customize-xaml-pages-layout"
+    description: Sample code for the customizing XAML pages layout with .NET MAUI MS Learn module
+    product_area: developer-tools
+    function_type: documentation
+    stars: 22
+  - name: vscode-jupyter-cell-tags
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-jupyter-cell-tags"
+    description: ""
+    product_area: developer-tools
+    function_type: other
+    stars: 21
+  - name: vscode-docker-extensibility
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-docker-extensibility"
+    description: "Docker for Visual Studio Code: Extensibility Model"
+    product_area: developer-tools
+    function_type: other
+    stars: 19
+  - name: powerbi-docs-powershell
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerbi-docs-powershell"
+    description: ""
+    product_area: developer-tools
+    function_type: documentation
+    stars: 19
+  - name: waza
+    org: microsoft
+    url: "https://github.com/microsoft/waza"
+    description: "CLI / Framework for Agent Skills - create, test, measure and improve skill quality and effectiveness"
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 18
+  - name: vscode-jupyter-hub
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-jupyter-hub"
+    description: Jupyter Hub Support in VS Code
+    product_area: developer-tools
+    function_type: other
+    stars: 17
+  - name: vscode-ts-file-path-support
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-ts-file-path-support"
+    description: "An extension for VS Code that improves editor support for relative file paths in typescript/javascript sources, including auto-completion, renaming, go-to-definition, inlining and extraction."
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 17
+  - name: TypeScript-repos-automation
+    org: microsoft
+    url: "https://github.com/microsoft/TypeScript-repos-automation"
+    description: Shared JS infra for automation across repos owned by the TypeScript team
+    product_area: developer-tools
+    function_type: other
+    stars: 17
+  - name: amplifier-app-cli
+    org: microsoft
+    url: "https://github.com/microsoft/amplifier-app-cli"
+    description: Reference implementation of CLI interface for Amplifier project
+    product_area: developer-tools
+    function_type: documentation
+    stars: 16
+  - name: Agent365-dotnet
+    org: microsoft
+    url: "https://github.com/microsoft/Agent365-dotnet"
+    description: ""
+    product_area: developer-tools
+    function_type: other
+    stars: 16
+  - name: TypeScript-Make-Monaco-Builds
+    org: microsoft
+    url: "https://github.com/microsoft/TypeScript-Make-Monaco-Builds"
+    description: Creates CDN Versions of Monaco and Monaco TypeScript for TypeScript web infra
+    product_area: developer-tools
+    function_type: other
+    stars: 16
+  - name: mslearn-dotnetmaui-use-shared-resources
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-dotnetmaui-use-shared-resources"
+    description: Sample code repo for the Use Shared Resources with .NET MAUI MS Learn module
+    product_area: developer-tools
+    function_type: documentation
+    stars: 16
+  - name: mslearn-dotnetmaui-create-multi-page-apps
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-dotnetmaui-create-multi-page-apps"
+    description: ""
+    product_area: developer-tools
+    function_type: other
+    stars: 13
+  - name: vscode-remote-wsl-recommender
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-remote-wsl-recommender"
+    description: VS Code extension that recommends using the Windows Subsystem for Linux (WSL) and the Remote WSL extension.
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 12
+  - name: playwright-workspaces
+    org: Azure
+    url: "https://github.com/Azure/playwright-workspaces"
+    description: ""
+    product_area: developer-tools
+    function_type: other
+    stars: 11
+  - name: vscode-js-debug-companion
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-js-debug-companion"
+    description: Companion extension to js-debug that provides capability for remote debugging
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 11
+  - name: vscode-telemetry-extractor
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-telemetry-extractor"
+    description: Allows the extraction of telemetry events from the VS Code source code
+    product_area: developer-tools
+    function_type: other
+    stars: 10
+  - name: mslearn-dotnetmaui-mvvm1
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-dotnetmaui-mvvm1"
+    description: Learn training module sample code
+    product_area: developer-tools
+    function_type: documentation
+    stars: 9
+  - name: GuestConfiguration
+    org: Azure
+    url: "https://github.com/Azure/GuestConfiguration"
+    description: "PowerShell module for creating, testing, and publishing custom Guest Configuration"
+    product_area: developer-tools
+    function_type: other
+    stars: 8
+  - name: aspire-docs-samples
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/aspire-docs-samples"
+    description: Samples used in .NET Aspire documentation
+    product_area: developer-tools
+    function_type: documentation
+    stars: 8
+  - name: PowerShell-Docs-archive
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/PowerShell-Docs-archive"
+    description: ""
+    product_area: developer-tools
+    function_type: documentation
+    stars: 8
+  - name: mslearn-blazor-navigation
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-blazor-navigation"
+    description: "Sample repo for use pages, routing, and layouts to improve Blazor navigation Learn Module"
+    product_area: developer-tools
+    function_type: documentation
+    stars: 8
+  - name: visualstudio-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/visualstudio-docs-pr"
+    description: "Visual Studio docs private repo. Access requires Microsoft internal permissions."
+    product_area: developer-tools
+    function_type: documentation
+    stars: 7
+  - name: vscode-internalbacklog
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-internalbacklog"
+    description: This repo is used for tasks that span additional repos or are internal in nature for VS Code.
+    product_area: developer-tools
+    function_type: other
+    stars: 6
+  - name: vscode-jupyter-ipywidgets
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-jupyter-ipywidgets"
+    description: NPM module for supporting ipywidgets in vscode-jupyter extension
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 6
+  - name: vscode-tensorboard
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-tensorboard"
+    description: Launch and view Tensorboards in VS Code
+    product_area: developer-tools
+    function_type: other
+    stars: 6
+  - name: ori
+    org: microsoft
+    url: "https://github.com/microsoft/ori"
+    description: A tool for faster development of your typescript monorepo
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 6
+  - name: mslearn-build-interactive-components-blazor
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-build-interactive-components-blazor"
+    description: Sample repo for Building Interactive Components with Blazor Learn Module
+    product_area: developer-tools
+    function_type: documentation
+    stars: 6
+  - name: mobile-blazor-bindings
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mobile-blazor-bindings"
+    description: Docs for Mobile Blazor Bindings
+    product_area: developer-tools
+    function_type: documentation
+    stars: 6
+  - name: vscode-debug-value-editor
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-debug-value-editor"
+    description: VS Code JS Debug Value Editor - This extension allows to edit and view values of a debugee with a full text editor. Currently only supports javascript debug adaptors.
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 5
+  - name: vscode-js-debug-browsers
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-js-debug-browsers"
+    description: "Browser launch and discovery logic used in VS Code's JavaScript Debugger"
+    product_area: developer-tools
+    function_type: other
+    stars: 4
+  - name: modernize-cli
+    org: microsoft
+    url: "https://github.com/microsoft/modernize-cli"
+    description: "modernize cli releases, tutorials, issues"
+    product_area: developer-tools
+    function_type: documentation
+    stars: 4
+  - name: vscode-tools
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-tools"
+    description: Tools and utilities used by vscode
+    product_area: developer-tools
+    function_type: other
+    stars: 4
+  - name: secmgmt-open-powershell-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/secmgmt-open-powershell-docs"
+    description: ""
+    product_area: developer-tools
+    function_type: documentation
+    stars: 4
+  - name: botbuilder-docs-sdk-typescript
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/botbuilder-docs-sdk-typescript"
+    description: ""
+    product_area: developer-tools
+    function_type: documentation
+    stars: 4
+  - name: xamarin-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/xamarin-docs-pr"
+    description: Xamarin Documentation - internal content repo
+    product_area: developer-tools
+    function_type: documentation
+    stars: 4
+  - name: mslearn-dotnetmaui-databinding1
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mslearn-dotnetmaui-databinding1"
+    description: ""
+    product_area: developer-tools
+    function_type: other
+    stars: 4
+  - name: appcat-konveyor-rulesets
+    org: Azure
+    url: "https://github.com/Azure/appcat-konveyor-rulesets"
+    description: "This repository contains the rulesets in YAML format for appcat-cli-java static code analysis. "
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 3
+  - name: vscode-probot
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-probot"
+    description: PRobot plugins for VSCode automation.
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 3
+  - name: winget-pkgs-preprod
+    org: microsoft
+    url: "https://github.com/microsoft/winget-pkgs-preprod"
+    description: WinGet Packages preproduction repository.
+    product_area: developer-tools
+    function_type: other
+    stars: 3
+  - name: mipsdk-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mipsdk-dotnet"
+    description: ""
+    product_area: developer-tools
+    function_type: other
+    stars: 3
+  - name: community-toolkit-api-ref-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/community-toolkit-api-ref-dotnet"
+    description: "Generated references docs for Community Toolkits as found at https://docs.microsoft.com/en-us/dotnet/api/ - For conceptual docs, see https://github.com/MicrosoftDocs/CommunityToolkit - These docs generated by XML comments in code, modify in main source repository."
+    product_area: developer-tools
+    function_type: documentation
+    stars: 3
+  - name: hpc-docs-sdk-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/hpc-docs-sdk-dotnet"
+    description: ""
+    product_area: developer-tools
+    function_type: documentation
+    stars: 3
+  - name: vscode-fabric-pr
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-fabric-pr"
+    description: "Private repo for Fabric core extension "
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 2
+  - name: hpc-docs-powershell
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/hpc-docs-powershell"
+    description: ""
+    product_area: developer-tools
+    function_type: documentation
+    stars: 2
+  - name: artifact-signing-cryptoprovider
+    org: Azure
+    url: "https://github.com/Azure/artifact-signing-cryptoprovider"
+    description: .NET Crypto Provider for integration with the Artifact Signing service
+    product_area: developer-tools
+    function_type: service
+    stars: 1
+  - name: fabric-iq-ontology-sdk-net
+    org: microsoft
+    url: "https://github.com/microsoft/fabric-iq-ontology-sdk-net"
+    description: "The Microsoft Fabric IQ Ontology SDK for .NET is a library wrapping the Fabric Public API that allows users to programmatically create, read, and update Fabric IQ Ontology items with fine-grained, usability focused APIs."
+    product_area: developer-tools
+    function_type: sdk
+    stars: 1
+  - name: vscode-build-tools
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-build-tools"
+    description: Miscellaneous build tools for VS Code
+    product_area: developer-tools
+    function_type: other
+    stars: 1
+  - name: visualstudio-docs-dotnet-api-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/visualstudio-docs-dotnet-api-pr"
+    description: Repository used to store reference content for Learn reference site for visual studio libraries.
+    product_area: developer-tools
+    function_type: documentation
+    stars: 1
+  - name: analysis-services-reference-dotnet.pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/analysis-services-reference-dotnet.pr"
+    description: ""
+    product_area: developer-tools
+    function_type: documentation
+    stars: 1
+  - name: systemcenter-docs-powershell
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/systemcenter-docs-powershell"
+    description: PowerShell Cmdlets reference documentation for System Center Modules
+    product_area: developer-tools
+    function_type: documentation
+    stars: 1
+  - name: dynamics365-docs-powershell
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics365-docs-powershell"
+    description: ""
+    product_area: developer-tools
+    function_type: documentation
+    stars: 1
+  - name: openapi-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/openapi-dotnet"
+    description: ""
+    product_area: developer-tools
+    function_type: specification
+    stars: 1
+  - name: spark-dotnet-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/spark-dotnet-pr"
+    description: ""
+    product_area: developer-tools
+    function_type: other
+    stars: 1
+  - name: vscode-extensions-loc
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-extensions-loc"
+    description: ""
+    product_area: developer-tools
+    function_type: cli-tool
+    stars: 0
+  - name: vscode-loc-drop
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-loc-drop"
+    description: ""
+    product_area: developer-tools
+    function_type: other
+    stars: 0
+  - name: iis-website
+    org: microsoft
+    url: "https://github.com/microsoft/iis-website"
+    description: active repository for www.iis.net
+    product_area: developer-tools
+    function_type: other
+    stars: 0
+  - name: vscode-gdpr-tooling
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-gdpr-tooling"
+    description: GDPR tooling for VS Code
+    product_area: developer-tools
+    function_type: other
+    stars: 0
+  - name: power-platform-playwright-samples
+    org: microsoft
+    url: "https://github.com/microsoft/power-platform-playwright-samples"
+    description: "Reference Playwright automation samples for Microsoft Power Platform, showcasing recommended patterns for testing model‑driven apps, canvas apps, custom pages, and Gen UX pages."
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: winget-pkgs-test
+    org: microsoft
+    url: "https://github.com/microsoft/winget-pkgs-test"
+    description: The Microsoft Windows Package Manager manifest repository for the test environment
+    product_area: developer-tools
+    function_type: other
+    stars: 0
+  - name: vscode-web-editors
+    org: microsoft
+    url: "https://github.com/microsoft/vscode-web-editors"
+    description: "Defines a framework for web editors. This includes a spec, an npm library that implements the spec, a VS Code extension and a playground website as host and some demo web editors."
+    product_area: developer-tools
+    function_type: sdk
+    stars: 0
+  - name: webview2-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/webview2-dotnet"
+    description: Developer documentation for the Microsoft Edge WebView2 control for .NET published on docs.microsoft.com reference site.
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: fabric-extensibility-ref-docs-typescript
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/fabric-extensibility-ref-docs-typescript"
+    description: ""
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: powershell-reference-assemblies-part2
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powershell-reference-assemblies-part2"
+    description: ""
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: powershell-reference-assemblies-part1
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powershell-reference-assemblies-part1"
+    description: ""
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: gateway-docs-powershell
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/gateway-docs-powershell"
+    description: ""
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: agent-framework-dotnet-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/agent-framework-dotnet-pr"
+    description: ""
+    product_area: developer-tools
+    function_type: other
+    stars: 0
+  - name: sccm-docs-powershell
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/sccm-docs-powershell"
+    description: Private repo for Configuration Manager cmdlets
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: playready-dotnet-serversdk
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/playready-dotnet-serversdk"
+    description: ""
+    product_area: developer-tools
+    function_type: other
+    stars: 0
+  - name: powerapps-docs-powershell-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerapps-docs-powershell-pr"
+    description: ""
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: powerplatform-docs-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powerplatform-docs-dotnet"
+    description: ""
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: dynamics365-docs-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dynamics365-docs-dotnet"
+    description: ""
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: power-automate-docs-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/power-automate-docs-dotnet"
+    description: ""
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: nav-docs-powershell
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/nav-docs-powershell"
+    description: ""
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: agent365-sdk-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/agent365-sdk-dotnet"
+    description: ""
+    product_area: developer-tools
+    function_type: sdk
+    stars: 0
+  - name: visualstudio-docs-archive-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/visualstudio-docs-archive-pr"
+    description: ""
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: adfs-dotnet-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/adfs-dotnet-pr"
+    description: ""
+    product_area: developer-tools
+    function_type: other
+    stars: 0
+  - name: openapi-dotnet-odata
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/openapi-dotnet-odata"
+    description: ""
+    product_area: developer-tools
+    function_type: specification
+    stars: 0
+  - name: powershell-ref-template
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powershell-ref-template"
+    description: ""
+    product_area: developer-tools
+    function_type: template
+    stars: 0
+  - name: security-powershell-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/security-powershell-pr"
+    description: ""
+    product_area: developer-tools
+    function_type: other
+    stars: 0
+  - name: partner-center-docs-powershell
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/partner-center-docs-powershell"
+    description: "ARCHIVED CONTENT: Partner Center PowerShell module documentation, which is now kept on the previous-versions site:"
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: msonlinebackup-docs-powershell-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/msonlinebackup-docs-powershell-pr"
+    description: ""
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: virtual-desktop-powershell-docs
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/virtual-desktop-powershell-docs"
+    description: ""
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: power-fx-docs-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/power-fx-docs-dotnet"
+    description: ""
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: winps-docs-archive-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/winps-docs-archive-pr"
+    description: Contains archived PowerShell content for Windows management modules
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: dataprep-dotnet-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/dataprep-dotnet-pr"
+    description: ""
+    product_area: developer-tools
+    function_type: other
+    stars: 0
+  - name: point-of-service-sdk-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/point-of-service-sdk-dotnet"
+    description: ""
+    product_area: developer-tools
+    function_type: sdk
+    stars: 0
+  - name: powershell-docs-sdk-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powershell-docs-sdk-dotnet"
+    description: ""
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: mrtk-graphicstools-unity-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mrtk-graphicstools-unity-dotnet"
+    description: ""
+    product_area: developer-tools
+    function_type: other
+    stars: 0
+  - name: durabletask-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/durabletask-dotnet"
+    description: ""
+    product_area: developer-tools
+    function_type: other
+    stars: 0
+  - name: jupyter-dotnet-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/jupyter-dotnet-pr"
+    description: ""
+    product_area: developer-tools
+    function_type: other
+    stars: 0
+  - name: csharp-quantum
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/csharp-quantum"
+    description: Documentation
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: botbuilder-docs-sdk-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/botbuilder-docs-sdk-dotnet"
+    description: ""
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: windows-partner-center-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-partner-center-dotnet"
+    description: "Partner Center .NET API docs. In community support, not actively maintained by Microsoft."
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: iis-dotnet-sdk-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/iis-dotnet-sdk-docs-pr"
+    description: ""
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: mc-docs-sdk-dotnet
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/mc-docs-sdk-dotnet"
+    description: Mooncake .NET Developer Center source repo
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: powershell-reference-assemblies
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/powershell-reference-assemblies"
+    description: Documentation for PowerShell reference assemblies.
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0
+  - name: xamarin-engineering-docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/xamarin-engineering-docs-pr"
+    description: "Release notes for Xamarin platforms (Xamarin.Forms, Android, iOS, macOS)"
+    product_area: developer-tools
+    function_type: documentation
+    stars: 0

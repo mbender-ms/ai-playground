@@ -1,0 +1,276 @@
+# Azure Iot Repository Cross-Reference
+# Auto-generated on 2026-03-20
+# Cross-organization index of repos in the "azure-iot" product area
+
+category: azure-iot
+total_repos: 37
+generated: 2026-03-20
+
+sources:
+  - org: Azure
+    count: 30
+  - org: microsoft
+    count: 1
+  - org: MicrosoftDocs
+    count: 6
+
+repos:
+  - name: iotedge
+    org: Azure
+    url: "https://github.com/Azure/iotedge"
+    description: The IoT Edge OSS project
+    product_area: azure-iot
+    function_type: other
+    stars: 1505
+  - name: azure-iot-sdk-c
+    org: Azure
+    url: "https://github.com/Azure/azure-iot-sdk-c"
+    description: A C99 SDK for connecting devices to Microsoft Azure IoT services
+    product_area: azure-iot
+    function_type: sdk
+    stars: 616
+  - name: Industrial-IoT
+    org: Azure
+    url: "https://github.com/Azure/Industrial-IoT"
+    description: Azure Industrial IoT Platform
+    product_area: azure-iot
+    function_type: other
+    stars: 578
+  - name: azure-iot-sdk-csharp
+    org: Azure
+    url: "https://github.com/Azure/azure-iot-sdk-csharp"
+    description: "A C# SDK for connecting devices to Microsoft Azure IoT services"
+    product_area: azure-iot
+    function_type: sdk
+    stars: 477
+  - name: azure-iot-sdk-python
+    org: Azure
+    url: "https://github.com/Azure/azure-iot-sdk-python"
+    description: A Python SDK for connecting devices to Microsoft Azure IoT services
+    product_area: azure-iot
+    function_type: sdk
+    stars: 438
+  - name: azure-iot-sdk-node
+    org: Azure
+    url: "https://github.com/Azure/azure-iot-sdk-node"
+    description: A Node.js SDK for connecting devices to Microsoft Azure IoT services
+    product_area: azure-iot
+    function_type: sdk
+    stars: 267
+  - name: azure-iot-explorer
+    org: Azure
+    url: "https://github.com/Azure/azure-iot-explorer"
+    description: "Cross-platform UI for interacting with devices attached to Azure IoT Hub. This tool is meant for learning and testing, not for production environment."
+    product_area: azure-iot
+    function_type: cli-tool
+    stars: 252
+  - name: azure-iot-sdk-java
+    org: Azure
+    url: "https://github.com/Azure/azure-iot-sdk-java"
+    description: A Java SDK for connecting devices to Microsoft Azure IoT services
+    product_area: azure-iot
+    function_type: sdk
+    stars: 206
+  - name: azure-iotedge
+    org: Azure
+    url: "https://github.com/Azure/azure-iotedge"
+    description: The Azure IoT Edge product
+    product_area: azure-iot
+    function_type: other
+    stars: 173
+  - name: iot-cardboard-js
+    org: microsoft
+    url: "https://github.com/microsoft/iot-cardboard-js"
+    description: iot-cardboard-js is a React library for building experiences for IoT applications
+    product_area: azure-iot
+    function_type: sdk
+    stars: 97
+  - name: azure-iot-middleware-freertos
+    org: Azure
+    url: "https://github.com/Azure/azure-iot-middleware-freertos"
+    description: Azure IoT Middleware for FreeRTOS
+    product_area: azure-iot
+    function_type: other
+    stars: 92
+  - name: azure-iot-cli-extension
+    org: Azure
+    url: "https://github.com/Azure/azure-iot-cli-extension"
+    description: Azure IoT extension for Azure CLI
+    product_area: azure-iot
+    function_type: cli-tool
+    stars: 86
+  - name: meta-iotedge
+    org: Azure
+    url: "https://github.com/Azure/meta-iotedge"
+    description: Yocto layer for Azure IoT Edge
+    product_area: azure-iot
+    function_type: other
+    stars: 62
+  - name: iot-hub-device-update
+    org: Azure
+    url: "https://github.com/Azure/iot-hub-device-update"
+    description: Device Update for IoT Hub agent
+    product_area: azure-iot
+    function_type: other
+    stars: 60
+  - name: iotedge-eflow
+    org: Azure
+    url: "https://github.com/Azure/iotedge-eflow"
+    description: Azure IoT Edge for Linux on Windows
+    product_area: azure-iot
+    function_type: other
+    stars: 54
+  - name: azure-iot-operations
+    org: Azure
+    url: "https://github.com/Azure/azure-iot-operations"
+    description: The official repo for Azure IoT Operations.
+    product_area: azure-iot
+    function_type: other
+    stars: 45
+  - name: windows-iot-public
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-iot-public"
+    description: Public sync with windows-iot-pr
+    product_area: azure-iot
+    function_type: other
+    stars: 37
+  - name: iot-operations-sdks
+    org: Azure
+    url: "https://github.com/Azure/iot-operations-sdks"
+    description: SDKs to support the Azure IoT Operations developer experience
+    product_area: azure-iot
+    function_type: other
+    stars: 17
+  - name: azure-iot-hub-python
+    org: Azure
+    url: "https://github.com/Azure/azure-iot-hub-python"
+    description: Azure IoT Hub Data Plane Python SDK
+    product_area: azure-iot
+    function_type: sdk
+    stars: 17
+  - name: iot-central-bidirectional-device-bridge
+    org: Azure
+    url: "https://github.com/Azure/iot-central-bidirectional-device-bridge"
+    description: "The Device Bridge enables the connection of devices to Azure IoT Central in scenarios where it's not possible to use the Azure IoT Device SDKs."
+    product_area: azure-iot
+    function_type: other
+    stars: 16
+  - name: azure-iot-ops-cli-extension
+    org: Azure
+    url: "https://github.com/Azure/azure-iot-ops-cli-extension"
+    description: Azure IoT Ops extension for Azure CLI
+    product_area: azure-iot
+    function_type: cli-tool
+    stars: 12
+  - name: ADXIoTAnalytics
+    org: Azure
+    url: "https://github.com/Azure/ADXIoTAnalytics"
+    description: Azure Data Explorer can provide valuable insights into your IoT workloads. In the following Hands-On Lab we look at thermostat IoT Devices that are in 3 different office buildings.
+    product_area: azure-iot
+    function_type: sample
+    stars: 11
+  - name: azure-sphere-issues
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-sphere-issues"
+    description: ""
+    product_area: azure-iot
+    function_type: other
+    stars: 11
+  - name: c-testrunnerswitcher
+    org: Azure
+    url: "https://github.com/Azure/c-testrunnerswitcher"
+    description: C test runner switcher repo to be broken off from azure-c-shared-utility so it can be reused in several of our IoT repos
+    product_area: azure-iot
+    function_type: cli-tool
+    stars: 9
+  - name: iot-hub-device-update-yocto
+    org: Azure
+    url: "https://github.com/Azure/iot-hub-device-update-yocto"
+    description: A Yocto Project for the Device Update for IotHub
+    product_area: azure-iot
+    function_type: other
+    stars: 9
+  - name: azure-iot-docs-sdk-typescript
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-iot-docs-sdk-typescript"
+    description: ""
+    product_area: azure-iot
+    function_type: documentation
+    stars: 7
+  - name: iot-sdks-e2e-fx
+    org: Azure
+    url: "https://github.com/Azure/iot-sdks-e2e-fx"
+    description: Test framework used to run end-to-end tests of SDKs against an Azure IoT Hub or Edge Hub
+    product_area: azure-iot
+    function_type: other
+    stars: 6
+  - name: azure-iot-service-sdk-java
+    org: Azure
+    url: "https://github.com/Azure/azure-iot-service-sdk-java"
+    description: Service SDK for JAVA
+    product_area: azure-iot
+    function_type: sdk
+    stars: 6
+  - name: azure-iot-operations-preview
+    org: Azure
+    url: "https://github.com/Azure/azure-iot-operations-preview"
+    description: The preview repo for Azure IoT Operations.
+    product_area: azure-iot
+    function_type: other
+    stars: 5
+  - name: iot-hub-device-update-delta
+    org: Azure
+    url: "https://github.com/Azure/iot-hub-device-update-delta"
+    description: ""
+    product_area: azure-iot
+    function_type: other
+    stars: 5
+  - name: azure-digitaltwins-rest-api
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/azure-digitaltwins-rest-api"
+    description: ""
+    product_area: azure-iot
+    function_type: service
+    stars: 5
+  - name: azure-iot-hub-node
+    org: Azure
+    url: "https://github.com/Azure/azure-iot-hub-node"
+    description: Azure IoT Hub Data Plane Node SDK
+    product_area: azure-iot
+    function_type: sdk
+    stars: 3
+  - name: windows-iot-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/windows-iot-pr"
+    description: ""
+    product_area: azure-iot
+    function_type: other
+    stars: 2
+  - name: meta-iot-hub-device-update-delta
+    org: Azure
+    url: "https://github.com/Azure/meta-iot-hub-device-update-delta"
+    description: ""
+    product_area: azure-iot
+    function_type: other
+    stars: 1
+  - name: azure-sphere-tools
+    org: Azure
+    url: "https://github.com/Azure/azure-sphere-tools"
+    description: ""
+    product_area: azure-iot
+    function_type: other
+    stars: 1
+  - name: Azure-Sphere-Docs-pr
+    org: MicrosoftDocs
+    url: "https://github.com/MicrosoftDocs/Azure-Sphere-Docs-pr"
+    description: "Azure Sphere online documentation "
+    product_area: azure-iot
+    function_type: documentation
+    stars: 1
+  - name: iot-operations-sdks-action
+    org: Azure
+    url: "https://github.com/Azure/iot-operations-sdks-action"
+    description: Action to support the iot-operations-sdks repository for installing nightly builds
+    product_area: azure-iot
+    function_type: other
+    stars: 0

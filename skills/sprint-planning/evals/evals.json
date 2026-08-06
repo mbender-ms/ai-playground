@@ -1,0 +1,40 @@
+{
+  "skill_name": "sprint-planning",
+  "evals": [
+    {
+      "id": 0,
+      "name": "cold-start-full-plan",
+      "prompt": "Run sprint planning for September. My priorities in order are: 1) contradictory/de-duplication, 2) Azure Networking TOC and content reboot, 3) retrievability/AEO, 4) fact-checker delivery, 5) content updates and gap analysis.",
+      "expected_output": "Board snapshot for September and October with point totals, a velocity baseline from prior sprints, 5-6 grounded interview questions naming real work item IDs and point values, an anti-pattern scan, and a change list presented for approval before any ADO write.",
+      "files": []
+    },
+    {
+      "id": 1,
+      "name": "anti-pattern-detection-only",
+      "prompt": "Check my August sprint for planning problems. Don't change anything.",
+      "expected_output": "All six anti-pattern checks run and reported, with specific work item IDs. No ADO writes attempted. Findings presented as flags requiring a decision, not auto-fixed.",
+      "files": []
+    },
+    {
+      "id": 2,
+      "name": "mid-sprint-rescope",
+      "prompt": "I just picked up a new service and I'm leading stakeholder comms now. What comes out of this month?",
+      "expected_output": "Recognizes this as a re-plan rather than a fresh sprint. Pulls current board, quantifies overhead as a capacity reserve, proposes specific items to defer with point values and reasons, checks whether the receiving sprint has room, and asks before applying.",
+      "files": []
+    },
+    {
+      "id": 3,
+      "name": "one-pager-from-existing-plan",
+      "prompt": "Build me a one-pager for this sprint I can share with my manager.",
+      "expected_output": "Generates both markdown and themed HTML in the configured output directory. Includes masthead, ordered priorities with points, capacity math against velocity, dated commitments with dependency gates, risks, and a Net summary. Point totals reconcile with the live board.",
+      "files": []
+    },
+    {
+      "id": 4,
+      "name": "dated-commitment-gap",
+      "prompt": "I need to deliver fact-checker results by 10/15. Is my plan set up for that?",
+      "expected_output": "Detects whether a work item exists with that target date. If not, flags it as the highest-severity finding, traces the upstream dependency chain across sprints, and identifies which sprint is the actual constraint.",
+      "files": []
+    }
+  ]
+}
